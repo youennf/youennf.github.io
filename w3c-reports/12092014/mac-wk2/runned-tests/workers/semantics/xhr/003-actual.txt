@@ -1,0 +1,6 @@
+
+
+FAIL async XMLHttpRequest in shared worker undefined is not a constructor (evaluating 'new SharedWorker('#', '')')(stack: runtest@http://localhost:8800/workers/semantics/xhr/003.html:30:32
+step@http://localhost:8800/resources/testharness.js:798:30
+onload@http://localhost:8800/workers/semantics/xhr/003.html:37:7)
+

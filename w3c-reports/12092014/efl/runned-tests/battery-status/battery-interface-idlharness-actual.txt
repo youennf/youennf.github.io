@@ -1,0 +1,372 @@
+Description
+
+This test validates the BatteryManager interface IDL.
+
+This test uses idlharness.js, and is complementary to the battery-interface.html test.
+
+Distributed under both the W3C Test Suite License and the W3C 3-clause BSD License. To contribute to a W3C Test Suite, see the policies and contribution forms.
+
+
+FAIL Navigator interface: attribute battery assert_true: The prototype object must have a property "battery" expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1265:24
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+PASS Navigator must be primary interface of navigator 
+PASS Stringification of navigator 
+FAIL Navigator interface: navigator must inherit property "battery" with the proper type (0) assert_inherits: property "battery" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: existence and properties of interface object assert_own_property: window does not have own property "BatteryManager" expected property "BatteryManager" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:966:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface object length assert_own_property: window does not have own property "BatteryManager" expected property "BatteryManager" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1032:32
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1028:13
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: existence and properties of interface prototype object assert_own_property: window does not have own property "BatteryManager" expected property "BatteryManager" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1073:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: existence and properties of interface prototype object's "constructor" property assert_own_property: window does not have own property "BatteryManager" expected property "BatteryManager" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1161:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: attribute charging assert_own_property: window does not have own property "BatteryManager" expected property "BatteryManager" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1253:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: attribute chargingTime assert_own_property: window does not have own property "BatteryManager" expected property "BatteryManager" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1253:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: attribute dischargingTime assert_own_property: window does not have own property "BatteryManager" expected property "BatteryManager" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1253:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: attribute level assert_own_property: window does not have own property "BatteryManager" expected property "BatteryManager" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1253:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: attribute onchargingchange assert_own_property: window does not have own property "BatteryManager" expected property "BatteryManager" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1253:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: attribute onchargingtimechange assert_own_property: window does not have own property "BatteryManager" expected property "BatteryManager" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1253:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: attribute ondischargingtimechange assert_own_property: window does not have own property "BatteryManager" expected property "BatteryManager" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1253:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: attribute onlevelchange assert_own_property: window does not have own property "BatteryManager" expected property "BatteryManager" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1253:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager must be primary interface of navigator.battery assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1526:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_primary_interface_of@http://localhost:8800/resources/idlharness.js:1523:13
+test_object@http://localhost:8800/resources/idlharness.js:1495:35
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL Stringification of navigator.battery assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1548:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_primary_interface_of@http://localhost:8800/resources/idlharness.js:1545:9
+test_object@http://localhost:8800/resources/idlharness.js:1495:35
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: navigator.battery must inherit property "charging" with the proper type (0) assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1584:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: navigator.battery must inherit property "chargingTime" with the proper type (1) assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1584:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: navigator.battery must inherit property "dischargingTime" with the proper type (2) assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1584:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: navigator.battery must inherit property "level" with the proper type (3) assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1584:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: navigator.battery must inherit property "onchargingchange" with the proper type (4) assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1584:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: navigator.battery must inherit property "onchargingtimechange" with the proper type (5) assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1584:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: navigator.battery must inherit property "ondischargingtimechange" with the proper type (6) assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1584:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL BatteryManager interface: navigator.battery must inherit property "onlevelchange" with the proper type (7) assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1584:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL EventTarget interface: navigator.battery must inherit property "addEventListener" with the proper type (0) assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1584:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL EventTarget interface: calling addEventListener(DOMString,EventListener,boolean) on navigator.battery with too few arguments must throw TypeError assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1625:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1622:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL EventTarget interface: navigator.battery must inherit property "removeEventListener" with the proper type (1) assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1584:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL EventTarget interface: calling removeEventListener(DOMString,EventListener,boolean) on navigator.battery with too few arguments must throw TypeError assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1625:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1622:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL EventTarget interface: navigator.battery must inherit property "dispatchEvent" with the proper type (2) assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1584:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+FAIL EventTarget interface: calling dispatchEvent(Event) on navigator.battery with too few arguments must throw TypeError assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1625:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1622:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/battery-status/battery-interface-idlharness.html:49:19)
+

@@ -1,0 +1,40 @@
+
+FAIL The ProgressEvent interface assert_equals: expected "function" but got "object"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/progress-events/interface.html:8:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/progress-events/interface.html:7:5)
+FAIL interface prototype object assert_equals: expected false but got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/progress-events/interface.html:19:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/progress-events/interface.html:15:5)
+FAIL The ProgressEvent interface 1 assert_equals: expected true but got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/progress-events/interface.html:37:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/progress-events/interface.html:34:7
+forEach@[native code]
+global code@http://localhost:8800/progress-events/interface.html:33:19)
+FAIL The ProgressEvent interface 2 assert_equals: expected true but got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/progress-events/interface.html:37:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/progress-events/interface.html:34:7
+forEach@[native code]
+global code@http://localhost:8800/progress-events/interface.html:33:19)
+FAIL The ProgressEvent interface 3 assert_equals: expected true but got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/progress-events/interface.html:37:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/progress-events/interface.html:34:7
+forEach@[native code]
+global code@http://localhost:8800/progress-events/interface.html:33:19)
+PASS Interface objects properties should not be Enumerable 
+PASS Should be able to delete ProgressEvent. 
+

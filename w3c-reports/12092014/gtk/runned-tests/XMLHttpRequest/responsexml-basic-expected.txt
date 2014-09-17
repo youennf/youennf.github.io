@@ -1,0 +1,9 @@
+
+FAIL XMLHttpRequest: responseXML basic test assert_equals: getElementById("n2") expected null but got Element node <p xmlns="namespacesarejuststrings" id="n2">undefined</p>(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/responsexml-basic.htm:22:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/XMLHttpRequest/responsexml-basic.htm:13:11)
+PASS responseXML on empty response documents 
+

@@ -1,0 +1,281 @@
+
+PASS primitive undefined 
+PASS primitive null 
+PASS primitive true 
+PASS primitive false 
+PASS primitive string, empty string 
+PASS primitive string, lone high surrogate 
+PASS primitive string, lone low surrogate 
+PASS primitive string, NUL 
+PASS primitive string, astral character 
+PASS primitive number, 0.2 
+PASS primitive number, 0 
+PASS primitive number, -0 
+PASS primitive number, NaN 
+PASS primitive number, Infinity 
+PASS primitive number, -Infinity 
+PASS primitive number, 9007199254740992 
+PASS primitive number, -9007199254740992 
+PASS primitive number, 9007199254740994 
+PASS primitive number, -9007199254740994 
+PASS Array primitives 
+PASS Object primitives 
+PASS Boolean true 
+PASS Boolean false 
+PASS Array Boolean objects 
+PASS Object Boolean objects 
+PASS String empty string 
+PASS String lone high surrogate 
+PASS String lone low surrogate 
+PASS String NUL 
+PASS String astral character 
+PASS Array String objects 
+PASS Object String objects 
+PASS Number 0.2 
+PASS Number 0 
+PASS Number -0 
+PASS Number NaN 
+PASS Number Infinity 
+PASS Number -Infinity 
+PASS Number 9007199254740992 
+PASS Number -9007199254740992 
+PASS Number 9007199254740994 
+PASS Number -9007199254740994 
+PASS Array Number objects 
+PASS Object Number objects 
+PASS Date 0 
+PASS Date -0 
+PASS Date -8.64e15 
+PASS Date 8.64e15 
+PASS Array Date objects 
+PASS Object Date objects 
+PASS RegExp flags and lastIndex 
+FAIL RegExp sticky flag Invalid flags supplied to RegExp constructor.(stack: RegExp@[native code]
+func_RegExp_sticky@http://localhost:8800/workers/semantics/structured-clone/common.js:240:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/workers/semantics/structured-clone/common.js:17:24
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:246:6)
+FAIL RegExp unicode flag Invalid flags supplied to RegExp constructor.(stack: RegExp@[native code]
+func_RegExp_unicode@http://localhost:8800/workers/semantics/structured-clone/common.js:243:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/workers/semantics/structured-clone/common.js:17:24
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:247:6)
+PASS RegExp empty 
+PASS RegExp slash 
+PASS RegExp new line 
+PASS Array RegExp object, RegExp flags and lastIndex 
+FAIL Array RegExp object, RegExp sticky flag Invalid flags supplied to RegExp constructor.(stack: RegExp@[native code]
+func_RegExp_sticky@http://localhost:8800/workers/semantics/structured-clone/common.js:240:20
+http://localhost:8800/workers/semantics/structured-clone/common.js:252:89
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/workers/semantics/structured-clone/common.js:17:24
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:252:6)
+FAIL Array RegExp object, RegExp unicode flag Invalid flags supplied to RegExp constructor.(stack: RegExp@[native code]
+func_RegExp_unicode@http://localhost:8800/workers/semantics/structured-clone/common.js:243:20
+http://localhost:8800/workers/semantics/structured-clone/common.js:253:91
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/workers/semantics/structured-clone/common.js:17:24
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:253:6)
+PASS Array RegExp object, RegExp empty 
+PASS Array RegExp object, RegExp slash 
+PASS Array RegExp object, RegExp new line 
+PASS Object RegExp object, RegExp flags and lastIndex 
+FAIL Object RegExp object, RegExp sticky flag Invalid flags supplied to RegExp constructor.(stack: RegExp@[native code]
+func_RegExp_sticky@http://localhost:8800/workers/semantics/structured-clone/common.js:240:20
+http://localhost:8800/workers/semantics/structured-clone/common.js:258:94
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/workers/semantics/structured-clone/common.js:17:24
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:258:6)
+FAIL Object RegExp object, RegExp unicode flag Invalid flags supplied to RegExp constructor.(stack: RegExp@[native code]
+func_RegExp_unicode@http://localhost:8800/workers/semantics/structured-clone/common.js:243:20
+http://localhost:8800/workers/semantics/structured-clone/common.js:259:96
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/workers/semantics/structured-clone/common.js:17:24
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:259:6)
+PASS Object RegExp object, RegExp empty 
+PASS Object RegExp object, RegExp slash 
+PASS Object RegExp object, RegExp new line 
+FAIL Blob basic assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+compare_Blob@http://localhost:8800/workers/semantics/structured-clone/common.js:266:21
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Blob unpaired high surrogate (invalid utf-8) assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+compare_Blob@http://localhost:8800/workers/semantics/structured-clone/common.js:266:21
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Blob unpaired low surrogate (invalid utf-8) assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+compare_Blob@http://localhost:8800/workers/semantics/structured-clone/common.js:266:21
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Blob paired surrogates (invalid utf-8) assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+compare_Blob@http://localhost:8800/workers/semantics/structured-clone/common.js:266:21
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Blob empty assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+compare_Blob@http://localhost:8800/workers/semantics/structured-clone/common.js:266:21
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Blob NUL assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+compare_Blob@http://localhost:8800/workers/semantics/structured-clone/common.js:266:21
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Array Blob object, Blob basic assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:31:23
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Array Blob object, Blob unpaired high surrogate (invalid utf-8) assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:31:23
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Array Blob object, Blob unpaired low surrogate (invalid utf-8) assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:31:23
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Array Blob object, Blob paired surrogates (invalid utf-8) assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:31:23
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Array Blob object, Blob empty assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:31:23
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Array Blob object, Blob NUL assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:31:23
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Object Blob object, Blob basic assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:44:23
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Object Blob object, Blob unpaired high surrogate (invalid utf-8) assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:44:23
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Object Blob object, Blob unpaired low surrogate (invalid utf-8) assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:44:23
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Object Blob object, Blob paired surrogates (invalid utf-8) assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:44:23
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Object Blob object, Blob empty assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:44:23
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Object Blob object, Blob NUL assert_unreached: FAIL ReferenceError: Can't find variable: postMessage Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:44:23
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL File basic FileConstructor is not a constructor (evaluating 'new File(['foo'], 'bar', {type:'text/x-bar', lastModified:42})')(stack: func_File_basic@http://localhost:8800/workers/semantics/structured-clone/common.js:386:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/workers/semantics/structured-clone/common.js:17:24
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:388:6)
+FAIL FileList empty assert_unreached: FAIL ReferenceError: Can't find variable: FileList Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+compare_FileList@http://localhost:8800/workers/semantics/structured-clone/common.js:392:21
+http://localhost:8800/workers/semantics/structured-clone/common.js:19:57
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Array FileList object, FileList empty DataCloneError: DOM Exception 25(stack: postMessage@[native code]
+http://localhost:8800/workers/semantics/structured-clone/common.js:18:18
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:407:6)
+FAIL Object FileList object, FileList empty DataCloneError: DOM Exception 25(stack: postMessage@[native code]
+http://localhost:8800/workers/semantics/structured-clone/common.js:18:18
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:408:6)
+PASS ImageData 1x1 transparent black 
+PASS ImageData 1x1 non-transparent non-black 
+PASS Array ImageData object, ImageData 1x1 transparent black 
+PASS Array ImageData object, ImageData 1x1 non-transparent non-black 
+PASS Object ImageData object, ImageData 1x1 transparent black 
+PASS Object ImageData object, ImageData 1x1 non-transparent non-black 
+FAIL ImageBitmap 1x1 transparent black Can't find variable: createImageBitmap(stack: http://localhost:8800/workers/semantics/structured-clone/common.js:482:20
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:480:11)
+FAIL ImageBitmap 1x1 non-transparent non-black Can't find variable: createImageBitmap(stack: http://localhost:8800/workers/semantics/structured-clone/common.js:498:20
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:496:11)
+FAIL Array ImageBitmap object, ImageBitmap 1x1 transparent black Can't find variable: createImageBitmap(stack: http://localhost:8800/workers/semantics/structured-clone/common.js:503:20
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:501:11)
+FAIL Array ImageBitmap object, ImageBitmap 1x1 non-transparent non-black Can't find variable: createImageBitmap(stack: http://localhost:8800/workers/semantics/structured-clone/common.js:507:20
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:505:11)
+FAIL Object ImageBitmap object, ImageBitmap 1x1 transparent black Can't find variable: createImageBitmap(stack: http://localhost:8800/workers/semantics/structured-clone/common.js:512:20
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:510:11)
+FAIL Object ImageBitmap object, ImageBitmap 1x1 non-transparent non-black Can't find variable: createImageBitmap(stack: http://localhost:8800/workers/semantics/structured-clone/common.js:516:20
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:514:11)
+PASS Array sparse 
+PASS Array with non-index property 
+PASS Object with index property and length 
+PASS Array with circular reference 
+PASS Object with circular reference 
+PASS Array with identical property values 
+PASS Object with identical property values 
+PASS Object with property on prototype 
+PASS Object with non-enumerable property 
+PASS Object with non-writable property 
+PASS Object with non-configurable property 
+

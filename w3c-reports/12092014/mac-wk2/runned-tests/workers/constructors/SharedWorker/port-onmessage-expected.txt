@@ -1,0 +1,5 @@
+
+FAIL worker.port.onmessage undefined is not a constructor (evaluating 'new SharedWorker('#', '')')(stack: http://localhost:8800/workers/constructors/SharedWorker/port-onmessage.html:14:32
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/workers/constructors/SharedWorker/port-onmessage.html:13:20)
+

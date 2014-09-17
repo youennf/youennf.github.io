@@ -1,0 +1,5 @@
+
+FAIL A_05_04_07_T01 undefined is not a function (evaluating 'e.getMessage()')(stack: http://localhost:8800/shadow-dom/testcommon.js:184:37
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/events/events-that-are-always-stopped/test-007.html:27:20)
+

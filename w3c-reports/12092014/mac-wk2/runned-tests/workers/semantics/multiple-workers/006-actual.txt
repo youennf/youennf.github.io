@@ -1,0 +1,6 @@
+
+FAIL shared worker in dedicated worker in shared worker undefined is not a constructor (evaluating 'new SharedWorker('#1')')(stack: http://localhost:8800/workers/semantics/multiple-workers/006.html:26:28
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/multiple-workers/006.html:25:11)
+

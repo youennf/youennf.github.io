@@ -1,0 +1,39 @@
+This shouldn't be tested inside a tunnel.
+
+
+PASS XMLHttpRequest: status error handling GET 200 
+PASS XMLHttpRequest: status error handling GET 400 
+PASS XMLHttpRequest: status error handling GET 401 
+PASS XMLHttpRequest: status error handling GET 404 
+PASS XMLHttpRequest: status error handling GET 410 
+PASS XMLHttpRequest: status error handling GET 500 
+FAIL XMLHttpRequest: status error handling GET 699 assert_equals: response status expected 699 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/status-error.htm:23:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS XMLHttpRequest: status error handling HEAD 200 
+PASS XMLHttpRequest: status error handling HEAD 404 
+PASS XMLHttpRequest: status error handling HEAD 500 
+FAIL XMLHttpRequest: status error handling HEAD 699 assert_equals: response status expected 699 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/status-error.htm:23:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS XMLHttpRequest: status error handling POST 200 
+PASS XMLHttpRequest: status error handling POST 404 
+PASS XMLHttpRequest: status error handling POST 500 
+FAIL XMLHttpRequest: status error handling POST 699 assert_equals: response status expected 699 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/status-error.htm:23:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS XMLHttpRequest: status error handling PUT 200 
+PASS XMLHttpRequest: status error handling PUT 404 
+PASS XMLHttpRequest: status error handling PUT 500 
+FAIL XMLHttpRequest: status error handling PUT 699 assert_equals: response status expected 699 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/status-error.htm:23:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

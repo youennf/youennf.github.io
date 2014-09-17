@@ -1,0 +1,40 @@
+crash log for WebProcess (pid <unknown>):
+
+Coredump core-pid_<unknown>-_-process_WebProcess not found. To enable crash logs:
+
+- run this command as super-user: echo "/path/to/coredumps/core-pid_%p-_-process_%e" > /proc/sys/kernel/core_pattern
+- enable core dumps: ulimit -c unlimited
+- set the WEBKIT_CORE_DUMPS_DIRECTORY environment variable: export WEBKIT_CORE_DUMPS_DIRECTORY=/path/to/coredumps
+
+
+STDERR: 1   0x7fa5fdd96ab0
+STDERR: 2   0x7fa5fe12e900
+STDERR: 3   0x7fa60011cf3c WebKit::WebFrame::url() const
+STDERR: 4   0x7fa6000c58d5 WKBundleFrameCopyURL
+STDERR: 5   0x7fa5aad13966 WTR::InjectedBundlePage::willSendRequestForFrame(OpaqueWKBundlePage const*, OpaqueWKBundleFrame const*, unsigned long, OpaqueWKURLRequest const*, OpaqueWKURLResponse const*)
+STDERR: 6   0x7fa6000c16f5 WebKit::InjectedBundlePageResourceLoadClient::willSendRequestForFrame(WebKit::WebPage*, WebKit::WebFrame*, unsigned long, WebCore::ResourceRequest&, WebCore::ResourceResponse const&)
+STDERR: 7   0x7fa5fc3a9d2d WebCore::ResourceLoadNotifier::dispatchWillSendRequest(WebCore::DocumentLoader*, unsigned long, WebCore::ResourceRequest&, WebCore::ResourceResponse const&)
+STDERR: 8   0x7fa5fc3aedfa WebCore::ResourceLoader::willSendRequest(WebCore::ResourceRequest&, WebCore::ResourceResponse const&)
+STDERR: 9   0x7fa5fc3b3b37 WebCore::SubresourceLoader::willSendRequest(WebCore::ResourceRequest&, WebCore::ResourceResponse const&)
+STDERR: 10  0x7fa5fc3b0462 WebCore::ResourceLoader::init(WebCore::ResourceRequest const&)
+STDERR: 11  0x7fa5fc3b38a1 WebCore::SubresourceLoader::init(WebCore::ResourceRequest const&)
+STDERR: 12  0x7fa5fc3b391e WebCore::SubresourceLoader::create(WebCore::Frame*, WebCore::CachedResource*, WebCore::ResourceRequest const&, WebCore::ResourceLoaderOptions const&)
+STDERR: 13  0x7fa5fc3ac118 WebCore::ResourceLoadScheduler::scheduleSubresourceLoad(WebCore::Frame*, WebCore::CachedResource*, WebCore::ResourceRequest const&, WebCore::ResourceLoaderOptions const&)
+STDERR: 14  0x7fa5fc3efaf8 WebCore::CachedResource::load(WebCore::CachedResourceLoader*, WebCore::ResourceLoaderOptions const&)
+STDERR: 15  0x7fa5fc3f6b00 WebCore::CachedResourceLoader::requestResource(WebCore::CachedResource::Type, WebCore::CachedResourceRequest&)
+STDERR: 16  0x7fa5fc3f7502 WebCore::CachedResourceLoader::requestRawResource(WebCore::CachedResourceRequest&)
+STDERR: 17  0x7fa5fc373e8e WebCore::DocumentThreadableLoader::loadRequest(WebCore::ResourceRequest const&, WebCore::SecurityCheckPolicy)
+STDERR: 18  0x7fa5fc374518 WebCore::DocumentThreadableLoader::makeSimpleCrossOriginAccessRequest(WebCore::ResourceRequest const&)
+STDERR: 19  0x7fa5fc374ca1 WebCore::DocumentThreadableLoader::makeCrossOriginAccessRequest(WebCore::ResourceRequest const&)
+STDERR: 20  0x7fa5fc375193 WebCore::DocumentThreadableLoader::DocumentThreadableLoader(WebCore::Document&, WebCore::ThreadableLoaderClient&, WebCore::DocumentThreadableLoader::BlockingBehavior, WebCore::ResourceRequest const&, WebCore::ThreadableLoaderOptions const&)
+STDERR: 21  0x7fa5fc3752fb WebCore::DocumentThreadableLoader::create(WebCore::Document&, WebCore::ThreadableLoaderClient&, WebCore::ResourceRequest const&, WebCore::ThreadableLoaderOptions const&)
+STDERR: 22  0x7fa5fc3b78aa WebCore::ThreadableLoader::create(WebCore::ScriptExecutionContext*, WebCore::ThreadableLoaderClient*, WebCore::ResourceRequest const&, WebCore::ThreadableLoaderOptions const&)
+STDERR: 23  0x7fa5fc45379c WebCore::EventSource::connect()
+STDERR: 24  0x7fa5fc4fc2d1 WebCore::ThreadTimers::sharedTimerFiredInternal()
+STDERR: 25  0x7fa5fca2c47d
+STDERR: 26  0x7fa5fa91ad79
+STDERR: 27  0x7fa5fa91aeab
+STDERR: 28  0x7fa5fa9171c1
+STDERR: 29  0x7fa5fa917617 ecore_main_loop_begin
+STDERR: 30  0x7fa60019a1b4 WebProcessMainUnix
+STDERR: 31  0x7fa5fe11ad65 __libc_start_main

@@ -1,0 +1,8 @@
+CONSOLE MESSAGE: WebSocket connection to 'ws://localhost:49001/simple_handshake' failed: Compressed bit must be 0 if no negotiated deflate-frame extension
+
+FAIL WebSockets: proper first line assert_equals: expected true but got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/websockets/opening-handshake/005.html:13:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

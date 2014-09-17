@@ -1,0 +1,11 @@
+
+FAIL XMLHttpRequest: open() resolving URLs (multi-Window; 3; evil) assert_throws: send() when associated document's IFRAME is removed function "function () { 
+            client.send(null);
+          }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/XMLHttpRequest/open-url-multi-window-3.htm:16:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+init@http://localhost:8800/XMLHttpRequest/open-url-multi-window-3.htm:12:13
+global code@http://localhost:8800/XMLHttpRequest/resources/init.htm:7:25)
+

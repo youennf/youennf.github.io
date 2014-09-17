@@ -1,0 +1,38 @@
+CONSOLE MESSAGE: EventSource cannot load mailto:whatwg@awesome.example. Cross origin requests are only supported for HTTP.
+CONSOLE MESSAGE: EventSource cannot load javascript:alert('FAIL'). Cross origin requests are only supported for HTTP.
+CONSOLE MESSAGE: EventSource cannot load about:blank. Cross origin requests are only supported for HTTP.
+CONSOLE MESSAGE: EventSource cannot load ftp://example.not/. Cross origin requests are only supported for HTTP.
+CONSOLE MESSAGE: EventSource cannot load https://example.not/test. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: EventSource cannot load http://example.not/. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+
+FAIL dedicated worker - EventSource: constructor (act as if there is a network error) (http://example.not/) assert_equals: source.readyState expected 2 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/eventsource/dedicated-worker/eventsource-constructor-non-same-origin.htm:31:28
+step@http://localhost:8800/resources/testharness.js:798:30
+onmessage@http://localhost:8800/eventsource/dedicated-worker/eventsource-constructor-non-same-origin.htm:29:22)
+FAIL dedicated worker - EventSource: constructor (act as if there is a network error) (https://example.not/test) assert_equals: source.readyState expected 2 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/eventsource/dedicated-worker/eventsource-constructor-non-same-origin.htm:31:28
+step@http://localhost:8800/resources/testharness.js:798:30
+onmessage@http://localhost:8800/eventsource/dedicated-worker/eventsource-constructor-non-same-origin.htm:29:22)
+FAIL dedicated worker - EventSource: constructor (act as if there is a network error) (ftp://example.not/) assert_equals: source.readyState expected 2 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/eventsource/dedicated-worker/eventsource-constructor-non-same-origin.htm:31:28
+step@http://localhost:8800/resources/testharness.js:798:30
+onmessage@http://localhost:8800/eventsource/dedicated-worker/eventsource-constructor-non-same-origin.htm:29:22)
+FAIL dedicated worker - EventSource: constructor (act as if there is a network error) (about:blank) assert_equals: source.readyState expected 2 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/eventsource/dedicated-worker/eventsource-constructor-non-same-origin.htm:31:28
+step@http://localhost:8800/resources/testharness.js:798:30
+onmessage@http://localhost:8800/eventsource/dedicated-worker/eventsource-constructor-non-same-origin.htm:29:22)
+FAIL dedicated worker - EventSource: constructor (act as if there is a network error) (mailto:whatwg@awesome.example) assert_equals: source.readyState expected 2 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/eventsource/dedicated-worker/eventsource-constructor-non-same-origin.htm:31:28
+step@http://localhost:8800/resources/testharness.js:798:30
+onmessage@http://localhost:8800/eventsource/dedicated-worker/eventsource-constructor-non-same-origin.htm:29:22)
+FAIL dedicated worker - EventSource: constructor (act as if there is a network error) (javascript:alert('FAIL')) assert_equals: source.readyState expected 2 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/eventsource/dedicated-worker/eventsource-constructor-non-same-origin.htm:31:28
+step@http://localhost:8800/resources/testharness.js:798:30
+onmessage@http://localhost:8800/eventsource/dedicated-worker/eventsource-constructor-non-same-origin.htm:29:22)
+

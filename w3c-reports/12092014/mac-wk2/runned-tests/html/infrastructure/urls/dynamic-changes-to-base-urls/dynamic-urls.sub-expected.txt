@@ -1,0 +1,110 @@
+
+FAIL The 'href' attribute of the 'a' element assert_equals: The 'href' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'href' attribute of the 'link' element assert_equals: The 'href' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'href' attribute of the 'area' element assert_equals: The 'href' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'cite' attribute of the 'q' element assert_equals: The 'cite' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'cite' attribute of the 'blockquote' element assert_equals: The 'cite' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'cite' attribute of the 'ins' element assert_equals: The 'cite' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'cite' attribute of the 'del' element assert_equals: The 'cite' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'src' attribute of the 'img' element assert_equals: The 'src' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'src' attribute of the 'embed' element assert_equals: The 'src' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'src' attribute of the 'video' element assert_equals: The 'src' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'src' attribute of the 'iframe' element assert_equals: The 'src' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'src' attribute of the 'script' element assert_equals: The 'src' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'src' attribute of the 'source' element assert_equals: The 'src' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'src' attribute of the 'track' element assert_equals: The 'src' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'action' attribute of the 'form' element assert_equals: The 'action' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'data' attribute of the 'object' element assert_equals: The 'data' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL The 'formaction' attribute of the 'button' element assert_equals: The 'formAction' attribute is incorrect. expected "http://www.localhost:8800/test.txt" but got "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:87:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:78:15)
+FAIL Change the base URL must effect the descendant elements only assert_not_equals: The inner element must be effected. got disallowed value "http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/test.txt"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_not_equals@http://localhost:8800/resources/testharness.js:347:15
+http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:99:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/urls/dynamic-changes-to-base-urls/dynamic-urls.sub.xhtml:92:11)
+

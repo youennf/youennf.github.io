@@ -1,0 +1,38 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-11 16:22
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-001.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-002.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-003.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-004.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-005.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-006.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-007.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-008.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-009.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-010.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-011.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-012.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-013.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-014.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-015.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-016.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-017.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-018.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-019.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/shadow-dom/shadow-trees/satisfying-matching-criteria/test-020.html

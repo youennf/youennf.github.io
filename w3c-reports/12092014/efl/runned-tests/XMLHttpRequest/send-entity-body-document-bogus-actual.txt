@@ -1,0 +1,9 @@
+
+FAIL XMLHttpRequest: send() - unserializable Document assert_throws: function "function () { client.send(input); }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/XMLHttpRequest/send-entity-body-document-bogus.htm:16:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+request_throws@http://localhost:8800/XMLHttpRequest/send-entity-body-document-bogus.htm:13:13
+global code@http://localhost:8800/XMLHttpRequest/send-entity-body-document-bogus.htm:23:21)
+

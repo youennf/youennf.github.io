@@ -1,0 +1,7 @@
+
+FAIL Revoking blob URL used with XMLHttpRequest assert_equals: expected "test" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/FileAPI/Blob-XHR-revoke.html:21:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

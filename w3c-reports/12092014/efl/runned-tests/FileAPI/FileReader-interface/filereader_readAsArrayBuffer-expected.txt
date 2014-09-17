@@ -1,0 +1,7 @@
+
+FAIL FileAPI Test: filereader_readAsArrayBuffer assert_equals: expected 1 but got 2(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/FileAPI/FileReader-interface/filereader_readAsArrayBuffer.html:31:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

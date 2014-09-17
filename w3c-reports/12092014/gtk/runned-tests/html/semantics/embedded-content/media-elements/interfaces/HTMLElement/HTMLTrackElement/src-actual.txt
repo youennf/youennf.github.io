@@ -1,0 +1,31 @@
+
+PASS HTMLTrackElement.src missing value 
+FAIL HTMLTrackElement.src empty string in content attribute assert_equals: expected "" but got "http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLTrackElement/src.html"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLTrackElement/src.html:16:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLTrackElement/src.html:13:5)
+FAIL HTMLTrackElement.src empty string in IDL attribute assert_equals: expected "" but got "http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLTrackElement/src.html"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLTrackElement/src.html:23:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLTrackElement/src.html:20:5)
+PASS HTMLTrackElement.src unresolvable value in content attribute 
+PASS HTMLTrackElement.src resolvable value in content attribute 
+FAIL HTMLTrackElement.src \u0000 in content attribute assert_equals: expected "http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLTrackElement/%00" but got "http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLTrackElement/src.html"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLTrackElement/src.html:48:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLTrackElement/src.html:43:5)
+PASS HTMLTrackElement.src assigning unresolvable value to IDL attribute 
+PASS HTMLTrackElement.src assigning resolvable value to IDL attribute 
+FAIL HTMLTrackElement.src assigning \u0000 to IDL attribute assert_equals: expected "http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLTrackElement/%00" but got "http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLTrackElement/src.html"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLTrackElement/src.html:73:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLTrackElement/src.html:68:5)
+

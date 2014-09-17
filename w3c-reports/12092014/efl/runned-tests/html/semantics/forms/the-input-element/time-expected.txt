@@ -1,0 +1,130 @@
+Input Time
+
+
+PASS time element of default time value 
+PASS step attribute on default value check 
+PASS max  attribute on default value check 
+PASS min  attribute on default value check 
+FAIL type attribute support on input element assert_equals: expected "time" but got "text"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:36:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:36:5)
+PASS max attribute support on input element 
+PASS min attribute support on input element 
+PASS step attribute support on input element 
+PASS stepUp function support on input Element 
+PASS stepDown function support on input Element 
+FAIL stepUp step value empty on default step value  InvalidStateError: DOM Exception 11(stack: stepUp@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:53:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:50:5)
+FAIL stepDown step value empty default step value InvalidStateError: DOM Exception 11(stack: stepDown@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:60:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:57:5)
+FAIL stepUp on step value minus InvalidStateError: DOM Exception 11(stack: stepUp@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:67:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:64:5)
+FAIL stepDown on step value minus InvalidStateError: DOM Exception 11(stack: stepDown@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:73:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:70:5)
+FAIL stepUp on step value zero  InvalidStateError: DOM Exception 11(stack: stepUp@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:80:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:77:5)
+FAIL stepDown on step value zero  InvalidStateError: DOM Exception 11(stack: stepDown@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:86:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:83:5)
+FAIL stepUp on step value 24 hour InvalidStateError: DOM Exception 11(stack: stepUp@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:93:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:90:5)
+FAIL stepDown on step value 24 hour  InvalidStateError: DOM Exception 11(stack: stepDown@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:99:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:96:5)
+FAIL stepUp on step value hour   InvalidStateError: DOM Exception 11(stack: stepUp@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:106:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:103:5)
+FAIL stepDown on step value hour  InvalidStateError: DOM Exception 11(stack: stepDown@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:112:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:109:5)
+FAIL stepUp on step value second  InvalidStateError: DOM Exception 11(stack: stepUp@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:119:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:116:5)
+FAIL stepDown on step value second  InvalidStateError: DOM Exception 11(stack: stepDown@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:125:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:122:5)
+FAIL stepUp on step value miri second  InvalidStateError: DOM Exception 11(stack: stepUp@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:132:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:129:5)
+FAIL stepDown on step value miri second  InvalidStateError: DOM Exception 11(stack: stepDown@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:138:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:135:5)
+FAIL stepUp argment 2 times InvalidStateError: DOM Exception 11(stack: stepUp@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:145:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:142:5)
+FAIL stepDown argment 2 times InvalidStateError: DOM Exception 11(stack: stepDown@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:151:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:148:5)
+FAIL stepUp stop because it exceeds the maximum value InvalidStateError: DOM Exception 11(stack: stepUp@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:158:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:155:5)
+FAIL stepDown Stop so lower than the minimum value InvalidStateError: DOM Exception 11(stack: stepDown@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:165:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:162:5)
+FAIL stop at border on stepUp InvalidStateError: DOM Exception 11(stack: stepUp@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:174:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:170:5)
+FAIL stop at border on stepDown InvalidStateError: DOM Exception 11(stack: stepDown@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:182:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:178:5)
+FAIL  empty value of stepUp InvalidStateError: DOM Exception 11(stack: stepUp@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:190:19
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:187:5)
+FAIL set value on not time format value assert_equals: expected "" but got "hh:mi:ss.sss"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/time.html:201:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time.html:196:5)
+

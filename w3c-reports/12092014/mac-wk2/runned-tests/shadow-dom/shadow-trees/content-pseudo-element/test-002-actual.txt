@@ -1,0 +1,5 @@
+
+FAIL A_04_04_01_T02 Can't find variable: createSR(stack: http://localhost:8800/shadow-dom/shadow-trees/content-pseudo-element/test-002.html:38:29
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

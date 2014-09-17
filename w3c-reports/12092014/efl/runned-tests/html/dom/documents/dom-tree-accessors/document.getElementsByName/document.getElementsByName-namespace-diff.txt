@@ -1,0 +1,13 @@
+--- /localHome/youenn/EFL-WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/html/dom/documents/dom-tree-accessors/document.getElementsByName/document.getElementsByName-namespace-expected.txt
++++ /localHome/youenn/EFL-WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/html/dom/documents/dom-tree-accessors/document.getElementsByName/document.getElementsByName-namespace-actual.txt
+@@ -5,8 +5,8 @@
+ 
+ FAIL getElementsByName and foreign namespaces assert_equals: expected 1 but got 2(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+ assert_equals@http://localhost:8800/resources/testharness.js:335:15
+-http://localhost:8800/html/dom/documents/dom-tree-accessors/document.getElementsByName/document.getElementsByName-namespace.html:23:16
++http://localhost:8800/html/dom/documents/dom-tree-accessors/document.getElementsByName/document.getElementsByName-namespace.xhtml:26:16
+ step@http://localhost:8800/resources/testharness.js:798:30
+ test@http://localhost:8800/resources/testharness.js:73:22
+-global code@http://localhost:8800/html/dom/documents/dom-tree-accessors/document.getElementsByName/document.getElementsByName-namespace.html:20:5)
++global code@http://localhost:8800/html/dom/documents/dom-tree-accessors/document.getElementsByName/document.getElementsByName-namespace.xhtml:23:5)
+ 

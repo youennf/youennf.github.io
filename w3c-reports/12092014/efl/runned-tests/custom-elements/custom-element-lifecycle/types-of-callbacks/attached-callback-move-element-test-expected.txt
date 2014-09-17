@@ -1,0 +1,26 @@
+
+
+FAIL Test attached callback if moving custom element inside document without browsing context undefined is not a function (evaluating 'doc.registerElement('x-a', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attached-callback-move-element-test.html:19:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attached-callback-move-element-test.html:16:5)
+FAIL Test attached callback if moving custom element from document without browsing context to document with browsing context undefined is not a function (evaluating 'docNoBrowsingContext.registerElement('x-b', {prototype: proto1})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attached-callback-move-element-test.html:38:41
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attached callback if moving custom element from document with browsing context to document without browsing context undefined is not a function (evaluating 'docWithBrowsingContext.registerElement('x-c', {prototype: proto1})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attached-callback-move-element-test.html:59:43
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attached callback if moving custom element inside document with browsing context undefined is not a function (evaluating 'doc.registerElement('x-d', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attached-callback-move-element-test.html:80:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attached callback if indirectly moving custom element inside document with browsing context undefined is not a function (evaluating 'doc.registerElement('x-e', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attached-callback-move-element-test.html:98:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attached callback if moving custom element from document with browsing context to document with browsing context undefined is not a function (evaluating 'doc1.registerElement('x-f', {prototype: proto1})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attached-callback-move-element-test.html:127:29
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

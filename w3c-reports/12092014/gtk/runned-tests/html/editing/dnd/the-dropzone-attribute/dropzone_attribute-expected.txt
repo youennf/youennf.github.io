@@ -1,0 +1,16 @@
+
+PASS div.dropzone should not be undefined if it's been set 
+FAIL div.dropzone should not be null assert_not_equals: div.dropzone should not be null got disallowed value null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_not_equals@http://localhost:8800/resources/testharness.js:347:15
+http://localhost:8800/html/editing/dnd/the-dropzone-attribute/dropzone_attribute.html:29:28
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/editing/dnd/the-dropzone-attribute/dropzone_attribute.html:27:13)
+FAIL div dropzone idl attribute must reflect the content attribute of the same name assert_equals: div dropzone idl attribute must reflect the content attribute of the same name expected (string) "copy file:image/png file:image/gif file:image/jpeg" but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/editing/dnd/the-dropzone-attribute/dropzone_attribute.html:35:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/editing/dnd/the-dropzone-attribute/dropzone_attribute.html:32:13)
+PASS div dropzone content attribute is set to the literal value 
+

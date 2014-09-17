@@ -1,0 +1,9 @@
+2d.drawImage.zerosource.image
+drawImage with zero-sized source rectangle from image throws INDEX_SIZE_ERR
+Actual output:
+Expected output:
+
+  
+
+PASS drawImage with zero-sized source rectangle from image throws INDEX_SIZE_ERR 
+

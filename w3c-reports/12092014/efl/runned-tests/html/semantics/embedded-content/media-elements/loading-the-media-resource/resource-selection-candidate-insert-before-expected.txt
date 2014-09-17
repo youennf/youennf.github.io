@@ -1,0 +1,7 @@
+
+FAIL inserting another source before the candidate assert_equals: expected "#a" but got "#b"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/loading-the-media-resource/resource-selection-candidate-insert-before.html:16:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

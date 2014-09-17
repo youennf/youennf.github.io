@@ -1,0 +1,15 @@
+crash log for WebProcess (pid <unknown>):
+
+Coredump core-pid_<unknown>-_-process_WebProcess not found. To enable crash logs:
+
+- run this command as super-user: echo "/path/to/coredumps/core-pid_%p-_-process_%e" > /proc/sys/kernel/core_pattern
+- enable core dumps: ulimit -c unlimited
+- set the WEBKIT_CORE_DUMPS_DIRECTORY environment variable: export WEBKIT_CORE_DUMPS_DIRECTORY=/path/to/coredumps
+
+
+STDERR: ERR<6079>:evas_main lib/evas/canvas/evas_gl.c:42 evas_gl_new() Evas GL engine not available.
+STDERR: 1   0x7fd110f07ab0
+STDERR: 2   0x7fd11129f900
+STDERR: 3   0x7fd10ef24319 WebCore::NavigatorContentUtils::registerProtocolHandler(WebCore::Navigator*, WTF::String const&, WTF::String const&, WTF::String const&, int&)
+STDERR: 4   0x7fd10fef534b WebCore::jsNavigatorPrototypeFunctionRegisterProtocolHandler(JSC::ExecState*)
+STDERR: 5   0x7fd0bf90b0b4

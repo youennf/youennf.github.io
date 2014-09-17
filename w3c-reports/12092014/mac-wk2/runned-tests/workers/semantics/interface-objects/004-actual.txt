@@ -1,0 +1,6 @@
+
+FAIL unavailable interface objects in shared worker undefined is not a constructor (evaluating 'new SharedWorker('#')')(stack: http://localhost:8800/workers/semantics/interface-objects/004.html:20:32
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/interface-objects/004.html:19:11)
+

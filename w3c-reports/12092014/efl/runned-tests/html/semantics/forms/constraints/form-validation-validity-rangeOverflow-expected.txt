@@ -1,0 +1,52 @@
+
+
+FAIL [INPUT in DATETIME status] The datetime type must be supported. assert_equals: The datetime type should be supported. expected "datetime" but got "text"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:214:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_support_type@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:213:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:289:35
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validity-rangeOverflow.html:115:21)
+FAIL [INPUT in DATE status] The date type must be supported. assert_equals: The date type should be supported. expected "date" but got "text"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:214:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_support_type@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:213:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:289:35
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validity-rangeOverflow.html:115:21)
+FAIL [INPUT in MONTH status] The month type must be supported. assert_equals: The month type should be supported. expected "month" but got "text"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:214:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_support_type@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:213:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:289:35
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validity-rangeOverflow.html:115:21)
+FAIL [INPUT in WEEK status] The week type must be supported. assert_equals: The week type should be supported. expected "week" but got "text"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:214:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_support_type@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:213:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:289:35
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validity-rangeOverflow.html:115:21)
+FAIL [INPUT in TIME status] The time type must be supported. assert_equals: The time type should be supported. expected "time" but got "text"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:214:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_support_type@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:213:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:289:35
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validity-rangeOverflow.html:115:21)
+PASS [INPUT in NUMBER status] The max attribute is not set 
+PASS [INPUT in NUMBER status] Value is empty string 
+PASS [INPUT in NUMBER status] The max is greater than value(integer) 
+PASS [INPUT in NUMBER status] The max is greater than value(floating number) 
+PASS [INPUT in NUMBER status] The max equals to value 
+PASS [INPUT in NUMBER status] The value is not a number 
+PASS [INPUT in NUMBER status] The value is greater than max(integer) 
+PASS [INPUT in NUMBER status] The value is greater than max(floating number) 
+PASS [INPUT in NUMBER status] The value is greater than max(scientific notation) 
+

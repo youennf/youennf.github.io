@@ -1,0 +1,609 @@
+
+FAIL primitive undefined undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:62:6)
+FAIL primitive null undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:63:6)
+FAIL primitive true undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:64:6)
+FAIL primitive false undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:65:6)
+FAIL primitive string, empty string undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:66:6)
+FAIL primitive string, lone high surrogate undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:67:6)
+FAIL primitive string, lone low surrogate undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:68:6)
+FAIL primitive string, NUL undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:69:6)
+FAIL primitive string, astral character undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:70:6)
+FAIL primitive number, 0.2 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:71:6)
+FAIL primitive number, 0 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:72:6)
+FAIL primitive number, -0 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:73:6)
+FAIL primitive number, NaN undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:74:6)
+FAIL primitive number, Infinity undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:75:6)
+FAIL primitive number, -Infinity undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:76:6)
+FAIL primitive number, 9007199254740992 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:77:6)
+FAIL primitive number, -9007199254740992 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:78:6)
+FAIL primitive number, 9007199254740994 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:79:6)
+FAIL primitive number, -9007199254740994 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:80:6)
+FAIL Array primitives undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:82:6)
+FAIL Object primitives undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:101:6)
+FAIL Boolean true undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:130:6)
+FAIL Boolean false undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:131:6)
+FAIL Array Boolean objects undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:132:6)
+FAIL Object Boolean objects undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:133:6)
+FAIL String empty string undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:147:6)
+FAIL String lone high surrogate undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:148:6)
+FAIL String lone low surrogate undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:149:6)
+FAIL String NUL undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:150:6)
+FAIL String astral character undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:151:6)
+FAIL Array String objects undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:152:6)
+FAIL Object String objects undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:157:6)
+FAIL Number 0.2 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:163:6)
+FAIL Number 0 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:164:6)
+FAIL Number -0 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:165:6)
+FAIL Number NaN undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:166:6)
+FAIL Number Infinity undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:167:6)
+FAIL Number -Infinity undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:168:6)
+FAIL Number 9007199254740992 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:169:6)
+FAIL Number -9007199254740992 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:170:6)
+FAIL Number 9007199254740994 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:171:6)
+FAIL Number -9007199254740994 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:172:6)
+FAIL Array Number objects undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:173:6)
+FAIL Object Number objects undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:183:6)
+FAIL Date 0 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:203:6)
+FAIL Date -0 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:204:6)
+FAIL Date -8.64e15 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:205:6)
+FAIL Date 8.64e15 undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:206:6)
+FAIL Array Date objects undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:207:6)
+FAIL Object Date objects undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:211:6)
+FAIL RegExp flags and lastIndex undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:245:6)
+FAIL RegExp sticky flag undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:246:6)
+FAIL RegExp unicode flag undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:247:6)
+FAIL RegExp empty undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:248:6)
+FAIL RegExp slash undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:249:6)
+FAIL RegExp new line undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:250:6)
+FAIL Array RegExp object, RegExp flags and lastIndex undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:251:6)
+FAIL Array RegExp object, RegExp sticky flag undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:252:6)
+FAIL Array RegExp object, RegExp unicode flag undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:253:6)
+FAIL Array RegExp object, RegExp empty undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:254:6)
+FAIL Array RegExp object, RegExp slash undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:255:6)
+FAIL Array RegExp object, RegExp new line undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:256:6)
+FAIL Object RegExp object, RegExp flags and lastIndex undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:257:6)
+FAIL Object RegExp object, RegExp sticky flag undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:258:6)
+FAIL Object RegExp object, RegExp unicode flag undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:259:6)
+FAIL Object RegExp object, RegExp empty undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:260:6)
+FAIL Object RegExp object, RegExp slash undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:261:6)
+FAIL Object RegExp object, RegExp new line undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:262:6)
+FAIL Blob basic undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:302:6)
+FAIL Blob unpaired high surrogate (invalid utf-8) undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:328:6)
+FAIL Blob unpaired low surrogate (invalid utf-8) undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:329:6)
+FAIL Blob paired surrogates (invalid utf-8) undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:330:6)
+FAIL Blob empty undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:335:6)
+FAIL Blob NUL undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:339:6)
+FAIL Array Blob object, Blob basic undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:342:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:341:11)
+FAIL Array Blob object, Blob unpaired high surrogate (invalid utf-8) undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:345:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:344:11)
+FAIL Array Blob object, Blob unpaired low surrogate (invalid utf-8) undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:348:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:347:11)
+FAIL Array Blob object, Blob paired surrogates (invalid utf-8) undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:351:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:350:11)
+FAIL Array Blob object, Blob empty undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:354:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:353:11)
+FAIL Array Blob object, Blob NUL undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:357:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:356:11)
+FAIL Object Blob object, Blob basic undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:361:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:360:11)
+FAIL Object Blob object, Blob unpaired high surrogate (invalid utf-8) undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:364:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:363:11)
+FAIL Object Blob object, Blob unpaired low surrogate (invalid utf-8) undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:367:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:366:11)
+FAIL Object Blob object, Blob paired surrogates (invalid utf-8) undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:370:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:369:11)
+FAIL Object Blob object, Blob empty undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:373:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:372:11)
+FAIL Object Blob object, Blob NUL undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:376:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:375:11)
+FAIL File basic undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:388:6)
+FAIL FileList empty undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:406:6)
+FAIL Array FileList object, FileList empty undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:407:6)
+FAIL Object FileList object, FileList empty undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:408:6)
+FAIL ImageData 1x1 transparent black undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:440:6)
+FAIL ImageData 1x1 non-transparent non-black undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:451:6)
+FAIL Array ImageData object, ImageData 1x1 transparent black undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:453:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:452:11)
+FAIL Array ImageData object, ImageData 1x1 non-transparent non-black undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:456:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:455:11)
+FAIL Object ImageData object, ImageData 1x1 transparent black undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:459:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:458:11)
+FAIL Object ImageData object, ImageData 1x1 non-transparent non-black undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+http://localhost:8800/workers/semantics/structured-clone/common.js:462:8
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:461:11)
+FAIL ImageBitmap 1x1 transparent black Can't find variable: createImageBitmap(stack: http://localhost:8800/workers/semantics/structured-clone/common.js:482:20
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:480:11)
+FAIL ImageBitmap 1x1 non-transparent non-black Can't find variable: createImageBitmap(stack: http://localhost:8800/workers/semantics/structured-clone/common.js:498:20
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:496:11)
+FAIL Array ImageBitmap object, ImageBitmap 1x1 transparent black Can't find variable: createImageBitmap(stack: http://localhost:8800/workers/semantics/structured-clone/common.js:503:20
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:501:11)
+FAIL Array ImageBitmap object, ImageBitmap 1x1 non-transparent non-black Can't find variable: createImageBitmap(stack: http://localhost:8800/workers/semantics/structured-clone/common.js:507:20
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:505:11)
+FAIL Object ImageBitmap object, ImageBitmap 1x1 transparent black Can't find variable: createImageBitmap(stack: http://localhost:8800/workers/semantics/structured-clone/common.js:512:20
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:510:11)
+FAIL Object ImageBitmap object, ImageBitmap 1x1 non-transparent non-black Can't find variable: createImageBitmap(stack: http://localhost:8800/workers/semantics/structured-clone/common.js:516:20
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:514:11)
+FAIL Array sparse undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:519:6)
+FAIL Array with non-index property undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:520:6)
+FAIL Object with index property and length undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:525:6)
+FAIL Array with circular reference undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:531:6)
+FAIL Object with circular reference undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:536:6)
+FAIL Array with identical property values undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:546:6)
+FAIL Object with identical property values undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:550:6)
+FAIL Object with property on prototype undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:560:6)
+FAIL Object with non-enumerable property undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:566:6)
+FAIL Object with non-writable property undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:579:6)
+FAIL Object with non-configurable property undefined is not a constructor (evaluating 'new SharedWorker('shared.js#'+encodeURIComponent(msg))')(stack: createWorker@http://localhost:8800/workers/semantics/structured-clone/common.js:6:29
+http://localhost:8800/workers/semantics/structured-clone/common.js:15:25
+step@http://localhost:8800/resources/testharness.js:798:30
+check@http://localhost:8800/workers/semantics/structured-clone/common.js:14:16
+global code@http://localhost:8800/workers/semantics/structured-clone/common.js:592:6)
+

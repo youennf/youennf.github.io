@@ -1,0 +1,5 @@
+CONSOLE MESSAGE: line 65: ReferenceError: Can't find variable: test_blob
+Discussion is ongoing that will affect a number of the following tests.
+
+
+Harness Error. harness_status.status = 1 , harness_status.message = ReferenceError: Can't find variable: test_blob

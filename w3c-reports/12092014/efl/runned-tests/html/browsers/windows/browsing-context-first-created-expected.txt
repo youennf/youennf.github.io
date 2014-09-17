@@ -1,0 +1,17 @@
+
+
+FAIL Check the history.length of the first created browsing context assert_equals: The history.length should be 1. expected 1 but got 100(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/browsers/windows/browsing-context-first-created.xhtml:24:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/browsers/windows/browsing-context-first-created.xhtml:23:9)
+FAIL Check the document's meta data assert_equals: The document should be an HTML document. expected (string) "text/html" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/browsers/windows/browsing-context-first-created.xhtml:30:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/browsers/windows/browsing-context-first-created.xhtml:27:9)
+PASS Check the document's status 
+PASS Check the document's content 
+

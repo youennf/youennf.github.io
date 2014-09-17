@@ -1,0 +1,15 @@
+
+FAIL XMLHttpRequest: The abort() method: do not fire abort event in OPENED state when send() flag is unset. send() throws after abort(). assert_unreached: when abort() is called, state is OPENED with the send() flag being unset, must not fire abort event per spec Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/XMLHttpRequest/abort-event-abort.htm:35:37
+step@http://localhost:8800/resources/testharness.js:798:30
+onabort@http://localhost:8800/XMLHttpRequest/abort-event-abort.htm:33:26
+abort@[native code]
+http://localhost:8800/XMLHttpRequest/abort-event-abort.htm:26:34
+step@http://localhost:8800/resources/testharness.js:798:30
+onreadystatechange@http://localhost:8800/XMLHttpRequest/abort-event-abort.htm:22:26
+open@[native code]
+http://localhost:8800/XMLHttpRequest/abort-event-abort.htm:39:21
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/XMLHttpRequest/abort-event-abort.htm:16:18)
+

@@ -1,0 +1,177 @@
+
+FAIL text field selection for the input hidden assert_throws: function "function () {
+        el.selectionStart;
+      }" threw object "TypeError: Type error" that is not a DOMException InvalidStateError: property "code" is equal to undefined, expected 11(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input email assert_throws: function "function () {
+        el.selectionStart;
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input datetime assert_throws: function "function () {
+        el.selectionStart;
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input date assert_throws: function "function () {
+        el.selectionStart;
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input month assert_throws: function "function () {
+        el.selectionStart;
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input week assert_throws: function "function () {
+        el.selectionStart;
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input time assert_throws: function "function () {
+        el.selectionStart;
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input number assert_throws: function "function () {
+        el.selectionStart;
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input range assert_throws: function "function () {
+        el.selectionStart;
+      }" threw object "TypeError: Type error" that is not a DOMException InvalidStateError: property "code" is equal to undefined, expected 11(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input color assert_throws: function "function () {
+        el.selectionStart;
+      }" threw object "TypeError: Type error" that is not a DOMException InvalidStateError: property "code" is equal to undefined, expected 11(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input checkbox assert_throws: function "function () {
+        el.selectionStart;
+      }" threw object "TypeError: Type error" that is not a DOMException InvalidStateError: property "code" is equal to undefined, expected 11(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input radio assert_throws: function "function () {
+        el.selectionStart;
+      }" threw object "TypeError: Type error" that is not a DOMException InvalidStateError: property "code" is equal to undefined, expected 11(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input file assert_throws: function "function () {
+        el.selectionStart;
+      }" threw object "TypeError: Type error" that is not a DOMException InvalidStateError: property "code" is equal to undefined, expected 11(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input submit assert_throws: function "function () {
+        el.selectionStart;
+      }" threw object "TypeError: Type error" that is not a DOMException InvalidStateError: property "code" is equal to undefined, expected 11(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input image assert_throws: function "function () {
+        el.selectionStart;
+      }" threw object "TypeError: Type error" that is not a DOMException InvalidStateError: property "code" is equal to undefined, expected 11(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input reset assert_throws: function "function () {
+        el.selectionStart;
+      }" threw object "TypeError: Type error" that is not a DOMException InvalidStateError: property "code" is equal to undefined, expected 11(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+FAIL text field selection for the input button assert_throws: function "function () {
+        el.selectionStart;
+      }" threw object "TypeError: Type error" that is not a DOMException InvalidStateError: property "code" is equal to undefined, expected 11(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:17:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:14:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/textfieldselection/selection-not-application.html:13:16)
+PASS text field selection for the input text 
+PASS text field selection for the input search 
+PASS text field selection for the input tel 
+PASS text field selection for the input url 
+PASS text field selection for the input password 
+

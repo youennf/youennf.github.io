@@ -1,0 +1,14 @@
+
+PASS Check if window has a FileList property 
+PASS Check if FileList.length is 0 
+PASS Check if item is a instanceof Function 
+PASS Check if item is a method of fileList 
+PASS Check if the item method returns null when no file selected 
+FAIL Check if length is fileList's attribute assert_inherits: length is fileList attribute property "length" found on object expected in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:548:19
+http://localhost:8800/FileAPI/filelist-section/filelist.html:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/FileAPI/filelist-section/filelist.html:48:11)
+PASS Check if the fileList length is 0 when no file selected 
+

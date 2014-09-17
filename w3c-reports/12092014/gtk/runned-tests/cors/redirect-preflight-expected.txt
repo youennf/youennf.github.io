@@ -1,0 +1,24 @@
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?headers=x-test&location=http%3A%2F%2Fwww1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3Fheaders%3Dx-test%260&code=301&preflight=301&1
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?headers=x-test&location=http%3A%2F%2Fwww1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3Fheaders%3Dx-test%262&code=302&preflight=302&3
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?headers=x-test&location=http%3A%2F%2Fwww1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3Fheaders%3Dx-test%264&code=303&preflight=303&5
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?headers=x-test&location=http%3A%2F%2Fwww1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3Fheaders%3Dx-test%266&code=307&preflight=307&7
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?headers=x-test&location=http%3A%2F%2Fwww1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3Fheaders%3Dx-test%268&code=308&preflight=308&9
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?preflight=200&headers=x-test&location=http%3A%2F%2Fwww1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3Fheaders%3Dx-test%2610&code=301&11
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?preflight=200&headers=x-test&location=http%3A%2F%2Fwww1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3Fheaders%3Dx-test%2612&code=302&13
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?preflight=200&headers=x-test&location=http%3A%2F%2Fwww1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3Fheaders%3Dx-test%2614&code=303&15
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?preflight=200&headers=x-test&location=http%3A%2F%2Fwww1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3Fheaders%3Dx-test%2616&code=307&17
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?preflight=200&headers=x-test&location=http%3A%2F%2Fwww1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3Fheaders%3Dx-test%2618&code=308&19
+Redirect with preflight
+
+
+PASS Redirect 301 on preflight 
+PASS Redirect 302 on preflight 
+PASS Redirect 303 on preflight 
+PASS Redirect 307 on preflight 
+PASS Redirect 308 on preflight 
+PASS Disallow redirect 301 after succesful (200) preflight 
+PASS Disallow redirect 302 after succesful (200) preflight 
+PASS Disallow redirect 303 after succesful (200) preflight 
+PASS Disallow redirect 307 after succesful (200) preflight 
+PASS Disallow redirect 308 after succesful (200) preflight 
+

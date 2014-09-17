@@ -1,0 +1,13 @@
+Blocked access to external URL http://www.localhost:8800/images/yellow.png
+Blocked access to external URL http://www.localhost:8800/images/yellow.png
+security.pattern.create.sub
+Creating an unclean pattern does not make the canvas origin-unclean
+Actual output:
+
+FAIL Creating an unclean pattern does not make the canvas origin-unclean InvalidStateError: DOM Exception 11(stack: createPattern@[native code]
+http://localhost:8800/html/semantics/embedded-content/the-canvas-element/security.pattern.create.sub.html:22:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

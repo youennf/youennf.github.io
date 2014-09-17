@@ -1,0 +1,5 @@
+CONSOLE MESSAGE: WebSocket connection to 'ws://localhost:49001/set-cookie_http?1410449831453.0.0003797390963882208' failed: Compressed bit must be 0 if no negotiated deflate-frame extension
+
+
+PASS WebSockets: setting HttpOnly cookies in ws response, checking document.cookie 
+

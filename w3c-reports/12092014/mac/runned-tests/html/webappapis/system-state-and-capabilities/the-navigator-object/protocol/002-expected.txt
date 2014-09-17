@@ -1,0 +1,6 @@
+
+FAIL isProtocolHandlerRegistered for protocol that is not yet accepted undefined is not a function (evaluating 'navigator.registerProtocolHandler(scheme, url, 'Ignore dialog or decline it')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/protocol/002.xhtml:24:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/protocol/002.xhtml:21:5)
+

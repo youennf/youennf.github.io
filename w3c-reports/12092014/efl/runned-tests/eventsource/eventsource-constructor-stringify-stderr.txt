@@ -1,0 +1,1 @@
+ERR<4093>:evas_main lib/evas/canvas/evas_gl.c:42 evas_gl_new() Evas GL engine not available.

@@ -1,0 +1,858 @@
+
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "a" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "abbr" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "address" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "area" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "article" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "aside" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "audio" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "b" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "base" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "bdi" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "bdo" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "blockquote" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "body" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "br" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "button" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "canvas" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "caption" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "cite" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "code" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "col" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "colgroup" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "command" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "datalist" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "dd" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "del" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "details" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "dfn" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "dialog" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "div" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "dl" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "dt" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "em" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "embed" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "fieldset" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "figcaption" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "figure" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "footer" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "form" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "h1" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "h2" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "h3" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "h4" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "h5" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "h6" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "head" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "header" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "hgroup" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "hr" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "html" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "i" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "iframe" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "img" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "input" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "ins" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "kbd" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "keygen" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "label" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "legend" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "li" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "link" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "map" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "mark" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "menu" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "meta" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "meter" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "nav" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "noscript" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "object" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "ol" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "optgroup" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "option" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "output" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "p" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "param" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "pre" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "progress" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "q" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "rp" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "rt" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "ruby" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "s" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "samp" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "script" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "section" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "select" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "small" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "source" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "span" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "strong" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "style" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "sub" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "table" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "tbody" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "td" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "textarea" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "tfoot" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "th" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "thead" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "time" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "title" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "tr" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "track" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "u" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "ul" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "var" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "video" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+FAIL ownerDocument property of any elements in a shadow tree should match the document of the shadow host, when the host is a "wbr" element. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:32:46
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-002.html:53:15)
+

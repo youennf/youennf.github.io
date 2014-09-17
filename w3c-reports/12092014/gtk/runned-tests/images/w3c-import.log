@@ -1,0 +1,53 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 15:46
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./anim-gr.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./green-100x50.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./green-2x2.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./green-1x1.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./green-16x16.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./red-zerowidth.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./movie_300_frame_0.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./anim-poster-gr.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./rrgg-256x256.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./transparent50.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./fail.gif
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./red-zeroheight.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./yellow.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./blue-area.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./transparent.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./green.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./broken.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./red-zerosize.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./blue.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./black-rectangle.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./red-16x16.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./grgr-256x256.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./green.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./blue-border.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./threecolors.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./yellow75.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./green-256x256.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./smiley.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./ggrr-256x256.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./anim-gr.gif
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./background.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./redtransparent.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./rgrg-256x256.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./canvas-line.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/images/./red.png

@@ -1,0 +1,11 @@
+
+PASS currentTime initial value 
+PASS setting currentTime with a media controller present 
+FAIL setting currentTime when readyState is HAVE_NOTHING assert_equals: expected 1.7976931348623157e+308 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/offsets-into-the-media-resource/currentTime.html:25:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/offsets-into-the-media-resource/currentTime.html:21:5)
+PASS setting currentTime when readyState is greater than HAVE_NOTHING 
+

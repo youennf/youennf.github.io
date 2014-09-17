@@ -1,0 +1,15 @@
+CONSOLE MESSAGE: Cross-origin text track load denied by Cross-Origin Resource Sharing policy.
+
+
+FAIL VTTCue.line, script-created cue assert_equals: expected -2 but got -1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/webvtt/webvtt-api-for-browsers/vttcue-interface/line.html:27:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/webvtt/webvtt-api-for-browsers/vttcue-interface/line.html:7:5)
+FAIL VTTCue.line, parsed cue assert_unreached: got error event Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/webvtt/webvtt-api-for-browsers/vttcue-interface/line.html:54:23
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

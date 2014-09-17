@@ -1,0 +1,12 @@
+
+FAIL XMLHttpRequest: open() resolving URLs (multi-Window; 4; evil) assert_true: should get an error event expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/XMLHttpRequest/open-url-multi-window-4.htm:38:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/XMLHttpRequest/open-url-multi-window-4.htm:37:22
+removeChild@[native code]
+http://localhost:8800/XMLHttpRequest/open-url-multi-window-4.htm:44:36
+step@http://localhost:8800/resources/testharness.js:798:30
+init@http://localhost:8800/XMLHttpRequest/open-url-multi-window-4.htm:20:18
+global code@http://localhost:8800/XMLHttpRequest/resources/init.htm:7:25)
+

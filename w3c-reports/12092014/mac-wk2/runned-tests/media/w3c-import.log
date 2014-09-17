@@ -1,0 +1,31 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-11 16:22
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/media/./A4.mp4
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/media/./A4.ogv
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/media/./green-at-15.mp4
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/media/./green-at-15.ogv
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/media/./movie_300.mp4
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/media/./movie_300.ogv
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/media/./movie_5.mp4
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/media/./movie_5.ogv
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/media/./poster.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/media/./sound_5.mp3
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/media/./sound_5.oga
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/media/./white.mp4
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/media/./white.webm

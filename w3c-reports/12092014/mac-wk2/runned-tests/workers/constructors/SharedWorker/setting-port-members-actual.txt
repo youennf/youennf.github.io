@@ -1,0 +1,2 @@
+
+Harness Error. harness_status.status = 1 , harness_status.message = TypeError: undefined is not a constructor (evaluating 'new SharedWorker('#', '')')

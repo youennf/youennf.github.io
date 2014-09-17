@@ -1,0 +1,26 @@
+
+FAIL ownerDocument property of a shadow root should be the document of the shadow host, regardless of the location of the shadow host. undefined is not a function (evaluating 'node.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-001.html:35:47
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-001.html:28:5)
+FAIL ownerDocument property of elements in a shadow tree should match the document of the shadow host, regardless of the element's location in a shadow tree. undefined is not a function (evaluating 'host.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-001.html:54:47
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-001.html:41:5)
+FAIL Elements added to a shadow tree should automatically get a valid ownerDocument. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-001.html:64:47
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-001.html:62:5)
+FAIL ownerDocument property of an element in a shadow tree should be the document of the shadow host, even if the host element is created from another document. undefined is not a function (evaluating 'doc1.body.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-001.html:74:48
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-001.html:71:5)
+FAIL All children nodes of a shadow root get a valid ownerDocument when added to a shadow tree. undefined is not a function (evaluating 'doc1.body.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-001.html:85:48
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-001.html:82:5)
+FAIL ownerDocument property of a node should remain the same, even if its child is adopted into a shadow tree. undefined is not a function (evaluating 'doc1.body.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-001.html:101:48
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/ownerdocument-001.html:98:5)
+

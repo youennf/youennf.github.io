@@ -1,0 +1,60 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-11 16:22
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./event-data.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./eventsource-close.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./eventsource-constructor-document-domain.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./eventsource-constructor-non-same-origin.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./eventsource-constructor-stringify.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./eventsource-constructor-url-bogus.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./eventsource-constructor-url-multi-window.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./eventsource-cross-origin.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./eventsource-eventtarget.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./eventsource-onmessage.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./eventsource-onopen.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./eventsource-prototype.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./eventsource-reconnect.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./eventsource-url.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-bom-2.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-bom.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-comments.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-data-before-final-empty-line.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-field-data.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-field-event-empty.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-field-event.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-field-id-2.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-field-id.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-field-parsing.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-field-retry-bogus.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-field-retry-empty.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-field-retry.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-field-unknown.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-leading-space.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-mime-bogus.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-mime-trailing-semicolon.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-mime-valid-bogus.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-newlines.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-null-character.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./format-utf-8.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./interfaces.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./README.md
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./request-accept.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./request-cache-control.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./request-credentials.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./request-redirect.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/eventsource/./request-status-error.htm

@@ -1,0 +1,15 @@
+
+FAIL Custom element type should be lowercased. Test constructor undefined is not a function (evaluating 'doc.registerElement('X-A')')(stack: http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-type-name-lowercased.html:18:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-type-name-lowercased.html:16:5)
+FAIL Custom element type should be lowercased. Test constructor of extended HTML element undefined is not a function (evaluating 'doc.registerElement(name, {
+            prototype: proto,
+            extends: tagName.toUpperCase()
+        })')(stack: http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-type-name-lowercased.html:31:55
+forEach@[native code]
+http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-type-name-lowercased.html:27:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-type-name-lowercased.html:25:5)
+

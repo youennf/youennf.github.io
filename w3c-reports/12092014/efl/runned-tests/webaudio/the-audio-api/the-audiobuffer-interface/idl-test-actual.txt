@@ -1,0 +1,132 @@
+CONSOLE MESSAGE: line 188: callback not yet supported
+CONSOLE MESSAGE: line 188: callback not yet supported
+CONSOLE MESSAGE: Deprecated attempt to access property 'sampleRate' on a non-AudioBuffer object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'duration' on a non-AudioBuffer object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'numberOfChannels' on a non-AudioBuffer object.
+interface AudioBuffer {
+
+    readonly attribute float sampleRate;
+    readonly attribute long length;
+
+    // in seconds
+    readonly attribute double duration;
+
+    readonly attribute long numberOfChannels;
+
+    Float32Array getChannelData(unsigned long channel);
+
+};
+
+FAIL AudioBuffer interface: existence and properties of interface object assert_equals: prototype of window's property "AudioBuffer" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:103:17
+global code@http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:104:3)
+PASS AudioBuffer interface object length 
+FAIL AudioBuffer interface: existence and properties of interface prototype object assert_false: AudioBuffer.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:103:17
+global code@http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:104:3)
+FAIL AudioBuffer interface: existence and properties of interface prototype object's "constructor" property assert_true: AudioBuffer.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:103:17
+global code@http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:104:3)
+FAIL AudioBuffer interface: attribute sampleRate assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:103:17
+global code@http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:104:3)
+FAIL AudioBuffer interface: attribute length assert_true: The prototype object must have a property "length" expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1265:24
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:103:17
+global code@http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:104:3)
+FAIL AudioBuffer interface: attribute duration assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:103:17
+global code@http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:104:3)
+FAIL AudioBuffer interface: attribute numberOfChannels assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:103:17
+global code@http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:104:3)
+PASS AudioBuffer interface: operation getChannelData(unsigned long) 
+PASS AudioBuffer must be primary interface of audio_buffer 
+PASS Stringification of audio_buffer 
+PASS AudioBuffer interface: audio_buffer must inherit property "sampleRate" with the proper type (0) 
+FAIL AudioBuffer interface: audio_buffer must inherit property "length" with the proper type (1) assert_inherits: property "length" found on object expected in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:548:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:103:17
+global code@http://localhost:8800/webaudio/the-audio-api/the-audiobuffer-interface/idl-test.html:104:3)
+PASS AudioBuffer interface: audio_buffer must inherit property "duration" with the proper type (2) 
+PASS AudioBuffer interface: audio_buffer must inherit property "numberOfChannels" with the proper type (3) 
+PASS AudioBuffer interface: audio_buffer must inherit property "getChannelData" with the proper type (4) 
+PASS AudioBuffer interface: calling getChannelData(unsigned long) on audio_buffer with too few arguments must throw TypeError 
+

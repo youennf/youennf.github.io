@@ -1,0 +1,20 @@
+
+FAIL IDBCursor.advance() - advances assert_unreached: unexpected error (UnknownError) Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/IndexedDB/support.js:50:29
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL IDBCursor.advance() - advances backwards assert_unreached: unexpected error (UnknownError) Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/IndexedDB/support.js:50:29
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL IDBCursor.advance() - skip far forward assert_unreached: unexpected error (UnknownError) Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/IndexedDB/support.js:50:29
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS IDBCursor.advance() - within range 
+PASS IDBCursor.advance() - within single key range 
+PASS IDBCursor.advance() - within single key range, with several results 
+

@@ -1,0 +1,10 @@
+crash log for WebProcess (pid <unknown>):
+
+Coredump core-pid_<unknown>-_-process_WebProcess not found. To enable crash logs:
+
+- run this command as super-user: echo "/path/to/coredumps/core-pid_%p-_-process_%e" > /proc/sys/kernel/core_pattern
+- enable core dumps: ulimit -c unlimited
+- set the WEBKIT_CORE_DUMPS_DIRECTORY environment variable: export WEBKIT_CORE_DUMPS_DIRECTORY=/path/to/coredumps
+
+
+STDERR: #PROCESS UNRESPONSIVE - WebProcess

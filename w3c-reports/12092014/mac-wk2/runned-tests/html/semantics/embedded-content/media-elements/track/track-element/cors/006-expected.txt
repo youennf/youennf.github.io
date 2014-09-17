@@ -1,0 +1,29 @@
+Actual	Expected
+{
+  "event": "error",
+  "requests": []
+}
+{
+  "event": "load",
+  "requests": [
+    {
+      "cors": "no",
+      "cookie": "yes"
+    }
+  ]
+}
+Test id: 0145581f-c4b9-4d9b-88f3-7db7e73212c6
+
+
+
+FAIL track CORS: Anonymous, same-origin, with headers assert_object_equals: property "event" expected object "[object Object]" got object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+check_equal@http://localhost:8800/resources/testharness.js:378:28
+assert_object_equals@http://localhost:8800/resources/testharness.js:390:21
+checkData@http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:128:29
+step@http://localhost:8800/resources/testharness.js:798:30
+removeCookies@http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:106:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:87:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

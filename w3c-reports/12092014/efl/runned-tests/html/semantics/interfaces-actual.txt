@@ -1,0 +1,257 @@
+
+PASS Test of interfaces 
+PASS Interfaces for abbr 
+PASS Interfaces for acronym 
+PASS Interfaces for address 
+PASS Interfaces for applet 
+PASS Interfaces for audio 
+PASS Interfaces for b 
+PASS Interfaces for base 
+PASS Interfaces for basefont 
+PASS Interfaces for bdo 
+FAIL Interfaces for bgsound assert_equals: Element bgsound should have HTMLUnknownElement as its primary interface. expected "[object HTMLUnknownElement]" but got "[object HTMLElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/html/semantics/interfaces.html:155:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/interfaces.html:153:9
+forEach@[native code]
+http://localhost:8800/html/semantics/interfaces.html:152:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interfaces.html:151:5)
+PASS Interfaces for big 
+PASS Interfaces for blink 
+PASS Interfaces for blockquote 
+PASS Interfaces for body 
+PASS Interfaces for br 
+PASS Interfaces for button 
+PASS Interfaces for canvas 
+PASS Interfaces for caption 
+PASS Interfaces for center 
+PASS Interfaces for cite 
+PASS Interfaces for code 
+PASS Interfaces for col 
+PASS Interfaces for colgroup 
+PASS Interfaces for dd 
+PASS Interfaces for del 
+PASS Interfaces for dfn 
+PASS Interfaces for dir 
+PASS Interfaces for div 
+PASS Interfaces for dl 
+PASS Interfaces for dt 
+PASS Interfaces for em 
+PASS Interfaces for embed 
+PASS Interfaces for fieldset 
+PASS Interfaces for font 
+PASS Interfaces for form 
+PASS Interfaces for frame 
+PASS Interfaces for frameset 
+PASS Interfaces for h1 
+PASS Interfaces for h2 
+PASS Interfaces for h3 
+PASS Interfaces for h4 
+PASS Interfaces for h5 
+PASS Interfaces for h6 
+PASS Interfaces for head 
+PASS Interfaces for hr 
+PASS Interfaces for html 
+PASS Interfaces for i 
+PASS Interfaces for iframe 
+PASS Interfaces for image 
+PASS Interfaces for img 
+PASS Interfaces for input 
+PASS Interfaces for ins 
+PASS Interfaces for isindex 
+PASS Interfaces for kbd 
+PASS Interfaces for keygen 
+PASS Interfaces for label 
+PASS Interfaces for legend 
+PASS Interfaces for li 
+PASS Interfaces for link 
+FAIL Interfaces for listing assert_equals: Element listing should have HTMLElement as its primary interface. expected "[object HTMLElement]" but got "[object HTMLPreElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/html/semantics/interfaces.html:155:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/interfaces.html:153:9
+forEach@[native code]
+http://localhost:8800/html/semantics/interfaces.html:152:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interfaces.html:151:5)
+PASS Interfaces for map 
+PASS Interfaces for marquee 
+PASS Interfaces for menu 
+PASS Interfaces for meta 
+PASS Interfaces for multicol 
+PASS Interfaces for nobr 
+PASS Interfaces for noembed 
+PASS Interfaces for noframes 
+PASS Interfaces for noscript 
+PASS Interfaces for object 
+PASS Interfaces for ol 
+PASS Interfaces for optgroup 
+PASS Interfaces for option 
+PASS Interfaces for p 
+PASS Interfaces for param 
+PASS Interfaces for plaintext 
+PASS Interfaces for pre 
+PASS Interfaces for q 
+PASS Interfaces for s 
+PASS Interfaces for samp 
+PASS Interfaces for script 
+PASS Interfaces for select 
+PASS Interfaces for small 
+PASS Interfaces for source 
+PASS Interfaces for spacer 
+PASS Interfaces for span 
+PASS Interfaces for strike 
+PASS Interfaces for strong 
+PASS Interfaces for style 
+PASS Interfaces for sub 
+PASS Interfaces for sup 
+PASS Interfaces for table 
+PASS Interfaces for tbody 
+FAIL Interfaces for td assert_equals: Element td should have HTMLTableDataCellElement as its primary interface. expected "[object HTMLTableDataCellElement]" but got "[object HTMLTableCellElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/html/semantics/interfaces.html:155:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/interfaces.html:153:9
+forEach@[native code]
+http://localhost:8800/html/semantics/interfaces.html:152:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interfaces.html:151:5)
+PASS Interfaces for textarea 
+PASS Interfaces for tfoot 
+FAIL Interfaces for th assert_equals: Element th should have HTMLTableHeaderCellElement as its primary interface. expected "[object HTMLTableHeaderCellElement]" but got "[object HTMLTableCellElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/html/semantics/interfaces.html:155:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/interfaces.html:153:9
+forEach@[native code]
+http://localhost:8800/html/semantics/interfaces.html:152:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interfaces.html:151:5)
+PASS Interfaces for thead 
+PASS Interfaces for title 
+PASS Interfaces for tr 
+PASS Interfaces for tt 
+PASS Interfaces for u 
+PASS Interfaces for ul 
+PASS Interfaces for var 
+PASS Interfaces for video 
+PASS Interfaces for wbr 
+FAIL Interfaces for xmp assert_equals: Element xmp should have HTMLElement as its primary interface. expected "[object HTMLElement]" but got "[object HTMLPreElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/html/semantics/interfaces.html:155:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/interfaces.html:153:9
+forEach@[native code]
+http://localhost:8800/html/semantics/interfaces.html:152:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interfaces.html:151:5)
+PASS Interfaces for section 
+PASS Interfaces for nav 
+PASS Interfaces for article 
+PASS Interfaces for aside 
+PASS Interfaces for hgroup 
+PASS Interfaces for header 
+PASS Interfaces for footer 
+FAIL Interfaces for time assert_equals: Element time should have HTMLTimeElement as its primary interface. expected "[object HTMLTimeElement]" but got "[object HTMLUnknownElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/html/semantics/interfaces.html:155:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/interfaces.html:153:9
+forEach@[native code]
+http://localhost:8800/html/semantics/interfaces.html:152:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interfaces.html:151:5)
+PASS Interfaces for mark 
+PASS Interfaces for progress 
+PASS Interfaces for meter 
+PASS Interfaces for ruby 
+PASS Interfaces for rt 
+PASS Interfaces for rp 
+PASS Interfaces for figure 
+PASS Interfaces for datalist 
+PASS Interfaces for output 
+FAIL Interfaces for details undefined is not a valid argument for 'instanceof' (evaluating 'e instanceof window[i]')(stack: http://localhost:8800/html/semantics/interfaces.html:158:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/interfaces.html:153:9
+forEach@[native code]
+http://localhost:8800/html/semantics/interfaces.html:152:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interfaces.html:151:5)
+FAIL Interfaces for command assert_equals: Element command should have HTMLCommandElement as its primary interface. expected "[object HTMLCommandElement]" but got "[object HTMLElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/html/semantics/interfaces.html:155:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/interfaces.html:153:9
+forEach@[native code]
+http://localhost:8800/html/semantics/interfaces.html:152:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interfaces.html:151:5)
+PASS Interfaces for nextid 
+FAIL Interfaces for rb assert_equals: Element rb should have HTMLUnknownElement as its primary interface. expected "[object HTMLUnknownElement]" but got "[object HTMLElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/html/semantics/interfaces.html:155:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/interfaces.html:153:9
+forEach@[native code]
+http://localhost:8800/html/semantics/interfaces.html:152:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interfaces.html:151:5)
+PASS Interfaces for bdi 
+FAIL Interfaces for data assert_equals: Element data should have HTMLDataElement as its primary interface. expected "[object HTMLDataElement]" but got "[object HTMLUnknownElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/html/semantics/interfaces.html:155:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/interfaces.html:153:9
+forEach@[native code]
+http://localhost:8800/html/semantics/interfaces.html:152:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interfaces.html:151:5)
+PASS Interfaces for a 
+PASS Interfaces for area 
+FAIL Interfaces for dialog assert_equals: Element dialog should have HTMLDialogElement as its primary interface. expected "[object HTMLDialogElement]" but got "[object HTMLUnknownElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/html/semantics/interfaces.html:155:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/interfaces.html:153:9
+forEach@[native code]
+http://localhost:8800/html/semantics/interfaces.html:152:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interfaces.html:151:5)
+PASS Interfaces for figcaption 
+PASS Interfaces for summary 
+PASS Interfaces for track 
+

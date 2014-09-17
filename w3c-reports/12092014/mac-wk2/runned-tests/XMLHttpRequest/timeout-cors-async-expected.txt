@@ -1,0 +1,8 @@
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www2.localhost:8800/XMLHttpRequest/resources/corsenabled.py?delay=2&code=200. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+
+FAIL XMLHttpRequest: timeout event and cross-origin request assert_true: timeout event should fire expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/XMLHttpRequest/timeout-cors-async.htm:35:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/XMLHttpRequest/timeout-cors-async.htm:34:18)
+

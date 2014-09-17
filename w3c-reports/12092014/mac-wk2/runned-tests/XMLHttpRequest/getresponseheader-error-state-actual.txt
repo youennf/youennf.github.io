@@ -1,0 +1,4 @@
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/XMLHttpRequest/resources/nocors/folder.txt. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+
+PASS XMLHttpRequest: getResponseHeader() in error state (failing cross-origin test) 
+

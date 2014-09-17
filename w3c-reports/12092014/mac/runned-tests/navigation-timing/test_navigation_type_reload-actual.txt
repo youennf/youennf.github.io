@@ -1,0 +1,13 @@
+CONSOLE MESSAGE: line 49: TypeError: undefined is not an object (evaluating 'reload_frame.contentWindow.performance.timing')
+Description
+
+This test validates the value of window.performance.navigation.type and the values of window.performance.timing.* with a reloaded navigation.
+
+This page should be loaded with a green background frame below. The frame will be automatically reloaded and then verified that
+
+The window.performance.navigation.type = TYPE_RELOAD
+All of the widow.performance.timing.* values after reload are > all of the window.performance.timing.* values prior to reload.
+
+
+
+Harness Error. harness_status.status = 1 , harness_status.message = TypeError: undefined is not an object (evaluating 'reload_frame.contentWindow.performance.timing')

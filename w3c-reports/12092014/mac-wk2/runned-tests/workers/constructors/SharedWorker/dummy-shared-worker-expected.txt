@@ -1,0 +1,6 @@
+
+FAIL creating a dummy shared worker undefined is not a constructor (evaluating 'new SharedWorker('#')')(stack: http://localhost:8800/workers/constructors/SharedWorker/dummy-shared-worker.html:12:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/workers/constructors/SharedWorker/dummy-shared-worker.html:11:5)
+

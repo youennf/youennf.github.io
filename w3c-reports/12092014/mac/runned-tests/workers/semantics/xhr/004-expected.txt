@@ -1,0 +1,8 @@
+
+
+FAIL sync XMLHttpRequest in shared worker assert_equals: expected "" but got "responseText was {\"error\": {\"message\": \"\", \"code\": 404}}, expected <x>foo</x>. "(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/workers/semantics/xhr/004.html:26:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

@@ -1,0 +1,4 @@
+1   0x7f2d503aeae7 WTFCrash
+2   0x7f2d4e8908aa WebCore::WebGLRenderingContext::bindTexture(unsigned int, WebCore::WebGLTexture*, int&)
+3   0x7f2d4f337b31 WebCore::jsWebGLRenderingContextPrototypeFunctionBindTexture(JSC::ExecState*)
+4   0x7f2cfedb20b4

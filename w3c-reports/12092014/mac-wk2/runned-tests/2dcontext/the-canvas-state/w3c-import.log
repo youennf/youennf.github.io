@@ -1,0 +1,42 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-11 16:22
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.bitmap.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.clip.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.fillStyle.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.font.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.globalAlpha.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.globalCompositeOperation.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.lineCap.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.lineJoin.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.lineWidth.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.miterLimit.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.path.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.shadowBlur.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.shadowColor.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.shadowOffsetX.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.shadowOffsetY.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.stack.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.stackdepth.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.strokeStyle.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.textAlign.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.textBaseline.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.transformation.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/2d.state.saverestore.underflow.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/canvas_state_restore_001-expected.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/the-canvas-state/canvas_state_restore_001.htm

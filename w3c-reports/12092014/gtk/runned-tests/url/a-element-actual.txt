@@ -1,0 +1,990 @@
+
+PASS Loading data… 
+FAIL Parsing: <http://example	.
+org> against <http://example.org/foo/bar> assert_equals: scheme expected "http:" but got ":"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:49:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://user:pass@foo:21/bar;par?b#c> against <http://example.org/foo/bar> 
+FAIL Parsing: <http:foo.com> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <	   :foo.com   
+> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: < foo.com  > against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <a:	 foo.com> against <http://example.org/foo/bar> 
+PASS Parsing: <http://f:21/ b ? d # e > against <http://example.org/foo/bar> 
+PASS Parsing: <http://f:/c> against <http://example.org/foo/bar> 
+PASS Parsing: <http://f:0/c> against <http://example.org/foo/bar> 
+FAIL Parsing: <http://f:00000000000000/c> against <http://example.org/foo/bar> assert_equals: href expected "http://f:0/c" but got "http://f:00000000000000/c"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:55:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http://f:00000000000000000000080/c> against <http://example.org/foo/bar> assert_equals: port expected "" but got "80"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:51:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://f:b/c> against <http://example.org/foo/bar> 
+PASS Parsing: <http://f: /c> against <http://example.org/foo/bar> 
+FAIL Parsing: <http://f:
+/c> against <http://example.org/foo/bar> assert_equals: scheme expected "http:" but got ":"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:49:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://f:fifty-two/c> against <http://example.org/foo/bar> 
+FAIL Parsing: <http://f:999999/c> against <http://example.org/foo/bar> assert_equals: port expected "999999" but got "65535"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:51:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http://f: 21 / b ? d # e > against <http://example.org/foo/bar> assert_equals: href expected "http://f: 21 / b ? d # e " but got "http://f: 21 / b ? d # e"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:55:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <  	> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <:foo.com/> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <:foo.com\> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <:> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <:a> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <:/> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <:\> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <:#> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <?> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: </> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <:23> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: </:23> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <::> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <::23> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <foo://> against <http://example.org/foo/bar> 
+PASS Parsing: <http://a:b@c:29/d> against <http://example.org/foo/bar> 
+FAIL Parsing: <http::@c:29> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http://&a:foo(b]c@d:2/> against <http://example.org/foo/bar> assert_equals: scheme expected "http:" but got ":"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:49:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http://::@c@d:2> against <http://example.org/foo/bar> assert_equals: scheme expected "http:" but got ":"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:49:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://foo.com:b@d/> against <http://example.org/foo/bar> 
+PASS Parsing: <http://foo.com/\@> against <http://example.org/foo/bar> 
+PASS Parsing: <http:\\foo.com\> against <http://example.org/foo/bar> 
+PASS Parsing: <http:\\a\b:c\d@foo.com\> against <http://example.org/foo/bar> 
+PASS Parsing: <foo:/> against <http://example.org/foo/bar> 
+PASS Parsing: <foo:/bar.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <foo://///////> against <http://example.org/foo/bar> 
+PASS Parsing: <foo://///////bar.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <foo:////://///> against <http://example.org/foo/bar> 
+PASS Parsing: <c:/foo> against <http://example.org/foo/bar> 
+PASS Parsing: <//foo/bar> against <http://example.org/foo/bar> 
+PASS Parsing: <http://foo/path;a??e#f#g> against <http://example.org/foo/bar> 
+PASS Parsing: <http://foo/abcd?efgh?ijkl> against <http://example.org/foo/bar> 
+PASS Parsing: <http://foo/abcd#foo?bar> against <http://example.org/foo/bar> 
+FAIL Parsing: <[61:24:74]:98> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http:[61:27]/:foo> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://[1::2]:3:4> against <http://example.org/foo/bar> 
+PASS Parsing: <http://2001::1> against <http://example.org/foo/bar> 
+PASS Parsing: <http://2001::1]> against <http://example.org/foo/bar> 
+PASS Parsing: <http://2001::1]:80> against <http://example.org/foo/bar> 
+PASS Parsing: <http://[2001::1]> against <http://example.org/foo/bar> 
+PASS Parsing: <http://[2001::1]:80> against <http://example.org/foo/bar> 
+FAIL Parsing: <http:/example.com/> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "example.com"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <ftp:/example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <https:/example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <madeupscheme:/example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <file:/example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <ftps:/example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <gopher:/example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <ws:/example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <wss:/example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <data:/example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <javascript:/example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <mailto:/example.com/> against <http://example.org/foo/bar> 
+FAIL Parsing: <http:example.com/> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <ftp:example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <https:example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <madeupscheme:example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <ftps:example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <gopher:example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <ws:example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <wss:example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <data:example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <javascript:example.com/> against <http://example.org/foo/bar> 
+PASS Parsing: <mailto:example.com/> against <http://example.org/foo/bar> 
+FAIL Parsing: </a/b/c> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: </a/ /c> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: </a%2fc> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: </a/%2f/c> against <http://example.org/foo/bar> assert_equals: host expected "example.org" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <data:text/html,test#test> against <http://example.org/foo/bar> 
+FAIL Parsing: <file:c:\foo\bar.html> against <file:///tmp/mock/path> assert_equals: path expected "/c:/foo/bar.html" but got "c:/foo/bar.html"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:52:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <  File:c|////foo\bar.html> against <file:///tmp/mock/path> assert_equals: path expected "/c:////foo/bar.html" but got "c|////foo/bar.html"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:52:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <C|/foo/bar> against <file:///tmp/mock/path> assert_equals: scheme expected "file:" but got "http:"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:49:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: </C|\foo\bar> against <file:///tmp/mock/path> assert_equals: scheme expected "file:" but got "http:"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:49:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <//C|/foo/bar> against <file:///tmp/mock/path> assert_equals: scheme expected "file:" but got ":"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:49:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <//server/file> against <file:///tmp/mock/path> assert_equals: scheme expected "file:" but got "http:"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:49:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <\\server\file> against <file:///tmp/mock/path> assert_equals: scheme expected "file:" but got "http:"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:49:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: </\server/file> against <file:///tmp/mock/path> assert_equals: scheme expected "file:" but got "http:"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:49:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <file:///foo/bar.txt> against <file:///tmp/mock/path> 
+PASS Parsing: <file:///home/me> against <file:///tmp/mock/path> 
+FAIL Parsing: <//> against <file:///tmp/mock/path> assert_equals: scheme expected "file:" but got "http:"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:49:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <///> against <file:///tmp/mock/path> assert_equals: scheme expected "file:" but got "http:"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:49:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <///test> against <file:///tmp/mock/path> assert_equals: scheme expected "file:" but got "http:"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:49:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <file://test> against <file:///tmp/mock/path> 
+FAIL Parsing: <file://localhost> against <file:///tmp/mock/path> assert_equals: host expected "localhost" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <file://localhost/> against <file:///tmp/mock/path> assert_equals: host expected "localhost" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <file://localhost/test> against <file:///tmp/mock/path> assert_equals: host expected "localhost" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <test> against <file:///tmp/mock/path> assert_equals: scheme expected "file:" but got "http:"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:49:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <file:test> against <file:///tmp/mock/path> assert_equals: path expected "/tmp/mock/test" but got "test"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:52:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://example.com/././foo> against <about:blank> 
+PASS Parsing: <http://example.com/./.foo> against <about:blank> 
+PASS Parsing: <http://example.com/foo/.> against <about:blank> 
+PASS Parsing: <http://example.com/foo/./> against <about:blank> 
+PASS Parsing: <http://example.com/foo/bar/..> against <about:blank> 
+PASS Parsing: <http://example.com/foo/bar/../> against <about:blank> 
+PASS Parsing: <http://example.com/foo/..bar> against <about:blank> 
+PASS Parsing: <http://example.com/foo/bar/../ton> against <about:blank> 
+PASS Parsing: <http://example.com/foo/bar/../ton/../../a> against <about:blank> 
+PASS Parsing: <http://example.com/foo/../../..> against <about:blank> 
+PASS Parsing: <http://example.com/foo/../../../ton> against <about:blank> 
+FAIL Parsing: <http://example.com/foo/%2e> against <about:blank> assert_equals: path expected "/foo/" but got "/foo/%2e"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:52:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://example.com/foo/%2e%2> against <about:blank> 
+FAIL Parsing: <http://example.com/foo/%2e./%2e%2e/.%2e/%2e.bar> against <about:blank> assert_equals: path expected "/%2e.bar" but got "/foo/%2e./%2e%2e/.%2e/%2e.bar"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:52:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://example.com////../..> against <about:blank> 
+PASS Parsing: <http://example.com/foo/bar//../..> against <about:blank> 
+PASS Parsing: <http://example.com/foo/bar//..> against <about:blank> 
+PASS Parsing: <http://example.com/foo> against <about:blank> 
+PASS Parsing: <http://example.com/%20foo> against <about:blank> 
+PASS Parsing: <http://example.com/foo%> against <about:blank> 
+PASS Parsing: <http://example.com/foo%2> against <about:blank> 
+PASS Parsing: <http://example.com/foo%2zbar> against <about:blank> 
+PASS Parsing: <http://example.com/foo%2Â©zbar> against <about:blank> 
+PASS Parsing: <http://example.com/foo%41%7a> against <about:blank> 
+PASS Parsing: <http://example.com/foo	%91> against <about:blank> 
+PASS Parsing: <http://example.com/foo%00%51> against <about:blank> 
+PASS Parsing: <http://example.com/(%28:%3A%29)> against <about:blank> 
+PASS Parsing: <http://example.com/%3A%3a%3C%3c> against <about:blank> 
+PASS Parsing: <http://example.com/foo	bar> against <about:blank> 
+PASS Parsing: <http://example.com\\foo\\bar> against <about:blank> 
+PASS Parsing: <http://example.com/%7Ffp3%3Eju%3Dduvgw%3Dd> against <about:blank> 
+PASS Parsing: <http://example.com/@asdf%40> against <about:blank> 
+PASS Parsing: <http://example.com/你好你好> against <about:blank> 
+PASS Parsing: <http://example.com/‥/foo> against <about:blank> 
+PASS Parsing: <http://example.com/﻿/foo> against <about:blank> 
+PASS Parsing: <http://example.com/‮/foo/‭/bar> against <about:blank> 
+PASS Parsing: <http://www.google.com/foo?bar=baz#> against <about:blank> 
+PASS Parsing: <http://www.google.com/foo?bar=baz# »> against <about:blank> 
+PASS Parsing: <http://[www.google.com]/> against <about:blank> 
+PASS Parsing: <http://www.google.com> against <about:blank> 
+PASS Parsing: <http://192.0x00A80001> against <about:blank> 
+PASS Parsing: <http://www/foo%2Ehtml> against <about:blank> 
+FAIL Parsing: <http://www/foo/%2E/html> against <about:blank> assert_equals: path expected "/foo/html" but got "/foo/%2E/html"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:52:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://user:pass@/> against <about:blank> 
+PASS Parsing: <http://%25DOMAIN:foobar@foodomain.com/> against <about:blank> 
+PASS Parsing: <http:\\www.google.com\foo> against <about:blank> 
+PASS Parsing: <http://foo:80/> against <about:blank> 
+PASS Parsing: <http://foo:81/> against <about:blank> 
+FAIL Parsing: <httpa://foo:80/> against <about:blank> assert_equals: host expected "" but got "foo"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://foo:-80/> against <about:blank> 
+PASS Parsing: <https://foo:443/> against <about:blank> 
+PASS Parsing: <https://foo:80/> against <about:blank> 
+PASS Parsing: <ftp://foo:21/> against <about:blank> 
+PASS Parsing: <ftp://foo:80/> against <about:blank> 
+PASS Parsing: <gopher://foo:70/> against <about:blank> 
+PASS Parsing: <gopher://foo:443/> against <about:blank> 
+PASS Parsing: <ws://foo:80/> against <about:blank> 
+PASS Parsing: <ws://foo:81/> against <about:blank> 
+PASS Parsing: <ws://foo:443/> against <about:blank> 
+PASS Parsing: <ws://foo:815/> against <about:blank> 
+PASS Parsing: <wss://foo:80/> against <about:blank> 
+PASS Parsing: <wss://foo:81/> against <about:blank> 
+PASS Parsing: <wss://foo:443/> against <about:blank> 
+PASS Parsing: <wss://foo:815/> against <about:blank> 
+PASS Parsing: <http:/example.com/> against <about:blank> 
+PASS Parsing: <ftp:/example.com/> against <about:blank> 
+PASS Parsing: <https:/example.com/> against <about:blank> 
+PASS Parsing: <madeupscheme:/example.com/> against <about:blank> 
+PASS Parsing: <file:/example.com/> against <about:blank> 
+PASS Parsing: <ftps:/example.com/> against <about:blank> 
+PASS Parsing: <gopher:/example.com/> against <about:blank> 
+PASS Parsing: <ws:/example.com/> against <about:blank> 
+PASS Parsing: <wss:/example.com/> against <about:blank> 
+PASS Parsing: <data:/example.com/> against <about:blank> 
+PASS Parsing: <javascript:/example.com/> against <about:blank> 
+PASS Parsing: <mailto:/example.com/> against <about:blank> 
+FAIL Parsing: <http:example.com/> against <about:blank> assert_equals: host expected "example.com" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <ftp:example.com/> against <about:blank> 
+PASS Parsing: <https:example.com/> against <about:blank> 
+PASS Parsing: <madeupscheme:example.com/> against <about:blank> 
+PASS Parsing: <ftps:example.com/> against <about:blank> 
+PASS Parsing: <gopher:example.com/> against <about:blank> 
+PASS Parsing: <ws:example.com/> against <about:blank> 
+PASS Parsing: <wss:example.com/> against <about:blank> 
+PASS Parsing: <data:example.com/> against <about:blank> 
+PASS Parsing: <javascript:example.com/> against <about:blank> 
+PASS Parsing: <mailto:example.com/> against <about:blank> 
+FAIL Parsing: <http:@www.example.com> against <about:blank> assert_equals: host expected "www.example.com" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http:/@www.example.com> against <about:blank> 
+PASS Parsing: <http://@www.example.com> against <about:blank> 
+FAIL Parsing: <http:a:b@www.example.com> against <about:blank> assert_equals: host expected "www.example.com" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http:/a:b@www.example.com> against <about:blank> 
+PASS Parsing: <http://a:b@www.example.com> against <about:blank> 
+PASS Parsing: <http://@pple.com> against <about:blank> 
+FAIL Parsing: <http::b@www.example.com> against <about:blank> assert_equals: host expected "www.example.com" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http:/:b@www.example.com> against <about:blank> 
+PASS Parsing: <http://:b@www.example.com> against <about:blank> 
+PASS Parsing: <http:/:@/www.example.com> against <about:blank> 
+PASS Parsing: <http://user@/www.example.com> against <about:blank> 
+FAIL Parsing: <http:@/www.example.com> against <about:blank> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http:/@/www.example.com> against <about:blank> 
+PASS Parsing: <http://@/www.example.com> against <about:blank> 
+PASS Parsing: <https:@/www.example.com> against <about:blank> 
+FAIL Parsing: <http:a:b@/www.example.com> against <about:blank> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http:/a:b@/www.example.com> against <about:blank> 
+PASS Parsing: <http://a:b@/www.example.com> against <about:blank> 
+FAIL Parsing: <http::@/www.example.com> against <about:blank> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http:a:@www.example.com> against <about:blank> assert_equals: host expected "www.example.com" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http:/a:@www.example.com> against <about:blank> assert_equals: href expected "http://a:@www.example.com/" but got "http://a@www.example.com/"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:55:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http://a:@www.example.com> against <about:blank> assert_equals: href expected "http://a:@www.example.com/" but got "http://a@www.example.com/"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:55:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://www.@pple.com> against <about:blank> 
+FAIL Parsing: <http:@:www.example.com> against <about:blank> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http:/@:www.example.com> against <about:blank> 
+PASS Parsing: <http://@:www.example.com> against <about:blank> 
+FAIL Parsing: <http://:@www.example.com> against <about:blank> assert_equals: href expected "http://:@www.example.com/" but got "http://www.example.com/"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:55:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: </> against <http://www.example.com/test> assert_equals: host expected "www.example.com" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: </test.txt> against <http://www.example.com/test> assert_equals: host expected "www.example.com" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <.> against <http://www.example.com/test> assert_equals: host expected "www.example.com" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <..> against <http://www.example.com/test> assert_equals: host expected "www.example.com" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <test.txt> against <http://www.example.com/test> assert_equals: host expected "www.example.com" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <./test.txt> against <http://www.example.com/test> assert_equals: host expected "www.example.com" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <../test.txt> against <http://www.example.com/test> assert_equals: host expected "www.example.com" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <../aaa/test.txt> against <http://www.example.com/test> assert_equals: host expected "www.example.com" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <../../test.txt> against <http://www.example.com/test> assert_equals: host expected "www.example.com" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <中/test.txt> against <http://www.example.com/test> assert_equals: host expected "www.example.com" but got "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://www.example2.com> against <http://www.example.com/test> 
+PASS Parsing: <http://ExAmPlE.CoM> against <http://other.com/> 
+PASS Parsing: <http://example example.com> against <http://other.com/> 
+PASS Parsing: <http://Goo%20 goo%7C|.com> against <http://other.com/> 
+PASS Parsing: <http://GOO 　goo.com> against <http://other.com/> 
+PASS Parsing: <http://GOO​⁠﻿goo.com> against <http://other.com/> 
+PASS Parsing: <http://www.foo。bar.com> against <http://other.com/> 
+FAIL Parsing: <http://﷐zyx.com> against <http://other.com/> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http://%ef%b7%90zyx.com> against <http://other.com/> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://Ｇｏ.com> against <http://other.com/> 
+FAIL Parsing: <http://％４１.com> against <http://other.com/> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http://%ef%bc%85%ef%bc%94%ef%bc%91.com> against <http://other.com/> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http://％００.com> against <http://other.com/> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http://%ef%bc%85%ef%bc%90%ef%bc%90.com> against <http://other.com/> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://你好你好> against <http://other.com/> 
+FAIL Parsing: <http://%zz%66%a.com> against <http://other.com/> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http://%25> against <http://other.com/> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http://hello%00> against <http://other.com/> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http://%30%78%63%30%2e%30%32%35%30.01> against <http://other.com/> assert_equals: host expected "127.0.0.1" but got "%30%78%63%30%2e%30%32%35%30.01"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http://%30%78%63%30%2e%30%32%35%30.01%2e> against <http://other.com/> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http://%3g%78%63%30%2e%30%32%35%30%2E.01> against <http://other.com/> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://192.168.0.1 hello> against <http://other.com/> 
+FAIL Parsing: <http://０Ｘｃ０．０２５０．０１> against <http://other.com/> assert_equals: host expected "192.168.0.1" but got "0xc0.0250.01"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/url/a-element.xhtml:50:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Parsing: <http://192.168.0.257> against <http://other.com/> assert_unreached: Expected URL to fail parsing Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/url/a-element.xhtml:48:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runURLTests@http://localhost:8800/url/a-element.xhtml:45:13
+http://localhost:8800/url/a-element.xhtml:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Parsing: <http://[google.com]> against <http://other.com/> 
+

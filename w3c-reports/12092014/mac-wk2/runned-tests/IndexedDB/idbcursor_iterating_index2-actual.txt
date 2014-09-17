@@ -1,0 +1,7 @@
+
+FAIL IDBCursor.continue() - index - add next element, and iterate to it assert_array_equals: primary key lengths differ, expected 2 got 4(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/IndexedDB/idbcursor_iterating_index2.htm:45:32
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

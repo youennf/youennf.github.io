@@ -1,0 +1,54 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 15:42
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.9arg.destpos.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.path.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.clip.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.9arg.sourcepos.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.animated.gif.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.incomplete.immediate.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.9arg.basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.broken.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.9arg.sourcesize.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.composite.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.nonfinite.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.incomplete.emptysrc.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.negativedest.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.floatsource.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.canvas.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.zerosource.image.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.nowrap.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.transform.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.incomplete.removedsrc.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.9arg.destsize.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.animated.apng.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.incomplete.reload.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.incomplete.nosrc.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.5arg.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.self.2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.null.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.zerocanvas.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.wrongtype.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.alpha.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.negativesource.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.self.1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.negativedir.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.zerosource.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.3arg.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.animated.poster.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-images-to-the-canvas/2d.drawImage.svg.html

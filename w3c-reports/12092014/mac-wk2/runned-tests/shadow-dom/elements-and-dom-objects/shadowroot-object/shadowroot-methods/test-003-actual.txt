@@ -1,0 +1,30 @@
+
+FAIL A_10_01_02_03_T01 undefined is not a function (evaluating 'el.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-003.html:32:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-003.html:25:5)
+FAIL A_10_01_02_03_T02 undefined is not a function (evaluating 'el.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-003.html:48:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-003.html:41:5)
+FAIL A_10_01_02_03_T03 undefined is not a function (evaluating 'el.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-003.html:66:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-003.html:59:5)
+FAIL A_10_01_02_03_T04 undefined is not a function (evaluating 'el.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-003.html:87:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-003.html:80:5)
+FAIL A_10_01_02_03_T05 undefined is not a function (evaluating 'el.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-003.html:104:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-003.html:97:5)
+FAIL A_10_01_02_03_T06 undefined is not a function (evaluating 'el.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-003.html:122:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-003.html:115:5)
+FAIL A_10_01_02_03_T07 undefined is not a function (evaluating 'el.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-003.html:143:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/shadowroot-object/shadowroot-methods/test-003.html:136:5)
+

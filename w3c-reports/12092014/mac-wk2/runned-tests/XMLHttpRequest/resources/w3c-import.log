@@ -1,0 +1,56 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-11 16:22
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/accept-language.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/accept.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/authentication.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/chunked.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/conditional.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/content.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/corsenabled.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/delay.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/folder.txt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/form.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/gzip.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/headers.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/image.gif
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/infinite-redirects.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/init.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/inspect-headers.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/invalid-utf8-html.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/redirect.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/requri.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/shift-jis-html.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/status.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/trickle.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/upload.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/well-formed.xml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/win-1252-xml.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/workerxhr-origin-referrer.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/workerxhr-simple.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/xmlhttprequest-timeout-aborted.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/xmlhttprequest-timeout-abortedonmain.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/xmlhttprequest-timeout-overrides.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/xmlhttprequest-timeout-overridesexpires.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/xmlhttprequest-timeout-runner.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/xmlhttprequest-timeout-simple.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/xmlhttprequest-timeout-synconmain.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/xmlhttprequest-timeout-synconworker.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/xmlhttprequest-timeout-twice.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/xmlhttprequest-timeout.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/XMLHttpRequest/resources/zlib.py

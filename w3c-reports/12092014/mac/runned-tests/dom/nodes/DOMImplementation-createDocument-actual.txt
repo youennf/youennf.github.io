@@ -1,0 +1,209 @@
+
+PASS DOMImplementation.createDocument(namespace, qualifiedName, doctype) 
+FAIL createDocument test 0: null,null,false,object "TypeError" assert_throws: function "function () { document.implementation.createDocument(name..." did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:155:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:152:9
+forEach@[native code]
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:151:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:13:5)
+PASS createDocument test 1: null,null,null,null 
+PASS createDocument test 2: null,undefined,null,null 
+PASS createDocument test 3: null,"",null,null 
+PASS createDocument test 4: null,"foo",null,null 
+PASS createDocument test 5: null,"1foo",null,"INVALID_CHARACTER_ERR" 
+PASS createDocument test 6: null,"f1oo",null,null 
+PASS createDocument test 7: null,"foo1",null,null 
+PASS createDocument test 8: null,":foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 9: null,"f:oo",null,"NAMESPACE_ERR" 
+PASS createDocument test 10: null,"foo:",null,"NAMESPACE_ERR" 
+PASS createDocument test 11: null,"xml",null,null 
+PASS createDocument test 12: null,"xmlns",null,"NAMESPACE_ERR" 
+PASS createDocument test 13: null,"xmlfoo",null,null 
+PASS createDocument test 14: null,"xml:foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 15: null,"xmlns:foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 16: null,"xmlfoo:bar",null,"NAMESPACE_ERR" 
+PASS createDocument test 17: undefined,null,undefined,null 
+FAIL createDocument test 18: undefined,undefined,undefined,null assert_equals: expected (object) null but got (string) "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:176:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:152:9
+forEach@[native code]
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:151:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:13:5)
+PASS createDocument test 19: undefined,"",undefined,null 
+FAIL createDocument test 20: undefined,"foo",undefined,null assert_equals: expected (object) null but got (string) "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:176:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:152:9
+forEach@[native code]
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:151:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:13:5)
+PASS createDocument test 21: undefined,"1foo",undefined,"INVALID_CHARACTER_ERR" 
+FAIL createDocument test 22: undefined,"f1oo",undefined,null assert_equals: expected (object) null but got (string) "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:176:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:152:9
+forEach@[native code]
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:151:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:13:5)
+FAIL createDocument test 23: undefined,"foo1",undefined,null assert_equals: expected (object) null but got (string) "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:176:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:152:9
+forEach@[native code]
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:151:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:13:5)
+PASS createDocument test 24: undefined,":foo",undefined,"NAMESPACE_ERR" 
+FAIL createDocument test 25: undefined,"f:oo",undefined,"NAMESPACE_ERR" assert_throws: function "function () { document.implementation.createDocument(name..." did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:155:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:152:9
+forEach@[native code]
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:151:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:13:5)
+PASS createDocument test 26: undefined,"foo:",undefined,"NAMESPACE_ERR" 
+FAIL createDocument test 27: undefined,"xml",undefined,null assert_equals: expected (object) null but got (string) "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:176:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:152:9
+forEach@[native code]
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:151:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:13:5)
+PASS createDocument test 28: undefined,"xmlns",undefined,"NAMESPACE_ERR" 
+FAIL createDocument test 29: undefined,"xmlfoo",undefined,null assert_equals: expected (object) null but got (string) "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:176:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:152:9
+forEach@[native code]
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:151:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:13:5)
+PASS createDocument test 30: undefined,"xml:foo",undefined,"NAMESPACE_ERR" 
+PASS createDocument test 31: undefined,"xmlns:foo",undefined,"NAMESPACE_ERR" 
+FAIL createDocument test 32: undefined,"xmlfoo:bar",undefined,"NAMESPACE_ERR" assert_throws: function "function () { document.implementation.createDocument(name..." did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:155:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:152:9
+forEach@[native code]
+http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:151:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/DOMImplementation-createDocument.html:13:5)
+PASS createDocument test 33: "http://example.com/",null,null,null 
+PASS createDocument test 34: "http://example.com/","",null,null 
+PASS createDocument test 35: "http://example.com/","foo",null,null 
+PASS createDocument test 36: "http://example.com/","1foo",null,"INVALID_CHARACTER_ERR" 
+PASS createDocument test 37: "http://example.com/","f1oo",null,null 
+PASS createDocument test 38: "http://example.com/","foo1",null,null 
+PASS createDocument test 39: "http://example.com/",":foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 40: "http://example.com/","f:oo",null,null 
+PASS createDocument test 41: "http://example.com/","foo:",null,"NAMESPACE_ERR" 
+PASS createDocument test 42: "http://example.com/","xml",null,null 
+PASS createDocument test 43: "http://example.com/","xmlns",null,"NAMESPACE_ERR" 
+PASS createDocument test 44: "http://example.com/","xmlfoo",null,null 
+PASS createDocument test 45: "http://example.com/","xml:foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 46: "http://example.com/","xmlns:foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 47: "http://example.com/","xmlfoo:bar",null,null 
+PASS createDocument test 48: "/",null,null,null 
+PASS createDocument test 49: "/","",null,null 
+PASS createDocument test 50: "/","foo",null,null 
+PASS createDocument test 51: "/","1foo",null,"INVALID_CHARACTER_ERR" 
+PASS createDocument test 52: "/","f1oo",null,null 
+PASS createDocument test 53: "/","foo1",null,null 
+PASS createDocument test 54: "/",":foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 55: "/","f:oo",null,null 
+PASS createDocument test 56: "/","foo:",null,"NAMESPACE_ERR" 
+PASS createDocument test 57: "/","xml",null,null 
+PASS createDocument test 58: "/","xmlns",null,"NAMESPACE_ERR" 
+PASS createDocument test 59: "/","xmlfoo",null,null 
+PASS createDocument test 60: "/","xml:foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 61: "/","xmlns:foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 62: "/","xmlfoo:bar",null,null 
+PASS createDocument test 63: "http://www.w3.org/XML/1998/namespace",null,null,null 
+PASS createDocument test 64: "http://www.w3.org/XML/1998/namespace","",null,null 
+PASS createDocument test 65: "http://www.w3.org/XML/1998/namespace","foo",null,null 
+PASS createDocument test 66: "http://www.w3.org/XML/1998/namespace","1foo",null,"INVALID_CHARACTER_ERR" 
+PASS createDocument test 67: "http://www.w3.org/XML/1998/namespace","f1oo",null,null 
+PASS createDocument test 68: "http://www.w3.org/XML/1998/namespace","foo1",null,null 
+PASS createDocument test 69: "http://www.w3.org/XML/1998/namespace",":foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 70: "http://www.w3.org/XML/1998/namespace","f:oo",null,null 
+PASS createDocument test 71: "http://www.w3.org/XML/1998/namespace","foo:",null,"NAMESPACE_ERR" 
+PASS createDocument test 72: "http://www.w3.org/XML/1998/namespace","xml",null,null 
+PASS createDocument test 73: "http://www.w3.org/XML/1998/namespace","xmlns",null,"NAMESPACE_ERR" 
+PASS createDocument test 74: "http://www.w3.org/XML/1998/namespace","xmlfoo",null,null 
+PASS createDocument test 75: "http://www.w3.org/XML/1998/namespace","xml:foo",null,null 
+PASS createDocument test 76: "http://www.w3.org/XML/1998/namespace","xmlns:foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 77: "http://www.w3.org/XML/1998/namespace","xmlfoo:bar",null,null 
+PASS createDocument test 78: "http://www.w3.org/2000/xmlns/",null,null,null 
+PASS createDocument test 79: "http://www.w3.org/2000/xmlns/","",null,null 
+PASS createDocument test 80: "http://www.w3.org/2000/xmlns/","foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 81: "http://www.w3.org/2000/xmlns/","1foo",null,"INVALID_CHARACTER_ERR" 
+PASS createDocument test 82: "http://www.w3.org/2000/xmlns/","f1oo",null,"NAMESPACE_ERR" 
+PASS createDocument test 83: "http://www.w3.org/2000/xmlns/","foo1",null,"NAMESPACE_ERR" 
+PASS createDocument test 84: "http://www.w3.org/2000/xmlns/",":foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 85: "http://www.w3.org/2000/xmlns/","f:oo",null,"NAMESPACE_ERR" 
+PASS createDocument test 86: "http://www.w3.org/2000/xmlns/","foo:",null,"NAMESPACE_ERR" 
+PASS createDocument test 87: "http://www.w3.org/2000/xmlns/","xml",null,"NAMESPACE_ERR" 
+PASS createDocument test 88: "http://www.w3.org/2000/xmlns/","xmlns",null,null 
+PASS createDocument test 89: "http://www.w3.org/2000/xmlns/","xmlfoo",null,"NAMESPACE_ERR" 
+PASS createDocument test 90: "http://www.w3.org/2000/xmlns/","xml:foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 91: "http://www.w3.org/2000/xmlns/","xmlns:foo",null,null 
+PASS createDocument test 92: "http://www.w3.org/2000/xmlns/","xmlfoo:bar",null,"NAMESPACE_ERR" 
+PASS createDocument test 93: "foo:",null,null,null 
+PASS createDocument test 94: "foo:","",null,null 
+PASS createDocument test 95: "foo:","foo",null,null 
+PASS createDocument test 96: "foo:","1foo",null,"INVALID_CHARACTER_ERR" 
+PASS createDocument test 97: "foo:","f1oo",null,null 
+PASS createDocument test 98: "foo:","foo1",null,null 
+PASS createDocument test 99: "foo:",":foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 100: "foo:","f:oo",null,null 
+PASS createDocument test 101: "foo:","foo:",null,"NAMESPACE_ERR" 
+PASS createDocument test 102: "foo:","xml",null,null 
+PASS createDocument test 103: "foo:","xmlns",null,"NAMESPACE_ERR" 
+PASS createDocument test 104: "foo:","xmlfoo",null,null 
+PASS createDocument test 105: "foo:","xml:foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 106: "foo:","xmlns:foo",null,"NAMESPACE_ERR" 
+PASS createDocument test 107: "foo:","xmlfoo:bar",null,null 
+PASS createDocument test 108: null,null,DocumentType node,null 
+PASS createDocument test 109: null,null,DocumentType node,null 
+PASS createDocument test 110: null,null,DocumentType node,null 
+PASS createDocument test 111: null,null,DocumentType node,null 
+PASS createDocument test 112: null,null,DocumentType node,null 
+PASS createDocument test 113: null,"foo",DocumentType node,null 
+PASS createDocument test 114: "foo",null,DocumentType node,null 
+PASS createDocument test 115: "foo","bar",DocumentType node,null 
+

@@ -1,0 +1,684 @@
+CONSOLE MESSAGE: line 197: callback interface not yet supported
+CONSOLE MESSAGE: Deprecated attempt to access property 'navigationStart' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'unloadEventStart' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'unloadEventEnd' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'redirectStart' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'redirectEnd' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'fetchStart' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'domainLookupStart' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'domainLookupEnd' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'connectStart' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'connectEnd' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'secureConnectionStart' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'requestStart' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'responseStart' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'responseEnd' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'domLoading' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'domInteractive' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'domContentLoadedEventStart' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'domContentLoadedEventEnd' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'domComplete' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'loadEventStart' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'loadEventEnd' on a non-PerformanceTiming object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'type' on a non-PerformanceNavigation object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'redirectCount' on a non-PerformanceNavigation object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'timing' on a non-Performance object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'navigation' on a non-Performance object.
+Navigation Timing IDL tests
+
+interface PerformanceTiming {
+  readonly attribute unsigned long long navigationStart;
+  readonly attribute unsigned long long unloadEventStart;
+  readonly attribute unsigned long long unloadEventEnd;
+  readonly attribute unsigned long long redirectStart;
+  readonly attribute unsigned long long redirectEnd;
+  readonly attribute unsigned long long fetchStart;
+  readonly attribute unsigned long long domainLookupStart;
+  readonly attribute unsigned long long domainLookupEnd;
+  readonly attribute unsigned long long connectStart;
+  readonly attribute unsigned long long connectEnd;
+  readonly attribute unsigned long long secureConnectionStart;
+  readonly attribute unsigned long long requestStart;
+  readonly attribute unsigned long long responseStart;
+  readonly attribute unsigned long long responseEnd;
+  readonly attribute unsigned long long domLoading;
+  readonly attribute unsigned long long domInteractive;
+  readonly attribute unsigned long long domContentLoadedEventStart;
+  readonly attribute unsigned long long domContentLoadedEventEnd;
+  readonly attribute unsigned long long domComplete;
+  readonly attribute unsigned long long loadEventStart;
+  readonly attribute unsigned long long loadEventEnd;
+};
+
+interface PerformanceNavigation {
+  const unsigned short TYPE_NAVIGATE = 0;
+  const unsigned short TYPE_RELOAD = 1;
+  const unsigned short TYPE_BACK_FORWARD = 2;
+  const unsigned short TYPE_RESERVED = 255;
+  readonly attribute unsigned short type;
+  readonly attribute unsigned short redirectCount;
+};
+
+interface Performance : EventTarget {
+  readonly attribute PerformanceTiming timing;
+  readonly attribute PerformanceNavigation navigation;
+};
+
+partial interface Window {
+  [Replaceable] readonly attribute Performance performance;
+};
+
+FAIL Window interface: attribute performance assert_true: The prototype object must have a property "performance" expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1265:24
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+PASS Window must be primary interface of window 
+PASS Stringification of window 
+FAIL Window interface: window must inherit property "performance" with the proper type (0) assert_inherits: property "performance" found on object expected in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:548:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: existence and properties of interface object assert_equals: prototype of window's property "PerformanceTiming" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+PASS PerformanceTiming interface object length 
+FAIL PerformanceTiming interface: existence and properties of interface prototype object assert_false: PerformanceTiming.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: existence and properties of interface prototype object's "constructor" property assert_true: PerformanceTiming.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute navigationStart assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute unloadEventStart assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute unloadEventEnd assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute redirectStart assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute redirectEnd assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute fetchStart assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute domainLookupStart assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute domainLookupEnd assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute connectStart assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute connectEnd assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute secureConnectionStart assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute requestStart assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute responseStart assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute responseEnd assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute domLoading assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute domInteractive assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute domContentLoadedEventStart assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute domContentLoadedEventEnd assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute domComplete assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute loadEventStart assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceTiming interface: attribute loadEventEnd assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+PASS PerformanceTiming must be primary interface of window.performance.timing 
+PASS Stringification of window.performance.timing 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "navigationStart" with the proper type (0) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "unloadEventStart" with the proper type (1) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "unloadEventEnd" with the proper type (2) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "redirectStart" with the proper type (3) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "redirectEnd" with the proper type (4) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "fetchStart" with the proper type (5) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "domainLookupStart" with the proper type (6) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "domainLookupEnd" with the proper type (7) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "connectStart" with the proper type (8) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "connectEnd" with the proper type (9) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "secureConnectionStart" with the proper type (10) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "requestStart" with the proper type (11) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "responseStart" with the proper type (12) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "responseEnd" with the proper type (13) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "domLoading" with the proper type (14) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "domInteractive" with the proper type (15) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "domContentLoadedEventStart" with the proper type (16) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "domContentLoadedEventEnd" with the proper type (17) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "domComplete" with the proper type (18) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "loadEventStart" with the proper type (19) 
+PASS PerformanceTiming interface: window.performance.timing must inherit property "loadEventEnd" with the proper type (20) 
+FAIL PerformanceNavigation interface: existence and properties of interface object assert_equals: prototype of window's property "PerformanceNavigation" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+PASS PerformanceNavigation interface object length 
+FAIL PerformanceNavigation interface: existence and properties of interface prototype object assert_false: PerformanceNavigation.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceNavigation interface: existence and properties of interface prototype object's "constructor" property assert_true: PerformanceNavigation.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+PASS PerformanceNavigation interface: constant TYPE_NAVIGATE on interface object 
+PASS PerformanceNavigation interface: constant TYPE_NAVIGATE on interface prototype object 
+PASS PerformanceNavigation interface: constant TYPE_RELOAD on interface object 
+PASS PerformanceNavigation interface: constant TYPE_RELOAD on interface prototype object 
+PASS PerformanceNavigation interface: constant TYPE_BACK_FORWARD on interface object 
+PASS PerformanceNavigation interface: constant TYPE_BACK_FORWARD on interface prototype object 
+PASS PerformanceNavigation interface: constant TYPE_RESERVED on interface object 
+PASS PerformanceNavigation interface: constant TYPE_RESERVED on interface prototype object 
+FAIL PerformanceNavigation interface: attribute type assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL PerformanceNavigation interface: attribute redirectCount assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+PASS PerformanceNavigation must be primary interface of window.performance.navigation 
+PASS Stringification of window.performance.navigation 
+PASS PerformanceNavigation interface: window.performance.navigation must inherit property "TYPE_NAVIGATE" with the proper type (0) 
+PASS PerformanceNavigation interface: window.performance.navigation must inherit property "TYPE_RELOAD" with the proper type (1) 
+PASS PerformanceNavigation interface: window.performance.navigation must inherit property "TYPE_BACK_FORWARD" with the proper type (2) 
+PASS PerformanceNavigation interface: window.performance.navigation must inherit property "TYPE_RESERVED" with the proper type (3) 
+PASS PerformanceNavigation interface: window.performance.navigation must inherit property "type" with the proper type (4) 
+PASS PerformanceNavigation interface: window.performance.navigation must inherit property "redirectCount" with the proper type (5) 
+FAIL Performance interface: existence and properties of interface object assert_equals: prototype of window's property "Performance" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+PASS Performance interface object length 
+FAIL Performance interface: existence and properties of interface prototype object assert_false: Performance.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL Performance interface: existence and properties of interface prototype object's "constructor" property assert_true: Performance.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL Performance interface: attribute timing assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL Performance interface: attribute navigation assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+PASS Performance must be primary interface of window.performance 
+PASS Stringification of window.performance 
+PASS Performance interface: window.performance must inherit property "timing" with the proper type (0) 
+PASS Performance interface: window.performance must inherit property "navigation" with the proper type (1) 
+FAIL EventTarget interface: window.performance must inherit property "addEventListener" with the proper type (0) assert_inherits: property "addEventListener" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL EventTarget interface: calling addEventListener(DOMString,EventListener,boolean) on window.performance with too few arguments must throw TypeError assert_inherits: property "addEventListener" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1627:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1622:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL EventTarget interface: window.performance must inherit property "removeEventListener" with the proper type (1) assert_inherits: property "removeEventListener" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL EventTarget interface: calling removeEventListener(DOMString,EventListener,boolean) on window.performance with too few arguments must throw TypeError assert_inherits: property "removeEventListener" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1627:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1622:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL EventTarget interface: window.performance must inherit property "dispatchEvent" with the proper type (2) assert_inherits: property "dispatchEvent" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+FAIL EventTarget interface: calling dispatchEvent(Event) on window.performance with too few arguments must throw TypeError assert_inherits: property "dispatchEvent" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1627:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1622:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/navigation-timing/idlharness.html:115:17
+global code@http://localhost:8800/navigation-timing/idlharness.html:116:3)
+

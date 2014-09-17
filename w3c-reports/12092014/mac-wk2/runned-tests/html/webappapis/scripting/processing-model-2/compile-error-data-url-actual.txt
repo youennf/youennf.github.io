@@ -1,0 +1,9 @@
+CONSOLE MESSAGE: line 1: SyntaxError: Unexpected token ')'
+
+FAIL window.onerror - compile error in <script src=data:...> assert_equals: second arg expected "data:text/javascript,for(;) {}" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/webappapis/scripting/processing-model-2/compile-error-data-url.html:20:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS window.onerror - compile error in <script src=data:...> (column) 
+

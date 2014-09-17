@@ -1,0 +1,40 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-09 15:43
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/__init__.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/client_for_testing.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/endtoend_with_external_server.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/mock.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/mux_client_for_testing.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/run_all.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/set_sys_path.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/test_dispatch.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/test_endtoend.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/test_extensions.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/test_handshake.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/test_handshake_hybi.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/test_handshake_hybi00.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/test_handshake_hybi08.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/test_http_header_util.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/test_memorizingfile.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/test_mock.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/test_msgutil.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/test_mux.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/test_stream.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/test_stream_hixie75.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/test/test_util.py

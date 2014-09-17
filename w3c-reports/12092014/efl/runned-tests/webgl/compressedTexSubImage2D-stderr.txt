@@ -1,0 +1,5 @@
+ERR<6488>:evas_main lib/evas/canvas/evas_gl.c:42 evas_gl_new() Evas GL engine not available.
+1   0x7fa255ab1ae7 WTFCrash
+2   0x7fa253f938aa WebCore::WebGLRenderingContext::bindTexture(unsigned int, WebCore::WebGLTexture*, int&)
+3   0x7fa254a3ab31 WebCore::jsWebGLRenderingContextPrototypeFunctionBindTexture(JSC::ExecState*)
+4   0x7fa2044b50b4

@@ -1,0 +1,5 @@
+
+PASS Test interface of unresolved element with valid name, created by Document.createElementNS() 
+PASS Test interface of unresolved element with valid name, created via innerHTML property 
+PASS Test interface of unresolved element in loaded HTML document with embedded SVG elements 
+

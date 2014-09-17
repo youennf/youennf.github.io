@@ -1,0 +1,67 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-11 16:22
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/allowany.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/array.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/attributes.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/callback.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/caller.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/constants.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/constructor.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/dictionary-inherits.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/dictionary.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/documentation-dos.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/documentation.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/enum.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/equivalent-decl.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/exception-inheritance.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/exception.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/generic.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/getter-setter.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/identifier-qualified-names.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/implements.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/indexed-properties.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/inherits-getter.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/interface-inherits.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/iterator.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/map.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/namedconstructor.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/nointerfaceobject.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/nullable.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/nullableobjects.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/operation-optional-arg.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/overloading.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/overridebuiltins.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/partial-interface.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/primitives.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/prototyperoot.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/putforwards.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/reg-operations.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/replaceable.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/sequence.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/serializer.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/static.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/stringifier-attribute.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/stringifier-custom.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/stringifier.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/treatasnull.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/treatasundefined.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/typedef.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/typesuffixes.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/uniontype.widl
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/idl/variadic-operations.widl

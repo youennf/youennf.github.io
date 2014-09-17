@@ -1,0 +1,7 @@
+
+FAIL Test Description: dispatchEvent - EventException UNSPECIFIED_EVENT_TYPE_ERR raises if the Event.type was not specified by initializing the event before dispatchEvent was called. Test bug: unrecognized DOMException code "UNSPECIFIED_EVENT_TYPE_ERR" passed to assert_throws()(stack: assert_throws@http://localhost:8800/resources/testharness.js:660:126
+http://localhost:8800/DOMEvents/tests/submissions/Microsoft/converted/dispatchEvent.UNSPECIFIED_EVENT_TYPE_ERR.html:22:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/DOMEvents/tests/submissions/Microsoft/converted/dispatchEvent.UNSPECIFIED_EVENT_TYPE_ERR.html:20:9)
+

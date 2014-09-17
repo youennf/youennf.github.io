@@ -1,0 +1,10 @@
+storage_local_security
+
+
+
+FAIL storage local security test assert_equals: SECURITY_ERR error is not raised. expected (string) "true" but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/webstorage/storage_local_security.html:21:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/webstorage/storage_local_security.html:20:12)
+

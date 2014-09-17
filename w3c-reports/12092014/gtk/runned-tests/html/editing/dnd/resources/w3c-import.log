@@ -1,0 +1,26 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 15:42
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/resources/filler.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/resources/fail.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/resources/boxnavy.swf
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/resources/crossorigin.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/resources/1x1-transparent.gif
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/resources/circle.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/resources/pass.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/resources/100x100-navy.png

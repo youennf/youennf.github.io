@@ -1,0 +1,10 @@
+--- /localHome/youenn/EFL-WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/dom/nodes/Element-firstElementChild-namespace-expected.txt
++++ /localHome/youenn/EFL-WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/dom/nodes/Element-firstElementChild-namespace-actual.txt
+@@ -1,6 +1,6 @@
+ Test of firstElementChild with namespaces
+ 
+-The result of this test is a unknown.
++The result of this test is logged above.
+ 
+ 
+ PASS firstElementChild with namespaces 

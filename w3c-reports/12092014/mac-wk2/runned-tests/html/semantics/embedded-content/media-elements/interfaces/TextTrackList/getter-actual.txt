@@ -1,0 +1,10 @@
+
+PASS TextTrackList getter 
+PASS TextTrackList getter, no indexed set/create 
+FAIL TextTrackList getter, no indexed set/create (strict) assert_throws: function "function () { video.textTracks[0] = 'foo'; }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/TextTrackList/getter.html:28:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/TextTrackList/getter.html:25:5)
+

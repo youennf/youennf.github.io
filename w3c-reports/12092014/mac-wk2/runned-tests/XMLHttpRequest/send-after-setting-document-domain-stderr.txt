@@ -1,0 +1,1 @@
+2014-09-11 16:27:29.639 com.apple.WebKit.Networking.Development[4462:4003] *** WARNING: CFMachPortSetInvalidationCallBack() called on a CFMachPort with a Mach port (0x78e3) which does not have any send rights.  This is not going to work.  Callback function: 0x7fff8ab74ef1

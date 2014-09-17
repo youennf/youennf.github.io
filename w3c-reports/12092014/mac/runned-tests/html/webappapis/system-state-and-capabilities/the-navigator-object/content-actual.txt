@@ -1,0 +1,146 @@
+Note: If your browser limits the number of handler registration requests on a page, you might need to disable or significantly increase that limit for the tests below to run.
+
+
+FAIL the registerContentHandler method should exist on the navigator object assert_idl_attribute: property "registerContentHandler" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:19:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:18:5)
+FAIL a handler with valid arguments should work undefined is not a function (evaluating 'navigator.registerContentHandler('text/x-unknown-type', location.href + '/%s', 'foo')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:24:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:23:5)
+FAIL a relative URL should work undefined is not a function (evaluating 'navigator.registerContentHandler('text/x-unknown-type', '%s', 'foo')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:30:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:29:5)
+FAIL a URL with a fragment identifier should work undefined is not a function (evaluating 'navigator.registerContentHandler('text/x-unknown-type', location.href + '#%s', 'foo')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:34:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:33:5)
+FAIL a URL with a query string should work undefined is not a function (evaluating 'navigator.registerContentHandler('text/x-unknown-type', location.href + '?foo=%s', 'foo')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:38:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:37:5)
+FAIL a URL with a multi-argument query string should work undefined is not a function (evaluating 'navigator.registerContentHandler('text/x-unknown-type', location.href + '?foo=%s&bar', 'foo')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:42:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:41:5)
+FAIL a URL with the passed string as a directory name should work undefined is not a function (evaluating 'navigator.registerContentHandler('text/x-unknown-type', location.href + '/%s/bar/baz/', 'foo')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:46:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:45:5)
+FAIL a URL with the passed string as a directory name followed by a query string and fragment identifier should work undefined is not a function (evaluating 'navigator.registerContentHandler('text/x-unknown-type', location.href + '/%s/bar/baz/?foo=1337&bar#baz', 'foo')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:50:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:49:5)
+FAIL a URL with the passed string included twice should work undefined is not a function (evaluating 'navigator.registerContentHandler('text/x-unknown-type', location.href + '/%s/foo/%s/', 'foo')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:54:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:53:5)
+FAIL an empty url argument should throw SYNTAX_ERR assert_throws: function "function () { navigator.registerContentHandler('text/x-un..." threw object "TypeError: undefined is not a function (evaluating 'navig..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:58:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:57:5)
+FAIL %s instead of domain name should throw SYNTAX_ERR assert_throws: function "function () { navigator.registerContentHandler('text/x-un..." threw object "TypeError: undefined is not a function (evaluating 'navig..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:62:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:61:5)
+FAIL %s instead of subdomain name should throw syntax_err assert_throws: function "function () { navigator.registerContentHandler('text/x-un..." threw object "TypeError: undefined is not a function (evaluating 'navig..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:66:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:65:5)
+FAIL a url argument without %s should throw SYNTAX_ERR assert_throws: function "function () { navigator.registerContentHandler('text/x-un..." threw object "TypeError: undefined is not a function (evaluating 'navig..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:70:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:69:5)
+FAIL a url argument pointing to a different domain name, without %s should throw SYNTAX_ERR assert_throws: function "function () { navigator.registerContentHandler('text/x-un..." threw object "TypeError: undefined is not a function (evaluating 'navig..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:74:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:73:5)
+FAIL a url argument without %s (but with %) should throw SYNTAX_ERR assert_throws: function "function () { navigator.registerContentHandler('text/x-un..." threw object "TypeError: undefined is not a function (evaluating 'navig..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:78:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:77:5)
+FAIL a url argument without %s (but with %a) should throw SYNTAX_ERR assert_throws: function "function () { navigator.registerContentHandler('text/x-un..." threw object "TypeError: undefined is not a function (evaluating 'navig..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:82:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:81:5)
+FAIL a url argument pointing to a different domain name should throw SECURITY_ERR assert_throws: function "function () { navigator.registerContentHandler('text/x-un..." threw object "TypeError: undefined is not a function (evaluating 'navig..." that is not a DOMException SECURITY_ERR: property "code" is equal to undefined, expected 18(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:86:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:85:5)
+FAIL a url argument pointing to a different domain name should throw SECURITY_ERR (2) assert_throws: function "function () { navigator.registerContentHandler('text/x-un..." threw object "TypeError: undefined is not a function (evaluating 'navig..." that is not a DOMException SECURITY_ERR: property "code" is equal to undefined, expected 18(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:90:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:89:5)
+FAIL a url argument pointing to a different domain name should throw SECURITY_ERR (3) assert_throws: function "function () { navigator.registerContentHandler('text/x-un..." threw object "TypeError: undefined is not a function (evaluating 'navig..." that is not a DOMException SECURITY_ERR: property "code" is equal to undefined, expected 18(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:94:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:93:5)
+FAIL attempting to override the image/jpeg MIME type should throw SECURITY_ERR assert_throws: function "function () { navigator.registerContentHandler(blacklist[..." threw object "TypeError: undefined is not a function (evaluating 'navig..." that is not a DOMException SECURITY_ERR: property "code" is equal to undefined, expected 18(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:113:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:112:6)
+FAIL attempting to override the text/html MIME type should throw SECURITY_ERR assert_throws: function "function () { navigator.registerContentHandler(blacklist[..." threw object "TypeError: undefined is not a function (evaluating 'navig..." that is not a DOMException SECURITY_ERR: property "code" is equal to undefined, expected 18(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:113:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:112:6)
+FAIL attempting to override the text/javascript MIME type should throw SECURITY_ERR assert_throws: function "function () { navigator.registerContentHandler(blacklist[..." threw object "TypeError: undefined is not a function (evaluating 'navig..." that is not a DOMException SECURITY_ERR: property "code" is equal to undefined, expected 18(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:113:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:112:6)
+FAIL attempting to override the text/plain MIME type should throw SECURITY_ERR assert_throws: function "function () { navigator.registerContentHandler(blacklist[..." threw object "TypeError: undefined is not a function (evaluating 'navig..." that is not a DOMException SECURITY_ERR: property "code" is equal to undefined, expected 18(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:113:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:112:6)
+FAIL overriding the application/atom+xml MIME type should work undefined is not a function (evaluating 'navigator.registerContentHandler(whitelist[wi], location.href + '/%s', 'foo')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:128:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:127:6)
+FAIL overriding the application/rss+xml MIME type should work undefined is not a function (evaluating 'navigator.registerContentHandler(whitelist[wi], location.href + '/%s', 'foo')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:128:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:127:6)
+FAIL overriding the application/x-unrecognized MIME type should work undefined is not a function (evaluating 'navigator.registerContentHandler(whitelist[wi], location.href + '/%s', 'foo')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:128:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:127:6)
+FAIL overriding the text/unrecognized MIME type should work undefined is not a function (evaluating 'navigator.registerContentHandler(whitelist[wi], location.href + '/%s', 'foo')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:128:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:127:6)
+FAIL overriding the foo/bar MIME type should work undefined is not a function (evaluating 'navigator.registerContentHandler(whitelist[wi], location.href + '/%s', 'foo')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:128:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content.html:127:6)
+

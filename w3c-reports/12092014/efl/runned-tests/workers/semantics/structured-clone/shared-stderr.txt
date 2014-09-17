@@ -1,0 +1,15 @@
+ERR<11355>:evas_main lib/evas/canvas/evas_gl.c:42 evas_gl_new() Evas GL engine not available.
+1   0x7fd75796cae7 WTFCrash
+2   0x7fd757642c45 JSC::BlockAllocator::BlockAllocator()
+3   0x7fd75766231c JSC::Heap::Heap(JSC::VM*, JSC::HeapType)
+4   0x7fd757908f9d JSC::VM::VM(JSC::VM::VMType, JSC::HeapType)
+5   0x7fd75790a89d JSC::VM::create(JSC::HeapType)
+6   0x7fd755aaa793 WebCore::WorkerScriptController::WorkerScriptController(WebCore::WorkerGlobalScope*)
+7   0x7fd756556711 WebCore::WorkerGlobalScope::WorkerGlobalScope(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WebCore::WorkerThread&, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+8   0x7fd756553e52 WebCore::SharedWorkerGlobalScope::SharedWorkerGlobalScope(WTF::String const&, WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WebCore::SharedWorkerThread&)
+9   0x7fd756553ff5 WebCore::SharedWorkerGlobalScope::create(WTF::String const&, WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WebCore::SharedWorkerThread&, WTF::String const&, WebCore::ContentSecurityPolicy::HeaderType)
+10  0x7fd7565545b3 WebCore::SharedWorkerThread::createWorkerGlobalScope(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WTF::String const&, WebCore::ContentSecurityPolicy::HeaderType, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+11  0x7fd75655e101 WebCore::WorkerThread::workerThread()
+12  0x7fd7579af6c2
+13  0x7fd7526eaf35
+14  0x7fd757dc3c3d clone

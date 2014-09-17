@@ -1,0 +1,41 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-11 16:22
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/end-template-tag-in-body.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/end-template-tag-in-head.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/frameset-end-tag.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/head-template-contents-div-no-end-tag.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/head-template-contents-table-no-end-tag.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/html-start-tag.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-child-nodes-div.xhtml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-child-nodes-nested.xhtml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-contents-attribute.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-contents-body.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-contents-div-no-end-tag.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-contents-empty.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-contents-frameset.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-contents-head.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-contents-html.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-contents-nested.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-contents-table-no-end-tag.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-contents-text.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-contents.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-descendant-body.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-descendant-frameset.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/template-descendant-head.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/resources/two-templates.html

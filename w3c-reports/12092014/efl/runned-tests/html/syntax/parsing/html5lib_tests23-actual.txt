@@ -1,0 +1,34 @@
+CONSOLE MESSAGE: Blocked a frame with origin "http://localhost:8800" from accessing a frame with origin "null".  The frame requesting access has a protocol of "http", the frame being accessed has a protocol of "data". Protocols must match.
+
+CONSOLE MESSAGE: Blocked a frame with origin "http://localhost:8800" from accessing a frame with origin "null".  The frame requesting access has a protocol of "http", the frame being accessed has a protocol of "data". Protocols must match.
+
+CONSOLE MESSAGE: Blocked a frame with origin "http://localhost:8800" from accessing a frame with origin "null".  The frame requesting access has a protocol of "http", the frame being accessed has a protocol of "data". Protocols must match.
+
+CONSOLE MESSAGE: Blocked a frame with origin "http://localhost:8800" from accessing a frame with origin "null".  The frame requesting access has a protocol of "http", the frame being accessed has a protocol of "data". Protocols must match.
+
+CONSOLE MESSAGE: Blocked a frame with origin "http://localhost:8800" from accessing a frame with origin "null".  The frame requesting access has a protocol of "http", the frame being accessed has a protocol of "data". Protocols must match.
+
+html5lib Parser Test
+
+
+FAIL html5lib_tests23.html 79c0dc8da653d983d07795852b5f38d1533ff404 null is not an object (evaluating 'element.normalize')(stack: test_serializer@http://localhost:8800/html/syntax/parsing/test.js:31:10
+http://localhost:8800/html/syntax/parsing/test.js:162:52
+step@http://localhost:8800/resources/testharness.js:798:30
+onload@http://localhost:8800/html/syntax/parsing/test.js:160:13)
+FAIL html5lib_tests23.html 403404388390abddf3fb44db8dd7d643652f5df9 null is not an object (evaluating 'element.normalize')(stack: test_serializer@http://localhost:8800/html/syntax/parsing/test.js:31:10
+http://localhost:8800/html/syntax/parsing/test.js:162:52
+step@http://localhost:8800/resources/testharness.js:798:30
+onload@http://localhost:8800/html/syntax/parsing/test.js:160:13)
+FAIL html5lib_tests23.html b9a81ae44ab81719fc6a4e3b6460fc6efc684e65 null is not an object (evaluating 'element.normalize')(stack: test_serializer@http://localhost:8800/html/syntax/parsing/test.js:31:10
+http://localhost:8800/html/syntax/parsing/test.js:162:52
+step@http://localhost:8800/resources/testharness.js:798:30
+onload@http://localhost:8800/html/syntax/parsing/test.js:160:13)
+FAIL html5lib_tests23.html d271d3662baafff4893d32b250cadcf4c2ff3352 null is not an object (evaluating 'element.normalize')(stack: test_serializer@http://localhost:8800/html/syntax/parsing/test.js:31:10
+http://localhost:8800/html/syntax/parsing/test.js:162:52
+step@http://localhost:8800/resources/testharness.js:798:30
+onload@http://localhost:8800/html/syntax/parsing/test.js:160:13)
+FAIL html5lib_tests23.html f8e296b2f362a64c1c464bedd6248e314f41c701 null is not an object (evaluating 'element.normalize')(stack: test_serializer@http://localhost:8800/html/syntax/parsing/test.js:31:10
+http://localhost:8800/html/syntax/parsing/test.js:162:52
+step@http://localhost:8800/resources/testharness.js:798:30
+onload@http://localhost:8800/html/syntax/parsing/test.js:160:13)
+

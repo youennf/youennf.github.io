@@ -1,0 +1,78 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-11 16:22
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+columns
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/background_box-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/background_box.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/background_properties-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/background_properties.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/background_shorthand-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/background_shorthand.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/background_shorthand_css_relative_url-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/background_shorthand_css_relative_url.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/color_hex-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/color_hex.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/color_hsla-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/color_hsla.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/color_rgba-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/color_rgba.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/cue_func_selector_single_colon-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/cue_func_selector_single_colon.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/font_properties-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/font_properties.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/font_shorthand-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/font_shorthand.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/id_color-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/id_color.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/inherit_values_from_media_element-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/inherit_values_from_media_element.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/not_allowed_properties-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/not_allowed_properties.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/not_root_selector-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/not_root_selector.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/outline_properties-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/outline_properties.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/outline_shorthand-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/outline_shorthand.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/root_namespace-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/root_namespace.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/root_selector-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/root_selector.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/text-decoration_line-through-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/text-decoration_line-through.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/text-decoration_overline-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/text-decoration_overline.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/text-decoration_overline_underline_line-through-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/text-decoration_overline_underline_line-through.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/text-decoration_underline-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/text-decoration_underline.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/text-shadow-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/text-shadow.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/type_selector_root-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/type_selector_root.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/white-space_normal_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/white-space_normal_wrapped.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/white-space_nowrap_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/white-space_nowrap_wrapped.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/white-space_pre-line_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/white-space_pre-line_wrapped.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/white-space_pre-wrap_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/white-space_pre-wrap_wrapped.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/white-space_pre-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/white-space_pre.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/white-space_pre_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/white-space_pre_wrapped.html

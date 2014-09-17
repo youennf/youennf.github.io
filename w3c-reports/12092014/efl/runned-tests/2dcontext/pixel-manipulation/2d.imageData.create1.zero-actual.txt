@@ -1,0 +1,12 @@
+2d.imageData.create1.zero
+createImageData(null) throws TypeError
+Actual output:
+
+FAIL createImageData(null) throws TypeError assert_throws: function "function () { ctx.createImageData(null); }" threw object "Error: NotSupportedError: DOM Exception 9" ("NotSupportedError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/2dcontext/pixel-manipulation/2d.imageData.create1.zero.html:22:14
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

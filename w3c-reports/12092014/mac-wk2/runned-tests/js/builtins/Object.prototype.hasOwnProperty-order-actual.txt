@@ -1,0 +1,28 @@
+
+PASS Object.prototype.hasOwnProperty 
+FAIL Object.prototype.hasOwnProperty 1 assert_throws: function "function () {
+        ({}).hasOwnProperty.call(that, { to..." threw object "TypeError: null is not an object (evaluating '({}).hasOwn..." ("TypeError") expected object "[object Object]" ("test")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/js/builtins/Object.prototype.hasOwnProperty-order.html:15:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/js/builtins/Object.prototype.hasOwnProperty-order.html:14:9
+forEach@[native code]
+http://localhost:8800/js/builtins/Object.prototype.hasOwnProperty-order.html:13:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/js/builtins/Object.prototype.hasOwnProperty-order.html:12:5)
+FAIL Object.prototype.hasOwnProperty 2 assert_throws: function "function () {
+        ({}).hasOwnProperty.call(that, { to..." threw object "TypeError: undefined is not an object (evaluating '({}).h..." ("TypeError") expected object "[object Object]" ("test")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/js/builtins/Object.prototype.hasOwnProperty-order.html:15:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/js/builtins/Object.prototype.hasOwnProperty-order.html:14:9
+forEach@[native code]
+http://localhost:8800/js/builtins/Object.prototype.hasOwnProperty-order.html:13:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/js/builtins/Object.prototype.hasOwnProperty-order.html:12:5)
+PASS Object.prototype.hasOwnProperty 3 
+

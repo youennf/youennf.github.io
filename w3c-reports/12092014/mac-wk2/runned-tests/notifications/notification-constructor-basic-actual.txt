@@ -1,0 +1,3 @@
+
+PASS Test checks that notification constructor is correct 
+

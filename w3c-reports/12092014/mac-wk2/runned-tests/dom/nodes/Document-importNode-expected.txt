@@ -1,0 +1,11 @@
+
+FAIL No 'deep' argument. assert_equals: expected null but got Element node <span></span>(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/dom/nodes/Document-importNode.html:19:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Document-importNode.html:9:5)
+PASS Undefined 'deep' argument. 
+PASS True 'deep' argument. 
+PASS False 'deep' argument. 
+

@@ -1,0 +1,10 @@
+
+FAIL The window's length must return the number of child browsing contexts(in iframe) assert_equals: The window.length should be 3. expected 3 but got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/browsers/the-window-object/accessing-other-browsing-contexts/indexed-browsing-contexts-01.html:19:18
+step@http://localhost:8800/resources/testharness.js:798:30
+on_load1@http://localhost:8800/html/browsers/the-window-object/accessing-other-browsing-contexts/indexed-browsing-contexts-01.html:13:10
+onload@http://localhost:8800/html/browsers/the-window-object/accessing-other-browsing-contexts/indexed-browsing-contexts-01.html:36:9)
+PASS The window's length must return zero if it has no child browsing context 
+PASS The window's length must return the number of child browsing contexts 
+

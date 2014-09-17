@@ -1,0 +1,5 @@
+
+PASS Typed Arrays Test: Uint8ClampedArray length 
+PASS Check if the Uint8ClampedArray.length should be the value given by constructor 
+PASS Check if the Uint8ClampedArray.length is readonly 
+

@@ -1,0 +1,41 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 15:42
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.font.default.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.font.parse.system.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.draw.space.collapse.space.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.font.parse.size.percentage.default.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.draw.baseline.top.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.align.default.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.align.valid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.draw.space.collapse.other.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.font.parse.complex.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.draw.baseline.hanging.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.align.invalid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.baseline.invalid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.draw.baseline.ideographic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.font.parse.basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.measure.width.space.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.draw.baseline.bottom.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.font.parse.size.percentage.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.draw.space.collapse.start.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.draw.space.collapse.end.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.draw.baseline.middle.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.baseline.default.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.baseline.valid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/text-styles/2d.text.font.parse.invalid.html

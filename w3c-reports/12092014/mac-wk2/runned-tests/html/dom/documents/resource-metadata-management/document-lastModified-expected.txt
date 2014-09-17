@@ -1,0 +1,8 @@
+
+FAIL lastModified should return the last modified date and time assert_equals: expected "1 Jan 1970 02:23:45" but got "01/01/1970 01:23:45"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/dom/documents/resource-metadata-management/document-lastModified.html:13:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/dom/documents/resource-metadata-management/document-lastModified.html:10:7)
+

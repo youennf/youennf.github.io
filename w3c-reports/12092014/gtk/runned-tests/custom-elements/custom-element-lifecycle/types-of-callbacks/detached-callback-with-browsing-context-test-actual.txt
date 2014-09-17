@@ -1,0 +1,26 @@
+
+FAIL Test detached callback is called if custom element is removed by method removeChild() from document with browsing context undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-with-browsing-context-test.html:19:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test detached callback is called if ancestor node of custom element is removed by method removeChild() from document with browsing context undefined is not a function (evaluating 'doc.registerElement('x-a', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-with-browsing-context-test.html:31:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test detached callback is called if custom element is removed by method replaceChild() from document with browsing context undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-with-browsing-context-test.html:42:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test detached callback is called if ancestor node of custom element is removed by method replaceChild() from document with browsing context undefined is not a function (evaluating 'doc.registerElement('x-b', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-with-browsing-context-test.html:54:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test detached callback is called after changing custom element direct parent innerHTML property in the document with browsing context undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-with-browsing-context-test.html:67:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test detached callback is called after changing custom element ancestor innerHTML property in the document with browsing context undefined is not a function (evaluating 'doc.registerElement('x-c', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-with-browsing-context-test.html:78:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

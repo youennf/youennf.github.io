@@ -1,0 +1,6 @@
+PointerEvent: Dispatch custom event
+
+Test Description: This test checks if PointerEvent constructor works properly using synthetic pointerover and pointerout events. For valid results, this test must be run without generating real (trusted) pointerover or pointerout events on the black rectangle below.
+
+
+Harness Error. harness_status.status = 2 , harness_status.message = null

@@ -1,0 +1,6 @@
+
+FAIL Content type case insensitivity in isContentHandlerRegistered undefined is not a function (evaluating 'navigator.registerContentHandler(ctype, url, 'test')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content/003.xhtml:10:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content/003.xhtml:8:5)
+

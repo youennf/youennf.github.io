@@ -1,0 +1,70 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-11 16:22
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./MessagePort_initial_disabled.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./MessagePort_onmessage_start.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./postMessage_clone_port.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./postMessage_clone_port_error.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./postMessage_DataCloneErr.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./postMessage_event_properties.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./postMessage_ports_readonly_array.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./postMessage_target_source.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./README.md
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./Worker_basic.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./Worker_cross_origin_security_err.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./Worker_dispatchEvent_ErrorEvent.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./Worker_ErrorEvent_filename.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./Worker_ErrorEvent_lineno.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./Worker_ErrorEvent_message.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./Worker_ErrorEvent_type.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./Worker_script_mimetype.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./Worker_terminate_event_queue.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerGlobalScope_addEventListener.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerGlobalScope_close.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerGlobalScope_ErrorEvent_colno.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerGlobalScope_ErrorEvent_filename.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerGlobalScope_ErrorEvent_lineno.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerGlobalScope_ErrorEvent_message.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerGlobalScope_EventTarget.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerGlobalScope_importScripts.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerGlobalScope_importScripts_NetworkErr.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerGlobalScope_nested_Worker.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerGlobalScope_removeEventListener.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerGlobalScope_setInterval.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerGlobalScope_setTimeout.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerGlobalScope_XMLHttpRequest.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerLocation.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerLocation_hash.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerLocation_hash_encoding.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerLocation_hash_nonexist.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerLocation_host.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerLocation_hostname.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerLocation_href.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerLocation_pathname.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerLocation_port.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerLocation_protocol.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerLocation_search.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerLocation_search_empty.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerLocation_search_fragment.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerLocation_search_nonexist.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerNavigator_appName.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerNavigator_appVersion.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerNavigator_onLine.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerNavigator_platform.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./WorkerNavigator_userAgent.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/./workers.js

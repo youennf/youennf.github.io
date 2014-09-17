@@ -1,0 +1,18 @@
+
+
+PASS Passing a detached element with a different node document to removeChild should not affect it. 
+PASS Passing a non-detached element with a different node document to removeChild should not affect it. 
+PASS Calling removeChild on a element with no children should throw NOT_FOUND_ERR. 
+PASS Passing a detached text with a different node document to removeChild should not affect it. 
+PASS Passing a non-detached text with a different node document to removeChild should not affect it. 
+PASS Calling removeChild on a text with no children should throw NOT_FOUND_ERR. 
+PASS Passing a detached comment with a different node document to removeChild should not affect it. 
+PASS Passing a non-detached comment with a different node document to removeChild should not affect it. 
+PASS Calling removeChild on a comment with no children should throw NOT_FOUND_ERR. 
+FAIL Passing a value that is not a Node reference to removeChild should throw TypeError. assert_throws: function "function () { document.body.removeChild(null); }" threw object "Error: NotFoundError: DOM Exception 8" ("NotFoundError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/dom/nodes/Node-removeChild.html:34:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Node-removeChild.html:33:5)
+

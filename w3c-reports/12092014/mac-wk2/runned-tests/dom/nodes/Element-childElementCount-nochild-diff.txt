@@ -1,0 +1,12 @@
+--- /Users/youenn/Documents/WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/dom/nodes/Element-childElementCount-nochild-expected.txt
++++ /Users/youenn/Documents/WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/dom/nodes/Element-childElementCount-nochild-actual.txt
+@@ -1,7 +1,3 @@
+-Test of childElementCount with No Child Element Nodes
++CONSOLE MESSAGE: line 74: TypeError: null is not an object (evaluating 'document.body.appendChild')
++FAIL: Timed out waiting for notifyDone to be called
+ 
+-Test.
+-
+-
+-PASS childElementCount without Child Element Nodes 
+-

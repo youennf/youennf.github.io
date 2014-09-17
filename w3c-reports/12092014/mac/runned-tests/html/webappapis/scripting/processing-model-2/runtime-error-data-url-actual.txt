@@ -1,0 +1,11 @@
+CONSOLE MESSAGE: line 1: ReferenceError: Can't find variable: undefined_variable
+
+FAIL window.onerror - runtime error in <script src=data:...> assert_equals: second arg expected "data:text/javascript,undefined_variable;" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/webappapis/scripting/processing-model-2/runtime-error-data-url.html:20:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL window.onerror - runtime error in <script src=data:...> (column) Can't find variable: number(stack: http://localhost:8800/html/webappapis/scripting/processing-model-2/runtime-error-data-url.html:31:47
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/webappapis/scripting/processing-model-2/runtime-error-data-url.html:30:15)
+

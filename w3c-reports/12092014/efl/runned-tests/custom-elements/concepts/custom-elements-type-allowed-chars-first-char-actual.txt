@@ -1,0 +1,76 @@
+
+FAIL Registering valid custom element name starting with '_' char assert_unreached: The custom element name '_-x5f' should be registered without errors Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+checkValidName@http://localhost:8800/custom-elements/testcommon.js:186:25
+testCharCode@http://localhost:8800/custom-elements/testcommon.js:169:18
+http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars-first-char.html:28:17
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars-first-char.html:27:5)
+FAIL Registering valid custom element name starting with base char assert_unreached: The custom element name 'Ά-x386' should be registered without errors Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+checkValidName@http://localhost:8800/custom-elements/testcommon.js:186:25
+http://localhost:8800/custom-elements/testcommon.js:146:26
+forEach@[native code]
+testEach@http://localhost:8800/custom-elements/testcommon.js:145:27
+http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars-first-char.html:32:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars-first-char.html:31:5)
+FAIL Registering valid custom element name starting with ideographic char assert_unreached: The custom element name '〇-x3007' should be registered without errors Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+checkValidName@http://localhost:8800/custom-elements/testcommon.js:186:25
+http://localhost:8800/custom-elements/testcommon.js:146:26
+forEach@[native code]
+testEach@http://localhost:8800/custom-elements/testcommon.js:145:27
+http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars-first-char.html:37:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars-first-char.html:36:5)
+FAIL Registering custom element starting with invalid character (general) should fail assert_throws: Registering invalid custom element name '.-x2e' should fail function "function () {
+            doc.registerElement(name);
+    ..." threw object "TypeError: undefined is not a function (evaluating 'doc.r..." that is not a DOMException SyntaxError: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+checkInvalidName@http://localhost:8800/custom-elements/testcommon.js:194:18
+http://localhost:8800/custom-elements/testcommon.js:146:26
+forEach@[native code]
+testEach@http://localhost:8800/custom-elements/testcommon.js:145:27
+http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars-first-char.html:42:57
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars-first-char.html:41:5)
+FAIL Registering custom element starting with invalid character (combining char) should fail assert_throws: Registering invalid custom element name '̀-x300' should fail function "function () {
+            doc.registerElement(name);
+    ..." threw object "TypeError: undefined is not a function (evaluating 'doc.r..." that is not a DOMException SyntaxError: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+checkInvalidName@http://localhost:8800/custom-elements/testcommon.js:194:18
+http://localhost:8800/custom-elements/testcommon.js:146:26
+forEach@[native code]
+testEach@http://localhost:8800/custom-elements/testcommon.js:145:27
+http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars-first-char.html:46:28
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars-first-char.html:45:5)
+FAIL Registering custom element starting with invalid character (extender char) should fail assert_throws: Registering invalid custom element name '·-xb7' should fail function "function () {
+            doc.registerElement(name);
+    ..." threw object "TypeError: undefined is not a function (evaluating 'doc.r..." that is not a DOMException SyntaxError: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+checkInvalidName@http://localhost:8800/custom-elements/testcommon.js:194:18
+http://localhost:8800/custom-elements/testcommon.js:146:26
+forEach@[native code]
+testEach@http://localhost:8800/custom-elements/testcommon.js:145:27
+http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars-first-char.html:50:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars-first-char.html:49:5)
+FAIL Registering custom element starting with invalid character (digit char) should fail assert_throws: Registering invalid custom element name '0-x30' should fail function "function () {
+            doc.registerElement(name);
+    ..." threw object "TypeError: undefined is not a function (evaluating 'doc.r..." that is not a DOMException SyntaxError: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+checkInvalidName@http://localhost:8800/custom-elements/testcommon.js:194:18
+testEach@http://localhost:8800/custom-elements/testcommon.js:161:30
+http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars-first-char.html:54:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars-first-char.html:53:5)
+

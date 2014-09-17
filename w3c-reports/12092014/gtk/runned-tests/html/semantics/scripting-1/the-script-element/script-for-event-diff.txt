@@ -1,0 +1,39 @@
+--- /localHome/youenn/WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/html/semantics/scripting-1/the-script-element/script-for-event-expected.txt
++++ /localHome/youenn/WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/html/semantics/scripting-1/the-script-element/script-for-event-actual.txt
+@@ -1,35 +1,3 @@
+ 
+-PASS Scripts with for and event attributes 
+-PASS Script 0 
+-PASS Script 1 
+-PASS Script 2 
+-PASS Script 3 
+-PASS Script 4 
+-FAIL Script 5 assert_true: expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+-assert_true@http://localhost:8800/resources/testharness.js:299:15
+-http://localhost:8800/html/semantics/scripting-1/the-script-element/script-for-event.html:38:18
+-step@http://localhost:8800/resources/testharness.js:798:30
+-test@http://localhost:8800/resources/testharness.js:73:22
+-http://localhost:8800/html/semantics/scripting-1/the-script-element/script-for-event.html:37:9
+-step@http://localhost:8800/resources/testharness.js:798:30
+-test@http://localhost:8800/resources/testharness.js:73:22
+-global code@http://localhost:8800/html/semantics/scripting-1/the-script-element/script-for-event.html:35:5)
+-FAIL Script 6 assert_true: expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+-assert_true@http://localhost:8800/resources/testharness.js:299:15
+-http://localhost:8800/html/semantics/scripting-1/the-script-element/script-for-event.html:38:18
+-step@http://localhost:8800/resources/testharness.js:798:30
+-test@http://localhost:8800/resources/testharness.js:73:22
+-http://localhost:8800/html/semantics/scripting-1/the-script-element/script-for-event.html:37:9
+-step@http://localhost:8800/resources/testharness.js:798:30
+-test@http://localhost:8800/resources/testharness.js:73:22
+-global code@http://localhost:8800/html/semantics/scripting-1/the-script-element/script-for-event.html:35:5)
+-FAIL Script 7 assert_true: expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+-assert_true@http://localhost:8800/resources/testharness.js:299:15
+-http://localhost:8800/html/semantics/scripting-1/the-script-element/script-for-event.html:38:18
+-step@http://localhost:8800/resources/testharness.js:798:30
+-test@http://localhost:8800/resources/testharness.js:73:22
+-http://localhost:8800/html/semantics/scripting-1/the-script-element/script-for-event.html:37:9
+-step@http://localhost:8800/resources/testharness.js:798:30
+-test@http://localhost:8800/resources/testharness.js:73:22
+-global code@http://localhost:8800/html/semantics/scripting-1/the-script-element/script-for-event.html:35:5)
++PASS Scripts with for and event attributes should not run. 
+ 

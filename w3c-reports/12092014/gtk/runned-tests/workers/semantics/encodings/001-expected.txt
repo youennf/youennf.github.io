@@ -1,0 +1,7 @@
+
+FAIL encoding, dedicated worker assert_equals: expected "å" but got "Ã¥"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/workers/semantics/encodings/001.html:14:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

@@ -1,0 +1,12 @@
+--- /localHome/youenn/EFL-WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/dom/nodes/Element-lastElementChild-expected.txt
++++ /localHome/youenn/EFL-WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/dom/nodes/Element-lastElementChild-actual.txt
+@@ -1,7 +1,7 @@
+-Test of lastElementChild
++Test of firstElementChild
+ 
+ The result of this test is logged above.
+ 
+ 
+-PASS lastElementChild 
++PASS firstElementChild 
+ 

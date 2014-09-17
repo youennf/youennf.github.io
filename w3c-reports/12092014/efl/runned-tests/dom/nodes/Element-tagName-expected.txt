@@ -1,0 +1,10 @@
+
+FAIL tagName should upper-case for HTML elements in HTML documents. assert_equals: expected "X:B" but got "x:b"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/dom/nodes/Element-tagName.html:11:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Element-tagName.html:7:5)
+PASS tagName should not upper-case for SVG elements in HTML documents. 
+PASS tagName should be updated when changing ownerDocument 
+

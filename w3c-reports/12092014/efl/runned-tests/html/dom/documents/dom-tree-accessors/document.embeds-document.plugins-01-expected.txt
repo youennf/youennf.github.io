@@ -1,0 +1,5 @@
+
+
+PASS document.embeds and document.plugins 
+PASS document.embeds and document.plugins 1 
+

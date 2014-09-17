@@ -1,0 +1,302 @@
+    
+
+PASS 1 (quirks) 
+PASS 1 (almost standards) 
+PASS 1 (standards) 
+PASS +1 (quirks) 
+PASS +1 (almost standards) 
+PASS +1 (standards) 
+PASS -1 (quirks) 
+PASS -1 (almost standards) 
+PASS -1 (standards) 
+PASS 1.5 (quirks) 
+PASS 1.5 (almost standards) 
+PASS 1.5 (standards) 
+PASS +1.5 (quirks) 
+PASS +1.5 (almost standards) 
+PASS +1.5 (standards) 
+PASS -1.5 (quirks) 
+PASS -1.5 (almost standards) 
+PASS -1.5 (standards) 
+PASS \31  (quirks) 
+PASS \31  (almost standards) 
+PASS \31  (standards) 
+PASS +\31  (quirks) 
+PASS +\31  (almost standards) 
+PASS +\31  (standards) 
+PASS -\31  (quirks) 
+PASS -\31  (almost standards) 
+PASS -\31  (standards) 
+PASS \31 .5 (quirks) 
+PASS \31 .5 (almost standards) 
+PASS \31 .5 (standards) 
+PASS +\31 .5 (quirks) 
+PASS +\31 .5 (almost standards) 
+PASS +\31 .5 (standards) 
+PASS -\31 .5 (quirks) 
+PASS -\31 .5 (almost standards) 
+PASS -\31 .5 (standards) 
+PASS 1\31  (quirks) 
+PASS 1\31  (almost standards) 
+PASS 1\31  (standards) 
+PASS +1\31  (quirks) 
+PASS +1\31  (almost standards) 
+PASS +1\31  (standards) 
+PASS -1\31  (quirks) 
+PASS -1\31  (almost standards) 
+PASS -1\31  (standards) 
+PASS 1\31 .5 (quirks) 
+PASS 1\31 .5 (almost standards) 
+PASS 1\31 .5 (standards) 
+PASS +1\31 .5 (quirks) 
+PASS +1\31 .5 (almost standards) 
+PASS +1\31 .5 (standards) 
+PASS -1\31 .5 (quirks) 
+PASS -1\31 .5 (almost standards) 
+PASS -1\31 .5 (standards) 
+PASS a (quirks) 
+PASS a (almost standards) 
+PASS a (standards) 
+PASS A (quirks) 
+PASS A (almost standards) 
+PASS A (standards) 
+PASS 1a (quirks) 
+PASS 1a (almost standards) 
+PASS 1a (standards) 
+PASS +1a (quirks) 
+PASS +1a (almost standards) 
+PASS +1a (standards) 
+PASS -1a (quirks) 
+PASS -1a (almost standards) 
+PASS -1a (standards) 
+PASS +1A (quirks) 
+PASS +1A (almost standards) 
+PASS +1A (standards) 
+PASS -1A (quirks) 
+PASS -1A (almost standards) 
+PASS -1A (standards) 
+PASS +a (quirks) 
+PASS +a (almost standards) 
+PASS +a (standards) 
+PASS -a (quirks) 
+PASS -a (almost standards) 
+PASS -a (standards) 
+PASS +A (quirks) 
+PASS +A (almost standards) 
+PASS +A (standards) 
+PASS -A (quirks) 
+PASS -A (almost standards) 
+PASS -A (standards) 
+PASS @a (quirks) 
+PASS @a (almost standards) 
+PASS @a (standards) 
+PASS @1 (quirks) 
+PASS @1 (almost standards) 
+PASS @1 (standards) 
+PASS @1a (quirks) 
+PASS @1a (almost standards) 
+PASS @1a (standards) 
+PASS "a" (quirks) 
+PASS "a" (almost standards) 
+PASS "a" (standards) 
+PASS "1" (quirks) 
+PASS "1" (almost standards) 
+PASS "1" (standards) 
+PASS "1a" (quirks) 
+PASS "1a" (almost standards) 
+PASS "1a" (standards) 
+PASS url(1) (quirks) 
+PASS url(1) (almost standards) 
+PASS url(1) (standards) 
+PASS url('1') (quirks) 
+PASS url('1') (almost standards) 
+PASS url('1') (standards) 
+PASS #1 (quirks) 
+PASS #1 (almost standards) 
+PASS #1 (standards) 
+PASS #01 (quirks) 
+PASS #01 (almost standards) 
+PASS #01 (standards) 
+PASS #001 (quirks) 
+PASS #001 (almost standards) 
+PASS #001 (standards) 
+PASS #0001 (quirks) 
+PASS #0001 (almost standards) 
+PASS #0001 (standards) 
+PASS #00001 (quirks) 
+PASS #00001 (almost standards) 
+PASS #00001 (standards) 
+PASS #000001 (quirks) 
+PASS #000001 (almost standards) 
+PASS #000001 (standards) 
+FAIL +/**/1 (quirks) assert_equals: border-top-width expected "3px" but got "1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:138:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/quirks-mode/unitless-length.html:132:28
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:124:22)
+PASS +/**/1 (almost standards) 
+PASS +/**/1 (standards) 
+FAIL -/**/1 (quirks) assert_equals: bottom expected "auto" but got "-1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:138:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/quirks-mode/unitless-length.html:132:28
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:124:22)
+PASS -/**/1 (almost standards) 
+PASS -/**/1 (standards) 
+PASS calc(1) (quirks) 
+PASS calc(1) (almost standards) 
+PASS calc(1) (standards) 
+PASS calc(2 * 2px) (quirks) 
+PASS calc(2 * 2px) (almost standards) 
+PASS calc(2 * 2px) (standards) 
+PASS 1px 2 (quirks) 
+PASS 1px 2 (almost standards) 
+PASS 1px 2 (standards) 
+PASS 1 2px (quirks) 
+PASS 1 2px (almost standards) 
+PASS 1 2px (standards) 
+PASS 1px calc(2) (quirks) 
+PASS 1px calc(2) (almost standards) 
+PASS 1px calc(2) (standards) 
+PASS calc(1) 2px (quirks) 
+PASS calc(1) 2px (almost standards) 
+PASS calc(1) 2px (standards) 
+PASS 1 +2 (quirks) 
+PASS 1 +2 (almost standards) 
+PASS 1 +2 (standards) 
+PASS 1 -2 (quirks) 
+PASS 1 -2 (almost standards) 
+PASS 1 -2 (standards) 
+FAIL Excluded property background-position:1 1 assert_equals: quirk was supported expected "0% 0%" but got "1px 1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+FAIL Excluded property background:1 1 assert_equals: quirk was supported expected "0% 0%" but got "1px 1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+FAIL Excluded property border-spacing:1 assert_equals: quirk was supported expected "0px 0px" but got "1px 1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+FAIL Excluded property border-top:red solid 1 assert_equals: quirk was supported expected "0px" but got "1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+FAIL Excluded property border-right:red solid 1 assert_equals: quirk was supported expected "0px" but got "1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+FAIL Excluded property border-bottom:red solid 1 assert_equals: quirk was supported expected "0px" but got "1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+FAIL Excluded property border-left:red solid 1 assert_equals: quirk was supported expected "0px" but got "1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+FAIL Excluded property border:red solid 1 assert_equals: quirk was supported expected "0px" but got "1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+FAIL Excluded property font:normal normal normal 40 sans-serif assert_equals: quirk was supported expected "16px" but got "40px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+FAIL Excluded property max-height:1 assert_equals: quirk was supported expected "none" but got "1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+FAIL Excluded property max-width:1 assert_equals: quirk was supported expected "none" but got "1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+FAIL Excluded property min-height:1 assert_equals: quirk was supported expected "0px" but got "1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+FAIL Excluded property min-width:1 assert_equals: quirk was supported expected "0px" but got "1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+FAIL Excluded property text-indent:1 assert_equals: quirk was supported expected "0px" but got "1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+FAIL Excluded property vertical-align:1 assert_equals: quirk was supported expected "baseline" but got "1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+FAIL Excluded property outline:red solid 1 assert_equals: quirk was supported expected "0px" but got "1px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/unitless-length.html:214:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/unitless-length.html:212:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/unitless-length.html:211:28)
+

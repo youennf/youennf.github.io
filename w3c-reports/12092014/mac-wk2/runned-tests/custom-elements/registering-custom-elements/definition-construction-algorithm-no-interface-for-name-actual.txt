@@ -1,0 +1,6 @@
+
+FAIL Exception should be thrown in case of attempt to register a custom element which extends another custom element undefined is not a function (evaluating 'doc.registerElement('x-a')')(stack: http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-no-interface-for-name.html:18:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-no-interface-for-name.html:16:5)
+

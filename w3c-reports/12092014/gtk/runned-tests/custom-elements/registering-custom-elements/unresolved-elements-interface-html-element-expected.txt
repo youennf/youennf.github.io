@@ -1,0 +1,30 @@
+
+FAIL Test interface of unresolved element, created via innerHTML property assert_equals: Unresolved custom element must be a HTML element expected "[object HTMLElement]" but got "[object HTMLUnknownElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/custom-elements/registering-custom-elements/unresolved-elements-interface-html-element.html:24:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/unresolved-elements-interface-html-element.html:17:5)
+FAIL Test interface of unresolved element, created by Document.createElement assert_equals: Unresolved custom element must be a HTML element expected "[object HTMLElement]" but got "[object HTMLUnknownElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/custom-elements/registering-custom-elements/unresolved-elements-interface-html-element.html:33:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/unresolved-elements-interface-html-element.html:29:5)
+FAIL Test interface of unresolved element, created by Document.createElementNS assert_equals: Unresolved custom element must be a HTML element expected "[object HTMLElement]" but got "[object HTMLUnknownElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/custom-elements/registering-custom-elements/unresolved-elements-interface-html-element.html:42:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/unresolved-elements-interface-html-element.html:38:5)
+FAIL Test unresolved element interface in loaded HTML document assert_equals: Unresolved custom element must be a HTML element expected "[object HTMLElement]" but got "[object HTMLUnknownElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/custom-elements/registering-custom-elements/unresolved-elements-interface-html-element.html:52:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

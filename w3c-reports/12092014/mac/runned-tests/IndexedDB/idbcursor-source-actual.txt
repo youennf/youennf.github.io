@@ -1,0 +1,3 @@
+CONSOLE MESSAGE: line 12: TypeError: null is not an object (evaluating 'indexedDB.open')
+
+Harness Error. harness_status.status = 1 , harness_status.message = TypeError: null is not an object (evaluating 'indexedDB.open')

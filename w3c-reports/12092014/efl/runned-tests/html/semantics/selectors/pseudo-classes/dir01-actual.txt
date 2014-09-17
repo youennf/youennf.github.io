@@ -1,0 +1,11 @@
+This text is left to right
+this is right to left
+This text is left to rightthis is left to right
+
+FAIL direction doesn't affect :dir() SyntaxError: DOM Exception 12(stack: querySelectorAll@[native code]
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:11:45
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/dir01.html:17:15)
+

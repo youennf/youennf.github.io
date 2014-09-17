@@ -1,0 +1,20 @@
+
+FAIL SourceBuffer#abort() (video/webm; codecs="vorbis,vp8"): Check the values of appendWindowStart and appendWindowEnd. assert_equals: expected (number) 0 but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/media-source/SourceBuffer-abort.html:37:30
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/media-source/SourceBuffer-abort.html:36:19)
+FAIL SourceBuffer#abort() (video/mp4): Check the values of appendWindowStart and appendWindowEnd. assert_unreached: Browser doesn't support the MIME used in this test: video/mp4 Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/media-source/SourceBuffer-abort.html:20:29
+step@http://localhost:8800/resources/testharness.js:798:30
+isTypeSupported@http://localhost:8800/media-source/SourceBuffer-abort.html:19:18
+isTypeSupported@[native code]
+http://localhost:8800/media-source/SourceBuffer-abort.html:29:36
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+mediaTest@http://localhost:8800/media-source/SourceBuffer-abort.html:28:15
+http://localhost:8800/media-source/SourceBuffer-abort.html:46:14
+forEach@[native code]
+global code@http://localhost:8800/media-source/SourceBuffer-abort.html:45:14)
+

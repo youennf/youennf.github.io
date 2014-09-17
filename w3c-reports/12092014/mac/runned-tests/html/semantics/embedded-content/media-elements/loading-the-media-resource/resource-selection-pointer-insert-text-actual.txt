@@ -1,0 +1,8 @@
+
+
+FAIL pointer updates (adding text nodes) assert_equals: error events on c expected 1 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/loading-the-media-resource/resource-selection-pointer-insert-text.html:28:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

@@ -1,0 +1,8 @@
+
+FAIL invoking resource selection with load() assert_equals: networkState after v.load() expected 3 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/loading-the-media-resource/resource-selection-invoke-load.html:12:16
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/loading-the-media-resource/resource-selection-invoke-load.html:8:19)
+

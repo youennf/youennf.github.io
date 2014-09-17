@@ -1,0 +1,12 @@
+security.reset.sub
+Resetting the canvas state does not reset the origin-clean flag
+Actual output:
+
+FAIL Resetting the canvas state does not reset the origin-clean flag assert_throws: function "function () { canvas.toDataURL(); }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/html/semantics/embedded-content/the-canvas-element/security.reset.sub.html:24:14
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

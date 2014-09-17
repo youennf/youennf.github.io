@@ -1,0 +1,5 @@
+
+PASS W3C WebSocket API - Send binary data on a WebSocket - ArrayBufferView - Int8Array - Connection should be opened 
+PASS W3C WebSocket API - Send binary data on a WebSocket - ArrayBufferView - Int8Array - Message should be received 
+PASS W3C WebSocket API - Send binary data on a WebSocket - ArrayBufferView - Int8Array - Connection should be closed 
+

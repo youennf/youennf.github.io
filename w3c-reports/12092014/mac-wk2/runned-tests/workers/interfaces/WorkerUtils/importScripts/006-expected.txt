@@ -1,0 +1,3 @@
+CONSOLE MESSAGE: line 12: DataCloneError: DOM Exception 25: An object could not be cloned.
+
+Harness Error. harness_status.status = 1 , harness_status.message = DataCloneError: DOM Exception 25: An object could not be cloned.

@@ -1,0 +1,31 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 15:46
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/scripts/toc.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/scripts/id2path.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/scripts/update_html5lib_tests.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/scripts/lint.whitelist
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/scripts/html5lib_test.xml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/scripts/update-directory-structure.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/scripts/__init__.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/scripts/id2path.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/scripts/package.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/scripts/lint.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/scripts/html5lib_test_fragment.xml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/scripts/manifest.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/scripts/manifest.js

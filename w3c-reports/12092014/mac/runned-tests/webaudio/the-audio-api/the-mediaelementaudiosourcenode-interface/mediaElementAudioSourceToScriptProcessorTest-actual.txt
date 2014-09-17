@@ -1,0 +1,20 @@
+
+PASS Element Source tests completed 
+FAIL Channel 0 processed some data assert_greater_than: processed data array (C0) length greater than 0 expected a number greater than 0 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_greater_than@http://localhost:8800/resources/testharness.js:459:15
+http://localhost:8800/webaudio/the-audio-api/the-mediaelementaudiosourcenode-interface/mediaElementAudioSourceToScriptProcessorTest.html:99:25
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runTests@http://localhost:8800/webaudio/the-audio-api/the-mediaelementaudiosourcenode-interface/mediaElementAudioSourceToScriptProcessorTest.html:98:8
+bufferLoadCompleted@http://localhost:8800/webaudio/the-audio-api/the-mediaelementaudiosourcenode-interface/mediaElementAudioSourceToScriptProcessorTest.html:46:12
+decodeSuccessCallback@http://localhost:8800/webaudio/js/buffer-loader.js:31:20)
+FAIL All data processed correctly assert_true: comparing expected and rendered buffers (channel 0): lengths differ, expected 44098 got 0 expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+assert_array_approx_equals@http://localhost:8800/webaudio/js/helpers.js:3:14
+http://localhost:8800/webaudio/the-audio-api/the-mediaelementaudiosourcenode-interface/mediaElementAudioSourceToScriptProcessorTest.html:107:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runTests@http://localhost:8800/webaudio/the-audio-api/the-mediaelementaudiosourcenode-interface/mediaElementAudioSourceToScriptProcessorTest.html:106:8
+bufferLoadCompleted@http://localhost:8800/webaudio/the-audio-api/the-mediaelementaudiosourcenode-interface/mediaElementAudioSourceToScriptProcessorTest.html:46:12
+decodeSuccessCallback@http://localhost:8800/webaudio/js/buffer-loader.js:31:20)
+

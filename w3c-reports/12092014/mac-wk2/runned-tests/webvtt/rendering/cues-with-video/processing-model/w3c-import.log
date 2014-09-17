@@ -1,0 +1,104 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-11 16:22
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/2_cues_overlapping_completely_move_up-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/2_cues_overlapping_completely_move_up.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/2_cues_overlapping_partially_move_down-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/2_cues_overlapping_partially_move_down.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/2_cues_overlapping_partially_move_up-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/2_cues_overlapping_partially_move_up.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/2_tracks-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/2_tracks.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/3_tracks-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/3_tracks.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_end-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_end.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_end_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_end_wrapped.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_middle-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_middle.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_middle_position_50-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_middle_position_50.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_middle_position_gt_50-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_middle_position_gt_50.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_middle_position_lt_50-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_middle_position_lt_50.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_middle_position_lt_50_size_gt_maximum_size-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_middle_position_lt_50_size_gt_maximum_size.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_middle_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_middle_wrapped.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_start-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_start.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_start_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/align_start_wrapped.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/audio_has_no_subtitles-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/audio_has_no_subtitles.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/basic-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/cue_too_long-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/cue_too_long.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/decode_escaped_entities-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/decode_escaped_entities.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/disable_controls_reposition-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/disable_controls_reposition.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/dom_override_cue_align_position_line_size-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/dom_override_cue_align_position_line_size.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/dom_override_cue_align_position_line_size_while_paused-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/dom_override_cue_align_position_line_size_while_paused.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/dom_override_cue_line-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/dom_override_cue_line.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/dom_override_cue_text-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/dom_override_cue_text.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/dom_override_cue_text_while_paused-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/dom_override_cue_text_while_paused.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/dom_override_remove_cue_while_paused-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/dom_override_remove_cue_while_paused.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/enable_controls_reposition-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/enable_controls_reposition.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_-2_wrapped_cue_grow_upwards-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_-2_wrapped_cue_grow_upwards.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_0_is_top-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_0_is_top.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_1_wrapped_cue_grow_downwards-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_1_wrapped_cue_grow_downwards.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_50_percent-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_50_percent.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_integer_and_percent_mixed_overlap-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_integer_and_percent_mixed_overlap.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_integer_and_percent_mixed_overlap_move_up-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_integer_and_percent_mixed_overlap_move_up.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_percent_and_integer_mixed_overlap-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_percent_and_integer_mixed_overlap.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_percent_and_integer_mixed_overlap_move_up-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/line_percent_and_integer_mixed_overlap_move_up.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/media_height400_with_controls-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/media_height400_with_controls.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/media_with_controls-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/media_with_controls.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/navigate_cue_position-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/navigate_cue_position.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/one_line_cue_plus_wrapped_cue-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/one_line_cue_plus_wrapped_cue.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/repaint-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/repaint.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/size_50-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/size_50.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/too_many_cues-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/too_many_cues.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/too_many_cues_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/too_many_cues_wrapped.html

@@ -1,0 +1,12 @@
+CONSOLE MESSAGE: WebGL: INVALID_ENUM: compressedTexImage2D: invalid internalformat
+CONSOLE MESSAGE: WebGL: INVALID_ENUM: compressedTexImage2D: invalid internalformat
+
+PASS compressedTexImage2D 
+PASS Calling function () {
+    gl.compressedTexImage2D(gl.TEXTURE_2D, 0, COMPRESSED_RGB_S3TC_DXT1_EXT, 4, 4, 0, new Uint8Array(8));
+  } should generate a 1280 error. 
+PASS Calling function () {
+    gl.compressedTexImage2D(gl.TEXTURE_2D, 0, COMPRESSED_RGB_S3TC_DXT1_EXT, 4, 4, 0, new Uint8Array(8), null);
+  } should generate a 1280 error. 
+PASS Should throw a TypeError when passing too few arguments. 
+

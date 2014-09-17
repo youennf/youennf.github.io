@@ -1,0 +1,8 @@
+storage_session_getItem
+
+
+PASS Web Storage 
+PASS All 3 items should be added. 
+PASS array access should be correct 
+PASS getItem should be correct 
+

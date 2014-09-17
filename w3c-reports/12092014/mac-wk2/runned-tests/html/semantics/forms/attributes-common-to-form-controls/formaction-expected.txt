@@ -1,0 +1,15 @@
+
+PASS formAction on button support 
+PASS formAction on input support 
+PASS formaction absolute URL value on input reflects correct value after being updated by the DOM 
+PASS formAction absolute URL value is correct using getAttribute 
+PASS formAction relative URL value on input reflects correct value after being updated by the DOM 
+PASS formAction relative URL value is correct using getAttribute 
+FAIL On getting, when formaction is missing, the document's address must be returned assert_equals: expected "http://localhost:8800/html/semantics/forms/attributes-common-to-form-controls/formaction.html" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/attributes-common-to-form-controls/formaction.html:39:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/attributes-common-to-form-controls/formaction.html:39:13)
+PASS On getting, when formaction value is the empty string, the document's address must be returned 
+

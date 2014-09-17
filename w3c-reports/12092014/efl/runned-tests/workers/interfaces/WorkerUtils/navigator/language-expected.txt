@@ -1,0 +1,7 @@
+
+FAIL navigator.language assert_equals: expected (string) "en-US" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/workers/interfaces/WorkerUtils/navigator/language.html:14:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

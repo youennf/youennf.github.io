@@ -1,0 +1,7 @@
+
+FAIL available interface objects in dedicated worker assert_equals: these interface objects were missing expected "" but got "EventTarget, ErrorEvent, Event, Worker, DOMException, SharedWorker, MessagePort, WorkerNavigator, File, FileList, ProgressEvent, FormData, CanvasProxy, ImageBitmap, CanvasRenderingContext2D, DrawingStyle, CanvasGradient, CanvasPattern, Path, TextMetrics"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/workers/semantics/interface-objects/001.html:21:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

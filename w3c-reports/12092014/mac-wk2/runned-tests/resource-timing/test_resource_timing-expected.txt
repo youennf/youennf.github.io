@@ -1,0 +1,9 @@
+CONSOLE MESSAGE: line 67: TypeError: undefined is not an object (evaluating 'window.performance.getEntriesByName')
+Description
+
+This test validates that Resource Timing entries for resources loaded on a page exist in the Performance Timeline. 
+Resources for the following initiators are used: iframe, img, link, script, xml. 
+NOTE: Due to caching behavior in the browser, it is possible that when revisiting this page, some resources may not have to be fetched from the network. As a result, the performance timeline will not contain entries for these resources. This test will fail if any entries are missing to ensure that all resources are fetched from the network and entries for these resources exist in the Performance Timeline. If revisiting this page, please either perform a full reload of the page or clear the cache between visits. In Internet Explorer 10, a full reload is performed via the keyboard shortcut: ctrl + F5.
+
+
+Harness Error. harness_status.status = 1 , harness_status.message = TypeError: undefined is not an object (evaluating 'window.performance.getEntriesByName')

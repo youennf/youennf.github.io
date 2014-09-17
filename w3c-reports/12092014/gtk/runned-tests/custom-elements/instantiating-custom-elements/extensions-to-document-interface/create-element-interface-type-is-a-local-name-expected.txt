@@ -1,0 +1,10 @@
+
+FAIL Test Document.createElement() creates custom element of type, specified by localName argument, if an element definition with matching localName, namespace, and type is not registered undefined is not a function (evaluating 'doc.registerElement(name1)')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-interface-type-is-a-local-name.html:20:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-interface-type-is-a-local-name.html:16:5)
+FAIL Test Document.createElementNS() creates custom element of type, specified by localName argument, if an element definition with matching localName, namespace, and type is not registered undefined is not a function (evaluating 'doc.registerElement(name1)')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-interface-type-is-a-local-name.html:34:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-interface-type-is-a-local-name.html:30:5)
+

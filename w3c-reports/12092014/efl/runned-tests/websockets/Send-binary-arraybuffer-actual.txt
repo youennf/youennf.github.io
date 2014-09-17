@@ -1,0 +1,13 @@
+
+FAIL W3C WebSocket API - Send binary data on a WebSocket - ArrayBuffer - Connection should be opened assert_equals: expected 0 but got 15(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/websockets/Send-binary-arraybuffer.htm:26:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS W3C WebSocket API - Send binary data on a WebSocket - ArrayBuffer - Message should be received 
+FAIL W3C WebSocket API - Send binary data on a WebSocket - ArrayBuffer - Connection should be closed assert_true: WebSocket connection should be open expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/websockets/Send-binary-arraybuffer.htm:38:24
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

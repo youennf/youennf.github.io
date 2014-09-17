@@ -1,0 +1,5 @@
+
+PASS W3C WebSocket API - Send binary data on a WebSocket - ArrayBufferView - Float32Array - Connection should be opened 
+PASS W3C WebSocket API - Send binary data on a WebSocket - ArrayBufferView - Float32Array - Message should be received 
+PASS W3C WebSocket API - Send binary data on a WebSocket - ArrayBufferView - Float32Array - Connection should be closed 
+

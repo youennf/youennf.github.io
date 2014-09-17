@@ -1,0 +1,5 @@
+1   0x7f3d8e076ab0
+2   0x7f3d8e40e900
+3   0x7f3d8c093724 WebCore::NavigatorContentUtils::isProtocolHandlerRegistered(WebCore::Navigator*, WTF::String const&, WTF::String const&, int&)
+4   0x7f3d8d06470d WebCore::jsNavigatorPrototypeFunctionIsProtocolHandlerRegistered(JSC::ExecState*)
+5   0x7f3d3ca7a0b4

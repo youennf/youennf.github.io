@@ -1,0 +1,306 @@
+CONSOLE MESSAGE: Deprecated attempt to access property 'key' on a non-StorageEvent object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'oldValue' on a non-StorageEvent object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'newValue' on a non-StorageEvent object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'url' on a non-StorageEvent object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'storageArea' on a non-StorageEvent object.
+Web Storage IDL tests
+
+interface Storage {
+  readonly attribute unsigned long length;
+  DOMString? key(unsigned long index);
+  getter DOMString getItem(DOMString key);
+  setter creator void setItem(DOMString key, DOMString value);
+  deleter void removeItem(DOMString key);
+  void clear();
+};
+[NoInterfaceObject]
+interface WindowSessionStorage {
+  readonly attribute Storage sessionStorage;
+};
+Window implements WindowSessionStorage;
+[NoInterfaceObject]
+interface WindowLocalStorage {
+  readonly attribute Storage localStorage;
+};
+Window implements WindowLocalStorage;
+[Constructor(DOMString type, optional StorageEventInit eventInitDict)]
+interface StorageEvent : Event {
+  readonly attribute DOMString key;
+  readonly attribute DOMString? oldValue;
+  readonly attribute DOMString? newValue;
+  readonly attribute DOMString url;
+  readonly attribute Storage? storageArea;
+};
+
+dictionary StorageEventInit : EventInit {
+  DOMString key;
+  DOMString? oldValue;
+  DOMString? newValue;
+  DOMString url;
+  Storage? storageArea;
+};
+
+FAIL Window interface: attribute sessionStorage assert_true: The prototype object must have a property "sessionStorage" expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1265:24
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+FAIL Window interface: attribute localStorage assert_true: The prototype object must have a property "localStorage" expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1265:24
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+FAIL Storage interface: existence and properties of interface object assert_equals: prototype of window's property "Storage" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+PASS Storage interface object length 
+FAIL Storage interface: existence and properties of interface prototype object assert_false: Storage.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+FAIL Storage interface: existence and properties of interface prototype object's "constructor" property assert_own_property: Storage.prototype does not have own property "constructor" expected property "constructor" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1178:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+FAIL Storage interface: attribute length assert_true: The prototype object must have a property "length" expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1265:24
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+FAIL Storage interface: operation key(unsigned long) assert_true: property is not enumerable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1323:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+FAIL Storage interface: operation getItem(DOMString) assert_true: property is not enumerable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1323:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+FAIL Storage interface: operation setItem(DOMString,DOMString) assert_true: property is not enumerable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1323:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+FAIL Storage interface: operation removeItem(DOMString) assert_true: property is not enumerable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1323:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+FAIL Storage interface: operation clear() assert_true: property is not enumerable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1323:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+PASS Storage must be primary interface of window.localStorage 
+PASS Stringification of window.localStorage 
+FAIL Storage interface: window.localStorage must inherit property "length" with the proper type (0) assert_inherits: property "length" found on object expected in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:548:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+PASS Storage interface: window.localStorage must inherit property "key" with the proper type (1) 
+PASS Storage interface: calling key(unsigned long) on window.localStorage with too few arguments must throw TypeError 
+PASS Storage interface: window.localStorage must inherit property "getItem" with the proper type (2) 
+PASS Storage interface: calling getItem(DOMString) on window.localStorage with too few arguments must throw TypeError 
+PASS Storage interface: window.localStorage must inherit property "setItem" with the proper type (3) 
+PASS Storage interface: calling setItem(DOMString,DOMString) on window.localStorage with too few arguments must throw TypeError 
+PASS Storage interface: window.localStorage must inherit property "removeItem" with the proper type (4) 
+PASS Storage interface: calling removeItem(DOMString) on window.localStorage with too few arguments must throw TypeError 
+PASS Storage interface: window.localStorage must inherit property "clear" with the proper type (5) 
+FAIL StorageEvent interface: existence and properties of interface object assert_equals: prototype of window's property "StorageEvent" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+PASS StorageEvent interface object length 
+FAIL StorageEvent interface: existence and properties of interface prototype object assert_false: StorageEvent.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+FAIL StorageEvent interface: existence and properties of interface prototype object's "constructor" property assert_true: StorageEvent.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+FAIL StorageEvent interface: attribute key assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+FAIL StorageEvent interface: attribute oldValue assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+FAIL StorageEvent interface: attribute newValue assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+FAIL StorageEvent interface: attribute url assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+FAIL StorageEvent interface: attribute storageArea assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/webstorage/idlharness.html:75:17
+global code@http://localhost:8800/webstorage/idlharness.html:76:3)
+

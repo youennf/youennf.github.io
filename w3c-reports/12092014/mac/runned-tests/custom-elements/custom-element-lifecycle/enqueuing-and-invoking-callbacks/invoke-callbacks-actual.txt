@@ -1,0 +1,18 @@
+
+FAIL Test 'this' value inside created callback. undefined is not a function (evaluating 'doc.registerElement('x-a', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/enqueuing-and-invoking-callbacks/invoke-callbacks.html:20:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/enqueuing-and-invoking-callbacks/invoke-callbacks.html:17:5)
+FAIL Test 'this' value inside attached callback. undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/enqueuing-and-invoking-callbacks/invoke-callbacks.html:31:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test 'this' value inside detached callback. undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/enqueuing-and-invoking-callbacks/invoke-callbacks.html:40:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test 'this' value inside attributeChanged callback. undefined is not a function (evaluating 'doc.registerElement('x-b', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/enqueuing-and-invoking-callbacks/invoke-callbacks.html:52:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/enqueuing-and-invoking-callbacks/invoke-callbacks.html:49:5)
+

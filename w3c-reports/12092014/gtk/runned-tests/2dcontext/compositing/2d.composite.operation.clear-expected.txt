@@ -1,0 +1,12 @@
+2d.composite.operation.clear
+Actual output:
+
+FAIL Canvas test: 2d.composite.operation.clear assert_equals: ctx.globalCompositeOperation === 'xor' (got clear[string], expected xor[string]) expected "xor" but got "clear"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+_assertSame@http://localhost:8800/common/canvas-tests.js:17:18
+http://localhost:8800/2dcontext/compositing/2d.composite.operation.clear.html:24:12
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

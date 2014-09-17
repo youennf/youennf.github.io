@@ -1,0 +1,11 @@
+  
+
+PASS The body element must be the active element if no element is focused 
+PASS The element must be the active element if it is focused 
+PASS The hasFocus() method must return false if the Document has no browsing context 
+FAIL When a child browsing context is focused, its browsing context container is also focused null is not an object (evaluating 'document.getElementById("fr").contentDocument.getElementById("ipt").focus')(stack: http://localhost:8800/html/editing/focus/document-level-focus-apis/document-level-apis.html:23:72
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+frame_load@http://localhost:8800/html/editing/focus/document-level-focus-apis/document-level-apis.html:22:7
+onload@http://localhost:8800/html/editing/focus/document-level-focus-apis/document-level-apis.html:34:11)
+

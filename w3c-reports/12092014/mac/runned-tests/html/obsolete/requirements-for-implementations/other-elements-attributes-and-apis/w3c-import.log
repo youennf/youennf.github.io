@@ -1,0 +1,26 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-09 15:43
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/obsolete/requirements-for-implementations/other-elements-attributes-and-apis/document-color-01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/obsolete/requirements-for-implementations/other-elements-attributes-and-apis/document-color-02.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/obsolete/requirements-for-implementations/other-elements-attributes-and-apis/document-color-03.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/obsolete/requirements-for-implementations/other-elements-attributes-and-apis/document-color-04.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/obsolete/requirements-for-implementations/other-elements-attributes-and-apis/heading-obsolete-attributes-01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/obsolete/requirements-for-implementations/other-elements-attributes-and-apis/nothing.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/obsolete/requirements-for-implementations/other-elements-attributes-and-apis/original-id.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/obsolete/requirements-for-implementations/other-elements-attributes-and-apis/script-IDL-event-htmlfor.html

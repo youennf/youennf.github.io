@@ -1,0 +1,12 @@
+When prompted, accept to share your audio and video stream.
+
+Description
+
+This test checks that distinct mediastream tracks have distinct ids.
+
+The feature(s) tested here are known to have been made available via vendor prefixes; you can run this test with vendor prefixes enabled.
+
+FAIL Tests that distinct mediastream tracks have distinct ids  undefined is not a function (evaluating 'navigator.getUserMedia')(stack: http://localhost:8800/mediacapture-streams/stream-api/mediastreamtrack/mediastreamtrack-id.html:21:25
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/mediacapture-streams/stream-api/mediastreamtrack/mediastreamtrack-id.html:20:7)
+

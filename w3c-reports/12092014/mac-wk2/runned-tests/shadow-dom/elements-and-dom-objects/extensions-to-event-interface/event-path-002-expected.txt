@@ -1,0 +1,12 @@
+
+FAIL event.path is readonly assert_not_equals: got disallowed value object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_not_equals@http://localhost:8800/resources/testharness.js:347:15
+http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-event-interface/event-path-002.html:35:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+dispatchEvent@[native code]
+http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-event-interface/event-path-002.html:42:22
+http://localhost:8800/shadow-dom/testcommon.js:182:14
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-event-interface/event-path-002.html:27:7)
+

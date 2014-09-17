@@ -1,0 +1,7 @@
+
+FAIL XHR - retrieve HTML document: document.contentType === 'application/xml' assert_equals: expected (string) "application/xml" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/nodes/Document-contentType/contentType/xhr_responseType_document.html:14:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:843:37)
+

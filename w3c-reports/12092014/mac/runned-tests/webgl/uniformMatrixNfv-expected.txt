@@ -1,0 +1,29 @@
+
+FAIL Should not throw for 2 assert_true: Should be able to get a context. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+getGl@http://localhost:8800/webgl/common.js:4:14
+http://localhost:8800/webgl/uniformMatrixNfv.html:27:19
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/webgl/uniformMatrixNfv.html:26:7
+forEach@[native code]
+global code@http://localhost:8800/webgl/uniformMatrixNfv.html:25:18)
+FAIL Should not throw for 3 assert_true: Should be able to get a context. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+getGl@http://localhost:8800/webgl/common.js:4:14
+http://localhost:8800/webgl/uniformMatrixNfv.html:27:19
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/webgl/uniformMatrixNfv.html:26:7
+forEach@[native code]
+global code@http://localhost:8800/webgl/uniformMatrixNfv.html:25:18)
+FAIL Should not throw for 4 assert_true: Should be able to get a context. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+getGl@http://localhost:8800/webgl/common.js:4:14
+http://localhost:8800/webgl/uniformMatrixNfv.html:27:19
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/webgl/uniformMatrixNfv.html:26:7
+forEach@[native code]
+global code@http://localhost:8800/webgl/uniformMatrixNfv.html:25:18)
+

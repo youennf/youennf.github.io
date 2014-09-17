@@ -1,0 +1,3 @@
+
+PASS Test Description: A port message queue can be enabled or disabled, and is initially disabled. 
+

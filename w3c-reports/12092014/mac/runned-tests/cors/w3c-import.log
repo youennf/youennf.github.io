@@ -1,0 +1,36 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-09 15:43
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./allow-headers.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./basic.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./credentials-flag.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./late-upload-events.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./origin.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./preflight-cache.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./redirect-origin.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./redirect-preflight-2.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./redirect-preflight.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./redirect-userinfo.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./remote-origin.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./request-headers.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./response-headers.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./simple-requests.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./status-async.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./status-preflight.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./status.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/cors/./support.js

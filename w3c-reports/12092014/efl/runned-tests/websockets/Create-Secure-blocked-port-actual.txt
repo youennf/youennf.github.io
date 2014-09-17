@@ -1,0 +1,4 @@
+CONSOLE MESSAGE: WebSocket port 25 blocked
+
+PASS W3C WebSocket API - Create Secure WebSocket - Pass a URL with a blocked port - SECURITY_ERR should be thrown 
+

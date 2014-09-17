@@ -1,0 +1,67 @@
+
+
+FAIL document.open replacing singleton window assert_equals: expected (undefined) undefined but got (number) 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:19:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:31
+forEach@[native code]
+onload@http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:16)
+FAIL document.open replacing singleton location assert_equals: expected (undefined) undefined but got (number) 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:19:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:31
+forEach@[native code]
+onload@http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:16)
+FAIL document.open replacing singleton history assert_equals: expected (undefined) undefined but got (number) 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:19:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:31
+forEach@[native code]
+onload@http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:16)
+FAIL document.open replacing singleton navigator assert_equals: expected (undefined) undefined but got (number) 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:19:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:31
+forEach@[native code]
+onload@http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:16)
+FAIL document.open replacing singleton applicationCache assert_equals: expected (undefined) undefined but got (number) 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:19:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:31
+forEach@[native code]
+onload@http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:16)
+FAIL document.open replacing singleton sessionStorage assert_equals: expected (undefined) undefined but got (string) "1"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:19:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:31
+forEach@[native code]
+onload@http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:16)
+FAIL document.open replacing singleton localStorage assert_equals: expected (undefined) undefined but got (string) "1"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:19:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:31
+forEach@[native code]
+onload@http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:16)
+FAIL document.open replacing singleton locationbar assert_equals: expected (undefined) undefined but got (number) 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:19:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:31
+forEach@[native code]
+onload@http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/009.html:32:16)
+

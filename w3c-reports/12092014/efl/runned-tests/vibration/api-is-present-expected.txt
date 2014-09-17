@@ -1,0 +1,8 @@
+Description
+
+This test checks for the presence of the vibrate() method, taking vendor prefixes into account.
+
+The feature(s) tested here are known to have been made available via vendor prefixes; you can run this test with vendor prefixes enabled.
+
+PASS vibrate() is present on navigator 
+

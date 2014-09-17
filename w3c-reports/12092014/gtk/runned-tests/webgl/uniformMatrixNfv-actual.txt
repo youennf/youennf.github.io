@@ -1,0 +1,8 @@
+CONSOLE MESSAGE: WebGL: INVALID_OPERATION: getUniformLocation: program not linked
+CONSOLE MESSAGE: WebGL: INVALID_OPERATION: getUniformLocation: program not linked
+CONSOLE MESSAGE: WebGL: INVALID_OPERATION: getUniformLocation: program not linked
+
+PASS Should not throw for 2 
+PASS Should not throw for 3 
+PASS Should not throw for 4 
+

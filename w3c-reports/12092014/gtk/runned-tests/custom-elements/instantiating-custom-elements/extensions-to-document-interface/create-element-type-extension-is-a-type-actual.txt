@@ -1,0 +1,14 @@
+
+FAIL Test Document.createElement() creates custom element of type, specified by typeExtension argument undefined is not a function (evaluating 'doc.registerElement(name, {prototype: proto, extends: tagName})')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-type-extension-is-a-type.html:22:55
+forEach@[native code]
+http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-type-extension-is-a-type.html:18:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-type-extension-is-a-type.html:16:5)
+FAIL Test Document.createElementNS() creates custom element of type, specified by typeExtension argument undefined is not a function (evaluating 'doc.registerElement(name, {prototype: proto, extends: tagName})')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-type-extension-is-a-type.html:38:55
+forEach@[native code]
+http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-type-extension-is-a-type.html:34:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-type-extension-is-a-type.html:32:5)
+

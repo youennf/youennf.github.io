@@ -1,0 +1,7 @@
+
+FAIL 1 as ports Value is not a sequence(stack: postMessage@[native code]
+http://localhost:8800/webmessaging/with-ports/025.html:8:14
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/webmessaging/with-ports/025.html:7:11)
+

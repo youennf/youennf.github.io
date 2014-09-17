@@ -1,0 +1,82 @@
+
+FAIL A_04_01_09_T01 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:75:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:74:5)
+FAIL A_04_01_09_T02 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:91:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:90:5)
+FAIL A_04_01_09_T03 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:107:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:106:5)
+FAIL A_04_01_09_T04 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:123:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:122:5)
+FAIL A_04_01_09_T05 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:147:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:146:5)
+FAIL A_04_01_09_T06 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:176:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:175:5)
+FAIL A_04_01_09_T07 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:186:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:185:5)
+FAIL A_04_01_09_T08 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:196:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:195:5)
+FAIL A_04_01_09_T09 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:206:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:205:5)
+FAIL A_04_01_09_T10 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:216:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:215:5)
+FAIL A_04_01_09_T11 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:226:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:225:5)
+FAIL A_04_01_09_T12 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:236:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:235:5)
+FAIL A_04_01_09_T13 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:246:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:245:5)
+FAIL A_04_01_09_T14 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:256:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:255:5)
+FAIL A_04_01_09_T15 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:266:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:265:5)
+FAIL A_04_01_09_T16 undefined is not a function (evaluating 'ctx.d_p1.createShadowRoot()')(stack: setup@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:57:39
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:276:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-009.html:275:5)
+

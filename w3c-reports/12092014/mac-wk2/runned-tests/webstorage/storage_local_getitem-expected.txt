@@ -1,0 +1,6 @@
+storage_local_getItem
+
+
+PASS Web Storage 
+PASS getItem method test 
+

@@ -1,0 +1,44 @@
+
+PASS Select html element based on attribute 
+FAIL Select html element based on attribute mixed case assert_array_equals: lengths differ, expected 1 got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+test_xpath_succeeds@http://localhost:8800/domxpath/002.html:26:22
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/domxpath/002.html:43:15)
+PASS Select both HTML and SVG elements based on attribute 
+PASS Select HTML element with non-ascii attribute 1 
+PASS Select HTML element with non-ascii attribute 2 
+FAIL Select HTML element with non-ascii attribute 3 assert_array_equals: lengths differ, expected 1 got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+test_xpath_succeeds@http://localhost:8800/domxpath/002.html:26:22
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/domxpath/002.html:43:15)
+PASS Select SVG element based on mixed case attribute 
+FAIL Select both HTML and SVG elements based on mixed case attribute assert_array_equals: lengths differ, expected 1 got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+test_xpath_succeeds@http://localhost:8800/domxpath/002.html:26:22
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/domxpath/002.html:43:15)
+PASS Select SVG elements with refX attribute 
+PASS Select SVG elements with refX attribute incorrect case 
+PASS Select SVG elements with refX attribute lowercase 
+PASS Select SVG element with non-ascii attribute 1 
+PASS Select SVG element with non-ascii attribute 2 
+PASS xmlns attribute 
+PASS svg element with XLink attribute 
+

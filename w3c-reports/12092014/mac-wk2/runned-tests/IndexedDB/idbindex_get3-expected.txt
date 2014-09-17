@@ -1,0 +1,7 @@
+
+FAIL IDBIndex.get() - attempt to retrieve a record that doesn't exist  assert_equals: expected (undefined) undefined but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/IndexedDB/idbindex_get3.htm:21:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

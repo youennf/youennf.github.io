@@ -1,0 +1,53 @@
+
+PASS Array.prototype.join must call ToObject before looking at the separator argument. 
+PASS Step 2. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=object "[object Object]" and getter function. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=object "[object Object]" and getter function. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=true and getter function. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=true and getter function. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=false and getter function. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=false and getter function. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=0 and getter function. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=0 and getter function. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=1 and getter function. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=1 and getter function. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=3.141592653589793 and getter function. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=3.141592653589793 and getter function. 
+PASS Step 3. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=object "[object Object]" and getter valueOf. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=object "[object Object]" and getter valueOf. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=true and getter valueOf. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=true and getter valueOf. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=false and getter valueOf. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=false and getter valueOf. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=0 and getter valueOf. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=0 and getter valueOf. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=1 and getter valueOf. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=1 and getter valueOf. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=3.141592653589793 and getter valueOf. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=3.141592653589793 and getter valueOf. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=object "[object Object]" and getter toString. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=object "[object Object]" and getter toString. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=true and getter toString. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=true and getter toString. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=false and getter toString. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=false and getter toString. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=0 and getter toString. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=0 and getter toString. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=1 and getter toString. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=1 and getter toString. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=3.141592653589793 and getter toString. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=3.141592653589793 and getter toString. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=object "[object Object]" and getter valueOf and toString. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=object "[object Object]" and getter valueOf and toString. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=true and getter valueOf and toString. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=true and getter valueOf and toString. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=false and getter valueOf and toString. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=false and getter valueOf and toString. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=0 and getter valueOf and toString. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=0 and getter valueOf and toString. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=1 and getter valueOf and toString. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=1 and getter valueOf and toString. 
+PASS Array.prototype.join must forward the exception from the this object's length property with this=3.141592653589793 and getter valueOf and toString. 
+PASS Array.prototype.join must get the this object's length property before looking at the separator argument with this=3.141592653589793 and getter valueOf and toString. 
+

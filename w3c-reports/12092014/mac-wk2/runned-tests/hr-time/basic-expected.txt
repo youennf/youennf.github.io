@@ -1,0 +1,24 @@
+Description
+
+This test validates that window.performance.now() exist and is a function.
+
+
+FAIL window.performance is defined assert_equals: expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/hr-time/basic.html:13:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/hr-time/basic.html:12:5)
+FAIL High Resolution Time extension to the Performance interface undefined is not an object (evaluating 'window.performance.now')(stack: http://localhost:8800/hr-time/basic.html:17:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/hr-time/basic.html:16:5)
+FAIL window.performance.now() function undefined is not an object (evaluating 'window.performance.now')(stack: http://localhost:8800/hr-time/basic.html:21:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/hr-time/basic.html:20:5)
+FAIL window.performance.now() returns a number undefined is not an object (evaluating 'window.performance.now')(stack: http://localhost:8800/hr-time/basic.html:25:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/hr-time/basic.html:24:5)
+

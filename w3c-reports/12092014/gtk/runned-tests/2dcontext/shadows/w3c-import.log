@@ -1,0 +1,88 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 15:42
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.alpha.5.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.attributes.shadowOffset.invalid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.stroke.basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.transform.2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.stroke.join.1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.enable.y.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.image.transparent.2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.attributes.shadowBlur.invalid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.enable.blur.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.attributes.shadowColor.initial.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.alpha.2.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.gradient.transparent.1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.clip.3.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.gradient.alpha.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.composite.2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.pattern.alpha.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.pattern.transparent.2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.composite.1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.enable.x.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.gradient.transparent.2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.pattern.alpha.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.canvas.alpha.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.canvas.basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.enable.off.1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.alpha.3.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.alpha.5.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.pattern.transparent.1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.alpha.3.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.alpha.1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.gradient.basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.canvas.transparent.2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.canvas.transparent.1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.canvas.alpha.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.offset.positiveY.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.stroke.cap.2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.transform.1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.attributes.shadowOffset.valid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.attributes.shadowBlur.initial.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.blur.low.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.alpha.2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.image.alpha.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/canvas_shadows_002-expected.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/canvas_shadows_002.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.image.basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.stroke.cap.1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.attributes.shadowBlur.valid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.image.scale.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.gradient.alpha.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.alpha.4.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.pattern.basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.composite.3.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.image.section.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.attributes.shadowColor.valid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.clip.2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.enable.off.2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.attributes.shadowColor.invalid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.offset.negativeY.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.attributes.shadowOffset.initial.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.image.alpha.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.clip.1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.image.transparent.1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.outside.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.offset.negativeX.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.offset.positiveX.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.stroke.join.2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.blur.high.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/canvas_shadows_002-ref-expected.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/canvas_shadows_002-ref.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.stroke.join.3.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/shadows/2d.shadow.alpha.4.png

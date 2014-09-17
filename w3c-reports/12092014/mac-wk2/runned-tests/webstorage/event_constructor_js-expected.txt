@@ -1,0 +1,15 @@
+event_Constructor
+
+
+PASS Web Storage 
+FAIL StorageEvent constructor and nulls assert_equals: key expected (object) null but got (string) "null"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/webstorage/event_constructor_js.html:17:34
+step@http://localhost:8800/resources/testharness.js:798:30
+onStorageEvent@http://localhost:8800/webstorage/event_constructor_js.html:15:23
+dispatchEvent@[native code]
+http://localhost:8800/webstorage/event_constructor_js.html:33:33
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/webstorage/event_constructor_js.html:12:13)
+

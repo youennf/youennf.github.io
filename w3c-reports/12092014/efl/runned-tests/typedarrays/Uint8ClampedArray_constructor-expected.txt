@@ -1,0 +1,6 @@
+
+PASS Check if the constructor(Uint8ClampedArray) create new Uint8ClampedArray 
+PASS Check if the constructor(ArrayBuffer) create new Uint8ClampedArray 
+PASS Check if the constructor(ArrayBuffer, byteOffset) create new Uint8ClampedArray 
+PASS Check if the constructor(ArrayBuffer, byteOffset, length) create new Uint8ClampedArray 
+

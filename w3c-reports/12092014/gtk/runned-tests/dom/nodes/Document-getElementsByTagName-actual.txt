@@ -1,0 +1,51 @@
+
+FAIL Interfaces assert_false: Should not return a NodeList expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/dom/nodes/Document-getElementsByTagName.html:12:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Document-getElementsByTagName.html:11:5)
+PASS Caching is allowed 
+FAIL Shouldn't be able to set unsigned properties on a HTMLCollection (non-strict mode) assert_equals: expected (undefined) undefined but got (string) "foopy"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/nodes/Document-getElementsByTagName.html:27:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Document-getElementsByTagName.html:24:5)
+FAIL Shouldn't be able to set unsigned properties on a HTMLCollection (strict mode) assert_throws: function "function () {
+    "use strict";
+    l[5] = "foopy";
+  }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/dom/nodes/Document-getElementsByTagName.html:32:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Document-getElementsByTagName.html:30:5)
+FAIL Should be able to set expando shadowing a proto prop (item) assert_equals: expected function "function item() {
+    [native code]
+}" but got function "function item() {
+    [native code]
+}"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/dom/nodes/Document-getElementsByTagName.html:42:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Document-getElementsByTagName.html:39:5)
+FAIL Should be able to set expando shadowing a proto prop (namedItem) assert_equals: expected (function) function "function namedItem() {
+    [native code]
+}" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/nodes/Document-getElementsByTagName.html:50:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Document-getElementsByTagName.html:47:5)
+FAIL hasOwnProperty, getOwnPropertyDescriptor, getOwnPropertyNames assert_array_equals: lengths differ, expected 2 got 3(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/dom/nodes/Document-getElementsByTagName.html:65:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Document-getElementsByTagName.html:56:5)
+PASS Document.getElementsByTagName 
+PASS Document.getElementsByTagName 1 
+PASS Document.getElementsByTagName 2 
+

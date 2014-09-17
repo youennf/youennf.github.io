@@ -1,0 +1,20 @@
+
+FAIL getting name undefined is not a constructor (evaluating 'new SharedWorker(t[0], t[1])')(stack: http://localhost:8800/workers/interfaces/SharedWorkerGlobalScope/name/getting.html:22:29
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+http://localhost:8800/workers/interfaces/SharedWorkerGlobalScope/name/getting.html:21:13
+forEach@[native code]
+global code@http://localhost:8800/workers/interfaces/SharedWorkerGlobalScope/name/getting.html:20:14)
+FAIL getting name 1 undefined is not a constructor (evaluating 'new SharedWorker(t[0], t[1])')(stack: http://localhost:8800/workers/interfaces/SharedWorkerGlobalScope/name/getting.html:22:29
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+http://localhost:8800/workers/interfaces/SharedWorkerGlobalScope/name/getting.html:21:13
+forEach@[native code]
+global code@http://localhost:8800/workers/interfaces/SharedWorkerGlobalScope/name/getting.html:20:14)
+FAIL getting name 2 undefined is not a constructor (evaluating 'new SharedWorker(t[0], t[1])')(stack: http://localhost:8800/workers/interfaces/SharedWorkerGlobalScope/name/getting.html:22:29
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+http://localhost:8800/workers/interfaces/SharedWorkerGlobalScope/name/getting.html:21:13
+forEach@[native code]
+global code@http://localhost:8800/workers/interfaces/SharedWorkerGlobalScope/name/getting.html:20:14)
+

@@ -1,0 +1,12 @@
+2d.pattern.image.incomplete.removedsrc
+Actual output:
+
+FAIL Canvas test: 2d.pattern.image.incomplete.removedsrc assert_equals: ctx.createPattern(img, 'repeat') === null (got [object CanvasPattern][object], expected [object]) expected null but got object "[object CanvasPattern]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+_assertSame@http://localhost:8800/common/canvas-tests.js:17:18
+http://localhost:8800/2dcontext/fill-and-stroke-styles/2d.pattern.image.incomplete.removedsrc.html:24:12
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

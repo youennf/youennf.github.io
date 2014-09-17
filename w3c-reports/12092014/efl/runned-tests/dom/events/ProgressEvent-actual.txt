@@ -1,0 +1,16 @@
+
+FAIL Default event values. assert_equals: expected (boolean) false but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/events/ProgressEvent.html:16:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/events/ProgressEvent.html:7:5)
+FAIL document.createEvent() should not work with ProgressEvent. assert_throws: function "function () {
+    document.createEvent("ProgressEvent");
+  }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/dom/events/ProgressEvent.html:21:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/events/ProgressEvent.html:20:5)
+

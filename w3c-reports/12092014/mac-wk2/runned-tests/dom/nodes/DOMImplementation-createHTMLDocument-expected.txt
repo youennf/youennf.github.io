@@ -1,0 +1,17 @@
+
+PASS DOMImplementation.createHTMLDocument 
+PASS DOMImplementation.createHTMLDocument 1 
+FAIL DOMImplementation.createHTMLDocument 2 assert_equals: expected 0 but got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/dom/nodes/DOMImplementation-createHTMLDocument.html:27:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+checkDoc@http://localhost:8800/dom/nodes/DOMImplementation-createHTMLDocument.html:14:7
+global code@http://localhost:8800/dom/nodes/DOMImplementation-createHTMLDocument.html:35:9)
+PASS DOMImplementation.createHTMLDocument 3 
+PASS DOMImplementation.createHTMLDocument 4 
+PASS DOMImplementation.createHTMLDocument 5 
+PASS DOMImplementation.createHTMLDocument 6 
+PASS DOMImplementation.createHTMLDocument 7 
+PASS Missing title argument 
+

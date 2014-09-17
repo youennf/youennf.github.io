@@ -1,0 +1,54 @@
+
+FAIL unsupported_scheme assert_throws: function "function () { new SharedWorker('unsupported:', ''); }" threw object "TypeError: undefined is not a constructor (evaluating 'ne..." that is not a DOMException SecurityError: property "code" is equal to undefined, expected 18(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:16:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:15:5)
+FAIL data_url undefined is not a constructor (evaluating 'new SharedWorker('data:,onconnect = function(e) { e.ports[0].postMessage(1); }', '')')(stack: http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:19:32
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:18:11)
+FAIL javascript_url assert_throws: function "function () { new SharedWorker('javascript:""', ''); }" threw object "TypeError: undefined is not a constructor (evaluating 'ne..." that is not a DOMException SecurityError: property "code" is equal to undefined, expected 18(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:25:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:24:5)
+FAIL about_blank assert_throws: function "function () { new SharedWorker('about:blank', ''); }" threw object "TypeError: undefined is not a constructor (evaluating 'ne..." that is not a DOMException SecurityError: property "code" is equal to undefined, expected 18(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:28:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:27:5)
+FAIL opera_com assert_throws: function "function () { new SharedWorker('http://www.opera.com/', '..." threw object "TypeError: undefined is not a constructor (evaluating 'ne..." that is not a DOMException SecurityError: property "code" is equal to undefined, expected 18(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:31:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:30:5)
+FAIL port_81 assert_throws: function "function () { new SharedWorker(location.protocol+'//'+loc..." threw object "TypeError: undefined is not a constructor (evaluating 'ne..." that is not a DOMException SecurityError: property "code" is equal to undefined, expected 18(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:34:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:33:5)
+FAIL https_port_80 assert_throws: function "function () { new SharedWorker('https://'+location.hostna..." threw object "TypeError: undefined is not a constructor (evaluating 'ne..." that is not a DOMException SecurityError: property "code" is equal to undefined, expected 18(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:37:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:36:5)
+FAIL https_port_8000 assert_throws: function "function () { new SharedWorker('https://'+location.hostna..." threw object "TypeError: undefined is not a constructor (evaluating 'ne..." that is not a DOMException SecurityError: property "code" is equal to undefined, expected 18(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:40:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:39:5)
+FAIL http_port_8012 assert_throws: function "function () { new SharedWorker('http://'+location.hostnam..." threw object "TypeError: undefined is not a constructor (evaluating 'ne..." that is not a DOMException SecurityError: property "code" is equal to undefined, expected 18(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:43:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/workers/constructors/SharedWorker/same-origin.html:42:5)
+

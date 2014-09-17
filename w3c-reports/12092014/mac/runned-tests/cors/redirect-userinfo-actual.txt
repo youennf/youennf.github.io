@@ -1,0 +1,10 @@
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?&location=http%3A%2F%2Ftest%3Atest%40www1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3F%26get_value%3Dlast%260_1&0_0
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?&location=http%3A%2F%2Fuser%3A%40www1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3F%26get_value%3Dlast%261_1&1_0
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?&location=http%3A%2F%2Fuser%3A%40www1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3F%26get_value%3Dlast%262_1&2_0
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?&location=http%3A%2F%2F%3A%40www1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3F%26get_value%3Dlast%263_1&3_0
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?&location=http%3A%2F%2F%3Apass%40www1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3F%26get_value%3Dlast%264_1&4_0
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?&location=http%3A%2F%2F%40www1.localhost%3A8800%2Fcors%2Fresources%2Fcors-makeheader.py%3F%26get_value%3Dlast%265_1&5_0
+CORS userinfo redirect handling
+
+
+Harness Error. harness_status.status = 2 , harness_status.message = null

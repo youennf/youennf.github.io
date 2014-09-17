@@ -1,0 +1,11 @@
+Three
+Two
+One
+
+FAIL ol.start - reflection test assert_equals: expected 3 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/grouping-content/the-ol-element/ol.start-reflection-2.html:22:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/grouping-content/the-ol-element/ol.start-reflection-2.html:21:5)
+

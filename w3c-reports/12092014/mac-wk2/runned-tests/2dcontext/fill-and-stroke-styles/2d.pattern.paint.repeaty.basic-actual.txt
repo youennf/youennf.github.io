@@ -1,0 +1,14 @@
+2d.pattern.paint.repeaty.basic
+Actual output:
+Expected output:
+
+
+FAIL Canvas test: 2d.pattern.paint.repeaty.basic assert_equals: Red channel of the pixel at (1, 1) expected 0 but got 255(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+_assertPixel@http://localhost:8800/common/canvas-tests.js:38:18
+http://localhost:8800/2dcontext/fill-and-stroke-styles/2d.pattern.paint.repeaty.basic.html:32:13
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

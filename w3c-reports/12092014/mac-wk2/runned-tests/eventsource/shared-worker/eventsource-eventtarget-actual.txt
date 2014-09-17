@@ -1,0 +1,5 @@
+
+FAIL shared worker - EventSource: addEventListener() undefined is not a constructor (evaluating 'new SharedWorker('#')')(stack: http://localhost:8800/eventsource/shared-worker/eventsource-eventtarget.htm:28:38
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/eventsource/shared-worker/eventsource-eventtarget.htm:27:16)
+

@@ -1,0 +1,10 @@
+Adding upload event listeners after send()
+
+
+PASS Late listeners: No preflight 
+FAIL Late listeners: Preflight assert_true: Events did fire expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/cors/late-upload-events.htm:28:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

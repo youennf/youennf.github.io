@@ -1,0 +1,13 @@
+2d.text.draw.fontface.notinpage
+@font-face fonts should work even if they are not used in the page
+Actual output:
+Expected output:
+
+
+FAIL @font-face fonts should work even if they are not used in the page assert_approx_equals: Red channel of the pixel at (5, 5) expected 0 +/- 2 but got 255(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_approx_equals@http://localhost:8800/resources/testharness.js:425:15
+_assertPixelApprox@http://localhost:8800/common/canvas-tests.js:47:25
+http://localhost:8800/2dcontext/drawing-text-to-the-canvas/2d.text.draw.fontface.notinpage.html:35:23
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:843:37)
+

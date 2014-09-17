@@ -1,0 +1,8 @@
+
+
+FAIL Cancelling timeout after document.open assert_unreached: Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/005.html:12:75
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

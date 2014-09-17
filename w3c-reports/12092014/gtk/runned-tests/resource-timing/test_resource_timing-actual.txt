@@ -1,0 +1,36 @@
+Description
+
+This test validates that Resource Timing entries for resources loaded on a page exist in the Performance Timeline. 
+Resources for the following initiators are used: iframe, img, link, script, xml. 
+NOTE: Due to caching behavior in the browser, it is possible that when revisiting this page, some resources may not have to be fetched from the network. As a result, the performance timeline will not contain entries for these resources. This test will fail if any entries are missing to ensure that all resources are fetched from the network and entries for these resources exist in the Performance Timeline. If revisiting this page, please either perform a full reload of the page or clear the cache between visits. In Internet Explorer 10, a full reload is performed via the keyboard shortcut: ctrl + F5.
+
+
+PASS window.performance is defined 
+FAIL window.performance.getEntriesByName() is defined assert_true: window.performance.getEntriesByName() is defined expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resource-timing/resources/webperftestharness.js:124:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/resource-timing/resources/webperftestharness.js:52:9
+test_true@http://localhost:8800/resource-timing/resources/webperftestharness.js:124:12
+onload_test@http://localhost:8800/resource-timing/test_resource_timing.html:67:22
+onload@http://localhost:8800/resource-timing/test_resource_timing.html:322:12)
+FAIL window.performance.getEntriesByType() is defined assert_true: window.performance.getEntriesByType() is defined expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resource-timing/resources/webperftestharness.js:124:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/resource-timing/resources/webperftestharness.js:52:9
+test_true@http://localhost:8800/resource-timing/resources/webperftestharness.js:124:12
+onload_test@http://localhost:8800/resource-timing/test_resource_timing.html:69:22
+onload@http://localhost:8800/resource-timing/test_resource_timing.html:322:12)
+FAIL window.performance.getEntries() is defined assert_true: window.performance.getEntries() is defined expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resource-timing/resources/webperftestharness.js:124:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/resource-timing/resources/webperftestharness.js:52:9
+test_true@http://localhost:8800/resource-timing/resources/webperftestharness.js:124:12
+onload_test@http://localhost:8800/resource-timing/test_resource_timing.html:71:22
+onload@http://localhost:8800/resource-timing/test_resource_timing.html:322:12)
+

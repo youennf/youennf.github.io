@@ -1,0 +1,39 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 15:42
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/Event.bubbles.false.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/stopImmediatePropagation.effect.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/stopPropagation.deferred.effect.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/domnodeinserted.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/ProcessingInstruction.DOMCharacterDataModified.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/createEvent.NOT_SUPPORTED_ERR.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/dispatchEvent.UNSPECIFIED_EVENT_TYPE_ERR.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/EventObject.after.dispatchEvent.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/EventListener.eventHandler.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/Propagation.path.target.moved.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/Propagation.path.target.removed.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/DOM.event.flow.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/stopPropagation.dispatchEvent.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/dispatchEvent.NOT_SUPPORTED_ERR.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/dispatchEvent.return.value.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/EventObject.multiple.dispatchEvent.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/Determined.candidate.EventListeners.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/EventListener.dispatch.new.event.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/addEventListener.optional.useCapture.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/dispatchEvent.DISPATCH_REQUEST_ERR.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/DOMEvents/tests/submissions/Microsoft/converted/dispatchEvent.click.checkbox.html

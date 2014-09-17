@@ -1,0 +1,252 @@
+User Timing IDL tests
+
+partial interface Performance {
+    void mark(DOMString markName);
+    void clearMarks(optional  DOMString markName);
+
+    void measure(DOMString measureName, optional DOMString startMark, optional DOMString endMark);
+    void clearMeasures(optional DOMString measureName);
+};
+
+interface PerformanceMark : PerformanceEntry {
+};
+
+interface PerformanceMeasure : PerformanceEntry {
+};
+       
+
+FAIL Performance interface: operation mark(DOMString) assert_own_property: interface prototype object missing non-static operation expected property "mark" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1312:32
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+FAIL Performance interface: operation clearMarks(DOMString) assert_own_property: interface prototype object missing non-static operation expected property "clearMarks" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1312:32
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+FAIL Performance interface: operation measure(DOMString,DOMString,DOMString) assert_own_property: interface prototype object missing non-static operation expected property "measure" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1312:32
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+FAIL Performance interface: operation clearMeasures(DOMString) assert_own_property: interface prototype object missing non-static operation expected property "clearMeasures" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1312:32
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+PASS Performance must be primary interface of window.performance 
+PASS Stringification of window.performance 
+FAIL Performance interface: window.performance must inherit property "mark" with the proper type (0) assert_inherits: property "mark" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+FAIL Performance interface: calling mark(DOMString) on window.performance with too few arguments must throw TypeError assert_inherits: property "mark" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1627:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1622:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+FAIL Performance interface: window.performance must inherit property "clearMarks" with the proper type (1) assert_inherits: property "clearMarks" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+FAIL Performance interface: calling clearMarks(DOMString) on window.performance with too few arguments must throw TypeError assert_inherits: property "clearMarks" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1627:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1622:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+FAIL Performance interface: window.performance must inherit property "measure" with the proper type (2) assert_inherits: property "measure" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+FAIL Performance interface: calling measure(DOMString,DOMString,DOMString) on window.performance with too few arguments must throw TypeError assert_inherits: property "measure" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1627:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1622:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+FAIL Performance interface: window.performance must inherit property "clearMeasures" with the proper type (3) assert_inherits: property "clearMeasures" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+FAIL Performance interface: calling clearMeasures(DOMString) on window.performance with too few arguments must throw TypeError assert_inherits: property "clearMeasures" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1627:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1622:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+FAIL PerformanceMark interface: existence and properties of interface object assert_equals: prototype of window's property "PerformanceMark" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+PASS PerformanceMark interface object length 
+FAIL PerformanceMark interface: existence and properties of interface prototype object assert_false: PerformanceMark.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+FAIL PerformanceMark interface: existence and properties of interface prototype object's "constructor" property assert_true: PerformanceMark.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+FAIL PerformanceMeasure interface: existence and properties of interface object assert_equals: prototype of window's property "PerformanceMeasure" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+PASS PerformanceMeasure interface object length 
+FAIL PerformanceMeasure interface: existence and properties of interface prototype object assert_false: PerformanceMeasure.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+FAIL PerformanceMeasure interface: existence and properties of interface prototype object's "constructor" property assert_true: PerformanceMeasure.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/user-timing/idlharness.html:54:17
+global code@http://localhost:8800/user-timing/idlharness.html:55:3)
+

@@ -1,0 +1,64 @@
+OK
+foobar
+
+OK
+foobar
+
+OK
+foobar
+
+OK
+foobar
+
+OK
+foobar
+
+OK      OK     OK
+
+FAIL dialog element: showModal() assert_false: expected false got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/interactive-elements/the-dialog-element/dialog-showModal.html:57:17
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interactive-elements/the-dialog-element/dialog-showModal.html:56:7)
+FAIL showModal() on a <dialog> that already has an open attribute throws an InvalidStateError exception assert_throws: function "function () {
+      d2.showModal();
+      this.add_cleanu..." threw object "TypeError: undefined is not a function (evaluating 'd2.sh..." that is not a DOMException INVALID_STATE_ERR: property "code" is equal to undefined, expected 11(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/semantics/interactive-elements/the-dialog-element/dialog-showModal.html:67:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interactive-elements/the-dialog-element/dialog-showModal.html:66:7)
+FAIL showModal() on a <dialog> not in a Document throws an InvalidStateError exception assert_throws: function "function () {
+      d.showModal();
+      this.add_cleanup..." threw object "TypeError: undefined is not a function (evaluating 'd.sho..." that is not a DOMException INVALID_STATE_ERR: property "code" is equal to undefined, expected 11(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/semantics/interactive-elements/the-dialog-element/dialog-showModal.html:75:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interactive-elements/the-dialog-element/dialog-showModal.html:73:7)
+FAIL when opening multiple dialogs, only the newest one is non-inert assert_false: expected false got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/interactive-elements/the-dialog-element/dialog-showModal.html:82:17
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interactive-elements/the-dialog-element/dialog-showModal.html:81:7)
+FAIL opening dialog without focusable children assert_false: expected false got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/interactive-elements/the-dialog-element/dialog-showModal.html:103:17
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interactive-elements/the-dialog-element/dialog-showModal.html:102:7)
+FAIL opening dialog with multiple focusable children assert_false: expected false got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/interactive-elements/the-dialog-element/dialog-showModal.html:111:17
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interactive-elements/the-dialog-element/dialog-showModal.html:110:7)
+FAIL opening dialog with multiple focusable children, one having the autofocus attribute assert_false: expected false got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/interactive-elements/the-dialog-element/dialog-showModal.html:119:17
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/interactive-elements/the-dialog-element/dialog-showModal.html:118:7)
+

@@ -1,0 +1,9 @@
+Note: this test will only work as expected once per browsing session. Restart browser to re-test.
+
+
+FAIL XMLHttpRequest: send() - "Basic" authenticated request using setRequestHeader() when there is an existing session assert_equals: expected "f05fb2e8-a1b1-4f81-942d-d8a988836667\npass" but got "103dae9d-1046-404f-9e0c-f23c99a8a710\nopen-pass"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/send-authentication-basic-setrequestheader-existing-session.htm:42:26
+step@http://localhost:8800/resources/testharness.js:798:30
+onreadystatechange@http://localhost:8800/XMLHttpRequest/send-authentication-basic-setrequestheader-existing-session.htm:41:20)
+

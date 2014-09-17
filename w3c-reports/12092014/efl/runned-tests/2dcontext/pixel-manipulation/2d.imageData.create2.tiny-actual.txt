@@ -1,0 +1,6 @@
+2d.imageData.create2.tiny
+createImageData(sw, sh) works for sizes smaller than one pixel
+Actual output:
+
+PASS createImageData(sw, sh) works for sizes smaller than one pixel 
+

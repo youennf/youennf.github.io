@@ -1,0 +1,39 @@
+Blocked access to external URL http://www1.localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/set-cookie.html#41090eb5-56e5-4932-a651-01f9db28bfcd
+Blocked access to external URL http://www1.localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/cors-tester.py?id=41090eb5-56e5-4932-a651-01f9db28bfcd&origin=http%3A%2F%2Flocalhost%3A8800&redirect=http%3A%2F%2Fwww1.localhost%3A8800%2Fhtml%2Fsemantics%2Fembedded-content%2Fmedia-elements%2Ftrack%2Ftrack-element%2Fcors%2Fsupport%2Fcors-tester.py%3Fid%3D41090eb5-56e5-4932-a651-01f9db28bfcd
+Blocked access to external URL http://www1.localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/cors-tester.py?delete-cookie&id=41090eb5-56e5-4932-a651-01f9db28bfcd
+Actual	Expected
+{
+  "event": "error",
+  "requests": []
+}
+{
+  "event": "error",
+  "requests": [
+    {
+      "cors": "http://localhost:8800",
+      "cookie": "yes"
+    },
+    {
+      "cors": "http://localhost:8800",
+      "cookie": "yes"
+    }
+  ]
+}
+Test id: 41090eb5-56e5-4932-a651-01f9db28bfcd
+
+
+
+FAIL track CORS: Use Credentials, not same-origin, with headers, redirects to not same-origin, no headers assert_object_equals: expected property "0" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+check_equal@http://localhost:8800/resources/testharness.js:384:24
+check_equal@http://localhost:8800/resources/testharness.js:375:37
+assert_object_equals@http://localhost:8800/resources/testharness.js:390:21
+checkData@http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:128:29
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+appendChild@[native code]
+removeCookies@http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:104:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:87:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

@@ -1,0 +1,43 @@
+layer at (0,0) size 785x770
+  RenderView at (0,0) size 785x600
+layer at (0,0) size 785x600
+  RenderBlock {html} at (0,0) size 785x600
+    RenderBody {body} at (8,16) size 769x600
+      RenderBlock {parsererror} at (16,0) size 737x135 [bgcolor=#FFDDDD] [border: (2px solid #CC7777)]
+        RenderBlock {h3} at (18,20) size 701x22
+          RenderText {#text} at (0,0) size 324x21
+            text run at (0,0) width 324: "This page contains the following errors:"
+        RenderBlock {div} at (18,60) size 701x15
+          RenderText {#text} at (0,0) size 644x14
+            text run at (0,0) width 644: "error on line 12 at column 96: Opening and ending tag mismatch: textArea line 0 and textarea"
+            text run at (644,0) width 0: " "
+        RenderBlock {h3} at (18,93) size 701x22
+          RenderText {#text} at (0,0) size 429x21
+            text run at (0,0) width 429: "Below is a rendering of the page up to the first error."
+      RenderBlock (anonymous) at (0,150) size 769x604
+        RenderSVGRoot {svg} at (104,181) size 445x136
+          RenderSVGText {text} at (10,12) size 295x23 contains 1 chunk(s)
+            RenderSVGTSpan {tspan} at (0,0) size 95x22
+              RenderSVGInlineText {#text} at (0,0) size 95x22
+                chunk 1 text run 1 at (10.00,30.00) startOffset 0 endOffset 9 width 95.00: "PASS|LIAF"
+            RenderSVGInlineText {#text} at (94,0) size 5x22
+              chunk 1 text run 1 at (105.00,30.00) startOffset 0 endOffset 1 width 5.00: " "
+            RenderSVGTSpan {tspan} at (0,0) size 96x22
+              RenderSVGInlineText {#text} at (99,0) size 95x22
+                chunk 1 text run 1 at (110.00,30.00) startOffset 0 endOffset 10 width 95.00 RTL override: "\x{202E}FAIL|SSAP"
+                chunk 1 text run 1 at (205.00,30.00) startOffset 0 endOffset 1 width 0.00: "\x{202C}"
+            RenderSVGInlineText {#text} at (195,0) size 5x22
+              chunk 1 text run 1 at (205.00,30.00) startOffset 0 endOffset 1 width 5.00: " "
+            RenderSVGTSpan {tspan} at (0,0) size 95x22
+              RenderSVGInlineText {#text} at (200,0) size 95x22
+                chunk 1 text run 1 at (210.00,30.00) startOffset 0 endOffset 9 width 95.00: "PASS|LIAF"
+            RenderSVGInlineText {#text} at (0,0) size 0x0
+          RenderSVGText {text} at (10,42) size 313x23 contains 1 chunk(s)
+            RenderSVGInlineText {#text} at (0,0) size 313x22
+              chunk 1 text run 1 at (10.00,60.00) startOffset 0 endOffset 39 width 312.50: "Select text above and drag selection to"
+          RenderSVGText {text} at (10,72) size 371x23 contains 1 chunk(s)
+            RenderSVGInlineText {#text} at (0,0) size 371x22
+              chunk 1 text run 1 at (10.00,90.00) startOffset 0 endOffset 45 width 370.00: "the box below. Content of selection should be"
+          RenderSVGText {text} at (10,102) size 285x23 contains 1 chunk(s)
+            RenderSVGInlineText {#text} at (0,0) size 285x22
+              chunk 1 text run 1 at (10.00,120.00) startOffset 0 endOffset 36 width 284.17: "copies once it's dropped in the box."

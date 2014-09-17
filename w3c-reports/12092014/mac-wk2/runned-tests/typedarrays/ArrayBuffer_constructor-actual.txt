@@ -1,0 +1,19 @@
+
+PASS The argument NaN should be interpreted as 0 for ArrayBuffer constructor.0 
+PASS The argument Infinity should be interpreted as 0 for ArrayBuffer constructor.1 
+PASS The argument -Infinity should be interpreted as 0 for ArrayBuffer constructor.2 
+PASS The argument 0 should be interpreted as 0 for ArrayBuffer constructor.3 
+PASS The argument -0 should be interpreted as 0 for ArrayBuffer constructor.4 
+PASS The argument -0.4 should be interpreted as 0 for ArrayBuffer constructor.5 
+PASS The argument -0.9 should be interpreted as 0 for ArrayBuffer constructor.6 
+PASS The argument 1.1 should be interpreted as 1 for ArrayBuffer constructor.7 
+PASS The argument 2.9 should be interpreted as 2 for ArrayBuffer constructor.8 
+PASS The argument 1 should be interpreted as 1 for ArrayBuffer constructor.9 
+PASS The argument -4043309056 should be interpreted as 251658240 for ArrayBuffer constructor.10 
+PASS The argument "1" should be interpreted as 1 for ArrayBuffer constructor.11 
+PASS The argument "1e2" should be interpreted as 100 for ArrayBuffer constructor.12 
+PASS The argument undefined should be interpreted as 0 for ArrayBuffer constructor.13 
+PASS The argument null should be interpreted as 0 for ArrayBuffer constructor.14 
+PASS The argument false should be interpreted as 0 for ArrayBuffer constructor.15 
+PASS The argument true should be interpreted as 1 for ArrayBuffer constructor.16 
+

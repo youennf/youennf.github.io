@@ -1,0 +1,7 @@
+
+FAIL shared worker, not handled assert_equals: expected "" but got "got 4 arguments, expected 5. fifth argument wasn't the thrown exception. "(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/workers/semantics/reporting-errors/001.html:47:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:843:37)
+

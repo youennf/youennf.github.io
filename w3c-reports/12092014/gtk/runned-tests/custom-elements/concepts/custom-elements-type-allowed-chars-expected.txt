@@ -1,0 +1,60 @@
+
+FAIL Registering valid custom element types with base char assert_unreached: The custom element name 'x-Ά-x386' should be registered without errors Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+checkValidName@http://localhost:8800/custom-elements/testcommon.js:186:25
+http://localhost:8800/custom-elements/testcommon.js:146:26
+forEach@[native code]
+testEach@http://localhost:8800/custom-elements/testcommon.js:145:27
+http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars.html:28:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars.html:27:5)
+FAIL Registering valid custom element types with ideographic char assert_unreached: The custom element name 'x-〇-x3007' should be registered without errors Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+checkValidName@http://localhost:8800/custom-elements/testcommon.js:186:25
+http://localhost:8800/custom-elements/testcommon.js:146:26
+forEach@[native code]
+testEach@http://localhost:8800/custom-elements/testcommon.js:145:27
+http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars.html:33:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars.html:32:5)
+FAIL Registering valid custom element types with digit chars assert_unreached: The custom element name 'x-0-x30' should be registered without errors Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+checkValidName@http://localhost:8800/custom-elements/testcommon.js:186:25
+testEach@http://localhost:8800/custom-elements/testcommon.js:161:30
+http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars.html:38:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars.html:37:5)
+FAIL Registering valid custom element types with characters '.', '-', '_' assert_unreached: The custom element name 'x-.-x2e' should be registered without errors Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+checkValidName@http://localhost:8800/custom-elements/testcommon.js:186:25
+http://localhost:8800/custom-elements/testcommon.js:146:26
+forEach@[native code]
+testEach@http://localhost:8800/custom-elements/testcommon.js:145:27
+http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars.html:42:47
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars.html:41:5)
+FAIL Registering valid custom element types with combining char assert_unreached: The custom element name 'x-̀-x300' should be registered without errors Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+checkValidName@http://localhost:8800/custom-elements/testcommon.js:186:25
+http://localhost:8800/custom-elements/testcommon.js:146:26
+forEach@[native code]
+testEach@http://localhost:8800/custom-elements/testcommon.js:145:27
+http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars.html:46:28
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars.html:45:5)
+FAIL Registering valid custom element types with extender char assert_unreached: The custom element name 'x-·-xb7' should be registered without errors Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+checkValidName@http://localhost:8800/custom-elements/testcommon.js:186:25
+http://localhost:8800/custom-elements/testcommon.js:146:26
+forEach@[native code]
+testEach@http://localhost:8800/custom-elements/testcommon.js:145:27
+http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars.html:50:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-allowed-chars.html:49:5)
+

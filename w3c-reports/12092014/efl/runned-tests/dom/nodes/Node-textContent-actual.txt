@@ -1,0 +1,311 @@
+
+PASS For an empty Element, textContent should be the empty string 
+PASS For an empty DocumentFragment, textContent should be the empty string 
+FAIL Element with children NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:39:54
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:35:5)
+FAIL Element with descendants NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:49:57
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:43:5)
+FAIL DocumentFragment with children NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:57:54
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:53:5)
+FAIL DocumentFragment with descendants NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:67:57
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:61:5)
+PASS For an empty Text, textContent should be the empty string 
+FAIL For an empty ProcessingInstruction, textContent should be the empty string NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:77:53
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:76:5)
+PASS For an empty Comment, textContent should be the empty string 
+PASS For a Text with data, textContent should be that data 
+FAIL For a ProcessingInstruction with data, textContent should be that data NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:89:53
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:88:5)
+PASS For a Comment with data, textContent should be that data 
+PASS For Documents created by parser, textContent should be null 
+PASS For Documents created by createDocument, textContent should be null 
+PASS For Documents created by createHTMLDocument, textContent should be null 
+PASS For DocumentType created by parser, textContent should be null 
+PASS For DocumentType created by script, textContent should be null 
+PASS Element without children set to null 
+PASS Element with empty text node as child set to null 
+FAIL Element with children set to null NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:159:56
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:155:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL Element with descendants set to null NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:170:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:164:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+PASS DocumentFragment without children set to null 
+PASS DocumentFragment with empty text node as child set to null 
+FAIL DocumentFragment with children set to null NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:196:56
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:192:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL DocumentFragment with descendants set to null NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:207:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:201:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL Element without children set to undefined assert_equals: expected "" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+check@http://localhost:8800/dom/nodes/Node-textContent.html:128:20
+http://localhost:8800/dom/nodes/Node-textContent.html:143:10
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:140:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL Element with empty text node as child set to undefined assert_equals: expected "" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+check@http://localhost:8800/dom/nodes/Node-textContent.html:128:20
+http://localhost:8800/dom/nodes/Node-textContent.html:150:10
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:146:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL Element with children set to undefined NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:159:56
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:155:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL Element with descendants set to undefined NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:170:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:164:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL DocumentFragment without children set to undefined assert_equals: expected "" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+check@http://localhost:8800/dom/nodes/Node-textContent.html:128:20
+http://localhost:8800/dom/nodes/Node-textContent.html:180:10
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:177:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL DocumentFragment with empty text node as child set to undefined assert_equals: expected "" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+check@http://localhost:8800/dom/nodes/Node-textContent.html:128:20
+http://localhost:8800/dom/nodes/Node-textContent.html:187:10
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:183:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL DocumentFragment with children set to undefined NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:196:56
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:192:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL DocumentFragment with descendants set to undefined NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:207:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:201:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+PASS Element without children set to "" 
+PASS Element with empty text node as child set to "" 
+FAIL Element with children set to "" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:159:56
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:155:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL Element with descendants set to "" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:170:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:164:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+PASS DocumentFragment without children set to "" 
+PASS DocumentFragment with empty text node as child set to "" 
+FAIL DocumentFragment with children set to "" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:196:56
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:192:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL DocumentFragment with descendants set to "" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:207:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:201:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+PASS Element without children set to 42 
+PASS Element with empty text node as child set to 42 
+FAIL Element with children set to 42 NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:159:56
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:155:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL Element with descendants set to 42 NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:170:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:164:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+PASS DocumentFragment without children set to 42 
+PASS DocumentFragment with empty text node as child set to 42 
+FAIL DocumentFragment with children set to 42 NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:196:56
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:192:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL DocumentFragment with descendants set to 42 NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:207:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:201:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+PASS Element without children set to "abc" 
+PASS Element with empty text node as child set to "abc" 
+FAIL Element with children set to "abc" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:159:56
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:155:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL Element with descendants set to "abc" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:170:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:164:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+PASS DocumentFragment without children set to "abc" 
+PASS DocumentFragment with empty text node as child set to "abc" 
+FAIL DocumentFragment with children set to "abc" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:196:56
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:192:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL DocumentFragment with descendants set to "abc" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:207:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:201:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+PASS Element without children set to "<b>xyz</b>" 
+PASS Element with empty text node as child set to "<b>xyz</b>" 
+FAIL Element with children set to "<b>xyz</b>" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:159:56
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:155:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL Element with descendants set to "<b>xyz</b>" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:170:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:164:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+PASS DocumentFragment without children set to "<b>xyz</b>" 
+PASS DocumentFragment with empty text node as child set to "<b>xyz</b>" 
+FAIL DocumentFragment with children set to "<b>xyz</b>" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:196:56
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:192:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL DocumentFragment with descendants set to "<b>xyz</b>" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:207:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:201:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+PASS Element without children set to "d\0e" 
+PASS Element with empty text node as child set to "d\0e" 
+FAIL Element with children set to "d\0e" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:159:56
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:155:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL Element with descendants set to "d\0e" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:170:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:164:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+PASS DocumentFragment without children set to "d\0e" 
+PASS DocumentFragment with empty text node as child set to "d\0e" 
+FAIL DocumentFragment with children set to "d\0e" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:196:56
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:192:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+FAIL DocumentFragment with descendants set to "d\0e" NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:207:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Node-textContent.html:201:7
+forEach@[native code]
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:124:18)
+PASS For a Text, textContent should set the data 
+FAIL For a ProcessingInstruction, textContent should set the data NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+http://localhost:8800/dom/nodes/Node-textContent.html:224:48
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Node-textContent.html:223:5)
+PASS For a Comment, textContent should set the data 
+PASS For Documents created by parser, setting textContent should do nothing 
+PASS For Documents created by createDocument, setting textContent should do nothing 
+PASS For Documents created by createHTMLDocument, setting textContent should do nothing 
+PASS For DocumentType created by parser, setting textContent should do nothing 
+PASS For DocumentType created by script, setting textContent should do nothing 
+

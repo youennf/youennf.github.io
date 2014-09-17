@@ -1,0 +1,7 @@
+
+FAIL seek to Number.MAX_VALUE assert_equals: currentTime after setting expected 5.153333333333333 but got Infinity(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/seeking/seek-to-max-value.htm:15:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

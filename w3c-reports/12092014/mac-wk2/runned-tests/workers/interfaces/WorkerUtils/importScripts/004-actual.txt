@@ -1,0 +1,7 @@
+
+FAIL importScripts broken script assert_true: expected SyntaxError expected true got "Error: Script error."(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/workers/interfaces/WorkerUtils/importScripts/004.html:27:16
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

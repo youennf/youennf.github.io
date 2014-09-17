@@ -1,0 +1,12 @@
+CONSOLE MESSAGE: Blocked a frame with origin "http://localhost:8800" from accessing a frame with origin "null".  The frame requesting access has a protocol of "http", the frame being accessed has a protocol of "data". Protocols must match.
+
+
+PASS Document 
+PASS Doctype 
+PASS Root element 
+PASS Element 
+FAIL Removed iframe null is not an object (evaluating 'doc.firstChild')(stack: http://localhost:8800/dom/nodes/Node-parentNode.html:28:22
+step@http://localhost:8800/resources/testharness.js:798:30
+testIframe@http://localhost:8800/dom/nodes/Node-parentNode.html:25:9
+onload@http://localhost:8800/dom/nodes/Node-parentNode.html:33:11)
+

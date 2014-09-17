@@ -1,0 +1,7 @@
+
+FAIL IDBObjectStore.add() - add where an index has unique:true specified  assert_unreached: success on adding duplicate indexed record Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/IndexedDB/support.js:52:29
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

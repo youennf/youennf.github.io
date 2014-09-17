@@ -1,0 +1,7 @@
+
+FAIL ProgressEvent: firing events for HTTP with no Content-Length assert_false: lengthComputable is false. expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/progress-events/tests/submissions/Samsung/firing-events-http-no-content-length.html:21:27
+step@http://localhost:8800/resources/testharness.js:798:30
+onprogress@http://localhost:8800/progress-events/tests/submissions/Samsung/firing-events-http-no-content-length.html:18:20)
+

@@ -1,0 +1,19 @@
+storage_local_setItem
+
+
+PASS Web Storage 
+PASS Web Storage 1 
+PASS Web Storage 2 
+PASS Web Storage 3 
+PASS Web Storage 4 
+PASS Web Storage 5 
+PASS Web Storage 6 
+PASS Web Storage 7 
+PASS Web Storage 8 
+PASS Web Storage 9 
+PASS Web Storage 10 
+PASS Web Storage 11 
+PASS Web Storage 12 
+PASS Web Storage 13 
+PASS Web Storage 14 
+

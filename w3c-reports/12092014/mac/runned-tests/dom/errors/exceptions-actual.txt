@@ -1,0 +1,58 @@
+
+PASS Object.getPrototypeOf(exception) === DOMException.prototype 
+FAIL !exception.hasOwnProperty("name") assert_false: expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/dom/errors/exceptions.html:33:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testException@http://localhost:8800/dom/errors/exceptions.html:27:6
+global code@http://localhost:8800/dom/errors/exceptions.html:82:14)
+PASS exception.name === "HierarchyRequestError" 
+PASS exception.hasOwnProperty("message") 
+FAIL Object.getOwnPropertyDescriptor(exception, "message") assert_true: must be writable expected true got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/dom/errors/exceptions.html:50:14
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testException@http://localhost:8800/dom/errors/exceptions.html:48:6
+global code@http://localhost:8800/dom/errors/exceptions.html:82:14)
+PASS typeof exception.message === "string" 
+PASS Object.prototype.toString.call(exception) === "[object DOMException]" 
+PASS exception.code === DOMException.HIERARCHY_REQUEST_ERR 
+FAIL In iframe: Object.getPrototypeOf(exception) === DOMException.prototype Can only call DOMCoreException.toString on instances of DOMCoreException(stack: toString@[native code]
+String@[native code]
+format_value@http://localhost:8800/resources/testharness.js:288:55
+make_message@http://localhost:8800/resources/testharness.js:1755:48
+assert@http://localhost:8800/resources/testharness.js:1736:35
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/dom/errors/exceptions.html:23:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testException@http://localhost:8800/dom/errors/exceptions.html:22:6
+onload@http://localhost:8800/dom/errors/exceptions.html:94:15
+appendChild@[native code]
+global code@http://localhost:8800/dom/errors/exceptions.html:99:26)
+FAIL In iframe: !exception.hasOwnProperty("name") assert_false: expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/dom/errors/exceptions.html:33:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testException@http://localhost:8800/dom/errors/exceptions.html:27:6
+onload@http://localhost:8800/dom/errors/exceptions.html:94:15
+appendChild@[native code]
+global code@http://localhost:8800/dom/errors/exceptions.html:99:26)
+PASS In iframe: exception.name === "HierarchyRequestError" 
+PASS In iframe: exception.hasOwnProperty("message") 
+FAIL In iframe: Object.getOwnPropertyDescriptor(exception, "message") assert_true: must be writable expected true got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/dom/errors/exceptions.html:50:14
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testException@http://localhost:8800/dom/errors/exceptions.html:48:6
+onload@http://localhost:8800/dom/errors/exceptions.html:94:15
+appendChild@[native code]
+global code@http://localhost:8800/dom/errors/exceptions.html:99:26)
+PASS In iframe: typeof exception.message === "string" 
+PASS In iframe: Object.prototype.toString.call(exception) === "[object DOMException]" 
+PASS In iframe: exception.code === DOMException.HIERARCHY_REQUEST_ERR 
+

@@ -1,0 +1,4 @@
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/XMLHttpRequest/resources/auth1/corsenabled.py. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+
+PASS XMLHttpRequest: send() - "Basic" authenticated CORS requests with user name and password passed to open() (asserts failure) 
+

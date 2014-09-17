@@ -1,0 +1,25 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 500x500
+  RenderSVGRoot {svg} at (9,12) size 482x201
+    RenderSVGHiddenContainer {defs} at (0,0) size 0x0
+      RenderSVGText {text} at (0,-14) size 61x18 contains 1 chunk(s)
+        RenderSVGInlineText {#text} at (0,0) size 61x18
+          chunk 1 text run 1 at (0.00,0.00) startOffset 0 endOffset 9 width 61.00: "Select me"
+    RenderSVGText {text} at (10,12) size 80x23 contains 1 chunk(s)
+      RenderSVGInline {tref} at (0,0) size 80x23
+        RenderSVGInlineText {#text} at (0,0) size 80x23
+          chunk 1 text run 1 at (10.00,30.00) startOffset 0 endOffset 9 width 80.00: "Select me"
+    RenderSVGText {text} at (10,42) size 313x23 contains 1 chunk(s)
+      RenderSVGInlineText {#text} at (0,0) size 313x23
+        chunk 1 text run 1 at (10.00,60.00) startOffset 0 endOffset 39 width 313.00: "Select text above and drag selection to"
+    RenderSVGText {text} at (10,72) size 371x23 contains 1 chunk(s)
+      RenderSVGInlineText {#text} at (0,0) size 371x23
+        chunk 1 text run 1 at (10.00,90.00) startOffset 0 endOffset 45 width 371.00: "the box below. Content of selection should be"
+    RenderSVGText {text} at (10,102) size 286x23 contains 1 chunk(s)
+      RenderSVGInlineText {#text} at (0,0) size 286x23
+        chunk 1 text run 1 at (10.00,120.00) startOffset 0 endOffset 36 width 286.00: "copies once it's dropped in the box."
+    RenderSVGText {text} at (10,154) size 377x59 contains 1 chunk(s)
+      RenderSVGInlineText {#text} at (0,0) size 377x58
+        chunk 1 text run 1 at (10.00,200.00) startOffset 0 endOffset 29 width 377.00: "                             "
+    RenderSVGRect {rect} at (9,159) size 482x52 [stroke={[type=SOLID] [color=#000000]}] [x=10.00] [y=160.00] [width=480.00] [height=50.00]

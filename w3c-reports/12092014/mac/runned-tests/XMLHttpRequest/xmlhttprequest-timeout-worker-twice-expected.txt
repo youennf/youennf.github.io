@@ -1,0 +1,9 @@
+Description
+
+This test validates that the XHR2 timeout property behaves as expected in in a worker context.
+
+
+PASS Timeout test: load fires normally with no timeout set, twice, original timeout at 0, reset at 400 to 0 
+PASS Timeout test: load fires normally with same timeout set twice, original timeout at 1000, reset at 400 to 1000 
+PASS Timeout test: timeout fires normally with same timeout set twice, original timeout at 400, reset at 200 to 400 
+

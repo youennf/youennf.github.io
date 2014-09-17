@@ -1,0 +1,13 @@
+
+FAIL W3C WebSocket API - Send (paired surrogates) data on a WebSocket - Connection should be opened assert_equals: expected 0 but got 4(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/websockets/Send-paired-surrogates.htm:23:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS W3C WebSocket API - Send (paired surrogates) data on a WebSocket - Message should be received 
+FAIL W3C WebSocket API - Send (paired surrogates) data on a WebSocket - Connection should be closed assert_true: WebSocket connection should be open expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/websockets/Send-paired-surrogates.htm:35:24
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

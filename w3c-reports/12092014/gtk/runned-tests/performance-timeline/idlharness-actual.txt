@@ -1,0 +1,207 @@
+CONSOLE MESSAGE: Deprecated attempt to access property 'name' on a non-PerformanceEntry object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'entryType' on a non-PerformanceEntry object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'startTime' on a non-PerformanceEntry object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'duration' on a non-PerformanceEntry object.
+Performance Timeline IDL tests
+
+interface PerformanceEntry {
+  readonly attribute DOMString name;
+  readonly attribute DOMString entryType;
+  readonly attribute DOMHighResTimeStamp startTime;
+  readonly attribute DOMHighResTimeStamp duration;
+};
+
+partial interface Performance {
+  PerformanceEntryList getEntries();
+  PerformanceEntryList getEntriesByType(DOMString entryType);
+  PerformanceEntryList getEntriesByName(DOMString name, optional DOMString entryType);
+};
+
+typedef sequence <PerformanceEntry> PerformanceEntryList;
+
+FAIL Performance interface: operation getEntries() assert_own_property: interface prototype object missing non-static operation expected property "getEntries" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1312:32
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/performance-timeline/idlharness.html:51:15)
+FAIL Performance interface: operation getEntriesByType(DOMString) assert_own_property: interface prototype object missing non-static operation expected property "getEntriesByType" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1312:32
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/performance-timeline/idlharness.html:51:15)
+FAIL Performance interface: operation getEntriesByName(DOMString,DOMString) assert_own_property: interface prototype object missing non-static operation expected property "getEntriesByName" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1312:32
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/performance-timeline/idlharness.html:51:15)
+PASS Performance must be primary interface of window.performance 
+PASS Stringification of window.performance 
+FAIL Performance interface: window.performance must inherit property "getEntries" with the proper type (0) assert_inherits: property "getEntries" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/performance-timeline/idlharness.html:51:15)
+FAIL Performance interface: window.performance must inherit property "getEntriesByType" with the proper type (1) assert_inherits: property "getEntriesByType" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/performance-timeline/idlharness.html:51:15)
+FAIL Performance interface: calling getEntriesByType(DOMString) on window.performance with too few arguments must throw TypeError assert_inherits: property "getEntriesByType" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1627:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1622:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/performance-timeline/idlharness.html:51:15)
+FAIL Performance interface: window.performance must inherit property "getEntriesByName" with the proper type (2) assert_inherits: property "getEntriesByName" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/performance-timeline/idlharness.html:51:15)
+FAIL Performance interface: calling getEntriesByName(DOMString,DOMString) on window.performance with too few arguments must throw TypeError assert_inherits: property "getEntriesByName" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1627:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1622:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/performance-timeline/idlharness.html:51:15)
+FAIL PerformanceEntry interface: existence and properties of interface object assert_equals: prototype of window's property "PerformanceEntry" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/performance-timeline/idlharness.html:51:15)
+PASS PerformanceEntry interface object length 
+FAIL PerformanceEntry interface: existence and properties of interface prototype object assert_false: PerformanceEntry.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/performance-timeline/idlharness.html:51:15)
+FAIL PerformanceEntry interface: existence and properties of interface prototype object's "constructor" property assert_true: PerformanceEntry.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/performance-timeline/idlharness.html:51:15)
+FAIL PerformanceEntry interface: attribute name assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/performance-timeline/idlharness.html:51:15)
+FAIL PerformanceEntry interface: attribute entryType assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/performance-timeline/idlharness.html:51:15)
+FAIL PerformanceEntry interface: attribute startTime assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/performance-timeline/idlharness.html:51:15)
+FAIL PerformanceEntry interface: attribute duration assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/performance-timeline/idlharness.html:51:15)
+

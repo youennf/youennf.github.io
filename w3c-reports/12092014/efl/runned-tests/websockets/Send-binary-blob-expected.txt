@@ -1,0 +1,5 @@
+
+PASS W3C WebSocket API - Send binary data on a WebSocket - Blob - Connection should be opened 
+PASS W3C WebSocket API - Send binary data on a WebSocket - Blob - Message should be received 
+PASS W3C WebSocket API - Send binary data on a WebSocket - Blob - Connection should be closed 
+

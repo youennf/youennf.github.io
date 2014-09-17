@@ -1,0 +1,23 @@
+
+PASS window object 
+PASS Window.prototype 
+FAIL Global scope polluter assert_equals: expected "[object WindowProperties]" but got "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/html/browsers/the-window-object/window-prototype-chain.html:23:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/browsers/the-window-object/window-prototype-chain.html:21:5)
+FAIL EventTarget.prototype assert_equals: expected "[object EventTargetPrototype]" but got "[object Null]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/html/browsers/the-window-object/window-prototype-chain.html:27:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/browsers/the-window-object/window-prototype-chain.html:25:5)
+FAIL Object.prototype Requested prototype of a value that is not an object.(stack: getPrototypeOf@[native code]
+http://localhost:8800/html/browsers/the-window-object/window-prototype-chain.html:31:46
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/browsers/the-window-object/window-prototype-chain.html:30:5)
+

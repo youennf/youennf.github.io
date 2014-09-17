@@ -1,0 +1,29 @@
+layer at (0,0) size 800x600
+  RenderView at (0,0) size 800x600
+layer at (0,0) size 500x500
+  RenderSVGRoot {svg} at (9,12) size 482x199
+    RenderSVGText {text} at (10,12) size 354x22 contains 1 chunk(s)
+      RenderSVGTSpan {tspan} at (0,0) size 87x22
+        RenderSVGInlineText {#text} at (0,0) size 87x22
+          chunk 1 text run 1 at (10.00,30.00) startOffset 0 endOffset 11 width 87.00: "Select part"
+      RenderSVGInlineText {#text} at (87,0) size 5x22
+        chunk 1 text run 1 at (97.00,30.00) startOffset 0 endOffset 1 width 5.00: " "
+      RenderSVGTSpan {tspan} at (0,0) size 88x22
+        RenderSVGInlineText {#text} at (92,0) size 88x22
+          chunk 1 text run 1 at (102.00,30.00) startOffset 0 endOffset 12 width 88.00: "of this text"
+      RenderSVGInlineText {#text} at (180,0) size 5x22
+        chunk 1 text run 1 at (190.00,30.00) startOffset 0 endOffset 1 width 5.00: " "
+      RenderSVGTSpan {tspan} at (0,0) size 169x22
+        RenderSVGInlineText {#text} at (185,0) size 169x22
+          chunk 1 text run 1 at (195.00,30.00) startOffset 0 endOffset 21 width 169.00: "and drag selection to"
+      RenderSVGInlineText {#text} at (0,0) size 0x0
+    RenderSVGText {text} at (10,42) size 371x22 contains 1 chunk(s)
+      RenderSVGInlineText {#text} at (0,0) size 371x22
+        chunk 1 text run 1 at (10.00,60.00) startOffset 0 endOffset 45 width 371.00: "the box below. Content of selection should be"
+    RenderSVGText {text} at (10,72) size 286x22 contains 1 chunk(s)
+      RenderSVGInlineText {#text} at (0,0) size 286x22
+        chunk 1 text run 1 at (10.00,90.00) startOffset 0 endOffset 36 width 286.00: "copies once it's dropped in the box."
+    RenderSVGText {text} at (10,155) size 377x56 contains 1 chunk(s)
+      RenderSVGInlineText {#text} at (0,0) size 377x56
+        chunk 1 text run 1 at (10.00,200.00) startOffset 0 endOffset 29 width 377.00: "                             "
+    RenderSVGRect {rect} at (9,159) size 482x52 [stroke={[type=SOLID] [color=#000000]}] [x=10.00] [y=160.00] [width=480.00] [height=50.00]

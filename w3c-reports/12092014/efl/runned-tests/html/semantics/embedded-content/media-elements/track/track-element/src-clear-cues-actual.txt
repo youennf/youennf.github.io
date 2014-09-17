@@ -1,0 +1,17 @@
+
+FAIL track element changing "track URL" and clearing cues, set mode, add cue, set src assert_equals: cues.length after setting src expected 0 but got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/src-clear-cues.html:17:18
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/src-clear-cues.html:7:65)
+FAIL track element changing "track URL" and clearing cues, set mode, set src, add cue, change src assert_equals: cues.length after changing src expected 0 but got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/src-clear-cues.html:33:18
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/src-clear-cues.html:23:77)
+FAIL track element changing "track URL" and clearing cues, set mode, add cue, change mode to disabled, set src assert_equals: cues.length after changing src expected 0 but got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/src-clear-cues.html:48:18
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/src-clear-cues.html:39:90)
+

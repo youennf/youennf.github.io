@@ -1,0 +1,9 @@
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8801/cors/resources/cors-makeheader.py?get_value=hest_er_best&origin=none&2. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8801/cors/resources/cors-makeheader.py?get_value=hest_er_best&origin=none&3. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-makeheader.py?get_value=hest_er_best&origin=none&1. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+
+PASS Same domain basic usage 
+PASS Cross domain basic usage 
+PASS Same domain different port 
+PASS Cross domain different port 
+

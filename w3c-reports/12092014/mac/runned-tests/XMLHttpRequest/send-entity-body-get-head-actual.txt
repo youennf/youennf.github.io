@@ -1,0 +1,10 @@
+
+PASS XMLHttpRequest: send() - non-empty data argument and GET/HEAD (GET) 
+FAIL XMLHttpRequest: send() - non-empty data argument and GET/HEAD (HEAD) assert_equals: expected "NO" but got "0"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/send-entity-body-get-head.htm:25:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+request@http://localhost:8800/XMLHttpRequest/send-entity-body-get-head.htm:14:13
+global code@http://localhost:8800/XMLHttpRequest/send-entity-body-get-head.htm:32:14)
+

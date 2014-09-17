@@ -1,0 +1,6 @@
+
+PASS EventSource: Cache-Control 
+PASS EventSource: Cache-Control 1 
+PASS EventSource: Cache-Control 2 
+PASS EventSource: Cache-Control 3 
+

@@ -1,0 +1,7 @@
+
+FAIL XMLHttpRequest: getResponseHeader() and HTTP trailer assert_equals: expected (string) "X-Test-Me" but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/XMLHttpRequest/getresponseheader-chunked-trailer.htm:18:28
+step@http://localhost:8800/resources/testharness.js:798:30
+onreadystatechange@http://localhost:8800/XMLHttpRequest/getresponseheader-chunked-trailer.htm:16:20)
+

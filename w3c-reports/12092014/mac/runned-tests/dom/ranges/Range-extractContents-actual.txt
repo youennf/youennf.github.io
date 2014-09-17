@@ -1,0 +1,5 @@
+CONSOLE MESSAGE: line 49: TypeError: undefined is not a function (evaluating 'iframe.contentWindow.setupRangeTests()')
+FAIL: Timed out waiting for notifyDone to be called
+To debug test failures, add a query parameter "subtest" with the test id (like "?subtest=5"). Only that test will be run. Then you can look at the resulting iframe in the DOM.
+
+

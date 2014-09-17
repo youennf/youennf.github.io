@@ -1,0 +1,28 @@
+
+PASS XMLHttpRequest: send() - charset parameter of Content-Type 
+FAIL XMLHttpRequest: send() - charset parameter of Content-Type 1 assert_equals: expected "text; charset=ascii" but got "text; charset=UTF-8"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/send-content-type-charset.htm:21:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+request@http://localhost:8800/XMLHttpRequest/send-content-type-charset.htm:14:13
+global code@http://localhost:8800/XMLHttpRequest/send-content-type-charset.htm:28:14)
+PASS XMLHttpRequest: send() - charset parameter of Content-Type 2 
+FAIL XMLHttpRequest: send() - charset parameter of Content-Type 3 assert_equals: expected "text/x-thepiano;charset=UTF-8" but got "text/x-thepiano;charset= UTF-8"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/send-content-type-charset.htm:21:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+request@http://localhost:8800/XMLHttpRequest/send-content-type-charset.htm:14:13
+global code@http://localhost:8800/XMLHttpRequest/send-content-type-charset.htm:36:14)
+PASS XMLHttpRequest: send() - charset parameter of Content-Type 4 
+FAIL XMLHttpRequest: send() - charset parameter of Content-Type 5 assert_equals: expected "text/plain;charset=utf-8" but got "text/plain;charset=UTF-8"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/send-content-type-charset.htm:21:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+request@http://localhost:8800/XMLHttpRequest/send-content-type-charset.htm:14:13
+global code@http://localhost:8800/XMLHttpRequest/send-content-type-charset.htm:44:14)
+PASS XMLHttpRequest: send() - charset parameter of Content-Type 6 
+PASS XMLHttpRequest: send() - charset parameter of Content-Type 7 
+

@@ -1,0 +1,7 @@
+
+FAIL shared worker, no error event on worker or port assert_unreached: window.onerror invoked: ReferenceError: Can't find variable: y Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/workers/semantics/reporting-errors/003.html:23:21
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

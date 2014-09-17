@@ -1,0 +1,3 @@
+
+PASS W3C WebSocket API - Create WebSocket - Close the Connection - close(0) - INVALID_ACCESS_ERR is thrown 
+

@@ -1,0 +1,74 @@
+
+FAIL Setting audio.volume to NaN should throw a TypeError assert_throws: function "function () {
+        el.volume = aValue;
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:12:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:10:9
+forEach@[native code]
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:9:37
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:8:27)
+FAIL Setting audio.volume to Infinity should throw a TypeError assert_throws: function "function () {
+        el.volume = aValue;
+      }" threw object "Error: IndexSizeError: DOM Exception 1" ("IndexSizeError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:12:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:10:9
+forEach@[native code]
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:9:37
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:8:27)
+FAIL Setting audio.volume to -Infinity should throw a TypeError assert_throws: function "function () {
+        el.volume = aValue;
+      }" threw object "Error: IndexSizeError: DOM Exception 1" ("IndexSizeError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:12:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:10:9
+forEach@[native code]
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:9:37
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:8:27)
+FAIL Setting video.volume to NaN should throw a TypeError assert_throws: function "function () {
+        el.volume = aValue;
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:12:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:10:9
+forEach@[native code]
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:9:37
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:8:27)
+FAIL Setting video.volume to Infinity should throw a TypeError assert_throws: function "function () {
+        el.volume = aValue;
+      }" threw object "Error: IndexSizeError: DOM Exception 1" ("IndexSizeError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:12:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:10:9
+forEach@[native code]
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:9:37
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:8:27)
+FAIL Setting video.volume to -Infinity should throw a TypeError assert_throws: function "function () {
+        el.volume = aValue;
+      }" threw object "Error: IndexSizeError: DOM Exception 1" ("IndexSizeError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:12:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:10:9
+forEach@[native code]
+http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:9:37
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/volume_nonfinite.html:8:27)
+

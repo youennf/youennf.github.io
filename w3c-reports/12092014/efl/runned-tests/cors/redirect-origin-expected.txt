@@ -1,0 +1,105 @@
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=null&get_value=last&12_1. Cannot make any requests from null.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=none&get_value=last&17_1. Cannot make any requests from null.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http://localhost:8800&get_value=last&11_1. Cannot make any requests from null.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=none&get_value=last&13_1. Cannot make any requests from null.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http://localhost:8800&get_value=last&15_1. Cannot make any requests from null.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=null&get_value=last&16_1. Cannot make any requests from null.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www2.localhost:8800/cors/resources/cors-makeheader.py?origin=null&get_value=last&32_1. Cannot make any requests from null.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www2.localhost:8800/cors/resources/cors-makeheader.py?origin=http://localhost:8800&get_value=last&31_1. Cannot make any requests from null.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www2.localhost:8800/cors/resources/cors-makeheader.py?origin=http://localhost:8800&get_value=last&35_1. Cannot make any requests from null.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www2.localhost:8800/cors/resources/cors-makeheader.py?origin=none&get_value=last&33_1. Cannot make any requests from null.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www2.localhost:8800/cors/resources/cors-makeheader.py?origin=none&get_value=last&37_1. Cannot make any requests from null.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www2.localhost:8800/cors/resources/cors-makeheader.py?origin=null&get_value=last&36_1. Cannot make any requests from null.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www2.localhost:8800/cors/resources/cors-makeheader.py?origin=http://www1.localhost:8800&get_value=last&41_1. Cannot make any requests from null.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-makeheader.py?origin=null&get_value=last&22_1. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-makeheader.py?origin=null&get_value=last&26_1. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-makeheader.py?origin=none&get_value=last&23_1. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-makeheader.py?origin=none&get_value=last&27_1. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-makeheader.py?origin=http://www1.localhost:8800&get_value=last&40_1. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CORS redirect handling
+
+
+FAIL local (*) to remote (*), expect origin=http://localhost:8800 assert_true: Got response expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/cors/redirect-origin.htm:138:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL local (*) to remote (http://localhost:8800), expect origin=http://localhost:8800 assert_true: Got response expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/cors/redirect-origin.htm:138:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS local (*) to remote (null), expect to fail 
+PASS local (*) to remote (none), expect to fail 
+FAIL local (http://localhost:8800) to remote (*), expect origin=http://localhost:8800 assert_true: Got response expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/cors/redirect-origin.htm:138:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL local (http://localhost:8800) to remote (http://localhost:8800), expect origin=http://localhost:8800 assert_true: Got response expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/cors/redirect-origin.htm:138:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS local (http://localhost:8800) to remote (null), expect to fail 
+PASS local (http://localhost:8800) to remote (none), expect to fail 
+FAIL local (null) to remote (*), expect origin=http://localhost:8800 assert_true: Got response expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/cors/redirect-origin.htm:138:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL local (none) to remote (*), expect origin=http://localhost:8800 assert_true: Got response expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/cors/redirect-origin.htm:138:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS remote (*) to local (*), expect origin=null 
+PASS remote (*) to local (http://localhost:8800), expect to fail 
+FAIL remote (*) to local (null), expect origin=null assert_true: Got response expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/cors/redirect-origin.htm:138:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS remote (*) to local (none), expect to fail 
+PASS remote (http://localhost:8800) to local (*), expect origin=null 
+PASS remote (http://localhost:8800) to local (http://localhost:8800), expect to fail 
+FAIL remote (http://localhost:8800) to local (null), expect origin=null assert_true: Got response expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/cors/redirect-origin.htm:138:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS remote (http://localhost:8800) to local (none), expect to fail 
+PASS remote (null) to local (*), expect to fail 
+PASS remote (none) to local (*), expect to fail 
+PASS remote (*) to remote (*), expect origin=http://localhost:8800 
+PASS remote (*) to remote (http://localhost:8800), expect origin=http://localhost:8800 
+PASS remote (*) to remote (null), expect to fail 
+PASS remote (*) to remote (none), expect to fail 
+PASS remote (http://localhost:8800) to remote (*), expect origin=http://localhost:8800 
+PASS remote (http://localhost:8800) to remote (http://localhost:8800), expect origin=http://localhost:8800 
+PASS remote (http://localhost:8800) to remote (null), expect to fail 
+PASS remote (http://localhost:8800) to remote (none), expect to fail 
+PASS remote (null) to remote (*), expect to fail 
+PASS remote (none) to remote (*), expect to fail 
+PASS remote (*) to remote2 (*), expect origin=null 
+PASS remote (*) to remote2 (http://localhost:8800), expect to fail 
+FAIL remote (*) to remote2 (null), expect origin=null assert_true: Got response expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/cors/redirect-origin.htm:138:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS remote (*) to remote2 (none), expect to fail 
+PASS remote (http://localhost:8800) to remote2 (*), expect origin=null 
+PASS remote (http://localhost:8800) to remote2 (http://localhost:8800), expect to fail 
+FAIL remote (http://localhost:8800) to remote2 (null), expect origin=null assert_true: Got response expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/cors/redirect-origin.htm:138:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS remote (http://localhost:8800) to remote2 (none), expect to fail 
+PASS remote (null) to remote2 (*), expect to fail 
+PASS remote (none) to remote2 (*), expect to fail 
+PASS remote (*) to remote (http://www1.localhost:8800), expect to fail 
+PASS remote (*) to remote2 (http://www1.localhost:8800), expect to fail 
+PASS remote (http://www1.localhost:8800) to remote (*), expect to fail 
+

@@ -1,0 +1,6 @@
+Test1 Test2 Test3
+
+PASS marquee_loop_string 
+PASS marquee_loop_less_than_1 
+PASS marquee_loop_normal 
+

@@ -1,0 +1,31 @@
+CONSOLE MESSAGE: Cross-origin text track load denied by Cross-Origin Resource Sharing policy.
+Actual	Expected
+{
+  "event": "error",
+  "requests": []
+}
+{
+  "event": "error",
+  "requests": [
+    {
+      "cors": "http://localhost:8800",
+      "cookie": "no"
+    },
+    {
+      "cors": "null",
+      "cookie": "no"
+    }
+  ]
+}
+Test id: 45854dbc-d0b9-47ef-b342-2bdd06c93417
+
+
+
+FAIL track CORS: Anonymous, not same-origin, with headers, redirects to same-origin, no headers assert_object_equals: expected property "0" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+check_equal@http://localhost:8800/resources/testharness.js:384:24
+check_equal@http://localhost:8800/resources/testharness.js:375:37
+assert_object_equals@http://localhost:8800/resources/testharness.js:390:21
+checkData@http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:128:29
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

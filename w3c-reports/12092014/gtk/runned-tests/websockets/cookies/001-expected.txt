@@ -1,0 +1,7 @@
+
+FAIL WebSockets: Cookie in request assert_regexp_match: expected object "/ws_test_1410533084681.0.37705231574364007=test/" but got "(none)"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_regexp_match@http://localhost:8800/resources/testharness.js:504:15
+http://localhost:8800/websockets/cookies/001.html:15:24
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

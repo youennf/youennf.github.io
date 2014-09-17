@@ -1,0 +1,35 @@
+Description
+
+This test validates the value of window.performance.navigation.type and the values of window.performance.timing.* with a reloaded navigation.
+
+This page should be loaded with a green background frame below. The frame will be automatically reloaded and then verified that
+
+The window.performance.navigation.type = TYPE_RELOAD
+All of the widow.performance.timing.* values after reload are > all of the window.performance.timing.* values prior to reload.
+
+
+
+PASS window.performance is defined 
+PASS window.performance.navigation is defined 
+PASS window.performance.navigation.type == TYPE_RELOAD,{help:"http://www.w3.org/TR/navigation-timing/#sec-navigation-info-interface"} 
+PASS Reload connectEnd(1410541009834) > Original connectEnd(1410541009688) 
+PASS Reload connectStart(1410541009834) > Original connectStart(1410541009688) 
+PASS Reload domComplete(1410541009837) > Original domComplete(1410541009731) 
+PASS Reload domContentLoadedEventEnd(1410541009837) > Original domContentLoadedEventEnd(1410541009731) 
+PASS Reload domContentLoadedEventStart(1410541009837) > Original domContentLoadedEventStart(1410541009731) 
+PASS Reload domInteractive(1410541009837) > Original domInteractive(1410541009731) 
+PASS Reload domLoading(1410541009837) > Original domLoading(1410541009730) 
+PASS Reload domainLookupEnd(1410541009834) > Original domainLookupEnd(1410541009688) 
+PASS Reload domainLookupStart(1410541009834) > Original domainLookupStart(1410541009688) 
+PASS Reload fetchStart(1410541009834) > Original fetchStart(1410541009688) 
+PASS Reload loadEventEnd(1410541009837) > Original loadEventEnd(1410541009731) 
+PASS Reload loadEventStart(1410541009837) > Original loadEventStart(1410541009731) 
+PASS Reload navigationStart(1410541009834) > Original navigationStart(1410541009688) 
+PASS Reload redirectEnd(0) == Original redirectEnd(0) 
+PASS Reload redirectStart(0) == Original redirectStart(0) 
+PASS Reload requestStart(1410541009834) > Original requestStart(1410541009688) 
+PASS Reload responseEnd(1410541009836) > Original responseEnd(1410541009730) 
+PASS Reload responseStart(1410541009835) > Original responseStart(1410541009729) 
+PASS Reload unloadEventEnd(1410541009836) > Original unloadEventEnd(0) 
+PASS Reload unloadEventStart(1410541009836) > Original unloadEventStart(0) 
+

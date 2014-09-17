@@ -1,0 +1,39 @@
+Description
+
+This test validates that the window.performance object exists in an object element (but does not validate that their values are correct).
+
+
+
+FAIL window.performance is defined and not null. assert_true: window.performance is defined and not null expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/navigation-timing/resources/webperftestharness.js:58:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:58:17
+test_namespace@http://localhost:8800/navigation-timing/resources/webperftestharness.js:69:16
+onload_test@http://localhost:8800/navigation-timing/test_performance_attributes_exist_in_object.html:17:27
+onload@http://localhost:8800/navigation-timing/test_performance_attributes_exist_in_object.html:26:12)
+FAIL window.performance is defined assert_true: window.performance is defined expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/navigation-timing/resources/webperftestharness.js:69:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:62:9
+test_namespace@http://localhost:8800/navigation-timing/resources/webperftestharness.js:69:16
+onload_test@http://localhost:8800/navigation-timing/test_performance_attributes_exist_in_object.html:17:27
+onload@http://localhost:8800/navigation-timing/test_performance_attributes_exist_in_object.html:26:12)
+FAIL window.performance.timing is defined undefined is not an object (evaluating 'performanceNamespace[child_name]')(stack: http://localhost:8800/navigation-timing/resources/webperftestharness.js:74:62
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:62:9
+test_namespace@http://localhost:8800/navigation-timing/resources/webperftestharness.js:74:16
+onload_test@http://localhost:8800/navigation-timing/test_performance_attributes_exist_in_object.html:17:27
+onload@http://localhost:8800/navigation-timing/test_performance_attributes_exist_in_object.html:26:12)
+FAIL window.performance.navigation is defined undefined is not an object (evaluating 'performanceNamespace[child_name]')(stack: http://localhost:8800/navigation-timing/resources/webperftestharness.js:74:62
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:62:9
+test_namespace@http://localhost:8800/navigation-timing/resources/webperftestharness.js:74:16
+onload_test@http://localhost:8800/navigation-timing/test_performance_attributes_exist_in_object.html:18:27
+onload@http://localhost:8800/navigation-timing/test_performance_attributes_exist_in_object.html:26:12)
+

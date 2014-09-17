@@ -1,0 +1,6 @@
+Blocked access to external URL http://www1.localhost:8800/cors/resources/remote-xhrer.html
+Access-Control-Allow-Origin handling
+
+
+
+Harness Error. harness_status.status = 2 , harness_status.message = null

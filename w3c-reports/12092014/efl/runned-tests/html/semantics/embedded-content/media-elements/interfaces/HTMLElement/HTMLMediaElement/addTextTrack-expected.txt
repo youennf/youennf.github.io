@@ -1,0 +1,32 @@
+
+FAIL HTMLMediaElement.addTextTrack bogus first arg assert_throws: function "function () {
+        video.addTextTrack('foo');
+    }" threw object "Error: SyntaxError: DOM Exception 12" ("SyntaxError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLMediaElement/addTextTrack.html:9:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLMediaElement/addTextTrack.html:8:5)
+FAIL HTMLMediaElement.addTextTrack uppercase first arg assert_throws: function "function () {
+        video.addTextTrack('SUBTITLES');
+    }" threw object "Error: SyntaxError: DOM Exception 12" ("SyntaxError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLMediaElement/addTextTrack.html:21:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLMediaElement/addTextTrack.html:20:5)
+PASS HTMLMediaElement.addTextTrack subtitles first arg 
+PASS HTMLMediaElement.addTextTrack captions first arg 
+PASS HTMLMediaElement.addTextTrack descriptions first arg 
+PASS HTMLMediaElement.addTextTrack chapters first arg 
+PASS HTMLMediaElement.addTextTrack metadata first arg 
+FAIL HTMLMediaElement.addTextTrack undefined second and third arg assert_equals: expected "" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLMediaElement/addTextTrack.html:79:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/HTMLElement/HTMLMediaElement/addTextTrack.html:76:5)
+PASS HTMLMediaElement.addTextTrack null second and third arg 
+PASS HTMLMediaElement.addTextTrack foo and bar second and third arg 
+PASS HTMLMediaElement.addTextTrack foo second arg, third arg omitted 
+

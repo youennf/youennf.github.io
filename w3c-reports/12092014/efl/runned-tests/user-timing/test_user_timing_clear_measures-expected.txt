@@ -1,0 +1,19 @@
+Description
+
+This test validates that the performance.clearMeasures() method is working properly. This test creates the following measures to test this method:
+
+"measure1"
+"measure2"
+After creating each measure, performance.clearMeasures() is called three times. First, it is provided with a name of "measureUndefined", a non-existent measure, which shouldn't change the state of the Performance Timeline. Next, it is provided with a name of "measure2", after which, this measure should no longer be present in the Performance Timeline. Finally, performance.clearMeasures() is called without any name provided. After this call, no measures should be present in the Performance Timeline. The state of the Performance Timeline is tested with the performance.getEntriesByType() and performance.getEntries() methods.
+
+PASS window.performance is defined 
+FAIL The User Timing and Performance Timeline interfaces, which are required for this test, are defined. assert_true: The User Timing and Performance Timeline interfaces, which are required for this test, are defined. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/user-timing/resources/webperftestharness.js:134:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/user-timing/resources/webperftestharness.js:62:9
+test_true@http://localhost:8800/user-timing/resources/webperftestharness.js:134:12
+onload_test@http://localhost:8800/user-timing/test_user_timing_clear_measures.html:36:26
+onload@http://localhost:8800/user-timing/test_user_timing_clear_measures.html:118:12)
+

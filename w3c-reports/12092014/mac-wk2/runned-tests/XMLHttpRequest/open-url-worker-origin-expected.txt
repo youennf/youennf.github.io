@@ -1,0 +1,11 @@
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www2.localhost:8800/XMLHttpRequest/resources/inspect-headers.py?filter_name=origin&cors. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+
+PASS XMLHttpRequest: worker scripts, origin and referrer 
+PASS Referer header 
+PASS Request URL test 
+FAIL Origin header assert_equals: expected "origin: http://localhost:8800\n" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/open-url-worker-origin.htm:27:30
+step@http://localhost:8800/resources/testharness.js:798:30
+onmessage@http://localhost:8800/XMLHttpRequest/open-url-worker-origin.htm:24:25)
+

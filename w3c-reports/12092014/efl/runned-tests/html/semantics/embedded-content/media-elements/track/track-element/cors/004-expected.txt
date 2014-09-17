@@ -1,0 +1,6 @@
+Test id: 608d69b0-392a-44e6-b5a5-7f0a852ffcaf
+
+
+
+PASS track CORS: No CORS, same-origin, with headers 
+

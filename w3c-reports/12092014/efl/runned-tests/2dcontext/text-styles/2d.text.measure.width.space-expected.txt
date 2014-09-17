@@ -1,0 +1,11 @@
+2d.text.measure.width.space
+Space characters are converted to U+0020 and collapsed (per CSS)
+Actual output:
+
+FAIL Space characters are converted to U+0020 and collapsed (per CSS) assert_equals: ctx.measureText('A  B').width === 150 (got 200[number], expected 150[number]) expected 150 but got 200(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+_assertSame@http://localhost:8800/common/canvas-tests.js:17:18
+http://localhost:8800/2dcontext/text-styles/2d.text.measure.width.space.html:33:16
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:843:37)
+

@@ -1,0 +1,36 @@
+               
+
+FAIL click on mutable radio fires the input event assert_true: expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/semantics/forms/the-input-element/radio.html:107:16
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/semantics/forms/the-input-element/radio.html:105:10)
+FAIL click on mutable radio fires the change event assert_true: event should be trusted expected true got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/semantics/forms/the-input-element/radio.html:93:16
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+click@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/radio.html:106:17
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/semantics/forms/the-input-element/radio.html:105:10)
+PASS click on non-mutable radio doesn't fire the input event 
+PASS click on non-mutable radio doesn't fire the change event 
+FAIL canceled activation steps on unchecked radio assert_false: expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/forms/the-input-element/radio.html:123:17
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:843:37
+click@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/radio.html:133:18
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/semantics/forms/the-input-element/radio.html:130:10)
+PASS only one control of a radio button group can have its checkedness set to true 
+FAIL radio inputs with name attributes groüp2 and groÜp2 belong to the same radio button group assert_false: expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/forms/the-input-element/radio.html:66:17
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/radio.html:59:7)
+PASS changing the name of a radio input element and setting its checkedness to true makes all the other elements' checkedness in the same radio button group be set to false 
+

@@ -1,0 +1,1471 @@
+Running test...
+
+FAIL document.getItems must exist assert_true: expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/microdata/microdata-dom-api/001.html:45:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:44:5)
+FAIL document.getItems must return a NodeList undefined is not a function (evaluating 'document.getItems()')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:48:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:47:5)
+FAIL document.getItems must locate the correct number of items undefined is not a function (evaluating 'document.getItems()')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:53:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:52:5)
+FAIL document.getItems must return a live NodeList undefined is not a function (evaluating 'document.getItems()')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:56:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:55:5)
+FAIL live NodeList must notice when itemscope changes undefined is not a function (evaluating 'document.getItems()')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:65:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:64:5)
+FAIL next request must notice when itemscope changes undefined is not a function (evaluating 'document.getItems()')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:74:43
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:72:5)
+FAIL document.getItems must locate the right number of items for each itemtype undefined is not a function (evaluating 'document.getItems('http://example.com/')')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:80:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:79:5)
+FAIL document.getItems must be case sensitive undefined is not a function (evaluating 'document.getItems('http://example.com/Foo')')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:87:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:86:5)
+FAIL document.getItems must return a live NodeList when using URLs undefined is not a function (evaluating 'document.getItems('http://example.com/foo')')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:91:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:90:5)
+FAIL live NodeList must notice when itemtype changes undefined is not a function (evaluating 'document.getItems('http://example.com/foo')')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:100:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:99:5)
+FAIL next request must notice when itemtype changes undefined is not a function (evaluating 'document.getItems('http://example.com/foo')')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:109:43
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:107:5)
+FAIL document.getItems must locate items when parameters are separated by spaces undefined is not a function (evaluating 'document.getItems('http://example.com/foo data:text/plain,')')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:115:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:114:5)
+FAIL document.getItems must ignore duplicated tokens undefined is not a function (evaluating 'document.getItems('http://example.com/foo data:text/plain, http://example.com/foo')')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:119:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:118:5)
+FAIL document.getItems NodeList must be in source tree order undefined is not a function (evaluating 'document.getItems('http://example.com/bar')')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:122:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:121:5)
+FAIL document.getItems must not return the same NodeList for different parameters undefined is not a function (evaluating 'document.getItems('http://example.com/abc')')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:129:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:128:5)
+FAIL document.getItems must treat no tokens as no parameter undefined is not a function (evaluating 'document.getItems('')')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:133:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:132:5)
+FAIL document.getItems must not find items with itemtype but not itemscope undefined is not a function (evaluating 'document.getItems('http://example.com/foo')')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:146:43
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:143:5)
+FAIL document.getItems and itemtype must not resolve URLs undefined is not a function (evaluating 'document.getItems('baz')')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:155:44
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:150:5)
+FAIL document.getItems must not see items that have the itemprop attribute set undefined is not a function (evaluating 'document.getItems()')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:165:43
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:162:5)
+FAIL the itemscope attribute must be reflected by the .itemScope property assert_true: expected true got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/microdata/microdata-dom-api/001.html:173:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:172:5)
+FAIL the itemScope property must be boolean assert_equals: attribute exists expected "boolean" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/microdata/microdata-dom-api/001.html:177:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:176:5)
+PASS the itemScope property must be read/write 
+FAIL writing to the itemScope property must toggle existence of the itemscope content attribute assert_true: writing true expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/microdata/microdata-dom-api/001.html:190:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:187:5)
+FAIL writing to the itemScope property must affect whether the element is returned by getItems undefined is not a function (evaluating 'document.getItems()')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:197:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:194:5)
+FAIL writing to the itemScope property must affect membership of live NodeLists undefined is not a function (evaluating 'document.getItems()')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:208:65
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:207:5)
+FAIL the itemType attribute must be reflected by the .itemRef property undefined is not an object (evaluating 'makeEl('div',{}).itemType.toString')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:223:48
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:222:5)
+FAIL the itemType property must be an object assert_equals: expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/microdata/microdata-dom-api/001.html:230:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:229:5)
+FAIL the itemType property must implement DOMTokenList assert_true: instanceof test expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/microdata/microdata-dom-api/001.html:233:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:232:5)
+PASS the itemType property must always reference the same object 
+FAIL itemType must be correct for an element that has itemtype tokens undefined is not an object (evaluating 'makeEl('div',{itemtype:'test test'}).itemType.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:242:69
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:241:5)
+FAIL itemType.length must be 0 for an element that has no tokens undefined is not an object (evaluating 'makeEl('div',{itemtype:' '}).itemType.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:247:61
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:246:5)
+FAIL itemType must not contain an undefined class undefined is not an object (evaluating 'makeEl('div',{itemtype:' '}).itemType.contains')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:250:60
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:249:5)
+FAIL itemType.item() must return null for out-of-range index undefined is not an object (evaluating 'makeEl('div',{itemtype:' '}).itemType.item')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:253:61
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:252:5)
+FAIL itemType.item() must return null for negative index undefined is not an object (evaluating 'makeEl('div',{itemtype:' '}).itemType.item')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:256:61
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:255:5)
+FAIL itemType[index] must be undefined for out-of-range index undefined is not an object (evaluating 'makeEl('div',{itemtype:' '}).itemType[0]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:264:61
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:258:5)
+FAIL itemType[index] must be undefined for negative index undefined is not an object (evaluating 'makeEl('div',{itemtype:' '}).itemType[-1]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:267:61
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:266:5)
+FAIL empty itemType should stringify to contain the attribute's whitespace undefined is not an object (evaluating 'makeEl('div',{itemType:' '}).itemType.toString')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:270:61
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:269:5)
+FAIL itemType.contains(empty_string) must throw a SYNTAX_ERR assert_throws: function "function () { makeEl('div',{itemtype:' '}).itemType.conta..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:273:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:272:5)
+FAIL itemType.add(empty_string) must throw a SYNTAX_ERR assert_throws: function "function () { makeEl('div',{itemtype:' '}).itemType.add('..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:276:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:275:5)
+FAIL itemType.remove(empty_string) must throw a SYNTAX_ERR assert_throws: function "function () { makeEl('div',{itemtype:' '}).itemType.remov..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:279:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:278:5)
+FAIL itemType.toggle(empty_string) must throw a SYNTAX_ERR assert_throws: function "function () { makeEl('div',{itemtype:' '}).itemType.toggl..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:282:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:281:5)
+FAIL itemType.contains(string_with_spaces) must throw an INVALID_CHARACTER_ERR assert_throws: function "function () { makeEl('div',{itemtype:' '}).itemType.conta..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException INVALID_CHARACTER_ERR: property "code" is equal to undefined, expected 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:285:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:284:5)
+FAIL itemType.add(string_with_spaces) must throw an INVALID_CHARACTER_ERR assert_throws: function "function () { makeEl('div',{itemtype:' '}).itemType.add('..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException INVALID_CHARACTER_ERR: property "code" is equal to undefined, expected 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:288:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:287:5)
+FAIL itemType.remove(string_with_spaces) must throw an INVALID_CHARACTER_ERR assert_throws: function "function () { makeEl('div',{itemtype:' '}).itemType.remov..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException INVALID_CHARACTER_ERR: property "code" is equal to undefined, expected 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:291:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:290:5)
+FAIL itemType.toggle(string_with_spaces) must throw an INVALID_CHARACTER_ERR assert_throws: function "function () { makeEl('div',{itemtype:' '}).itemType.toggl..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException INVALID_CHARACTER_ERR: property "code" is equal to undefined, expected 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:294:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:293:5)
+FAIL itemType.contains must update when the underlying attribute is changed undefined is not an object (evaluating 'testEl.itemType.contains')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:298:37
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:296:5)
+FAIL itemType.contains must be case sensitive undefined is not an object (evaluating 'makeEl('div',{itemtype:'foo'}).itemType.contains')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:304:62
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:303:5)
+FAIL itemType.contains must not match when punctuation characters are added undefined is not an object (evaluating 'makeEl('div',{itemtype:'foo'}).itemType.contains')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:307:62
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:306:5)
+FAIL itemType.add must not remove existing tokens undefined is not an object (evaluating 'elem.itemType.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:317:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:315:5)
+FAIL itemType.contains case sensitivity must match a case-specific string undefined is not an object (evaluating 'makeEl('div',{itemtype:'foo FOO'}).itemType.contains')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:321:65
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:320:5)
+FAIL itemType.length must correctly reflect the number of tokens undefined is not an object (evaluating 'makeEl('div',{itemtype:'foo FOO'}).itemType.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:324:67
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:323:5)
+FAIL itemType.item(0) must return the first token undefined is not an object (evaluating 'makeEl('div',{itemtype:'foo FOO'}).itemType.item')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:327:67
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:326:5)
+FAIL itemType.item must return case-sensitive strings and preserve token order undefined is not an object (evaluating 'elem.itemType.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:331:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:329:5)
+FAIL itemType[0] must return the first token undefined is not an object (evaluating 'makeEl('div',{itemtype:'foo FOO'}).itemType[0]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:335:67
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:334:5)
+FAIL itemType[index] must return case-sensitive strings and preserve token order undefined is not an object (evaluating 'makeEl('div',{itemtype:'foo FOO'}).itemType[1]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:338:67
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:337:5)
+FAIL itemType[index] must still be undefined for out-of-range index when earlier indexes exist undefined is not an object (evaluating 'makeEl('div',{itemtype:'foo FOO'}).itemType[2]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:346:67
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:340:5)
+FAIL itemtype attribute must update correctly when items have been added through itemType undefined is not an object (evaluating 'elem.itemType.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:350:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:348:5)
+FAIL itemType must stringify correctly when items have been added undefined is not an object (evaluating 'elem.itemType.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:356:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:354:5)
+FAIL itemType.add must not make any changes if an existing token is added undefined is not an object (evaluating 'elem.itemType.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:362:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:360:5)
+FAIL itemType.remove must not make any changes if a non-existing token is removed undefined is not an object (evaluating 'elem.itemType.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:368:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:366:5)
+FAIL itemType.remove must remove existing tokens undefined is not an object (evaluating 'elem.itemType.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:374:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:372:5)
+FAIL itemType.remove must remove duplicated tokens undefined is not an object (evaluating 'elem.itemType.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:382:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:380:5)
+FAIL itemType.remove must collapse whitespace around removed tokens undefined is not an object (evaluating 'elem.itemType.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:388:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:386:5)
+FAIL itemType.remove must remove all useless whitespace undefined is not an object (evaluating 'elem.itemType.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:393:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:391:5)
+FAIL itemType.remove must collapse multiple whitespace around removed tokens undefined is not an object (evaluating 'elem.itemType.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:398:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:396:5)
+FAIL itemType.remove must remove duplicates when removing tokens undefined is not an object (evaluating 'elem.itemType.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:403:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:401:5)
+FAIL itemType.remove must collapse whitespace when removing multiple tokens undefined is not an object (evaluating 'elem.itemType.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:408:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:406:5)
+FAIL itemType.add must remove unused whitespace when the token already exists undefined is not an object (evaluating 'elem.itemType.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:413:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:411:5)
+FAIL itemType.toggle must toggle tokens case-sensitively when adding undefined is not an object (evaluating 'elem.itemType.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:418:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:416:5)
+FAIL itemType.toggle must be able to remove tokens case-sensitively undefined is not an object (evaluating 'elem.itemType.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:425:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:423:5)
+FAIL itemtype attribute must be empty when all classes have been removed undefined is not an object (evaluating 'elem.itemType.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:432:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:430:5)
+FAIL itemType must stringify to an empty string when all classes have been removed undefined is not an object (evaluating 'elem.itemType.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:438:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:436:5)
+FAIL itemType.item(0) must return null when all classes have been removed undefined is not an object (evaluating 'elem.itemType.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:444:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:442:5)
+FAIL itemType[0] must be undefined when all classes have been removed undefined is not an object (evaluating 'elem.itemType.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:455:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:448:5)
+FAIL itemType.add should treat " " as a space undefined is not an object (evaluating 'elem.itemType.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:462:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:460:5)
+FAIL itemType.add should normalize \t as a space undefined is not an object (evaluating 'elem.itemType.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:467:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:465:5)
+FAIL itemType.add should normalize \r as a space undefined is not an object (evaluating 'elem.itemType.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:472:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:470:5)
+FAIL itemType.add should normalize \n as a space undefined is not an object (evaluating 'elem.itemType.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:477:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:475:5)
+FAIL itemType.add should normalize \f as a space undefined is not an object (evaluating 'elem.itemType.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:482:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:480:5)
+FAIL itemType.toggle must work after removing the itemtype attribute undefined is not an object (evaluating 'elem.itemType.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:487:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:485:5)
+FAIL itemType.length must be read-only undefined is not an object (evaluating 'elem.itemType.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:501:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:491:5)
+FAIL itemType must be read-only assert_equals: expected (undefined) undefined but got (string) "dummy"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:511:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:504:5)
+FAIL the itemprop attribute must be reflected by the .itemProp property undefined is not an object (evaluating 'makeEl('div',{}).itemProp.toString')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:518:48
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:517:5)
+FAIL the itemProp property must be an object assert_equals: expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/microdata/microdata-dom-api/001.html:525:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:524:5)
+FAIL the itemProp property must implement DOMTokenList assert_true: instanceof test expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/microdata/microdata-dom-api/001.html:528:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:527:5)
+PASS the itemProp property must always reference the same object 
+FAIL itemProp must be correct for an element that has itemprop tokens undefined is not an object (evaluating 'makeEl('div',{itemprop:'test test'}).itemProp.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:537:69
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:536:5)
+FAIL itemProp.length must be 0 for an element that has no tokens undefined is not an object (evaluating 'makeEl('div',{itemprop:' '}).itemProp.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:542:61
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:541:5)
+FAIL itemProp must not contain an undefined class undefined is not an object (evaluating 'makeEl('div',{itemprop:' '}).itemProp.contains')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:545:60
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:544:5)
+FAIL itemProp.item() must return null for out-of-range index undefined is not an object (evaluating 'makeEl('div',{itemprop:' '}).itemProp.item')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:548:61
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:547:5)
+FAIL itemProp.item() must return null for negative index undefined is not an object (evaluating 'makeEl('div',{itemprop:' '}).itemProp.item')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:551:61
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:550:5)
+FAIL itemProp[index] must be undefined for out-of-range index undefined is not an object (evaluating 'makeEl('div',{itemprop:' '}).itemProp[0]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:559:61
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:553:5)
+FAIL itemProp[index] must be undefined for negative index undefined is not an object (evaluating 'makeEl('div',{itemprop:' '}).itemProp[-1]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:562:61
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:561:5)
+FAIL empty itemProp should stringify to contain the attribute's whitespace undefined is not an object (evaluating 'makeEl('div',{itemprop:' '}).itemProp.toString')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:565:61
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:564:5)
+FAIL itemProp.contains(empty_string) must throw a SYNTAX_ERR assert_throws: function "function () { makeEl('div',{itemprop:' '}).itemProp.conta..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:568:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:567:5)
+FAIL itemProp.add(empty_string) must throw a SYNTAX_ERR assert_throws: function "function () { makeEl('div',{itemprop:' '}).itemProp.add('..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:571:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:570:5)
+FAIL itemProp.remove(empty_string) must throw a SYNTAX_ERR assert_throws: function "function () { makeEl('div',{itemprop:' '}).itemProp.remov..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:574:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:573:5)
+FAIL itemProp.toggle(empty_string) must throw a SYNTAX_ERR assert_throws: function "function () { makeEl('div',{itemprop:' '}).itemProp.toggl..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:577:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:576:5)
+FAIL .contains(string_with_spaces) must throw an INVALID_CHARACTER_ERR assert_throws: function "function () { makeEl('div',{itemprop:' '}).itemProp.conta..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException INVALID_CHARACTER_ERR: property "code" is equal to undefined, expected 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:580:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:579:5)
+FAIL itemProp.add(string_with_spaces) must throw an INVALID_CHARACTER_ERR assert_throws: function "function () { makeEl('div',{itemprop:' '}).itemProp.add('..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException INVALID_CHARACTER_ERR: property "code" is equal to undefined, expected 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:583:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:582:5)
+FAIL itemProp.remove(string_with_spaces) must throw an INVALID_CHARACTER_ERR assert_throws: function "function () { makeEl('div',{itemprop:' '}).itemProp.remov..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException INVALID_CHARACTER_ERR: property "code" is equal to undefined, expected 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:586:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:585:5)
+FAIL itemProp.toggle(string_with_spaces) must throw an INVALID_CHARACTER_ERR assert_throws: function "function () { makeEl('div',{itemprop:' '}).itemProp.toggl..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException INVALID_CHARACTER_ERR: property "code" is equal to undefined, expected 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:589:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:588:5)
+FAIL itemProp.contains must update when the underlying attribute is changed undefined is not an object (evaluating 'testEl.itemProp.contains')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:593:37
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:591:5)
+FAIL itemProp.contains must be case sensitive undefined is not an object (evaluating 'makeEl('div',{itemprop:'foo'}).itemProp.contains')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:599:62
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:598:5)
+FAIL itemProp.contains must not match when punctuation characters are added undefined is not an object (evaluating 'makeEl('div',{itemprop:'foo'}).itemProp.contains')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:602:62
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:601:5)
+FAIL itemProp.add must not remove existing tokens undefined is not an object (evaluating 'elem.itemProp.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:612:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:610:5)
+FAIL itemProp.contains case sensitivity must match a case-specific string undefined is not an object (evaluating 'makeEl('div',{itemprop:'foo FOO'}).itemProp.contains')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:616:65
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:615:5)
+FAIL itemProp.length must correctly reflect the number of tokens undefined is not an object (evaluating 'makeEl('div',{itemprop:'foo FOO'}).itemProp.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:619:67
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:618:5)
+FAIL itemProp.item(0) must return the first token undefined is not an object (evaluating 'makeEl('div',{itemprop:'foo FOO'}).itemProp.item')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:622:67
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:621:5)
+FAIL itemProp.item must return case-sensitive strings and preserve token order undefined is not an object (evaluating 'elem.itemProp.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:626:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:624:5)
+FAIL itemProp[0] must return the first token undefined is not an object (evaluating 'makeEl('div',{itemprop:'foo FOO'}).itemProp[0]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:630:67
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:629:5)
+FAIL itemProp[index] must return case-sensitive strings and preserve token order undefined is not an object (evaluating 'makeEl('div',{itemprop:'foo FOO'}).itemProp[1]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:633:67
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:632:5)
+FAIL itemProp[index] must still be undefined for out-of-range index when earlier indexes exist undefined is not an object (evaluating 'makeEl('div',{itemprop:'foo FOO'}).itemProp[2]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:641:67
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:635:5)
+FAIL itemprop attribute must update correctly when items have been added through itemProp undefined is not an object (evaluating 'elem.itemProp.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:645:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:643:5)
+FAIL itemProp must stringify correctly when items have been added undefined is not an object (evaluating 'elem.itemProp.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:651:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:649:5)
+FAIL itemProp.add must not make any changes if an existing token is added undefined is not an object (evaluating 'elem.itemProp.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:657:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:655:5)
+FAIL itemProp.remove must not make any changes if a non-existing token is removed undefined is not an object (evaluating 'elem.itemProp.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:663:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:661:5)
+FAIL itemProp.remove must remove existing tokens undefined is not an object (evaluating 'elem.itemProp.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:669:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:667:5)
+FAIL itemProp.remove must remove duplicated tokens undefined is not an object (evaluating 'elem.itemProp.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:677:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:675:5)
+FAIL itemProp.remove must collapse whitespace around removed tokens undefined is not an object (evaluating 'elem.itemProp.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:683:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:681:5)
+FAIL itemProp.remove must remove all useless whitespace undefined is not an object (evaluating 'elem.itemProp.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:688:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:686:5)
+FAIL itemProp.remove must remove useless whitespace when removing multiple tokens undefined is not an object (evaluating 'elem.itemProp.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:693:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:691:5)
+FAIL itemProp.add must remove useless whitespace and duplicates when the token already exists undefined is not an object (evaluating 'elem.itemProp.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:698:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:696:5)
+FAIL itemProp.toggle must toggle tokens case-sensitively when adding undefined is not an object (evaluating 'elem.itemProp.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:703:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:701:5)
+FAIL itemProp.toggle must be able to remove tokens case-sensitively undefined is not an object (evaluating 'elem.itemProp.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:710:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:708:5)
+FAIL itemprop attribute must be empty when all classes have been removed undefined is not an object (evaluating 'elem.itemProp.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:717:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:715:5)
+FAIL itemProp must stringify to an empty string when all classes have been removed undefined is not an object (evaluating 'elem.itemProp.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:723:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:721:5)
+FAIL itemProp.item(0) must return null when all classes have been removed undefined is not an object (evaluating 'elem.itemProp.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:729:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:727:5)
+FAIL itemProp[0] must be undefined when all classes have been removed undefined is not an object (evaluating 'elem.itemProp.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:740:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:733:5)
+FAIL itemProp.add should treat " " as a space undefined is not an object (evaluating 'elem.itemProp.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:747:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:745:5)
+FAIL itemProp.add should normalize \t as a space undefined is not an object (evaluating 'elem.itemProp.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:752:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:750:5)
+FAIL itemProp.add should normalize \r as a space undefined is not an object (evaluating 'elem.itemProp.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:757:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:755:5)
+FAIL itemProp.add should normalize \n as a space undefined is not an object (evaluating 'elem.itemProp.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:762:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:760:5)
+FAIL itemProp.add should normalize \f as a space undefined is not an object (evaluating 'elem.itemProp.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:767:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:765:5)
+FAIL itemProp.toggle must work after removing the itemprop attribute undefined is not an object (evaluating 'elem.itemProp.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:772:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:770:5)
+FAIL itemProp.length must be read-only undefined is not an object (evaluating 'elem.itemProp.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:786:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:776:5)
+FAIL itemProp must be read-only assert_equals: expected (undefined) undefined but got (string) "dummy"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:796:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:789:5)
+FAIL the itemid attribute must be reflected by the .itemId property assert_equals: expected (string) "http://www1.localhost:8800/foo" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:803:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:802:5)
+FAIL the itemId property must be read/write assert_equals: writing an empty string expected "http://localhost:8800/microdata/microdata-dom-api/001.html" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/microdata/microdata-dom-api/001.html:815:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:810:5)
+FAIL writing to the itemId property must create the itemid content attribute assert_true: writing a URL expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/microdata/microdata-dom-api/001.html:820:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:817:5)
+FAIL the itemId property must see the resolved itemid URL assert_equals: foo expected (string) "http://localhost:8800/microdata/microdata-dom-api/foo" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:828:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:827:5)
+FAIL the itemId property must see the resolved itemId property URL on setting assert_equals: expected "http://localhost:8800/microdata/microdata-dom-api/foo" but got "foo"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/microdata/microdata-dom-api/001.html:835:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:832:5)
+FAIL the itemid attribute must see the resolved itemId URL assert_equals: expected (string) "foo" but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:840:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:837:5)
+FAIL the itemref attribute must be reflected by the .itemRef property undefined is not an object (evaluating 'makeEl('div',{}).itemRef.toString')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:845:47
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:844:5)
+FAIL the itemRef property must be an object assert_equals: expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/microdata/microdata-dom-api/001.html:852:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:851:5)
+FAIL the itemRef property must implement DOMTokenList assert_true: instanceof test expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/microdata/microdata-dom-api/001.html:855:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:854:5)
+PASS the itemRef property must always reference the same object 
+FAIL itemRef must be correct for an element that has itemref tokens undefined is not an object (evaluating 'makeEl('div',{itemref:'test test'}).itemRef.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:864:67
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:863:5)
+FAIL itemRef.length must be 0 for an element that has no tokens undefined is not an object (evaluating 'makeEl('div',{itemref:' '}).itemRef.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:869:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:868:5)
+FAIL itemRef must not contain an undefined class undefined is not an object (evaluating 'makeEl('div',{itemref:' '}).itemRef.contains')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:872:58
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:871:5)
+FAIL itemRef.item() must return null for out-of-range index undefined is not an object (evaluating 'makeEl('div',{itemref:' '}).itemRef.item')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:875:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:874:5)
+FAIL itemRef.item() must return null for negative index undefined is not an object (evaluating 'makeEl('div',{itemref:' '}).itemRef.item')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:878:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:877:5)
+FAIL itemRef[index] must be undefined for out-of-range index undefined is not an object (evaluating 'makeEl('div',{itemref:' '}).itemRef[0]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:886:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:880:5)
+FAIL itemRef[index] must be undefined for negative index undefined is not an object (evaluating 'makeEl('div',{itemref:' '}).itemRef[-1]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:889:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:888:5)
+FAIL empty itemRef should stringify to contain the attribute's whitespace undefined is not an object (evaluating 'makeEl('div',{itemref:' '}).itemRef.toString')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:892:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:891:5)
+FAIL itemRef.contains(empty_string) must throw a SYNTAX_ERR assert_throws: function "function () { makeEl('div',{itemref:' '}).itemRef.contain..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:895:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:894:5)
+FAIL itemRef.add(empty_string) must throw a SYNTAX_ERR assert_throws: function "function () { makeEl('div',{itemref:' '}).itemRef.add(''); }" threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:898:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:897:5)
+FAIL itemRef.remove(empty_string) must throw a SYNTAX_ERR assert_throws: function "function () { makeEl('div',{itemref:' '}).itemRef.remove(..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:901:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:900:5)
+FAIL itemRef.toggle(empty_string) must throw a SYNTAX_ERR assert_throws: function "function () { makeEl('div',{itemref:' '}).itemRef.toggle(..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException SYNTAX_ERR: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:904:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:903:5)
+FAIL itemRef.contains(string_with_spaces) must throw an INVALID_CHARACTER_ERR assert_throws: function "function () { makeEl('div',{itemref:' '}).itemRef.contain..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException INVALID_CHARACTER_ERR: property "code" is equal to undefined, expected 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:907:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:906:5)
+FAIL itemRef.add(string_with_spaces) must throw an INVALID_CHARACTER_ERR assert_throws: function "function () { makeEl('div',{itemref:' '}).itemRef.add('a ..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException INVALID_CHARACTER_ERR: property "code" is equal to undefined, expected 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:910:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:909:5)
+FAIL itemRef.remove(string_with_spaces) must throw an INVALID_CHARACTER_ERR assert_throws: function "function () { makeEl('div',{itemref:' '}).itemRef.remove(..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException INVALID_CHARACTER_ERR: property "code" is equal to undefined, expected 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:913:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:912:5)
+FAIL itemRef.toggle(string_with_spaces) must throw an INVALID_CHARACTER_ERR assert_throws: function "function () { makeEl('div',{itemref:' '}).itemRef.toggle(..." threw object "TypeError: undefined is not an object (evaluating 'makeEl..." that is not a DOMException INVALID_CHARACTER_ERR: property "code" is equal to undefined, expected 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/microdata/microdata-dom-api/001.html:916:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:915:5)
+FAIL itemRef.contains must update when the underlying attribute is changed undefined is not an object (evaluating 'testEl.itemRef.contains')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:920:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:918:5)
+FAIL itemRef.contains must be case sensitive undefined is not an object (evaluating 'makeEl('div',{itemref:'foo'}).itemRef.contains')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:926:60
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:925:5)
+FAIL itemRef.contains must not match when punctuation characters are added undefined is not an object (evaluating 'makeEl('div',{itemref:'foo'}).itemRef.contains')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:929:60
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:928:5)
+FAIL itemRef.add must not remove existing tokens undefined is not an object (evaluating 'elem.itemRef.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:939:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:937:5)
+FAIL itemRef.contains case sensitivity must match a case-specific string undefined is not an object (evaluating 'makeEl('div',{itemref:'foo FOO'}).itemRef.contains')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:943:63
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:942:5)
+FAIL itemRef.length must correctly reflect the number of tokens undefined is not an object (evaluating 'makeEl('div',{itemref:'foo FOO'}).itemRef.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:946:65
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:945:5)
+FAIL itemRef.item(0) must return the first token undefined is not an object (evaluating 'makeEl('div',{itemref:'foo FOO'}).itemRef.item')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:949:65
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:948:5)
+FAIL itemRef.item must return case-sensitive strings and preserve token order undefined is not an object (evaluating 'elem.itemRef.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:953:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:951:5)
+FAIL itemRef[0] must return the first token undefined is not an object (evaluating 'makeEl('div',{itemref:'foo FOO'}).itemRef[0]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:957:65
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:956:5)
+FAIL itemRef[index] must return case-sensitive strings and preserve token order undefined is not an object (evaluating 'makeEl('div',{itemref:'foo FOO'}).itemRef[1]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:960:65
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:959:5)
+FAIL itemRef[index] must still be undefined for out-of-range index when earlier indexes exist undefined is not an object (evaluating 'makeEl('div',{itemref:'foo FOO'}).itemRef[2]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:968:65
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:962:5)
+FAIL itemref attribute must update correctly when items have been added through itemRef undefined is not an object (evaluating 'elem.itemRef.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:972:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:970:5)
+FAIL itemRef must stringify correctly when items have been added undefined is not an object (evaluating 'elem.itemRef.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:978:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:976:5)
+FAIL itemRef.add must not make any changes if an existing token is added undefined is not an object (evaluating 'elem.itemRef.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:984:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:982:5)
+FAIL itemRef.remove must not make any changes if a non-existing token is removed undefined is not an object (evaluating 'elem.itemRef.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:990:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:988:5)
+FAIL itemRef.remove must remove existing tokens undefined is not an object (evaluating 'elem.itemRef.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:996:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:994:5)
+FAIL itemRef.remove must remove duplicated tokens undefined is not an object (evaluating 'elem.itemRef.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1004:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1002:5)
+FAIL itemRef.remove must collapse whitespace around removed tokens undefined is not an object (evaluating 'elem.itemRef.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1010:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1008:5)
+FAIL itemRef.remove must remove useless whitespace when removing tokens undefined is not an object (evaluating 'elem.itemRef.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1015:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1013:5)
+FAIL itemRef.remove must remove useless whitespace when removing tokens (2) undefined is not an object (evaluating 'elem.itemRef.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1020:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1018:5)
+FAIL itemRef.remove must collapse whitespace when removing multiple tokens undefined is not an object (evaluating 'elem.itemRef.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1025:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1023:5)
+FAIL itemRef.add must remove whitespace and duplicate when the token already exists undefined is not an object (evaluating 'elem.itemRef.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1030:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1028:5)
+FAIL itemRef.toggle must toggle tokens case-sensitively when adding undefined is not an object (evaluating 'elem.itemRef.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1035:33
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1033:5)
+FAIL itemRef.toggle must be able to remove tokens case-sensitively undefined is not an object (evaluating 'elem.itemRef.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1042:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1040:5)
+FAIL itemref attribute must be empty when all classes have been removed undefined is not an object (evaluating 'elem.itemRef.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1049:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1047:5)
+FAIL itemRef must stringify to an empty string when all classes have been removed undefined is not an object (evaluating 'elem.itemRef.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1055:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1053:5)
+FAIL itemRef.item(0) must return null when all classes have been removed undefined is not an object (evaluating 'elem.itemRef.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1061:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1059:5)
+FAIL itemRef[0] must be undefined when all classes have been removed undefined is not an object (evaluating 'elem.itemRef.toggle')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1072:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1065:5)
+FAIL itemRef.add should treat " " as a space undefined is not an object (evaluating 'elem.itemRef.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1079:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1077:5)
+FAIL itemRef.add should normalize \t as a space undefined is not an object (evaluating 'elem.itemRef.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1084:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1082:5)
+FAIL itemRef.add should normalize \r as a space undefined is not an object (evaluating 'elem.itemRef.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1089:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1087:5)
+FAIL itemRef.add should normalize \n as a space undefined is not an object (evaluating 'elem.itemRef.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1094:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1092:5)
+FAIL itemRef.add should normalize \f as a space undefined is not an object (evaluating 'elem.itemRef.add')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1099:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1097:5)
+FAIL itemRef.toggle must work after removing the itemref attribute undefined is not an object (evaluating 'elem.itemRef.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1104:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1102:5)
+FAIL itemRef.length must be read-only undefined is not an object (evaluating 'elem.itemRef.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1118:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1108:5)
+FAIL itemRef must be read-only assert_equals: expected (undefined) undefined but got (string) "dummy"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1128:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1121:5)
+FAIL itemValue must be null if the element does not have an itemprop attribute assert_equals: meta expected (object) null but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1135:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1134:5)
+FAIL writing to itemValue must throw an INVALID_ACCESS_ERR error if the element does not have an itemprop attribute assert_throws: meta function "function () { var testEl = makeEl('meta',{content:'test'}..." did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1153:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1152:5)
+FAIL itemValue must return the element if the element has an itemscope attribute assert_equals: meta expected (object) Element node <meta itemscope="itemscope" itemprop="foo" content="test"... but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1173:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1170:5)
+FAIL itemValue must reflect the content attribute on meta elements assert_equals: reading expected (string) "test" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1211:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1209:5)
+FAIL itemValue must reflect the src attribute on audio elements assert_equals: reading expected (string) "http://localhost:8800/" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1220:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1218:5)
+FAIL itemValue must reflect the src attribute on embed elements assert_equals: reading expected (string) "http://localhost:8800/" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1232:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1230:5)
+FAIL itemValue must reflect the src attribute on iframe elements assert_equals: reading expected (string) "http://localhost:8800/" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1243:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1241:5)
+FAIL itemValue must reflect the src attribute on img elements assert_equals: reading expected (string) "http://localhost:8800/" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1255:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1253:5)
+FAIL itemValue must reflect the src attribute on source elements assert_equals: reading expected (string) "http://localhost:8800/" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1266:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1264:5)
+FAIL itemValue must reflect the src attribute on track elements assert_equals: reading expected (string) "http://localhost:8800/" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1277:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1275:5)
+FAIL itemValue must reflect the src attribute on video elements assert_equals: reading expected (string) "http://localhost:8800/" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1288:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1286:5)
+FAIL itemValue must reflect the src attribute on anchor elements assert_equals: reading expected (string) "http://localhost:8800/" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1300:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1298:5)
+FAIL itemValue must reflect the src attribute on area elements assert_equals: reading expected (string) "http://localhost:8800/" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1312:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1310:5)
+FAIL itemValue must reflect the src attribute on link elements assert_equals: reading expected (string) "http://localhost:8800/" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1323:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1321:5)
+FAIL itemValue must reflect the src attribute on object elements assert_equals: reading expected (string) "http://localhost:8800/" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1334:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1332:5)
+FAIL itemValue must reflect the dateTime attribute of time elements with no datetime attribute assert_equals: reading expected (string) "te st ing" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1346:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1344:5)
+FAIL itemValue must reflect the datetime attribute of time elements with a datetime attribute assert_equals: reading expected (string) "test" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1356:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1354:5)
+FAIL itemValue must reflect the textContent of other elements assert_equals: reading expected (string) "te st ing" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1365:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1363:5)
+FAIL itemValue must reflect the textContent of unknown elements assert_equals: reading expected (string) "te st ing" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1373:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1371:5)
+FAIL itemValue must reflect the textContent of unknown elements with known attributes assert_equals: reading expected (string) "te st ing" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1381:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1379:5)
+FAIL itemValue must not reflect the value of input elements assert_equals: reading expected (string) "" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1389:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1387:5)
+FAIL dynamic changes of itemscope should change the value exposed through itemValue assert_equals: itemscope enabled on META index 0 expected (object) Element node <meta itemprop="foo" content="test"></meta> but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1418:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1393:5)
+FAIL dynamic changes of itemprop should change the value exposed through itemValue undefined is not an object (evaluating 'testEl.itemProp.remove')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1451:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1427:5)
+FAIL the properties property must be an object assert_equals: expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/microdata/microdata-dom-api/001.html:1462:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1461:5)
+FAIL the properties property must implement HTMLPropertiesCollection and HTMLCollection Can't find variable: HTMLPropertiesCollection(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1466:75
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1464:5)
+FAIL the properties property must be read-only assert_equals: expected (undefined) undefined but got (string) ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/microdata/microdata-dom-api/001.html:1482:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1475:5)
+PASS the properties property must always reference the same object 
+FAIL the properties collection must be empty if the element does not have an itemscope property undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1491:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1489:5)
+PASS the properties collection must not support legacycaller 
+FAIL the properties collection must become populated if the element is given an itemscope property undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1507:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1504:5)
+FAIL the properties collection must become empty if the element's itemscope property is removed undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1518:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1515:5)
+FAIL properties.length must be the total number of properties undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1529:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1527:5)
+FAIL properties.item must give each property in tree order undefined is not an object (evaluating 'testEl.properties.item')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1533:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1531:5)
+FAIL properties.item must have the right property names on it when enumerated undefined is not an object (evaluating 'testEl.properties.something = "another"')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1540:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1538:5)
+FAIL properties.item must give null for out of range index undefined is not an object (evaluating 'testEl.properties.item')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1546:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1544:5)
+FAIL properties[index] must give each property in tree order undefined is not an object (evaluating 'testEl.properties[0]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1551:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1549:5)
+FAIL properties[index] must give undefined for out of range index undefined is not an object (evaluating 'testEl.properties[4]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1558:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1556:5)
+FAIL properties.item and length must ignore properties of nested items undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1563:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1561:5)
+FAIL properties.item and length must see items added with itemref when attached to the document's DOM undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1574:43
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1569:5)
+FAIL properties.item and length must see items added with itemref undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1597:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1594:5)
+FAIL itemref must reference the first element with a given ID undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1610:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1607:5)
+FAIL itemref must ignore duplicated IDs undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1625:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1622:5)
+FAIL itemref must ignore non-existent IDs undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1640:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1637:5)
+FAIL itemref in a dislocated tree must not reference elements from another dislocated tree undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1655:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1652:5)
+FAIL itemref in a dislocated tree must not reference elements from the main document undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1661:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1657:5)
+FAIL itemref in the main document must not reference elements from a dislocated tree undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1669:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1665:5)
+FAIL properties.item and length must update when adding property elements undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1675:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1673:5)
+FAIL properties.item must update when re-ordering property elements, but length must not undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1693:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1691:5)
+FAIL properties.item and length must update when changing itemProp of children undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1707:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1705:5)
+FAIL properties.item and length must update when changing id of referenced sibling undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1725:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1722:5)
+FAIL properties.item and length must update when changing duplicated id of referenced sibling undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1762:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1759:5)
+FAIL properties.item and length must update when changing itemref to point to an element undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1805:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1802:5)
+FAIL properties.item and length must update when changing children of elements referenced through itemref undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1836:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1833:5)
+FAIL properties.item and length must update when appending elements with itemref to different parents undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1896:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1893:5)
+FAIL properties.item and length must update when changing itemscope of children undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1935:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1933:5)
+FAIL the namedItem must return an object undefined is not an object (evaluating 'makeEl('div',{itemscope:'itemscope'},'<div itemprop="foo"></div>').properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1949:108
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1948:5)
+FAIL .properties[] must also act as .properties.namedItem() when there are matching properties undefined is not an object (evaluating 'makeEl('div',{itemscope:'itemscope'},'<div itemprop="foo"></div>').properties['foo']')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1952:108
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1951:5)
+FAIL the namedItem must return an object even if there are no matching properties undefined is not an object (evaluating 'makeEl('div',{itemscope:'itemscope'},'').properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1955:82
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1954:5)
+FAIL .properties[] must return undefined when no property exists with the given name undefined is not an object (evaluating 'makeEl('div',{itemscope:'itemscope'},'').properties['foo']')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1958:82
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1957:5)
+FAIL namedItem must return the same object for the same property name undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1962:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1960:5)
+FAIL namedItem must return a different object for a different property name undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1969:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1967:5)
+FAIL namedItem must return a different object for different elements with the same property name undefined is not an object (evaluating 'makeEl('div',{itemscope:'itemscope'},'<div itemprop="foo"></div>').properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1972:100
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1971:5)
+FAIL namedItem() and properties[] must return the same object for the same property name undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1976:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1974:5)
+FAIL the properties property must implement PropertyNodeList and NodeList undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1980:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1978:5)
+FAIL the namedItem property must be read/write undefined is not an object (evaluating 'elem.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:1996:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1989:5)
+FAIL PropertyNodeList must contain the correct properties undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2002:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:1999:5)
+FAIL PropertyNodeList must be case sensitive undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2014:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2012:5)
+FAIL namedItem must not match property names containing whitespace undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2023:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2021:5)
+FAIL namedItem must match property names containing other special characters undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2035:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2033:5)
+FAIL PropertyNodeList must be live undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2039:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2037:5)
+FAIL PropertyNodeList must ignore properties of nested items undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2046:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2044:5)
+FAIL PropertyNodeList must see items added with itemref when attached to the document's DOM undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2056:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2050:5)
+FAIL PropertyNodeList must see items added with itemref undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2079:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2076:5)
+FAIL PropertyNodeList must update when adding itemscope on the root undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2092:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2089:5)
+FAIL PropertyNodeList must update when adding property elements undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2106:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2104:5)
+FAIL PropertyNodeList must update when re-ordering property elements undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2126:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2124:5)
+FAIL PropertyNodeList must update when changing itemProp of children undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2135:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2133:5)
+FAIL PropertyNodeList must update when changing id of referenced sibling undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2158:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2155:5)
+FAIL PropertyNodeList must update when changing duplicated id of referenced sibling undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2193:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2190:5)
+FAIL PropertyNodeList must update when changing itemref to point to an element undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2243:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2240:5)
+FAIL PropertyNodeList must update when changing children of elements referenced through itemref undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2269:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2266:5)
+FAIL PropertyNodeList must update when appending elements with itemref to different parents undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2329:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2326:5)
+FAIL PropertyNodeList must update when changing itemscope of children undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2369:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2367:5)
+FAIL getValues must return an array undefined is not an object (evaluating 'makeEl('div',{}).properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2381:54
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2380:5)
+FAIL getValues must always return a newly constructed array undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2388:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2386:5)
+FAIL getValues array must contain the same item values as itemValue would return for the given properties undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2411:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2391:5)
+FAIL getValues array must not be live undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2438:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2418:5)
+FAIL the names property must be an object undefined is not an object (evaluating 'makeEl('div',{}).properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2457:58
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2456:5)
+FAIL the names property must implement DOMStringList undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2461:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2459:5)
+FAIL the names property must be read-only undefined is not an object (evaluating 'elem.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2466:101
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2465:5)
+FAIL the names property must always reference the same object undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2477:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2475:5)
+FAIL names.item() must return null for out of range indexes undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2481:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2479:5)
+FAIL names[index] must return undefined for out of range indexes undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2486:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2484:5)
+FAIL the names collection must be empty if the element does not have an itemscope property undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2491:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2489:5)
+FAIL the names collection must become populated if the element is given an itemscope property undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2499:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2496:5)
+FAIL the names collection must become empty if the element's itemscope property is removed undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2507:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2504:5)
+FAIL the names.item and names.contains methods should be overwriteable undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2514:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2512:5)
+FAIL the names.customProperty should be writeable undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2521:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2519:5)
+FAIL names.length must be read-only undefined is not an object (evaluating 'elem.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2534:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2524:5)
+FAIL names.length must be the total number of property names undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2539:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2537:5)
+FAIL names.item must give each property name in tree order undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2543:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2541:5)
+FAIL names must be case sensitive undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2554:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2552:5)
+FAIL names.contains must return boolean if the name exists undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2570:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2568:5)
+FAIL names.item must cast to number undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2580:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2578:5)
+FAIL names.contains must cast to string undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2584:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2582:5)
+FAIL the names collection must be live undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2589:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2587:5)
+FAIL names must reflect property names containing special characters undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2596:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2594:5)
+FAIL names must ignore properties of nested items undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2600:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2598:5)
+FAIL names must see items added with itemref when attached to the document's DOM undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2610:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2605:5)
+FAIL names must see items added with itemref undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2625:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2622:5)
+FAIL names must update when adding itemscope on the root undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2634:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2631:5)
+FAIL names must update when adding property elements undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2648:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2646:5)
+FAIL names must update when re-ordering property elements undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2664:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2662:5)
+FAIL names must update when changing itemProp of children undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2673:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2671:5)
+FAIL names must update when changing id of referenced sibling when appended to document undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2714:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2711:5)
+FAIL names must update when changing duplicated id of referenced sibling undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2740:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2737:5)
+FAIL names must update when changing itemref to point to an element undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2772:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2769:5)
+FAIL names must update when changing children of elements referenced through itemref undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2798:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2795:5)
+FAIL names must update when appending elements with itemref to different parents undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2841:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2838:5)
+FAIL names must update when changing itemscope of children undefined is not an object (evaluating 'testEl.properties.names')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2881:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2879:5)
+FAIL collections must survive the parent's removal from the document undefined is not an object (evaluating 'allArrays.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2933:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2893:5)
+FAIL collections must survive the item's removal from the document undefined is not an object (evaluating 'allArrays.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:2983:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2945:5)
+FAIL itemprop names must not override builtin properties undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3001:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:2997:5)
+FAIL properties.item(integerString) should cast to a number undefined is not an object (evaluating 'testEl.properties.item')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3016:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3014:5)
+FAIL properties[integerString] should act as a numeric index undefined is not an object (evaluating 'testEl.properties['0']')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3021:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3019:5)
+FAIL properties.namedItem(integer) should cast to a string undefined is not an object (evaluating 'testEl.properties.namedItem')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3026:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3024:5)
+FAIL properties[someObject] should cast toString before using whichever casting applies undefined is not an object (evaluating 'testEl.properties[{ toString: function(){return 'foo';}, valueOf: function(){return 1;} }]')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3031:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3029:5)
+FAIL simple nested itemscope undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3040:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3037:5)
+FAIL simple nested itemscope with itemref undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3066:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3063:5)
+FAIL simple sibling itemref undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3122:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3118:5)
+FAIL itemref pointing to itself undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3171:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3168:5)
+FAIL itemref pointing to itself with child undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3194:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3191:5)
+FAIL nested itemref pointing to itself with child undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3227:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3224:5)
+FAIL mutually referencing siblings undefined is not an object (evaluating 'testEl.firstChild.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3282:52
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3279:5)
+FAIL mutually referencing siblings with item parent undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3338:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3334:5)
+FAIL itemref referencing parent item undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3423:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3418:5)
+FAIL itemref referencing parent without itemscope undefined is not an object (evaluating 'testEl.lastChild.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3536:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3533:5)
+FAIL itemref referencing element with same id undefined is not an object (evaluating 'testSpan.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3571:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3566:5)
+FAIL itemref pointing to child of nested itemscope undefined is not an object (evaluating 'testEl.properties.length')(stack: http://localhost:8800/microdata/microdata-dom-api/001.html:3584:41
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/microdata/microdata-dom-api/001.html:3580:5)
+

@@ -1,0 +1,15 @@
+Preflight cache
+
+
+PASS Test preflight 
+PASS preflight for x-print should be cached 
+PASS age = 0, should not be cached 
+FAIL age = -1, should not be cached assert_equals: did preflight expected "1" but got "0"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+did_preflight@http://localhost:8800/cors/preflight-cache.htm:38:18
+http://localhost:8800/cors/preflight-cache.htm:76:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/cors/preflight-cache.htm:71:5)
+PASS preflight first request, second from cache, wait, third should preflight again 
+

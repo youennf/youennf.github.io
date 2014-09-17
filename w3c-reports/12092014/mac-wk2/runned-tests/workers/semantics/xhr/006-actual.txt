@@ -1,0 +1,6 @@
+ 
+
+FAIL base url, shared worker undefined is not a constructor (evaluating 'new SharedWorker('support/006-1.js','')')(stack: runtest@http://localhost:8800/workers/semantics/xhr/006.html:13:32
+step@http://localhost:8800/resources/testharness.js:798:30
+onload@http://localhost:8800/workers/semantics/xhr/006.html:21:7)
+

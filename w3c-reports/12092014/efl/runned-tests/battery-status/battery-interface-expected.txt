@@ -1,0 +1,302 @@
+Description
+
+This test validates the BatteryManager interface IDL.
+
+Distributed under both the W3C Test Suite License and the W3C 3-clause BSD License. To contribute to a W3C Test Suite, see the policies and contribution forms.
+
+
+FAIL battery is present on navigator assert_idl_attribute: navigator must have battery attribute property "battery" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/battery-status/battery-interface.js:41:25
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:40:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL battery is readonly assert_readonly: battery must be readonly changing property "battery" succeeded(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_readonly@http://localhost:8800/resources/testharness.js:569:20
+http://localhost:8800/battery-status/battery-interface.js:45:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:44:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL window has an own property BatteryManager assert_own_property: expected property "BatteryManager" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/battery-status/battery-interface.js:66:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:65:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL battery inherits from EventTarget Can't find variable: EventTarget(stack: http://localhost:8800/battery-status/battery-interface.js:70:59
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:69:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL charging attribute exists assert_idl_attribute: battery must have charging attribute provided value is not an object(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:540:19
+http://localhost:8800/battery-status/battery-interface.js:76:25
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:75:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL charging attribute is readonly undefined is not an object (evaluating 'object[property_name]')(stack: assert_readonly@http://localhost:8800/resources/testharness.js:564:36
+http://localhost:8800/battery-status/battery-interface.js:80:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:79:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL chargingTime attribute exists assert_idl_attribute: battery must have chargingTime attribute provided value is not an object(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:540:19
+http://localhost:8800/battery-status/battery-interface.js:86:25
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:85:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL chargingTime attribute is readonly undefined is not an object (evaluating 'object[property_name]')(stack: assert_readonly@http://localhost:8800/resources/testharness.js:564:36
+http://localhost:8800/battery-status/battery-interface.js:90:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:89:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL dischargingTime attribute exists assert_idl_attribute: battery must have dischargingTime attribute provided value is not an object(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:540:19
+http://localhost:8800/battery-status/battery-interface.js:96:25
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:95:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL dischargingTime attribute is readonly undefined is not an object (evaluating 'object[property_name]')(stack: assert_readonly@http://localhost:8800/resources/testharness.js:564:36
+http://localhost:8800/battery-status/battery-interface.js:100:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:99:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL level attribute exists assert_idl_attribute: battery must have level attribute provided value is not an object(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:540:19
+http://localhost:8800/battery-status/battery-interface.js:106:25
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:105:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL level attribute is readonly undefined is not an object (evaluating 'object[property_name]')(stack: assert_readonly@http://localhost:8800/resources/testharness.js:564:36
+http://localhost:8800/battery-status/battery-interface.js:110:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:109:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingchange attribute exists assert_idl_attribute: battery must have onchargingchange attribute provided value is not an object(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:540:19
+http://localhost:8800/battery-status/battery-interface.js:116:25
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:115:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingchange is null undefined is not an object (evaluating 'navigator.battery.onchargingchange')(stack: http://localhost:8800/battery-status/battery-interface.js:120:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:119:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingchange is set to function assert_idl_attribute: Expected to find onchargingchange attribute on battery object provided value is not an object(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:540:19
+http://localhost:8800/battery-status/battery-interface.js:127:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:123:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingchange: treat object as null undefined is not an object (evaluating 'navigator.battery.onchargingchange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:134:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:132:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingchange: treat object with non-callable call property as null undefined is not an object (evaluating 'navigator.battery.onchargingchange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:141:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:139:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingchange: treat string as null undefined is not an object (evaluating 'navigator.battery.onchargingchange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:150:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:148:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingchange: treat number as null undefined is not an object (evaluating 'navigator.battery.onchargingchange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:157:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:155:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingchange: treat undefined as null undefined is not an object (evaluating 'navigator.battery.onchargingchange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:164:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:162:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingchange: treat array as null undefined is not an object (evaluating 'navigator.battery.onchargingchange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:171:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:169:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingchange: treat non-callable host object as null undefined is not an object (evaluating 'navigator.battery.onchargingchange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:178:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:176:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingtimechange attribute exists assert_idl_attribute: battery must have onchargingtimechange attribute provided value is not an object(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:540:19
+http://localhost:8800/battery-status/battery-interface.js:186:25
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:185:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingtimechange is null undefined is not an object (evaluating 'navigator.battery.onchargingtimechange')(stack: http://localhost:8800/battery-status/battery-interface.js:190:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:189:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingtimechange is set to function assert_idl_attribute: Expected to find onchargingtimechange attribute on battery object provided value is not an object(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:540:19
+http://localhost:8800/battery-status/battery-interface.js:197:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:193:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingtimechange: treat object as null undefined is not an object (evaluating 'navigator.battery.onchargingtimechange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:204:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:202:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingtimechange: treat object with non-callable call property as null undefined is not an object (evaluating 'navigator.battery.onchargingtimechange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:211:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:209:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingtimechange: treat string as null undefined is not an object (evaluating 'navigator.battery.onchargingtimechange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:220:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:218:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingtimechange: treat number as null undefined is not an object (evaluating 'navigator.battery.onchargingtimechange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:227:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:225:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingtimechange: treat undefined as null undefined is not an object (evaluating 'navigator.battery.onchargingtimechange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:234:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:232:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingtimechange: treat array as null undefined is not an object (evaluating 'navigator.battery.onchargingtimechange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:241:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:239:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onchargingtimechange: treat non-callable host object as null undefined is not an object (evaluating 'navigator.battery.onchargingtimechange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:248:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:246:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL ondischargingtimechange attribute exists assert_idl_attribute: battery must have ondischargingtimechange attribute provided value is not an object(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:540:19
+http://localhost:8800/battery-status/battery-interface.js:256:25
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:255:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL ondischargingtimechange is null undefined is not an object (evaluating 'navigator.battery.ondischargingtimechange')(stack: http://localhost:8800/battery-status/battery-interface.js:260:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:259:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL ondischargingtimechange is set to function assert_idl_attribute: Expected to find ondischargingtimechange attribute on battery object provided value is not an object(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:540:19
+http://localhost:8800/battery-status/battery-interface.js:267:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:263:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL ondischargingtimechange: treat object as null undefined is not an object (evaluating 'navigator.battery.ondischargingtimechange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:274:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:272:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL ondischargingtimechange: treat object with non-callable call property as null undefined is not an object (evaluating 'navigator.battery.ondischargingtimechange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:281:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:279:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL ondischargingtimechange: treat string as null undefined is not an object (evaluating 'navigator.battery.ondischargingtimechange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:290:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:288:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL ondischargingtimechange: treat number as null undefined is not an object (evaluating 'navigator.battery.ondischargingtimechange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:297:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:295:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL ondischargingtimechange: treat undefined as null undefined is not an object (evaluating 'navigator.battery.ondischargingtimechange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:304:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:302:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL ondischargingtimechange: treat array as null undefined is not an object (evaluating 'navigator.battery.ondischargingtimechange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:311:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:309:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL ondischargingtimechange: treat non-callable host object as null undefined is not an object (evaluating 'navigator.battery.ondischargingtimechange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:318:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:316:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onlevelchange attribute exists assert_idl_attribute: battery must have onlevelchange attribute provided value is not an object(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:540:19
+http://localhost:8800/battery-status/battery-interface.js:326:25
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:325:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onlevelchange is null undefined is not an object (evaluating 'navigator.battery.onlevelchange')(stack: http://localhost:8800/battery-status/battery-interface.js:330:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:329:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onlevelchange is set to function assert_idl_attribute: Expected to find onlevelchange attribute on battery object provided value is not an object(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:540:19
+http://localhost:8800/battery-status/battery-interface.js:337:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:333:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onlevelchange: treat object as null undefined is not an object (evaluating 'navigator.battery.onlevelchange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:344:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:342:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onlevelchange: treat object with non-callable call property as null undefined is not an object (evaluating 'navigator.battery.onlevelchange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:351:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:349:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onlevelchange: treat string as null undefined is not an object (evaluating 'navigator.battery.onlevelchange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:360:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:358:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onlevelchange: treat number as null undefined is not an object (evaluating 'navigator.battery.onlevelchange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:367:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:365:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onlevelchange: treat undefined as null undefined is not an object (evaluating 'navigator.battery.onlevelchange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:374:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:372:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onlevelchange: treat array as null undefined is not an object (evaluating 'navigator.battery.onlevelchange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:381:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:379:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+FAIL onlevelchange: treat non-callable host object as null undefined is not an object (evaluating 'navigator.battery.onlevelchange = function() {}')(stack: http://localhost:8800/battery-status/battery-interface.js:388:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/battery-status/battery-interface.js:386:7
+global code@http://localhost:8800/battery-status/battery-interface.js:393:3)
+

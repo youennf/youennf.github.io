@@ -1,0 +1,1338 @@
+--- /Users/youenn/Documents/WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/IndexedDB/interfaces-expected.txt
++++ /Users/youenn/Documents/WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/IndexedDB/interfaces-actual.txt
+@@ -1,13 +1,1324 @@
++CONSOLE MESSAGE: Deprecated attempt to access property 'lower' on a non-IDBKeyRange object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'upper' on a non-IDBKeyRange object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'lowerOpen' on a non-IDBKeyRange object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'upperOpen' on a non-IDBKeyRange object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'result' on a non-IDBRequest object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'error' on a non-IDBRequest object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'source' on a non-IDBRequest object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'transaction' on a non-IDBRequest object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'readyState' on a non-IDBRequest object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'onsuccess' on a non-IDBRequest object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'onerror' on a non-IDBRequest object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'onblocked' on a non-IDBOpenDBRequest object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'onupgradeneeded' on a non-IDBOpenDBRequest object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'oldVersion' on a non-IDBVersionChangeEvent object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'newVersion' on a non-IDBVersionChangeEvent object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'name' on a non-IDBDatabase object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'version' on a non-IDBDatabase object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'objectStoreNames' on a non-IDBDatabase object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'onabort' on a non-IDBDatabase object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'onerror' on a non-IDBDatabase object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'onversionchange' on a non-IDBDatabase object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'name' on a non-IDBObjectStore object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'keyPath' on a non-IDBObjectStore object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'indexNames' on a non-IDBObjectStore object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'transaction' on a non-IDBObjectStore object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'autoIncrement' on a non-IDBObjectStore object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'name' on a non-IDBIndex object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'objectStore' on a non-IDBIndex object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'keyPath' on a non-IDBIndex object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'multiEntry' on a non-IDBIndex object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'unique' on a non-IDBIndex object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'source' on a non-IDBCursor object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'direction' on a non-IDBCursor object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'key' on a non-IDBCursor object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'primaryKey' on a non-IDBCursor object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'value' on a non-IDBCursorWithValue object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'mode' on a non-IDBTransaction object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'db' on a non-IDBTransaction object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'error' on a non-IDBTransaction object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'onabort' on a non-IDBTransaction object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'oncomplete' on a non-IDBTransaction object.
++CONSOLE MESSAGE: Deprecated attempt to access property 'onerror' on a non-IDBTransaction object.
++IndexedDB IDL tests
+ 
+-PASS Test IDBCursor 
+-PASS Test IDBCursorWithValue 
+-PASS Test IDBDatabase 
+-PASS Test IDBFactory 
+-PASS Test IDBIndex 
+-PASS Test IDBKeyRange 
+-PASS Test IDBObjectStore 
+-PASS Test IDBOpenDBRequest 
+-PASS Test IDBRequest 
+-PASS Test IDBTransaction 
+-PASS Test IDBVersionChangeEvent 
+ 
++FAIL IDBKeyRange interface: existence and properties of interface object assert_equals: prototype of window's property "IDBKeyRange" is not Function.prototype expected (function) function "function () {
++    [native code]
++}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:330:19
++http://localhost:8800/resources/idlharness.js:991:22
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:947:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBKeyRange interface object length 
++FAIL IDBKeyRange interface: existence and properties of interface prototype object assert_false: IDBKeyRange.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_false@http://localhost:8800/resources/testharness.js:306:15
++http://localhost:8800/resources/idlharness.js:1094:21
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1071:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBKeyRange interface: existence and properties of interface prototype object's "constructor" property assert_true: IDBKeyRange.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_true@http://localhost:8800/resources/testharness.js:299:15
++http://localhost:8800/resources/idlharness.js:1183:20
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1159:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBKeyRange interface: attribute lower assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBKeyRange interface: attribute upper assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBKeyRange interface: attribute lowerOpen assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBKeyRange interface: attribute upperOpen assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBKeyRange interface: operation only(any) 
++PASS IDBKeyRange interface: operation lowerBound(any,boolean) 
++PASS IDBKeyRange interface: operation upperBound(any,boolean) 
++PASS IDBKeyRange interface: operation bound(any,any,boolean,boolean) 
++FAIL IDBRequest interface: existence and properties of interface object assert_equals: prototype of window's property "IDBRequest" is not Function.prototype expected (function) function "function () {
++    [native code]
++}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:330:19
++http://localhost:8800/resources/idlharness.js:991:22
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:947:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBRequest interface object length 
++FAIL IDBRequest interface: existence and properties of interface prototype object assert_false: IDBRequest.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_false@http://localhost:8800/resources/testharness.js:306:15
++http://localhost:8800/resources/idlharness.js:1094:21
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1071:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBRequest interface: existence and properties of interface prototype object's "constructor" property assert_true: IDBRequest.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_true@http://localhost:8800/resources/testharness.js:299:15
++http://localhost:8800/resources/idlharness.js:1183:20
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1159:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBRequest interface: attribute result assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBRequest interface: attribute error assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBRequest interface: attribute source assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBRequest interface: attribute transaction assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBRequest interface: attribute readyState assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBRequest interface: attribute onsuccess assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBRequest interface: attribute onerror assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBOpenDBRequest interface: existence and properties of interface object assert_equals: prototype of window's property "IDBOpenDBRequest" is not Function.prototype expected (function) function "function () {
++    [native code]
++}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:330:19
++http://localhost:8800/resources/idlharness.js:991:22
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:947:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBOpenDBRequest interface object length 
++FAIL IDBOpenDBRequest interface: existence and properties of interface prototype object assert_false: IDBOpenDBRequest.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_false@http://localhost:8800/resources/testharness.js:306:15
++http://localhost:8800/resources/idlharness.js:1094:21
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1071:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBOpenDBRequest interface: existence and properties of interface prototype object's "constructor" property assert_true: IDBOpenDBRequest.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_true@http://localhost:8800/resources/testharness.js:299:15
++http://localhost:8800/resources/idlharness.js:1183:20
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1159:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBOpenDBRequest interface: attribute onblocked assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBOpenDBRequest interface: attribute onupgradeneeded assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBVersionChangeEvent interface: existence and properties of interface object assert_equals: prototype of window's property "IDBVersionChangeEvent" is not Function.prototype expected (function) function "function () {
++    [native code]
++}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:330:19
++http://localhost:8800/resources/idlharness.js:991:22
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:947:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBVersionChangeEvent interface object length assert_equals: wrong value for IDBVersionChangeEvent.length expected 1 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:335:15
++http://localhost:8800/resources/idlharness.js:1065:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1028:13
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBVersionChangeEvent interface: existence and properties of interface prototype object assert_false: IDBVersionChangeEvent.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_false@http://localhost:8800/resources/testharness.js:306:15
++http://localhost:8800/resources/idlharness.js:1094:21
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1071:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBVersionChangeEvent interface: existence and properties of interface prototype object's "constructor" property assert_true: IDBVersionChangeEvent.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_true@http://localhost:8800/resources/testharness.js:299:15
++http://localhost:8800/resources/idlharness.js:1183:20
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1159:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBVersionChangeEvent interface: attribute oldVersion assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBVersionChangeEvent interface: attribute newVersion assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBVersionChangeEvent must be primary interface of new IDBVersionChangeEvent("foo") assert_equals: Unexpected exception when evaluating object expected null but got object "TypeError: IDBVersionChangeEventConstructor is not a cons..."(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:335:15
++http://localhost:8800/resources/idlharness.js:1525:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_primary_interface_of@http://localhost:8800/resources/idlharness.js:1523:13
++test_object@http://localhost:8800/resources/idlharness.js:1495:35
++http://localhost:8800/resources/idlharness.js:316:47
++[native code]
++forEach@[native code]
++test@http://localhost:8800/resources/idlharness.js:314:39
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL Stringification of new IDBVersionChangeEvent("foo") assert_equals: Unexpected exception when evaluating object expected null but got object "TypeError: IDBVersionChangeEventConstructor is not a cons..."(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:335:15
++http://localhost:8800/resources/idlharness.js:1547:22
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_primary_interface_of@http://localhost:8800/resources/idlharness.js:1545:9
++test_object@http://localhost:8800/resources/idlharness.js:1495:35
++http://localhost:8800/resources/idlharness.js:316:47
++[native code]
++forEach@[native code]
++test@http://localhost:8800/resources/idlharness.js:314:39
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBVersionChangeEvent interface: new IDBVersionChangeEvent("foo") must inherit property "oldVersion" with the proper type (0) assert_equals: Unexpected exception when evaluating object expected null but got object "TypeError: IDBVersionChangeEventConstructor is not a cons..."(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:335:15
++http://localhost:8800/resources/idlharness.js:1583:30
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
++test_object@http://localhost:8800/resources/idlharness.js:1507:44
++http://localhost:8800/resources/idlharness.js:316:47
++[native code]
++forEach@[native code]
++test@http://localhost:8800/resources/idlharness.js:314:39
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBVersionChangeEvent interface: new IDBVersionChangeEvent("foo") must inherit property "newVersion" with the proper type (1) assert_equals: Unexpected exception when evaluating object expected null but got object "TypeError: IDBVersionChangeEventConstructor is not a cons..."(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:335:15
++http://localhost:8800/resources/idlharness.js:1583:30
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
++test_object@http://localhost:8800/resources/idlharness.js:1507:44
++http://localhost:8800/resources/idlharness.js:316:47
++[native code]
++forEach@[native code]
++test@http://localhost:8800/resources/idlharness.js:314:39
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBFactory interface: existence and properties of interface object assert_equals: prototype of window's property "IDBFactory" is not Function.prototype expected (function) function "function () {
++    [native code]
++}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:330:19
++http://localhost:8800/resources/idlharness.js:991:22
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:947:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBFactory interface object length 
++FAIL IDBFactory interface: existence and properties of interface prototype object assert_false: IDBFactory.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_false@http://localhost:8800/resources/testharness.js:306:15
++http://localhost:8800/resources/idlharness.js:1094:21
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1071:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBFactory interface: existence and properties of interface prototype object's "constructor" property assert_true: IDBFactory.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_true@http://localhost:8800/resources/testharness.js:299:15
++http://localhost:8800/resources/idlharness.js:1183:20
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1159:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBFactory interface: operation open(DOMString,unsigned long long) 
++PASS IDBFactory interface: operation deleteDatabase(DOMString) 
++PASS IDBFactory interface: operation cmp(any,any) 
++PASS IDBFactory must be primary interface of window.indexedDB 
++PASS Stringification of window.indexedDB 
++PASS IDBFactory interface: window.indexedDB must inherit property "open" with the proper type (0) 
++PASS IDBFactory interface: calling open(DOMString,unsigned long long) on window.indexedDB with too few arguments must throw TypeError 
++PASS IDBFactory interface: window.indexedDB must inherit property "deleteDatabase" with the proper type (1) 
++PASS IDBFactory interface: calling deleteDatabase(DOMString) on window.indexedDB with too few arguments must throw TypeError 
++PASS IDBFactory interface: window.indexedDB must inherit property "cmp" with the proper type (2) 
++PASS IDBFactory interface: calling cmp(any,any) on window.indexedDB with too few arguments must throw TypeError 
++FAIL IDBDatabase interface: existence and properties of interface object assert_equals: prototype of window's property "IDBDatabase" is not Function.prototype expected (function) function "function () {
++    [native code]
++}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:330:19
++http://localhost:8800/resources/idlharness.js:991:22
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:947:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBDatabase interface object length 
++FAIL IDBDatabase interface: existence and properties of interface prototype object assert_false: IDBDatabase.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_false@http://localhost:8800/resources/testharness.js:306:15
++http://localhost:8800/resources/idlharness.js:1094:21
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1071:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBDatabase interface: existence and properties of interface prototype object's "constructor" property assert_true: IDBDatabase.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_true@http://localhost:8800/resources/testharness.js:299:15
++http://localhost:8800/resources/idlharness.js:1183:20
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1159:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBDatabase interface: attribute name assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBDatabase interface: attribute version assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBDatabase interface: attribute objectStoreNames assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBDatabase interface: operation createObjectStore(DOMString,IDBObjectStoreParameters) 
++PASS IDBDatabase interface: operation deleteObjectStore(DOMString) 
++PASS IDBDatabase interface: operation transaction([object Object],[object Object],IDBTransactionMode) 
++PASS IDBDatabase interface: operation close() 
++FAIL IDBDatabase interface: attribute onabort assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBDatabase interface: attribute onerror assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBDatabase interface: attribute onversionchange assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBObjectStore interface: existence and properties of interface object assert_equals: prototype of window's property "IDBObjectStore" is not Function.prototype expected (function) function "function () {
++    [native code]
++}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:330:19
++http://localhost:8800/resources/idlharness.js:991:22
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:947:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBObjectStore interface object length 
++FAIL IDBObjectStore interface: existence and properties of interface prototype object assert_false: IDBObjectStore.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_false@http://localhost:8800/resources/testharness.js:306:15
++http://localhost:8800/resources/idlharness.js:1094:21
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1071:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBObjectStore interface: existence and properties of interface prototype object's "constructor" property assert_true: IDBObjectStore.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_true@http://localhost:8800/resources/testharness.js:299:15
++http://localhost:8800/resources/idlharness.js:1183:20
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1159:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBObjectStore interface: attribute name assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBObjectStore interface: attribute keyPath assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBObjectStore interface: attribute indexNames assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBObjectStore interface: attribute transaction assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBObjectStore interface: attribute autoIncrement assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBObjectStore interface: operation put(any,any) 
++PASS IDBObjectStore interface: operation add(any,any) 
++PASS IDBObjectStore interface: operation delete(any) 
++PASS IDBObjectStore interface: operation get(any) 
++PASS IDBObjectStore interface: operation clear() 
++PASS IDBObjectStore interface: operation openCursor(any,IDBCursorDirection) 
++PASS IDBObjectStore interface: operation createIndex(DOMString,[object Object],[object Object],IDBIndexParameters) 
++PASS IDBObjectStore interface: operation index(DOMString) 
++PASS IDBObjectStore interface: operation deleteIndex(DOMString) 
++PASS IDBObjectStore interface: operation count(any) 
++FAIL IDBIndex interface: existence and properties of interface object assert_equals: prototype of window's property "IDBIndex" is not Function.prototype expected (function) function "function () {
++    [native code]
++}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:330:19
++http://localhost:8800/resources/idlharness.js:991:22
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:947:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBIndex interface object length 
++FAIL IDBIndex interface: existence and properties of interface prototype object assert_false: IDBIndex.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_false@http://localhost:8800/resources/testharness.js:306:15
++http://localhost:8800/resources/idlharness.js:1094:21
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1071:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBIndex interface: existence and properties of interface prototype object's "constructor" property assert_true: IDBIndex.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_true@http://localhost:8800/resources/testharness.js:299:15
++http://localhost:8800/resources/idlharness.js:1183:20
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1159:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBIndex interface: attribute name assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBIndex interface: attribute objectStore assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBIndex interface: attribute keyPath assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBIndex interface: attribute multiEntry assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBIndex interface: attribute unique assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBIndex interface: operation openCursor(any,IDBCursorDirection) 
++PASS IDBIndex interface: operation openKeyCursor(any,IDBCursorDirection) 
++PASS IDBIndex interface: operation get(any) 
++PASS IDBIndex interface: operation getKey(any) 
++PASS IDBIndex interface: operation count(any) 
++FAIL IDBCursor interface: existence and properties of interface object assert_equals: prototype of window's property "IDBCursor" is not Function.prototype expected (function) function "function () {
++    [native code]
++}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:330:19
++http://localhost:8800/resources/idlharness.js:991:22
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:947:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBCursor interface object length 
++FAIL IDBCursor interface: existence and properties of interface prototype object assert_false: IDBCursor.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_false@http://localhost:8800/resources/testharness.js:306:15
++http://localhost:8800/resources/idlharness.js:1094:21
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1071:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBCursor interface: existence and properties of interface prototype object's "constructor" property assert_true: IDBCursor.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_true@http://localhost:8800/resources/testharness.js:299:15
++http://localhost:8800/resources/idlharness.js:1183:20
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1159:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBCursor interface: attribute source assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBCursor interface: attribute direction assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBCursor interface: attribute key assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBCursor interface: attribute primaryKey assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBCursor interface: operation update(any) 
++PASS IDBCursor interface: operation advance(unsigned long) 
++PASS IDBCursor interface: operation continue(any) 
++PASS IDBCursor interface: operation delete() 
++FAIL IDBCursorWithValue interface: existence and properties of interface object assert_equals: prototype of window's property "IDBCursorWithValue" is not Function.prototype expected (function) function "function () {
++    [native code]
++}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:330:19
++http://localhost:8800/resources/idlharness.js:991:22
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:947:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBCursorWithValue interface object length 
++FAIL IDBCursorWithValue interface: existence and properties of interface prototype object assert_false: IDBCursorWithValue.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_false@http://localhost:8800/resources/testharness.js:306:15
++http://localhost:8800/resources/idlharness.js:1094:21
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1071:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBCursorWithValue interface: existence and properties of interface prototype object's "constructor" property assert_true: IDBCursorWithValue.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_true@http://localhost:8800/resources/testharness.js:299:15
++http://localhost:8800/resources/idlharness.js:1183:20
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1159:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBCursorWithValue interface: attribute value assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBTransaction interface: existence and properties of interface object assert_equals: prototype of window's property "IDBTransaction" is not Function.prototype expected (function) function "function () {
++    [native code]
++}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:330:19
++http://localhost:8800/resources/idlharness.js:991:22
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:947:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBTransaction interface object length 
++FAIL IDBTransaction interface: existence and properties of interface prototype object assert_false: IDBTransaction.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_false@http://localhost:8800/resources/testharness.js:306:15
++http://localhost:8800/resources/idlharness.js:1094:21
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1071:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBTransaction interface: existence and properties of interface prototype object's "constructor" property assert_true: IDBTransaction.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_true@http://localhost:8800/resources/testharness.js:299:15
++http://localhost:8800/resources/idlharness.js:1183:20
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_self@http://localhost:8800/resources/idlharness.js:1159:9
++test@http://localhost:8800/resources/idlharness.js:582:23
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBTransaction interface: attribute mode assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBTransaction interface: attribute db assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBTransaction interface: attribute error assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++PASS IDBTransaction interface: operation objectStore(DOMString) 
++PASS IDBTransaction interface: operation abort() 
++FAIL IDBTransaction interface: attribute onabort assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBTransaction interface: attribute oncomplete assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL IDBTransaction interface: attribute onerror assert_throws: getting property on prototype object must throw TypeError function "function () {
++    [native code]
++}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
++http://localhost:8800/resources/idlharness.js:1270:26
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL Window interface: attribute indexedDB assert_true: The prototype object must have a property "indexedDB" expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_true@http://localhost:8800/resources/testharness.js:299:15
++http://localhost:8800/resources/idlharness.js:1265:24
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++FAIL WorkerUtils interface: attribute indexedDB assert_own_property: window does not have own property "WorkerUtils" expected property "WorkerUtils" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++http://localhost:8800/resources/testharness.js:521:19
++http://localhost:8800/resources/idlharness.js:1253:28
++[native code]
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
++test_members@http://localhost:8800/resources/idlharness.js:1450:43
++test@http://localhost:8800/resources/idlharness.js:591:22
++test@http://localhost:8800/resources/idlharness.js:311:32
++http://localhost:8800/IndexedDB/interfaces.html:200:16
++setup@http://localhost:8800/resources/testharness.js:1033:21
++setup@http://localhost:8800/resources/testharness.js:107:20
++global code@http://localhost:8800/IndexedDB/interfaces.html:174:6)
++

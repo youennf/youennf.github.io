@@ -1,0 +1,14 @@
+2d.drawImage.incomplete.removedsrc
+Actual output:
+Expected output:
+
+
+FAIL Canvas test: 2d.drawImage.incomplete.removedsrc assert_approx_equals: Red channel of the pixel at (50, 25) expected 0 +/- 2 but got 255(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_approx_equals@http://localhost:8800/resources/testharness.js:425:15
+_assertPixelApprox@http://localhost:8800/common/canvas-tests.js:47:25
+http://localhost:8800/2dcontext/drawing-images-to-the-canvas/2d.drawImage.incomplete.removedsrc.html:27:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

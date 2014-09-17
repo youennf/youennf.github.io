@@ -1,0 +1,7 @@
+
+FAIL IDBFactory.deleteDatabase() - success event assert_equals: oldVersion expected (number) 9 but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/IndexedDB/idbfactory_deleteDatabase3.htm:24:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

@@ -1,0 +1,60 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 17:46
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+animation
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_outline_properties-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_outline_properties.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_text-decoration_line-through-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_text-decoration_line-through.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_transition_with_timestamp-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_transition_with_timestamp.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_white-space_pre-wrap_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_white-space_pre-wrap_wrapped.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_white-space_pre_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_white-space_pre_wrapped.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_white-space_normal_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_white-space_normal_wrapped.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_animation_with_timestamp-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_animation_with_timestamp.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_white-space_nowrap-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_white-space_nowrap.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_font_properties-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_font_properties.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_with_class_object_specific_selector-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_with_class_object_specific_selector.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_text-shadow-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_text-shadow.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_timestamp_past-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_timestamp_past.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_white-space_pre-line_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_white-space_pre-line_wrapped.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_background_properties-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_background_properties.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_font_shorthand-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_font_shorthand.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_namespace-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_namespace.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_with_class-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_with_class.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_background_shorthand-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_background_shorthand.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_color-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_color.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_timestamp_future-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_timestamp_future.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_outline_shorthand-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/underline_object/underline_outline_shorthand.html

@@ -1,0 +1,7 @@
+
+FAIL IDBFactory.open() - error in upgradeneeded resets db assert_true: second indexNames contains index expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/IndexedDB/idbfactory_open10.htm:40:24
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

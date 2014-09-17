@@ -1,0 +1,40 @@
+crash log for WebProcess (pid <unknown>):
+
+Coredump core-pid_<unknown>-_-process_WebProcess not found. To enable crash logs:
+
+- run this command as super-user: echo "/path/to/coredumps/core-pid_%p-_-process_%e" > /proc/sys/kernel/core_pattern
+- enable core dumps: ulimit -c unlimited
+- set the WEBKIT_CORE_DUMPS_DIRECTORY environment variable: export WEBKIT_CORE_DUMPS_DIRECTORY=/path/to/coredumps
+
+
+STDERR: 1   0x7f347af50ab0
+STDERR: 2   0x7f347b2e8900
+STDERR: 3   0x7f347d2d6f3c WebKit::WebFrame::url() const
+STDERR: 4   0x7f347d27f8d5 WKBundleFrameCopyURL
+STDERR: 5   0x7f341bd7d966 WTR::InjectedBundlePage::willSendRequestForFrame(OpaqueWKBundlePage const*, OpaqueWKBundleFrame const*, unsigned long, OpaqueWKURLRequest const*, OpaqueWKURLResponse const*)
+STDERR: 6   0x7f347d27b6f5 WebKit::InjectedBundlePageResourceLoadClient::willSendRequestForFrame(WebKit::WebPage*, WebKit::WebFrame*, unsigned long, WebCore::ResourceRequest&, WebCore::ResourceResponse const&)
+STDERR: 7   0x7f3479563d2d WebCore::ResourceLoadNotifier::dispatchWillSendRequest(WebCore::DocumentLoader*, unsigned long, WebCore::ResourceRequest&, WebCore::ResourceResponse const&)
+STDERR: 8   0x7f3479568dfa WebCore::ResourceLoader::willSendRequest(WebCore::ResourceRequest&, WebCore::ResourceResponse const&)
+STDERR: 9   0x7f347956db37 WebCore::SubresourceLoader::willSendRequest(WebCore::ResourceRequest&, WebCore::ResourceResponse const&)
+STDERR: 10  0x7f347956a462 WebCore::ResourceLoader::init(WebCore::ResourceRequest const&)
+STDERR: 11  0x7f347956d8a1 WebCore::SubresourceLoader::init(WebCore::ResourceRequest const&)
+STDERR: 12  0x7f347956d91e WebCore::SubresourceLoader::create(WebCore::Frame*, WebCore::CachedResource*, WebCore::ResourceRequest const&, WebCore::ResourceLoaderOptions const&)
+STDERR: 13  0x7f3479566118 WebCore::ResourceLoadScheduler::scheduleSubresourceLoad(WebCore::Frame*, WebCore::CachedResource*, WebCore::ResourceRequest const&, WebCore::ResourceLoaderOptions const&)
+STDERR: 14  0x7f34795a9af8 WebCore::CachedResource::load(WebCore::CachedResourceLoader*, WebCore::ResourceLoaderOptions const&)
+STDERR: 15  0x7f34795b0b00 WebCore::CachedResourceLoader::requestResource(WebCore::CachedResource::Type, WebCore::CachedResourceRequest&)
+STDERR: 16  0x7f34795b1502 WebCore::CachedResourceLoader::requestRawResource(WebCore::CachedResourceRequest&)
+STDERR: 17  0x7f347952de8e WebCore::DocumentThreadableLoader::loadRequest(WebCore::ResourceRequest const&, WebCore::SecurityCheckPolicy)
+STDERR: 18  0x7f347952e518 WebCore::DocumentThreadableLoader::makeSimpleCrossOriginAccessRequest(WebCore::ResourceRequest const&)
+STDERR: 19  0x7f347952eca1 WebCore::DocumentThreadableLoader::makeCrossOriginAccessRequest(WebCore::ResourceRequest const&)
+STDERR: 20  0x7f347952f193 WebCore::DocumentThreadableLoader::DocumentThreadableLoader(WebCore::Document&, WebCore::ThreadableLoaderClient&, WebCore::DocumentThreadableLoader::BlockingBehavior, WebCore::ResourceRequest const&, WebCore::ThreadableLoaderOptions const&)
+STDERR: 21  0x7f347952f2fb WebCore::DocumentThreadableLoader::create(WebCore::Document&, WebCore::ThreadableLoaderClient&, WebCore::ResourceRequest const&, WebCore::ThreadableLoaderOptions const&)
+STDERR: 22  0x7f3479573202 WebCore::WorkerThreadableLoader::MainThreadBridge::mainThreadCreateLoader(WebCore::ScriptExecutionContext&, WebCore::WorkerThreadableLoader::MainThreadBridge*, WTF::PassOwnPtr<WebCore::CrossThreadResourceRequestData>, WebCore::ThreadableLoaderOptions, WTF::String const&)
+STDERR: 23  0x7f3479572e31 std::_Function_handler<void (WebCore::ScriptExecutionContext&), std::_Bind<void (*(std::_Placeholder<1>, WebCore::WorkerThreadableLoader::MainThreadBridge*, WTF::PassOwnPtr<WebCore::CrossThreadResourceRequestData>, WebCore::ThreadableLoaderOptions, WTF::String))(WebCore::ScriptExecutionContext&, WebCore::WorkerThreadableLoader::MainThreadBridge*, WTF::PassOwnPtr<WebCore::CrossThreadResourceRequestData>, WebCore::ThreadableLoaderOptions, WTF::String const&)> >::_M_invoke(std::_Any_data const&, WebCore::ScriptExecutionContext&)
+STDERR: 24  0x7f347921a659
+STDERR: 25  0x7f347af64206
+STDERR: 26  0x7f347af642c3 WTF::dispatchFunctionsFromMainThread()
+STDERR: 27  0x7f3477ad1c5f
+STDERR: 28  0x7f3477ad2442
+STDERR: 29  0x7f3477ad1411
+STDERR: 30  0x7f3477ad1617 ecore_main_loop_begin
+STDERR: 31  0x7f347d3541b4 WebProcessMainUnix

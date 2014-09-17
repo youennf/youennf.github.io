@@ -1,0 +1,15 @@
+
+FAIL Test Document.registerElement() throws NotSupportedError if prototype has a non-configurable property named constructor assert_throws: Exception should be thrown in case of attempt to register element with a non-configurable property named constructor function "function () {
+        doc.registerElement('x-a', {prototy..." threw object "TypeError: undefined is not a function (evaluating 'doc.r..." that is not a DOMException NotSupportedError: property "code" is equal to undefined, expected 9(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/custom-elements/instantiating-custom-elements/non-configurable-constructor-property.html:20:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/non-configurable-constructor-property.html:16:5)
+FAIL Test Document.registerElement() accepts prototype with a configurable property named constructor without throwing errors assert_unreached: Exception should not be thrown in case of attempt to register element with a configurable property named constructor Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/custom-elements/instantiating-custom-elements/non-configurable-constructor-property.html:35:25
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/non-configurable-constructor-property.html:28:5)
+

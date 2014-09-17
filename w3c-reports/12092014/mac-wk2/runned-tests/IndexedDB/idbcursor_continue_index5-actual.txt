@@ -1,0 +1,6 @@
+
+FAIL IDBCursor.continue() - index - iterate using 'prevunique' DataError: DOM IDBDatabase Exception 0(stack: openCursor@[native code]
+onsuccess@http://localhost:8800/IndexedDB/idbcursor_continue_index5.htm:40:36
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

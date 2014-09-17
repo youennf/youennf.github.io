@@ -1,0 +1,17 @@
+
+FAIL Test Document.createElement() sets custom element namespace to HTML Namespace undefined is not a function (evaluating 'doc.registerElement(name)')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-namespace.html:19:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-namespace.html:16:5)
+PASS Test Document.createElement() sets custom element namespace to HTML Namespace and an element definition with matching localName, namespace, and type is not registered 
+FAIL Document.createElement() sets custom element namespace to HTML Namespace. Custom element is extending standard HTML tag undefined is not a function (evaluating 'doc.registerElement(name, {
+            prototype: Object.create(proto),
+            extends: tagName
+        })')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-namespace.html:42:28
+forEach@[native code]
+http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-namespace.html:38:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-namespace.html:36:5)
+PASS Document.createElement() sets custom element namespace to HTML Namespace. Document.createElement() is called with standard HTML tag name and type without registered custom element of such type 
+

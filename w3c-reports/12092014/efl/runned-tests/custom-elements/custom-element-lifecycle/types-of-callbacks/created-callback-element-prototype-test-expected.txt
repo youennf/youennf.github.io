@@ -1,0 +1,26 @@
+
+FAIL Test custom element prototype inside created callback when custom element is created in HTML before registration of a custom element undefined is not a function (evaluating 'doc.registerElement('x-a', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-element-prototype-test.html:22:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-element-prototype-test.html:17:5)
+FAIL Test custom element prototype inside created callback when custom element is created in HTML after registration of a custom element undefined is not a function (evaluating 'doc.registerElement('x-b', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-element-prototype-test.html:33:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-element-prototype-test.html:29:5)
+FAIL Test custom element prototype inside created callback when custom element is created via document.createElement() before registration of a custom element undefined is not a function (evaluating 'doc.registerElement('x-c', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-element-prototype-test.html:47:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-element-prototype-test.html:41:5)
+FAIL Test custom element prototype inside created callback when custom element is created via document.createElement() after registration of a custom element undefined is not a function (evaluating 'doc.registerElement('x-d', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-element-prototype-test.html:57:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-element-prototype-test.html:54:5)
+FAIL Test custom element prototype inside created callback when custom element is created via constructor returned by method registerElement undefined is not a function (evaluating 'doc.registerElement('x-e', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-element-prototype-test.html:70:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-element-prototype-test.html:67:5)
+FAIL Test custom element prototype inside created callback when custom element is created by UA parser before registration of a custom element undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-element-prototype-test.html:81:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

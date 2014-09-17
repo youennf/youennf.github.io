@@ -1,0 +1,69 @@
+Input Range
+
+
+PASS range type support on input element 
+PASS min attribute support on input element 
+PASS max attribute support on input element 
+FAIL Illegal value of min attribute assert_equals: expected "0" but got "ab"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/range.html:78:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/range.html:76:11)
+FAIL Illegal value of max attribute assert_equals: expected "100" but got "f"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/range.html:88:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/range.html:86:11)
+PASS Converting an illegal string to the default value 
+FAIL Converting an illegal string to the default step assert_equals: expected "1" but got "xyz"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/range.html:106:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/range.html:104:11)
+PASS the value is set to min when a smaller value than min attribute is given 
+PASS the value is set to max when a larger value than max attribute is given 
+FAIL default value of min attribute in input type=range assert_equals: expected "0" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/range.html:134:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/range.html:132:11)
+FAIL default value of max attribute in input type=range assert_equals: expected "100" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/range.html:142:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/range.html:140:11)
+PASS default value when min and max attributes are given (= min plus half the difference between min and max) 
+PASS default value with step control when both min and max attributes are given 
+FAIL default value when both min and max attributes are given, while min > max assert_equals: expected "2" but got "51"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/range.html:173:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/range.html:171:11)
+PASS The default step scale factor is 1, unless min attribute has non-integer value 
+PASS Step scale factor behavior when min attribute has integer value but max attribute is non-integer  
+FAIL The default scale factor is 1 even if step attribute is explicitly set to non-integer value, unless min attribute has non-integer value assert_equals: expected "1" but got "0.5"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/range.html:202:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/range.html:200:11)
+PASS Solving the step mismatch 
+PASS Performing stepUp() 
+PASS Performing stepDown() 
+FAIL Performing stepUp() beyond the value of the max attribute InvalidStateError: DOM Exception 11(stack: stepUp@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/range.html:251:19
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/range.html:248:11)
+FAIL Performing stepDown() beyond the value of the min attribute InvalidStateError: DOM Exception 11(stack: stepDown@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/range.html:265:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/range.html:262:11)
+

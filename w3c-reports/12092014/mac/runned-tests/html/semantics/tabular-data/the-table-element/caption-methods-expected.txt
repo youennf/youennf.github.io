@@ -1,0 +1,5 @@
+
+PASS createCaption method returns the first caption element child of the table 
+PASS createCaption method creates a new caption and inserts it as the first node of the table element 
+PASS deleteCaption method removes the first caption element child of the table element 
+

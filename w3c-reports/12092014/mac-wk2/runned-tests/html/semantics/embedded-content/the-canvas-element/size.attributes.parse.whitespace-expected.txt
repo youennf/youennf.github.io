@@ -1,0 +1,17 @@
+size.attributes.parse.whitespace
+Parsing of non-negative integers
+Actual output:
+Expected output:
+
+
+FAIL Parsing of non-negative integers assert_equals: canvas.getAttribute('width') === '\r\n\t\x0c100' (got 
+	100[string], expected 
+	100[string]) expected "\r\n\t\f100" but got "\n\t\f100"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+_assertSame@http://localhost:8800/common/canvas-tests.js:17:18
+http://localhost:8800/html/semantics/embedded-content/the-canvas-element/size.attributes.parse.whitespace.html:27:12
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

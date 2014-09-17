@@ -1,0 +1,8 @@
+
+PASS ToNumber should be called on all arguments: NaN. 
+PASS ToNumber should be called on all arguments: -Infinity. 
+PASS ToNumber should be called on all arguments: Infinity. 
+PASS ToNumber should be called left to right. 
+PASS Should return a number. 
+PASS Should handle negative zero correctly. 
+

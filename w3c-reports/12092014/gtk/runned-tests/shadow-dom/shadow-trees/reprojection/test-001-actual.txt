@@ -1,0 +1,8 @@
+
+FAIL A_04_06_01_T01 undefined is not a function (evaluating 'li1.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/reprojection/test-001.html:61:41
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL A_04_06_01_T02 undefined is not a function (evaluating 'li1.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/reprojection/test-001.html:137:41
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

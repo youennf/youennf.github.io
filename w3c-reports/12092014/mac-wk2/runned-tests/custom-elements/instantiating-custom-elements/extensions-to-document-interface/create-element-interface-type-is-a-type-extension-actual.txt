@@ -1,0 +1,18 @@
+
+FAIL Test Document.createElement() creates custom element of type, specified by typeExtension argument undefined is not a function (evaluating 'doc.registerElement(name1)')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-interface-type-is-a-type-extension.html:19:52
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-interface-type-is-a-type-extension.html:16:5)
+FAIL Test Document.createElementNS() creates custom element of type, specified by typeExtension argument undefined is not a function (evaluating 'doc.registerElement(name1)')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-interface-type-is-a-type-extension.html:33:52
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-interface-type-is-a-type-extension.html:30:5)
+FAIL Test Document.createElement() creates custom element of type, specified by typeExtension argument. Definition for localName is absent undefined is not a function (evaluating 'doc.registerElement(name2)')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-interface-type-is-a-type-extension.html:48:52
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-interface-type-is-a-type-extension.html:44:5)
+FAIL Test Document.createElementNS() creates custom element of type, specified by typeExtension argument. Definition for localName is absent undefined is not a function (evaluating 'doc.registerElement(name2)')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-interface-type-is-a-type-extension.html:61:52
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/extensions-to-document-interface/create-element-interface-type-is-a-type-extension.html:57:5)
+

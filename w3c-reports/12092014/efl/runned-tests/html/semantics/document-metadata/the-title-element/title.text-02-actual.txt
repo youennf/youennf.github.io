@@ -1,0 +1,8 @@
+
+FAIL COMMENT assert_equals: expected "TEXT" but got "TEXTELEMENT"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/document-metadata/the-title-element/title.text-02.xhtml:25:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/document-metadata/the-title-element/title.text-02.xhtml:24:5)
+

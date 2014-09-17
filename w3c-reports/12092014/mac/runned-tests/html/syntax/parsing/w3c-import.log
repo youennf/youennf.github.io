@@ -1,0 +1,82 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-09 15:43
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/common.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/contains.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/Document.getElementsByTagName-foreign-01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/Document.getElementsByTagName-foreign-02.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/Element.getElementsByTagName-foreign-01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/Element.getElementsByTagName-foreign-02.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_adoption01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_adoption02.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_comments01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_doctype01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_domjs-unsafe.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_entities01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_entities02.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_html5test-com.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_inbody01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_innerHTML_tests4.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_innerHTML_tests6.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_innerHTML_tests7.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_innerHTML_tests_innerHTML_1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_isindex.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_main-element.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_pending-spec-changes-plain-text-unsafe.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_pending-spec-changes.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_plain-text-unsafe.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_scriptdata01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_scripted_adoption01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_scripted_ark.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_scripted_webkit01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tables01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_template.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests10.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests11.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests12.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests14.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests15.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests16.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests17.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests18.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests19.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests20.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests21.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests22.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests23.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests24.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests25.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests26.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests3.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests5.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests6.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests7.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests8.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tests9.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_tricky01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_webkit01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/html5lib_webkit02.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/math-parse01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/math-parse03.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/named-character-references-data.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/named-character-references.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/README
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/template.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/syntax/parsing/test.js

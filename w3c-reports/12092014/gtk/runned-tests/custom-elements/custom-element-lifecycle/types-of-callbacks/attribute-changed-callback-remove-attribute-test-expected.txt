@@ -1,0 +1,39 @@
+
+FAIL Test attributeChanged callback if attribute is removed. The custom element created via constructor undefined is not a function (evaluating 'doc.registerElement('x-a', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-remove-attribute-test.html:19:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-remove-attribute-test.html:16:5)
+FAIL Test attributeChanged callback if attribute is removed. The custom element created via constructor and extends HTML element undefined is not a function (evaluating 'doc.registerElement('x-' + element + '-' + element + '-1', {
+            prototype: proto,
+            extends: element
+        })')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-remove-attribute-test.html:37:55
+forEach@[native code]
+http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-remove-attribute-test.html:34:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-remove-attribute-test.html:32:5)
+FAIL Test attributeChanged callback if attribute is removed. The custom element created via innerHTML property undefined is not a function (evaluating 'doc.registerElement('x-b', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-remove-attribute-test.html:58:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-remove-attribute-test.html:55:5)
+FAIL Test attributeChanged callback arguments if attribute is removed. The custom element created via innerHTML property undefined is not a function (evaluating 'doc.registerElement('x-c', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-remove-attribute-test.html:73:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-remove-attribute-test.html:70:5)
+FAIL Test attributeChanged callback is not called if attribute is removed. The custom element created via innerHTML property and unresolved at first undefined is not a function (evaluating 'doc.registerElement('x-d', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-remove-attribute-test.html:101:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-remove-attribute-test.html:88:5)
+FAIL Test attributeChanged callback is called if attribute is removed. The custom element created via constructor and the document has browsing context undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-remove-attribute-test.html:115:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attributeChanged callback arguments if attribute is removed. The custom element created via innerHTML property and the document has browsing context undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-remove-attribute-test.html:129:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attributeChanged callback if attribute is removed. The custom element created via innerHTML property and unresolved at first. The document has browsing context undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-remove-attribute-test.html:152:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

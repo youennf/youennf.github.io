@@ -1,0 +1,17 @@
+
+FAIL Test Document.registerElement() throws NotSupportedError if prototype is already an interface prototype object assert_throws: Exception should be thrown in case of attempt to register element if prototype is already an interface prototype object (x-a-a) function "function () {
+            doc.registerElement(name, {prot..." threw object "TypeError: undefined is not a function (evaluating 'doc.r..." that is not a DOMException NotSupportedError: property "code" is equal to undefined, expected 9(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/custom-elements/instantiating-custom-elements/prototype-is-interface-prototype-object.html:21:22
+forEach@[native code]
+http://localhost:8800/custom-elements/instantiating-custom-elements/prototype-is-interface-prototype-object.html:18:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/prototype-is-interface-prototype-object.html:16:5)
+FAIL Test Document.registerElement() throws NotSupportedError if prototype is already used for another custom element type undefined is not a function (evaluating 'doc.registerElement('x-b', {
+        prototype: proto
+    })')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/prototype-is-interface-prototype-object.html:33:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/prototype-is-interface-prototype-object.html:30:5)
+

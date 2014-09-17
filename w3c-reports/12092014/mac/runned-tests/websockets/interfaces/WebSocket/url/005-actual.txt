@@ -1,0 +1,7 @@
+
+FAIL WebSockets: defineProperty getter for url Attempting to change the getter of an unconfigurable property.(stack: defineProperty@[native code]
+http://localhost:8800/websockets/interfaces/WebSocket/url/005.html:9:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/websockets/interfaces/WebSocket/url/005.html:8:5)
+

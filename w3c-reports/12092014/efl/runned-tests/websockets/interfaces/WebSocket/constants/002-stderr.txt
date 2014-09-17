@@ -1,0 +1,10 @@
+1   0x7fee1677cab0
+2   0x7fee11168720
+3   0x7fee136ff272 WebKit::WebInspectorProxy::close()
+4   0x41804c WTR::TestInvocation::invoke()
+5   0x4107ca WTR::TestController::runTest(char const*)
+6   0x410957 WTR::TestController::runTestingServerLoop()
+7   0x4172b8 WTR::TestController::TestController(int, char const**)
+8   0x40c041 main
+9   0x7fee10ab5d65 __libc_start_main
+10  0x40c08d

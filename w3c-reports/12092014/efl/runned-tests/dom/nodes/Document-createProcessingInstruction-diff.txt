@@ -1,0 +1,46 @@
+--- /localHome/youenn/EFL-WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/dom/nodes/Document-createProcessingInstruction-expected.txt
++++ /localHome/youenn/EFL-WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/dom/nodes/Document-createProcessingInstruction-actual.txt
+@@ -1,8 +1,8 @@
+ 
+-PASS Document.createProcessingInstruction in HTML documents 
++PASS Document.createProcessingInstruction in XML documents 
+ FAIL Should throw an INVALID_CHARACTER_ERR for target "A" and data "?>". assert_throws: function "function () {
+-        document.createProcessingInstructio..." threw object "Error: NotSupportedError: DOM Exception 9" that is not a DOMException INVALID_CHARACTER_ERR: property "code" is equal to 9, expected 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+-assert_throws@http://localhost:8800/resources/testharness.js:682:23
++        document.createProcessingInstructio..." did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_throws@http://localhost:8800/resources/testharness.js:583:19
+ http://localhost:8800/dom/nodes/Document-createProcessingInstruction.js:20:20
+ step@http://localhost:8800/resources/testharness.js:798:30
+ test@http://localhost:8800/resources/testharness.js:73:22
+@@ -17,28 +17,7 @@
+ PASS Should throw an INVALID_CHARACTER_ERR for target "\f" and data "x". 
+ PASS Should throw an INVALID_CHARACTER_ERR for target 0 and data "x". 
+ PASS Should throw an INVALID_CHARACTER_ERR for target "0" and data "x". 
+-FAIL Should get a ProcessingInstruction for target "xml:fail" and data "x". NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+-http://localhost:8800/dom/nodes/Document-createProcessingInstruction.js:29:52
+-step@http://localhost:8800/resources/testharness.js:798:30
+-test@http://localhost:8800/resources/testharness.js:73:22
+-http://localhost:8800/dom/nodes/Document-createProcessingInstruction.js:28:9
+-step@http://localhost:8800/resources/testharness.js:798:30
+-test@http://localhost:8800/resources/testharness.js:73:22
+-global code@http://localhost:8800/dom/nodes/Document-createProcessingInstruction.js:1:5)
+-FAIL Should get a ProcessingInstruction for target "A·A" and data "x". NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+-http://localhost:8800/dom/nodes/Document-createProcessingInstruction.js:29:52
+-step@http://localhost:8800/resources/testharness.js:798:30
+-test@http://localhost:8800/resources/testharness.js:73:22
+-http://localhost:8800/dom/nodes/Document-createProcessingInstruction.js:28:9
+-step@http://localhost:8800/resources/testharness.js:798:30
+-test@http://localhost:8800/resources/testharness.js:73:22
+-global code@http://localhost:8800/dom/nodes/Document-createProcessingInstruction.js:1:5)
+-FAIL Should get a ProcessingInstruction for target "a0" and data "x". NotSupportedError: DOM Exception 9(stack: createProcessingInstruction@[native code]
+-http://localhost:8800/dom/nodes/Document-createProcessingInstruction.js:29:52
+-step@http://localhost:8800/resources/testharness.js:798:30
+-test@http://localhost:8800/resources/testharness.js:73:22
+-http://localhost:8800/dom/nodes/Document-createProcessingInstruction.js:28:9
+-step@http://localhost:8800/resources/testharness.js:798:30
+-test@http://localhost:8800/resources/testharness.js:73:22
+-global code@http://localhost:8800/dom/nodes/Document-createProcessingInstruction.js:1:5)
++PASS Should get a ProcessingInstruction for target "xml:fail" and data "x". 
++PASS Should get a ProcessingInstruction for target "A·A" and data "x". 
++PASS Should get a ProcessingInstruction for target "a0" and data "x". 
+ 

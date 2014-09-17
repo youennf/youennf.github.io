@@ -1,0 +1,16 @@
+Description
+
+This test validates that the performance.measure() method throws a SYNTAX_ERR exception whenever a non-existent mark is provided as the startMark or endMark, and the method also throws a INVALID_ACCESS_ERR whenever a navigation timing attribute with a value of zero is provided as the startMark or endMark.
+
+
+PASS window.performance is defined 
+FAIL The User Timing and Performance Timeline interfaces, which are required for this test, are defined. assert_true: The User Timing and Performance Timeline interfaces, which are required for this test, are defined. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/user-timing/resources/webperftestharness.js:134:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/user-timing/resources/webperftestharness.js:62:9
+test_true@http://localhost:8800/user-timing/resources/webperftestharness.js:134:12
+onload_test@http://localhost:8800/user-timing/test_user_timing_measure_exceptions.html:55:26
+onload@http://localhost:8800/user-timing/test_user_timing_measure_exceptions.html:273:12)
+

@@ -1,0 +1,5 @@
+
+FAIL A_05_00_01_T1 undefined is not a function (evaluating 'div.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/events/test-001.html:40:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

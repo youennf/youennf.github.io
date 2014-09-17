@@ -1,0 +1,8 @@
+ 
+
+FAIL base url, dedicated worker assert_true: expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/workers/semantics/xhr/005.html:15:16
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

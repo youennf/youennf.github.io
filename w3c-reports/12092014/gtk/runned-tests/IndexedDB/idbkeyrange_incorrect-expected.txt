@@ -1,0 +1,46 @@
+
+FAIL IDBKeyRange.bound() - bound requires more than 0 arguments. assert_throws: function "function () {
+                    IDBKeyRange.bound();
+  ..." threw object "ReferenceError: Can't find variable: IDBKeyRange" ("ReferenceError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/IndexedDB/idbkeyrange_incorrect.htm:19:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/IndexedDB/idbkeyrange_incorrect.htm:18:17)
+FAIL IDBKeyRange.bound(null, null) - null parameters are incorrect. assert_throws: function "function () {
+                    IDBKeyRange.bound(null,..." threw object "ReferenceError: Can't find variable: IDBKeyRange" that is not a DOMException DataError: property "code" is equal to undefined, expected 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/IndexedDB/idbkeyrange_incorrect.htm:26:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/IndexedDB/idbkeyrange_incorrect.htm:25:17)
+FAIL IDBKeyRange.bound(1, null / null, 1) - null parameter is incorrect. assert_throws: function "function () {
+                    IDBKeyRange.bound(1, nu..." threw object "ReferenceError: Can't find variable: IDBKeyRange" that is not a DOMException DataError: property "code" is equal to undefined, expected 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/IndexedDB/idbkeyrange_incorrect.htm:33:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/IndexedDB/idbkeyrange_incorrect.htm:32:17)
+FAIL IDBKeyRange.bound(lower, upper / lower > upper) -  'lower' is greater than 'upper'. assert_throws: function "function () {
+                    IDBKeyRange.bound(lower..." threw object "ReferenceError: Can't find variable: IDBKeyRange" that is not a DOMException DataError: property "code" is equal to undefined, expected 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/IndexedDB/idbkeyrange_incorrect.htm:45:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/IndexedDB/idbkeyrange_incorrect.htm:42:17)
+FAIL IDBKeyRange.bound(DOMString/Date/Array, 1) - A DOMString, Date and Array are greater than a float. assert_throws: function "function () {
+                    IDBKeyRange.bound('a', ..." threw object "ReferenceError: Can't find variable: IDBKeyRange" that is not a DOMException DataError: property "code" is equal to undefined, expected 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/IndexedDB/idbkeyrange_incorrect.htm:55:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/IndexedDB/idbkeyrange_incorrect.htm:54:17)
+PASS IDBKeyRange.bound(noExistingVariable, 1 / goodVariable, noExistingVariable) - noExistingVariable is not defined. 
+FAIL IDBKeyRange.bound(true, 1) - boolean is not a valid key type. assert_throws: function "function () {
+                    IDBKeyRange.bound(true,..." threw object "ReferenceError: Can't find variable: IDBKeyRange" that is not a DOMException DataError: property "code" is equal to undefined, expected 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/IndexedDB/idbkeyrange_incorrect.htm:80:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/IndexedDB/idbkeyrange_incorrect.htm:79:17)
+

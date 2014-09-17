@@ -1,0 +1,3 @@
+CONSOLE MESSAGE: line 120: ReferenceError: Can't find variable: testInIFrame
+
+Harness Error. harness_status.status = 1 , harness_status.message = ReferenceError: Can't find variable: testInIFrame

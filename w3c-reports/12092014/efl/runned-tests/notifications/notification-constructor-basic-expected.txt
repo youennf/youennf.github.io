@@ -1,0 +1,6 @@
+
+FAIL Test checks that notification constructor is correct Can't find variable: Notification(stack: http://localhost:8800/notifications/notification-constructor-basic.html:13:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/notifications/notification-constructor-basic.html:12:9)
+

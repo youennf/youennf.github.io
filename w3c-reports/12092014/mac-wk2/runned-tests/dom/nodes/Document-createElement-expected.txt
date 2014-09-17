@@ -1,0 +1,77 @@
+
+PASS Document.createElement 
+PASS createElement(undefined) 
+FAIL createElement(null) InvalidCharacterError: DOM Exception 5(stack: createElement@[native code]
+http://localhost:8800/dom/nodes/Document-createElement.html:70:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Document-createElement.html:69:9
+forEach@[native code]
+http://localhost:8800/dom/nodes/Document-createElement.html:68:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Document-createElement.html:25:5)
+PASS createElement("foo") 
+PASS createElement("f1oo") 
+PASS createElement("foo1") 
+PASS createElement("f̀oo") 
+PASS createElement("foò") 
+PASS createElement(":foo") 
+PASS createElement("f:oo") 
+PASS createElement("foo:") 
+PASS createElement("xml") 
+PASS createElement("xmlns") 
+PASS createElement("xmlfoo") 
+PASS createElement("xml:foo") 
+PASS createElement("xmlns:foo") 
+PASS createElement("xmlfoo:bar") 
+PASS createElement("svg") 
+PASS createElement("math") 
+PASS createElement("FOO") 
+FAIL createElement("marK") assert_equals: expected "marK" but got "mark"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/dom/nodes/Document-createElement.html:73:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Document-createElement.html:69:9
+forEach@[native code]
+http://localhost:8800/dom/nodes/Document-createElement.html:68:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Document-createElement.html:25:5)
+FAIL createElement("İnput") assert_equals: expected "İnput" but got "i̇nput"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/dom/nodes/Document-createElement.html:73:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Document-createElement.html:69:9
+forEach@[native code]
+http://localhost:8800/dom/nodes/Document-createElement.html:68:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Document-createElement.html:25:5)
+FAIL createElement("ınput") assert_equals: expected "ıNPUT" but got "INPUT"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/dom/nodes/Document-createElement.html:74:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Document-createElement.html:69:9
+forEach@[native code]
+http://localhost:8800/dom/nodes/Document-createElement.html:68:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Document-createElement.html:25:5)
+PASS createElement("") 
+PASS createElement("1foo") 
+PASS createElement("̀foo") 
+PASS createElement("}foo") 
+PASS createElement("f}oo") 
+PASS createElement("foo}") 
+PASS createElement("￿foo") 
+PASS createElement("f￿oo") 
+PASS createElement("foo￿") 
+PASS createElement("<foo") 
+PASS createElement("foo>") 
+PASS createElement("<foo>") 
+PASS createElement("f<oo") 
+

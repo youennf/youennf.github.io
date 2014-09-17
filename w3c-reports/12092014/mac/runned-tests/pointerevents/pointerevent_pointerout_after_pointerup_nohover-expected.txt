@@ -1,0 +1,10 @@
+pointerout
+
+Test Description: This test checks if pointerout event triggers for devices that don't support hover. Tap the black rectangle.
+
+Note: this test is only for devices that do not support hover.
+
+Pointer Events pointerout tests
+
+
+Harness Error. harness_status.status = 2 , harness_status.message = null

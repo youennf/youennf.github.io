@@ -1,0 +1,12 @@
+When prompted, please deny access to the video stream.
+
+Description
+
+This test checks that the error callback is triggered when user denies access to the video stream.
+
+The feature(s) tested here are known to have been made available via vendor prefixes; you can run this test with vendor prefixes enabled.
+
+FAIL Tests that the error callback is triggered when permission is denied undefined is not a function (evaluating 'navigator.getUserMedia')(stack: http://localhost:8800/mediacapture-streams/obtaining-local-multimedia-content/navigatorusermedia/deny.html:24:25
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/mediacapture-streams/obtaining-local-multimedia-content/navigatorusermedia/deny.html:23:7)
+

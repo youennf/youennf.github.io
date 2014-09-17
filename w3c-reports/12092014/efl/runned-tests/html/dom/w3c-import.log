@@ -1,0 +1,41 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 17:45
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/elements-forms.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/elements-tabular.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/reflection-embedded.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/original-harness.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/elements-sections.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/elements-metadata.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/reflection.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/elements-microdata.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/reflection-metadata.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/elements-grouping.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/reflection-grouping.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/reflection-forms.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/new-harness.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/reflection-tabular.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/reflection-obsolete.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/interfaces.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/reflection-sections.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/elements-text.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/elements-obsolete.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/elements-misc.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/reflection-misc.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/elements-embedded.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/reflection-text.html

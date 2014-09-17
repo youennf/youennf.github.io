@@ -1,0 +1,8 @@
+
+FAIL Delete an existing database Can't find variable: indexedDB(stack: http://localhost:8800/IndexedDB/idbfactory_deleteDatabase4.htm:15:31
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/IndexedDB/idbfactory_deleteDatabase4.htm:14:11)
+FAIL Delete a nonexistant database Can't find variable: indexedDB(stack: http://localhost:8800/IndexedDB/idbfactory_deleteDatabase4.htm:48:33
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/IndexedDB/idbfactory_deleteDatabase4.htm:47:53)
+

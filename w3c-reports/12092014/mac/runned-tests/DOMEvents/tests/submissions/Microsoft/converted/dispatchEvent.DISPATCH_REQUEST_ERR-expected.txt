@@ -1,0 +1,8 @@
+
+FAIL Test Description: dispatchEvent() raises DISPATCH_REQUEST_ERR EventException if the Event object is already being dispatched. Test bug: unrecognized DOMException code "DISPATCH_REQUEST_ERR" passed to assert_throws()(stack: assert_throws@http://localhost:8800/resources/testharness.js:660:126
+TestEvent@http://localhost:8800/DOMEvents/tests/submissions/Microsoft/converted/dispatchEvent.DISPATCH_REQUEST_ERR.html:42:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+dispatchEvent@[native code]
+global code@http://localhost:8800/DOMEvents/tests/submissions/Microsoft/converted/dispatchEvent.DISPATCH_REQUEST_ERR.html:38:25)
+

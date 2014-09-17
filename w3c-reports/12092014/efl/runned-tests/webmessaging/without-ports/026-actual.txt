@@ -1,0 +1,14 @@
+
+FAIL Cloning objects with getter properties assert_unreached: Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/webmessaging/without-ports/026.html:9:78
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+postMessage@[native code]
+http://localhost:8800/webmessaging/without-ports/026.html:12:18
+assert_throws@http://localhost:8800/resources/testharness.js:582:22
+http://localhost:8800/webmessaging/without-ports/026.html:11:17
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/webmessaging/without-ports/026.html:7:11)
+

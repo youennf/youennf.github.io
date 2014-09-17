@@ -1,0 +1,7 @@
+Description
+
+This test is only useful on devices that do not have vibration capability. If your device supports vibration, then skip this test. An implementation supporting this API but running on a device that cannot vibrate must silently ignore the call (we test that it doesn't throw).
+
+The feature(s) tested here are known to have been made available via vendor prefixes; you can run this test with vendor prefixes enabled.
+
+Harness Error. harness_status.status = 2 , harness_status.message = null

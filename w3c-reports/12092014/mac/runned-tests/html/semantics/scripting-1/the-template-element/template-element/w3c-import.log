@@ -1,0 +1,26 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-09 15:43
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/template-element/content-attribute.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/template-element/node-document-changes.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/template-element/template-as-a-descendant.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/template-element/template-content-node-document.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/template-element/template-content.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/template-element/template-descendant-body.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/template-element/template-descendant-frameset.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-template-element/template-element/template-descendant-head.html

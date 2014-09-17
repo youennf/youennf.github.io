@@ -1,0 +1,40 @@
+a b c a c a b c a b c
+
+PASS HTMLAnchorElement.text setting 
+FAIL Test for anchor 0 assert_equals: expected "x" but got "a b c"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/text-level-semantics/the-a-element/a.text-setter-01.html:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/text-level-semantics/the-a-element/a.text-setter-01.html:26:9
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/text-level-semantics/the-a-element/a.text-setter-01.html:22:5)
+FAIL Test for anchor 1 assert_equals: expected "x" but got "a c"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/text-level-semantics/the-a-element/a.text-setter-01.html:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/text-level-semantics/the-a-element/a.text-setter-01.html:26:9
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/text-level-semantics/the-a-element/a.text-setter-01.html:22:5)
+FAIL Test for anchor 2 assert_equals: expected "x" but got "a b c"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/text-level-semantics/the-a-element/a.text-setter-01.html:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/text-level-semantics/the-a-element/a.text-setter-01.html:26:9
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/text-level-semantics/the-a-element/a.text-setter-01.html:22:5)
+FAIL Test for anchor 3 assert_equals: expected "x" but got "a b c"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/text-level-semantics/the-a-element/a.text-setter-01.html:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/text-level-semantics/the-a-element/a.text-setter-01.html:26:9
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/text-level-semantics/the-a-element/a.text-setter-01.html:22:5)
+

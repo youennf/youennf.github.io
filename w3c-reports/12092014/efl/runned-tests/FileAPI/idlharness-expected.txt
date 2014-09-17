@@ -1,0 +1,424 @@
+CONSOLE MESSAGE: line 188: callback not yet supported
+CONSOLE MESSAGE: Deprecated attempt to access property 'size' on a non-Blob object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'type' on a non-Blob object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'name' on a non-File object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'lastModifiedDate' on a non-File object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'readyState' on a non-FileReader object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'error' on a non-FileReader object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'onloadstart' on a non-FileReader object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'onprogress' on a non-FileReader object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'onload' on a non-FileReader object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'onabort' on a non-FileReader object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'onerror' on a non-FileReader object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'onloadend' on a non-FileReader object.
+File API automated IDL tests
+
+
+PASS URL interface: operation createObjectURL(Blob) 
+FAIL URL interface: operation createFor(Blob) assert_own_property: interface prototype object missing static operation expected property "createFor" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1306:32
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+PASS URL interface: operation revokeObjectURL(DOMString) 
+FAIL FileList interface: existence and properties of interface object assert_equals: prototype of window's property "FileList" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+PASS FileList interface object length 
+FAIL FileList interface: existence and properties of interface prototype object assert_false: FileList.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL FileList interface: existence and properties of interface prototype object's "constructor" property assert_own_property: FileList.prototype does not have own property "constructor" expected property "constructor" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1178:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+PASS FileList interface: operation item(unsigned long) 
+FAIL FileList interface: attribute length assert_true: The prototype object must have a property "length" expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1265:24
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL Blob interface: existence and properties of interface object assert_equals: prototype of window's property "Blob" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+PASS Blob interface object length 
+FAIL Blob interface: existence and properties of interface prototype object assert_false: Blob.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL Blob interface: existence and properties of interface prototype object's "constructor" property assert_true: Blob.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL Blob interface: attribute size assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL Blob interface: attribute type assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+PASS Blob interface: operation slice(long long,long long,DOMString) 
+FAIL Blob interface: operation close() assert_own_property: interface prototype object missing non-static operation expected property "close" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1312:32
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+PASS Blob must be primary interface of [object Blob] 
+PASS Stringification of [object Blob] 
+PASS Blob interface: [object Blob] must inherit property "size" with the proper type (0) 
+PASS Blob interface: [object Blob] must inherit property "type" with the proper type (1) 
+PASS Blob interface: [object Blob] must inherit property "slice" with the proper type (2) 
+PASS Blob interface: calling slice(long long,long long,DOMString) on [object Blob] with too few arguments must throw TypeError 
+FAIL Blob interface: [object Blob] must inherit property "close" with the proper type (3) assert_inherits: property "close" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL File interface: existence and properties of interface object assert_equals: prototype of window's property "File" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL File interface object length assert_equals: wrong value for File.length expected 2 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1065:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1028:13
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL File interface: existence and properties of interface prototype object assert_false: File.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL File interface: existence and properties of interface prototype object's "constructor" property assert_true: File.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL File interface: attribute name assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL File interface: attribute lastModifiedDate assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL FileReader interface: existence and properties of interface object assert_equals: prototype of window's property "FileReader" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+PASS FileReader interface object length 
+FAIL FileReader interface: existence and properties of interface prototype object assert_false: FileReader.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL FileReader interface: existence and properties of interface prototype object's "constructor" property assert_true: FileReader.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+PASS FileReader interface: operation readAsArrayBuffer(Blob) 
+PASS FileReader interface: operation readAsText(Blob,DOMString) 
+PASS FileReader interface: operation readAsDataURL(Blob) 
+PASS FileReader interface: operation abort() 
+PASS FileReader interface: constant EMPTY on interface object 
+PASS FileReader interface: constant EMPTY on interface prototype object 
+PASS FileReader interface: constant LOADING on interface object 
+PASS FileReader interface: constant LOADING on interface prototype object 
+PASS FileReader interface: constant DONE on interface object 
+PASS FileReader interface: constant DONE on interface prototype object 
+FAIL FileReader interface: attribute readyState assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL FileReader interface: attribute result assert_true: The prototype object must have a property "result" expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1265:24
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL FileReader interface: attribute error assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL FileReader interface: attribute onloadstart assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL FileReader interface: attribute onprogress assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL FileReader interface: attribute onload assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL FileReader interface: attribute onabort assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL FileReader interface: attribute onerror assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+FAIL FileReader interface: attribute onloadend assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+PASS FileReader must be primary interface of [object FileReader] 
+PASS Stringification of [object FileReader] 
+PASS FileReader interface: [object FileReader] must inherit property "readAsArrayBuffer" with the proper type (0) 
+PASS FileReader interface: calling readAsArrayBuffer(Blob) on [object FileReader] with too few arguments must throw TypeError 
+PASS FileReader interface: [object FileReader] must inherit property "readAsText" with the proper type (1) 
+PASS FileReader interface: calling readAsText(Blob,DOMString) on [object FileReader] with too few arguments must throw TypeError 
+PASS FileReader interface: [object FileReader] must inherit property "readAsDataURL" with the proper type (2) 
+PASS FileReader interface: calling readAsDataURL(Blob) on [object FileReader] with too few arguments must throw TypeError 
+PASS FileReader interface: [object FileReader] must inherit property "abort" with the proper type (3) 
+PASS FileReader interface: [object FileReader] must inherit property "EMPTY" with the proper type (4) 
+PASS FileReader interface: [object FileReader] must inherit property "LOADING" with the proper type (5) 
+PASS FileReader interface: [object FileReader] must inherit property "DONE" with the proper type (6) 
+PASS FileReader interface: [object FileReader] must inherit property "readyState" with the proper type (7) 
+FAIL FileReader interface: [object FileReader] must inherit property "result" with the proper type (8) assert_inherits: property "result" found on object expected in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:548:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/FileAPI/idlharness.html:120:21)
+PASS FileReader interface: [object FileReader] must inherit property "error" with the proper type (9) 
+PASS FileReader interface: [object FileReader] must inherit property "onloadstart" with the proper type (10) 
+PASS FileReader interface: [object FileReader] must inherit property "onprogress" with the proper type (11) 
+PASS FileReader interface: [object FileReader] must inherit property "onload" with the proper type (12) 
+PASS FileReader interface: [object FileReader] must inherit property "onabort" with the proper type (13) 
+PASS FileReader interface: [object FileReader] must inherit property "onerror" with the proper type (14) 
+PASS FileReader interface: [object FileReader] must inherit property "onloadend" with the proper type (15) 
+

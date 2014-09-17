@@ -1,0 +1,51 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 17:45
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.fillRect.nonfinite.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.strokeRect.zero.3.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.clearRect.transform.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.strokeRect.transform.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.fillRect.basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.strokeRect.negative.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.fillRect.transform.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.clearRect.globalcomposite.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.clearRect.path.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/clear-100x50.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.strokeRect.clip.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.strokeRect.shadow.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.clearRect.basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.fillRect.negative.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.strokeRect.globalalpha.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.strokeRect.globalcomposite.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.fillRect.zero.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.strokeRect.zero.1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.clearRect.globalalpha.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.strokeRect.path.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.clearRect.negative.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.fillRect.path.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.fillRect.clip.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.strokeRect.nonfinite.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.clearRect.clip.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.strokeRect.basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.clearRect.zero.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.strokeRect.zero.4.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.strokeRect.zero.5.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.clearRect.shadow.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.clearRect.nonfinite.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.fillRect.shadow.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/drawing-rectangles-to-the-canvas/2d.strokeRect.zero.2.html

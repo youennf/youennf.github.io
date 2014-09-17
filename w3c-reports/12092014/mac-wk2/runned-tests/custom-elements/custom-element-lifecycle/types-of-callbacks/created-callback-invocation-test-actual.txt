@@ -1,0 +1,49 @@
+CONSOLE MESSAGE: line 15: TypeError: undefined is not a function (evaluating 'document.registerElement('x-element', {prototype: proto})')
+
+FAIL Test created callback when custom element is created by constructor undefined is not a function (evaluating 'doc.registerElement('x-a', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:20:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:17:5)
+FAIL Test created callback when custom element is created in HTML undefined is not a function (evaluating 'doc.registerElement('x-b', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:32:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:29:5)
+FAIL Test created callback when custom element is created in HTML as descendant of another element undefined is not a function (evaluating 'doc.registerElement('x-c', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:44:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:41:5)
+FAIL Test created callback when custom element is created by createElement undefined is not a function (evaluating 'doc.registerElement('x-d', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:57:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:54:5)
+FAIL Test created callback when custom element is created in HTML before registration of a custom element undefined is not a function (evaluating 'doc.registerElement('x-e', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:71:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:66:5)
+FAIL Test created callback if custom element is unresolved. undefined is not a function (evaluating 'doc.registerElement('x-f', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:81:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:78:5)
+FAIL Test created callback is called after custom element is created and registered. Document has browsing context undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:95:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test created callback is called after custom element is registered and created. Document has browsing context assert_equals: Callback created should be called expected "Created callback was called" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:102:18
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test created callback when custom element is created by createElement before registration of a custom element undefined is not a function (evaluating 'doc.registerElement('x-g', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:113:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:108:5)
+FAIL Test created callback. Create several custom elements using different ways undefined is not a function (evaluating 'doc.registerElement('x-h', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:123:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:120:5)
+FAIL Test created callback. Create several custom elements using different ways. Document has browsing context undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-test.html:145:51
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

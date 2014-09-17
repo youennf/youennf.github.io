@@ -1,0 +1,14 @@
+
+FAIL Test that the constructor of a type extension sets the IS attribute value to the type undefined is not a function (evaluating 'doc.registerElement(name, {prototype: proto, extends: tagName})')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-is-attribute.html:25:55
+forEach@[native code]
+http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-is-attribute.html:18:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-is-attribute.html:16:5)
+FAIL Test that the constructor of a custom element does not set the IS attribute if local name is the same as type undefined is not a function (evaluating 'doc.registerElement(name)')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-is-attribute.html:41:55
+forEach@[native code]
+http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-is-attribute.html:36:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-is-attribute.html:34:5)
+

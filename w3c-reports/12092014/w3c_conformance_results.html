@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#results {
+	display: table;
+    padding: 20px;
+	clear: both;
+}
+#summary {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.test, .firstline {
+	display: table;
+}
+.testname, .testresult, .firstLine > div {
+    background-color: lavender;
+    border-bottom:solid 1px white;
+}
+
+.firstLineCell{
+	display: table-cell;
+	text-align: center;
+	width: 800px;
+}
+
+.secondLineCell {
+	display: table-cell;
+	padding-left: 50px;
+	width: 750px;
+}
+
+.testname {
+	display: table-cell;
+	width: 800px;
+	margin-left:20px;
+}
+
+.testresult, .port {
+	display: table-cell;
+	width: 250px;
+	text-align: center;
+}
+
+.testresult a {
+    text-transform: capitalize;
+}
+
+.partial, .pass, .fail, .timeout, .error {
+	text-align: center;
+}
+.pass a {
+    color: green;
+}
+
+.partial a {
+    color: yellow;
+}
+
+.fail a {
+    color: orange;
+}
+
+.timeout a {
+    color: red;
+}
+
+.crash a {
+    color: red;
+}
+
+.error a {
+    color: red;
+}
+
+.error-results-hist {
+    background-color: red;
+    float: left; 
+}
+ 
+.fail-results-hist {
+    background-color: orange;
+    float: left;
+}
+
+.partial-results-hist {
+    background-color: yellow;
+    float: left;
+}
+.pass-results-hist {
+    background-color: green;
+    float: left;
+}
+
+.module-name {
+	display:table-cell;
+	width: 800px;
+}
+
+.number-of-tests {
+	display:inline-block;
+	width: 50px;
+}
+
+.module-results {
+	text-align: center;
+	display:table-cell;
+	width: 250px;
+}
+
+.histogram {
+	display:inline-block;
+	margin-left: 40px;
+	margin-top: 5px;
+	width:150px;
+}
+
+.module{
+    background-color: lavender;
+    border:solid 1px white;
+	display:table;
+}
+
+.module-summary, .secondLine {
+	display:table;
+    background: lavender;
+    border:solid 1px white;
+    height: 25px;
+    cursor:pointer;
+}
+
+.box{
+	display: table;
+}
+
+.hidden-data {
+    display: none
+}
+
+.legend > div {
+	float: left;
+	margin-right: 5px;
+	min-width: 20px;
+}
+
+.legend {
+}
+</style>
+<script>
+
+function getTestsDirectory(results)
+{
+    return (results.root_directory ? results.root_directory : results.port_name) + "/" + 
+            (results.tests_directory ? results.tests_directory : "imported-tests")
+}
+
+function getResultsDirectory(results)
+{
+    return (results.root_directory ? results.root_directory : results.port_name) + "/" + 
+            (results.results_directory ? results.results_directory : "layout-test-results")
+}
+
+function getTestLink(testname, results)
+{
+	return "<div style='float:left; margin-right:10px'><a href='" + getTestsDirectory(results) + "/" + testname + "'>" + testname + "</a></div>"
+		+ "<div>(<a href='https://github.com/w3c/web-platform-tests/blob/" + results.tests_version + "/" + testname + "'>github</a>)</div>" 
+}
+
+function getTestResultLink(testname, result, results)
+{
+	suffix = "." + testname.split('.').pop();
+	return "<a href='" + getTestsDirectory(results) + "/" + testname.replace(suffix,"-expected.txt") + "'>" + result.toLowerCase() + "</a>"
+}
+
+function testSuiteHist(numError, numFail, numPartial, numPass)
+{
+    var total = numError + numPass + numPartial + numFail;
+
+    html = '<div class="module-results">'
+
+    html += '<div class="number-of-tests">' + numPass + '/' + total + '</div>'
+
+	html += '<div class="histogram">'
+    if (numError)
+        html += '<div class="error-results-hist" style="width:' + (100 * numError / total) + '%">&nbsp;</div>'
+    if (numFail)
+        html += '<div class="fail-results-hist" style="width:' + (100 * numFail / total)  + '%">&nbsp;</div>'
+    if (numPartial)
+        html += '<div class="partial-results-hist" style="width:' + (100 * numPartial / total) + '%">&nbsp;</div>'
+    if (numPass)
+        html += '<div class="pass-results-hist" style="width:' + (100 * numPass / total) + '%">&nbsp;</div>'
+    html += '</div>'
+
+    return html + '</div>';
+}
+
+function getTestsuiteModules(results)
+ {
+	var modules = {}
+	// first try to only show module from URL hash
+	var hash = window.location.hash.substring(1)
+	var hasTest = false
+	if (hash.length)
+		Object.keys(results.conformance_results)
+			.sort()
+			.forEach(function(key, i) {
+				var testName = key
+				if (testName.indexOf(hash) == 0) {
+					hasTest = true
+					var items = testName.split("/")
+					var name = items[0]
+					if (modules[name])
+						modules[name].push(key)
+					else
+						modules[name] = [key]
+				}
+		})
+	if (hasTest)
+		return modules
+	// if no tests, show all modules
+    Object.keys(results.conformance_results)
+        .sort()
+        .forEach(function(key, i) {
+			var testName = key
+			var items = testName.split("/")
+			var name = items[0]
+			// In case of html module, we split again
+			if (name == 'html')
+				name += '/' + items[1]
+			if (modules[name])
+				modules[name].push(key)
+			else
+				modules[name] = [key]
+	})
+	return modules
+ }
+
+function toggleTests(div)
+{
+	var box = div.nextElementSibling
+	if (box) {
+		if (box.className == 'box')
+            box.className ='hidden-data'
+		else
+			box.className = 'box'
+	}
+}
+
+function computeGlobalConformance(results)
+{
+	var summary = {numPass: 0, numPartial: 0, numFail: 0, numError: 0}
+	for (var test in results.conformance_results) {
+		if (results.conformance_results.hasOwnProperty(test)) {
+			result = results.conformance_results[test]
+			if (result == "PASS") summary.numPass++
+			else if (result == "PARTIAL") summary.numPartial++
+			else if (result == "FAIL") summary.numFail++
+			else summary.numError++
+		}
+	}
+	return summary
+}
+
+function computeStatistics(resultsSummary, result, results)
+{
+	summary = resultsSummary[results.port_name]
+	if (!summary)
+		resultsSummary[results.port_name] = summary = {numPass: 0, numPartial: 0, numFail: 0, numError: 0}
+	if (result == "PASS") summary.numPass++
+	else if (result == "PARTIAL") summary.numPartial++
+	else if (result == "FAIL") summary.numFail++
+	else summary.numError++
+}
+
+function addTestSuiteListOfResults(moduleName, tests, listOfResults, isOpen)
+{
+	var resultsSummary =  {}
+    var numPass = numPartial = numFail = numError = 0
+    var innerHTML = ""
+    tests.forEach(function(key, i) {
+			innerHTML += "<div class='test'><div class='testname'>" + getTestLink(key, listOfResults[0]) + "</div>"
+			listOfResults.forEach(function(results) {
+				result = results.conformance_results[key]
+                if (!result) {
+                    result = "Missing"
+                    console.log("WARNING: test " + key + " is missing");
+                }
+				innerHTML += "<div class='testresult " + result.toLowerCase() + "'>" + getTestResultLink(key, result, results) + "</div>"
+				computeStatistics(resultsSummary, result, results)
+			})
+			innerHTML += "</div>"
+       })
+    var html = '<div class="module"><div class="module-summary" onclick="toggleTests(event.currentTarget)"><div class="module-name">' + moduleName + '</div>'
+	listOfResults.forEach(function(results) {
+		var summary = resultsSummary[results.port_name]
+		html += testSuiteHist(summary.numError, summary.numFail, summary.numPartial, summary.numPass)
+	})
+	html += '</div><div class="' + (isOpen ? "box" : "hidden-data") + '">';
+    html += innerHTML
+    html += '</div></div>'
+    document.getElementById("results").innerHTML += html
+}
+
+function writeSummary()
+{
+	var html = "<div>W3C conformance results from run-webkit-test ("
+    listOfResults.forEach(function(results) {
+        html += "<a href='" + getResultsDirectory(results) + "'>" + results.port_name + "</a> &nbsp;"
+    })
+    html += ")</div>"
+
+	if (listOfResults.length > 1) {
+		var sameTestVersion = true
+		listOfResults.forEach(function(results) {
+			if (listOfResults[0].tests_version != results.tests_version) {
+				sameTestVersion = false
+                html += "<div>Warning: W3C test version are not the same for all platforms: "
+                html += listOfResults[0].tests_version + " vs " + results.tests_version + " of platform " + results.port_name
+                console.log(results)
+                html += "</div>"
+			}
+		})
+		if (!sameTestVersion) {/*
+			html += "<div>Warning: W3C test version are not the same for all platforms: "
+            html += listOfResults[0].tests_version + " vs " + results.tests_version + " of platform " + results.port_name
+            console.log(results)
+            html += "</div>"*/
+        }
+		else if (listOfResults[0].tests_version == "master")
+			html += "<div>Warning: using master as W3C test version</div>"
+	}
+
+    document.getElementById("summary").innerHTML = html
+}
+
+function displayResults()
+{
+    setTimeout(function()  {
+	var firstLineHTML = "<div class='firstLine'><div class='firstLineCell'>Module/Test Name</div>"
+	listOfResults.forEach(function(results) {
+		firstLineHTML += "<div class='port'>" + results.port_name.toUpperCase() + "</div>"
+	})
+	firstLineHTML += "</div>"
+	var secondLineHTML = "<div class='secondLine'><div class='secondLineCell'>Overall conformance</div>"
+	listOfResults.forEach(function(results) {
+		summary = computeGlobalConformance(results)
+		secondLineHTML += testSuiteHist(summary.numError, summary.numFail, summary.numPartial, summary.numPass)
+	})
+	secondLineHTML += "</div>"
+
+	document.getElementById("results").innerHTML = firstLineHTML + secondLineHTML
+	var modules =  getTestsuiteModules(listOfResults[0])
+	var keys = Object.keys(modules)
+    keys.sort().forEach( function(key, i) {
+		addTestSuiteListOfResults(key, modules[key], listOfResults, keys.length == 1)
+	})
+	writeSummary(listOfResults)
+    }, 0)
+}
+
+ 
+listOfResults = [] 
+function ADD_CONFORMANCE_RESULTS(results)
+{
+    results.root_directory = dirs[counter]
+	listOfResults.push(results)
+    setTimeout(loadScripts, 0)
+    
+}
+
+//window.onload = displayResults
+var counter
+var dirs
+function loadScripts(directories)
+{
+    if (directories) {
+        dirs = directories
+        counter = -1
+    }
+    if (counter < dirs.length - 1) {
+        document.getElementById('summary').innerHTML = "Loading " + dirs[++counter] + "..."
+        var head= document.getElementsByTagName('head')[0];
+        var script= document.createElement('script');
+        script.type= 'text/javascript';
+        script.src= dirs[counter] + '/w3c_conformance_results.json';
+        head.appendChild(script);
+    }
+    else {
+        document.getElementById('summary').innerHTML = "Displaying results..."
+        setTimeout(displayResults, 0)
+    }
+}
+
+</script>
+</head>
+<body>
+<div id="summary">
+    Loading...
+</div>
+<div class="legend">
+	<div class="error-results-hist legend">&nbsp;</div>
+	<div>Error, Timeout or Crash</div>
+	<div class="fail-results-hist legend">&nbsp;</div>
+	<div> All assertions failing</div>
+	<div class="partial-results-hist legend">&nbsp;</div>
+	<div> Some assertions passing</div>
+	<div class="pass-results-hist legend">&nbsp;</div>
+	<div> All assertions passing</div>
+</div>
+<div id="results">
+</div>
+<!-- place as many .json file as needed -->
+<script>
+    setTimeout(function() {
+        loadScripts([
+            "efl", "gtk", "mac", "mac-wk2"
+        ])
+    }, 0)
+</script>
+<!--script src="efl/w3c_conformance_results.json"></script>
+<script src="gtk/w3c_conformance_results.json"></script>
+<script src="mac/w3c_conformance_results.json"></script>
+<script src="mac-wk2/w3c_conformance_results.json"></script-->
+</body>
+</html>

@@ -1,0 +1,23 @@
+Description
+
+This test validates exception scenarios of invoking performance.mark() with param of "secureConnectionStart".
+
+
+FAIL window.performance is defined and not null. assert_true: window.performance is defined and not null expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/user-timing/resources/webperftestharness.js:58:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/user-timing/resources/webperftestharness.js:58:17
+test_namespace@http://localhost:8800/user-timing/resources/webperftestharness.js:69:16
+global code@http://localhost:8800/user-timing/test_user_timing_mark_with_name_of_navigation_timing_optional_attribute.html:14:23)
+FAIL window.performance is defined assert_true: window.performance is defined expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/user-timing/resources/webperftestharness.js:69:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/user-timing/resources/webperftestharness.js:62:9
+test_namespace@http://localhost:8800/user-timing/resources/webperftestharness.js:69:16
+global code@http://localhost:8800/user-timing/test_user_timing_mark_with_name_of_navigation_timing_optional_attribute.html:14:23)
+PASS This test is ignored when secureConnectionStart attribute of Navigation Timing is not supported. 
+

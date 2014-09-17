@@ -1,0 +1,13 @@
+
+FAIL Document of type other than HTML, not loaded into browsing context, must not have a registry assert_throws: Registering valid custom element in a document without registry should fail function "function () { doc.registerElement('x-element'); }" threw object "TypeError: undefined is not a function (evaluating 'doc.r..." that is not a DOMException NotSupportedError: property "code" is equal to undefined, expected 9(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/custom-elements/creating-and-passing-registries/no-registry-test.html:19:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/creating-and-passing-registries/no-registry-test.html:17:5)
+FAIL XMLHttpRequest's asynchronous response HTML document must not have a registry assert_throws: Registering valid custom element in an XMLHttpRequest's response document should fail function "function () { doc.registerElement('x-element'); }" threw object "TypeError: undefined is not a function (evaluating 'doc.r..." that is not a DOMException NotSupportedError: property "code" is equal to undefined, expected 9(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/custom-elements/creating-and-passing-registries/no-registry-test.html:34:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

@@ -1,0 +1,3 @@
+
+PASS Test Description: dispatchEvent() return value indicates whether any of the listeners which handled the event called Event.preventDefault(). If Event.preventDefault() was called the returned value must be false, else it must be true. 
+

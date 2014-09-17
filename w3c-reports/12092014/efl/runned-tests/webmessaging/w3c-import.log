@@ -1,0 +1,49 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 17:46
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./postMessage_arrays.sub.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./postMessage_dup_transfer_objects.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./postMessage_objects.sub.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./postMessage_ArrayBuffer.sub.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./postMessage_origin_mismatch.sub.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./postMessage_Date.sub.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./event.origin.sub.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./postMessage_solidus_xorigin.sub.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./Channel_postMessage_DataCloneErr.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./Channel_MessagePort_onmessage_start.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./postMessage_Function.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./postMessage_invalid_targetOrigin.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./postMessage_asterisk_xorigin.sub.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./Channel_postMessage_clone_port.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./Channel_MessagePort_initial_disabled.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./Channel_postMessage_event_properties.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./event.source.xorigin.sub.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./event.data.sub.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./event.source.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./Transferred_objects_unusable.sub.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./MessageEvent_properties.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./Channel_postMessage_clone_port_error.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./Channel_postMessage_ports_readonly_array.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./Channel_postMessage_target_source.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./postMessage_Document.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./event.ports.sub.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./postMessage_solidus_sorigin.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./README.md
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./postMessage_MessagePorts_xorigin.sub.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./postMessage_MessagePorts_sorigin.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webmessaging/./postMessage_origin_mismatch_xorigin.sub.htm

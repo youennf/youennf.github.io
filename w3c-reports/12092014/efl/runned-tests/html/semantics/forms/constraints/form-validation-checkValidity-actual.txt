@@ -1,0 +1,13 @@
+
+
+PASS [input]  The checkValidity method must return false 
+PASS [input]  The checkValidity method must return true 
+PASS [select]  The checkValidity method must return false 
+PASS [select]  The checkValidity method must return true 
+PASS [textarea]  The checkValidity method must return false 
+PASS [textarea]  The checkValidity method must return true 
+PASS [button]  The reportValidity method must return true 
+PASS [output]  The reportValidity method must return true 
+PASS [fieldset]  The reportValidity method must return true 
+PASS [form]  The reportValidity method must return true 
+

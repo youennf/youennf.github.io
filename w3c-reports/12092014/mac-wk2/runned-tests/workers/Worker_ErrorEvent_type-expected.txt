@@ -1,0 +1,7 @@
+
+FAIL Test Description: ErrorEvent object and ErrorEvent.type assert_array_equals: property 0, expected "[object ErrorEvent]" but got "[object Event]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:407:19
+http://localhost:8800/workers/Worker_ErrorEvent_type.htm:22:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

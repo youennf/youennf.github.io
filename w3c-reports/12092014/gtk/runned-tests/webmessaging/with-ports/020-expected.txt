@@ -1,0 +1,12 @@
+Blocked access to external URL http://www1.localhost:8800/webmessaging/without-ports/020-1.html
+CONSOLE MESSAGE: Unable to post message to http://www1.localhost:8800. Recipient has origin http://localhost:8800.
+
+
+
+
+FAIL cross-origin test assert_equals: expected 2 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/webmessaging/with-ports/020.html:26:52
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

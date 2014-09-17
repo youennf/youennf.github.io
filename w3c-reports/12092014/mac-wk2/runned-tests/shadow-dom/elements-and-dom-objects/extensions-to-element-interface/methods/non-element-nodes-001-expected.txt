@@ -1,0 +1,90 @@
+
+PASS Checks whether a text node does not have createShadowRoot() method. 
+PASS Checks whether a comment node does not have createShadowRoot() method. 
+PASS Checks whether a CDATA section node does not have createShadowRoot() method. 
+PASS Checks whether an attribute node does not have createShadowRoot() method. 
+PASS Checks whether a document fragment node does not have createShadowRoot() method. 
+PASS Checks whether an entity reference node does not have createShadowRoot() method. 
+PASS Checks whether a processing instruction node does not have createShadowRoot() method. 
+PASS Checks whether a document node does not have createShadowRoot() method. 
+FAIL When createShadowRoot() is called on a text node, InvalidNodeTypeError should be thrown. assert_throws: function "function () { node.createShadowRoot(); }" threw object "TypeError: undefined is not a function (evaluating 'node...." that is not a DOMException InvalidNodeTypeError: property "code" is equal to undefined, expected 24(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+testThrowInvalidNodeTypeError@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:117:18
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:132:15)
+FAIL When createShadowRoot() is called on a comment node, InvalidNodeTypeError should be thrown. assert_throws: function "function () { node.createShadowRoot(); }" threw object "TypeError: undefined is not a function (evaluating 'node...." that is not a DOMException InvalidNodeTypeError: property "code" is equal to undefined, expected 24(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+testThrowInvalidNodeTypeError@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:117:18
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:132:15)
+FAIL When createShadowRoot() is called on a CDATA section node, InvalidNodeTypeError should be thrown. assert_throws: function "function () { node.createShadowRoot(); }" threw object "TypeError: undefined is not a function (evaluating 'node...." that is not a DOMException InvalidNodeTypeError: property "code" is equal to undefined, expected 24(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+testThrowInvalidNodeTypeError@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:117:18
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:132:15)
+FAIL When createShadowRoot() is called on an attribute node, InvalidNodeTypeError should be thrown. assert_throws: function "function () { node.createShadowRoot(); }" threw object "TypeError: undefined is not a function (evaluating 'node...." that is not a DOMException InvalidNodeTypeError: property "code" is equal to undefined, expected 24(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+testThrowInvalidNodeTypeError@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:117:18
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:132:15)
+FAIL When createShadowRoot() is called on a document fragment node, InvalidNodeTypeError should be thrown. assert_throws: function "function () { node.createShadowRoot(); }" threw object "TypeError: undefined is not a function (evaluating 'node...." that is not a DOMException InvalidNodeTypeError: property "code" is equal to undefined, expected 24(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+testThrowInvalidNodeTypeError@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:117:18
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:132:15)
+FAIL When createShadowRoot() is called on an entity reference node, InvalidNodeTypeError should be thrown. assert_throws: function "function () { node.createShadowRoot(); }" threw object "TypeError: undefined is not a function (evaluating 'node...." that is not a DOMException InvalidNodeTypeError: property "code" is equal to undefined, expected 24(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+testThrowInvalidNodeTypeError@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:117:18
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:132:15)
+FAIL When createShadowRoot() is called on a processing instruction node, InvalidNodeTypeError should be thrown. assert_throws: function "function () { node.createShadowRoot(); }" threw object "TypeError: undefined is not a function (evaluating 'node...." that is not a DOMException InvalidNodeTypeError: property "code" is equal to undefined, expected 24(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+testThrowInvalidNodeTypeError@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:117:18
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:132:15)
+FAIL When createShadowRoot() is called on a document node, InvalidNodeTypeError should be thrown. assert_throws: function "function () { node.createShadowRoot(); }" threw object "TypeError: undefined is not a function (evaluating 'node...." that is not a DOMException InvalidNodeTypeError: property "code" is equal to undefined, expected 24(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+testThrowInvalidNodeTypeError@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:117:18
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/non-element-nodes-001.html:132:15)
+

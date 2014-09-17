@@ -1,0 +1,10 @@
+
+FAIL Template is a foster parent element. Test <table> immediately below <template> Can't find variable: newHTMLDocument(stack: http://localhost:8800/html/syntax/parsing/template/additions-to-foster-parenting/template-is-a-foster-parent-element.html:19:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/syntax/parsing/template/additions-to-foster-parenting/template-is-a-foster-parent-element.html:18:5)
+FAIL Template is a foster parent element. Test <template> element without <table> Can't find variable: newHTMLDocument(stack: http://localhost:8800/html/syntax/parsing/template/additions-to-foster-parenting/template-is-a-foster-parent-element.html:43:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/syntax/parsing/template/additions-to-foster-parenting/template-is-a-foster-parent-element.html:42:5)
+

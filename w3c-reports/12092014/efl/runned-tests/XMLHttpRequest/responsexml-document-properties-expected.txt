@@ -1,0 +1,69 @@
+
+FAIL domain assert_equals: expected (undefined) undefined but got (string) "localhost"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:41:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runTest@http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:40:13
+global code@http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:36:16)
+PASS URL 
+PASS documentURI 
+PASS referrer 
+PASS title 
+FAIL contentType assert_equals: expected (string) "application/xml" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:41:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runTest@http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:40:13
+global code@http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:36:16)
+FAIL readyState assert_equals: expected "complete" but got "interactive"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:41:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runTest@http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:40:13
+global code@http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:36:16)
+PASS location 
+PASS defaultView 
+FAIL body assert_equals: expected (undefined) undefined but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:41:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runTest@http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:40:13
+global code@http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:36:16)
+FAIL images assert_equals: expected (undefined) undefined but got (object) object "[object HTMLCollection]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:41:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runTest@http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:40:13
+global code@http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:36:16)
+PASS doctype 
+FAIL forms assert_equals: expected (undefined) undefined but got (object) object "[object HTMLCollection]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:41:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runTest@http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:40:13
+global code@http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:36:16)
+PASS all 
+FAIL links assert_equals: expected (undefined) undefined but got (object) object "[object HTMLCollection]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:41:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+runTest@http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:40:13
+global code@http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:36:16)
+PASS cookie 
+FAIL lastModified set according to HTTP header assert_equals: expected 1410531741000 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:46:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/XMLHttpRequest/responsexml-document-properties.htm:45:11)
+PASS cookie (after setting it) 
+PASS styleSheets 
+PASS implementation 
+

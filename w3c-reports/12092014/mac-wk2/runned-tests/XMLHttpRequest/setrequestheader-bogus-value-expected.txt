@@ -1,0 +1,26 @@
+
+FAIL XMLHttpRequest: setRequestHeader() value argument checks assert_throws:  given value t
+t,  function "function () { client.setRequestHeader("x-test", value); }" threw object "Error: SyntaxError: DOM Exception 12" ("SyntaxError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/XMLHttpRequest/setrequestheader-bogus-value.htm:19:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+try_value@http://localhost:8800/XMLHttpRequest/setrequestheader-bogus-value.htm:14:13
+global code@http://localhost:8800/XMLHttpRequest/setrequestheader-bogus-value.htm:22:16)
+FAIL XMLHttpRequest: setRequestHeader() value argument checks 1 assert_throws:  given value t
+t,  function "function () { client.setRequestHeader("x-test", value); }" threw object "Error: SyntaxError: DOM Exception 12" ("SyntaxError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/XMLHttpRequest/setrequestheader-bogus-value.htm:19:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+try_value@http://localhost:8800/XMLHttpRequest/setrequestheader-bogus-value.htm:14:13
+global code@http://localhost:8800/XMLHttpRequest/setrequestheader-bogus-value.htm:23:16)
+FAIL XMLHttpRequest: setRequestHeader() value argument checks 2 assert_throws:  given value ﾃｽﾄ,  function "function () { client.setRequestHeader("x-test", value); }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/XMLHttpRequest/setrequestheader-bogus-value.htm:19:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+try_value@http://localhost:8800/XMLHttpRequest/setrequestheader-bogus-value.htm:14:13
+global code@http://localhost:8800/XMLHttpRequest/setrequestheader-bogus-value.htm:24:16)
+PASS XMLHttpRequest: setRequestHeader() value argument checks 3 
+

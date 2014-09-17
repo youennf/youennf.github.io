@@ -1,0 +1,5 @@
+Remove the manifest file (manifest/clock.manifest) from the server.
+Refresh the page, then calling update() will throw InvalidStateError exception.
+
+PASS INVALID_STATE_ERR error test 
+

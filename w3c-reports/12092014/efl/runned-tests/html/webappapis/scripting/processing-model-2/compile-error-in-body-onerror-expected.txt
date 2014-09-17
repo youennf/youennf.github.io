@@ -1,0 +1,8 @@
+CONSOLE MESSAGE: line 19: SyntaxError: Unexpected token ')'
+
+FAIL window.onerror - compile error in <body onerror> assert_false: ran expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/webappapis/scripting/processing-model-2/compile-error-in-body-onerror.html:23:21
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/webappapis/scripting/processing-model-2/compile-error-in-body-onerror.html:22:11)
+

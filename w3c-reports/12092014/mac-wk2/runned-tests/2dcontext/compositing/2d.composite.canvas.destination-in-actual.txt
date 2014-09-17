@@ -1,0 +1,14 @@
+2d.composite.canvas.destination-in
+Actual output:
+Expected output:
+
+
+FAIL Canvas test: 2d.composite.canvas.destination-in assert_approx_equals: Green channel of the pixel at (50, 25) expected 255 +/- 5 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_approx_equals@http://localhost:8800/resources/testharness.js:425:15
+_assertPixelApprox@http://localhost:8800/common/canvas-tests.js:48:25
+http://localhost:8800/2dcontext/compositing/2d.composite.canvas.destination-in.html:32:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

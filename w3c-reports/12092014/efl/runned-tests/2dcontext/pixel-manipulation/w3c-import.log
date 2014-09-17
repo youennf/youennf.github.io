@@ -1,0 +1,77 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 17:45
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.create1.this.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.object.undefined.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.create2.initial.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.nonpremul.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.object.string.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.order.cols.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.zero.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.dirty.rect2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.modified.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.create2.tiny.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.create2.type.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.null.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.source.outside.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.clamp.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.order.rows.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.create2.round.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.cross.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.object.clamp.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.create1.basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.create2.negative.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.length.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.alpha.png
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.create1.initial.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.source.size.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.order.alpha.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.clip.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.create1.zero.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.object.readonly.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.unchanged.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.object.properties.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.nonfinite.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.object.nan.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.dirty.negative.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.create2.zero.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.dirty.rect1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.created.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.dirty.outside.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.object.ctor.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.tiny.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.order.rgb.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.dirty.zero.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.nonfinite.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.unaffected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.alpha.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.create2.this.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.unaffected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.create2.large.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.path.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.source.negative.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.create2.basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.type.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.create1.type.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.put.wrongtype.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.create2.nonfinite.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.object.round.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.get.range.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/pixel-manipulation/2d.imageData.object.set.html

@@ -1,0 +1,93 @@
+
+
+FAIL [input]  The reportValidity method must return false if it is invalid assert_true: The reportValidity method doesn't exist. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+pre_check@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:243:20
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:194:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_reportValidity@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:192:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:321:27
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-reportValidity.html:67:21)
+FAIL [input]  The reportValidity method must return true if it is valid assert_true: The reportValidity method doesn't exist. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+pre_check@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:243:20
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:194:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_reportValidity@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:192:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:321:27
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-reportValidity.html:67:21)
+FAIL [select]  The reportValidity method must return false if it is invalid assert_true: The reportValidity method doesn't exist. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+pre_check@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:243:20
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:194:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_reportValidity@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:192:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:321:27
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-reportValidity.html:67:21)
+FAIL [select]  The reportValidity method must return true if it is valid assert_true: The reportValidity method doesn't exist. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+pre_check@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:243:20
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:194:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_reportValidity@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:192:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:321:27
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-reportValidity.html:67:21)
+FAIL [textarea]  The reportValidity method must return false if it is invalid assert_true: The reportValidity method doesn't exist. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+pre_check@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:243:20
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:194:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_reportValidity@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:192:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:321:27
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-reportValidity.html:67:21)
+FAIL [textarea]  The reportValidity method must return true if it is valid assert_true: The reportValidity method doesn't exist. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+pre_check@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:243:20
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:194:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_reportValidity@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:192:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:321:27
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-reportValidity.html:67:21)
+FAIL [button]  The reportValidity method must return true assert_true: The reportValidity method doesn't exist. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+pre_check@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:243:20
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:194:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_reportValidity@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:192:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:321:27
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-reportValidity.html:67:21)
+FAIL [output]  The reportValidity method must return true assert_true: The reportValidity method doesn't exist. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+pre_check@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:243:20
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:194:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_reportValidity@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:192:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:321:27
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-reportValidity.html:67:21)
+FAIL [fieldset]  The reportValidity method must return true assert_true: The reportValidity method doesn't exist. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+pre_check@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:243:20
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:194:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_reportValidity@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:192:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:321:27
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-reportValidity.html:67:21)
+FAIL [form]  The reportValidity method must return true assert_true: The reportValidity method doesn't exist. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+pre_check@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:243:20
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:194:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_reportValidity@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:192:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:321:27
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-reportValidity.html:67:21)
+

@@ -1,0 +1,6 @@
+
+
+FAIL messagechannel in shared worker undefined is not a constructor (evaluating 'new SharedWorker('#')')(stack: http://localhost:8800/workers/semantics/multiple-workers/008.html:20:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

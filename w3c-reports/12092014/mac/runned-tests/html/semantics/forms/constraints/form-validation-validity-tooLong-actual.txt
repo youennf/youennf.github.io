@@ -1,0 +1,115 @@
+
+
+PASS [INPUT in TEXT status] Non-dirty value - maxlength is not set 
+PASS [INPUT in TEXT status] Non-dirty value - value is empty string 
+PASS [INPUT in TEXT status] Non-dirty value - length of value is less than maxlength 
+PASS [INPUT in TEXT status] Non-dirty value - length of value equals to maxlength 
+PASS [INPUT in TEXT status] Non-dirty value - length of value is greater than maxlength 
+PASS [INPUT in TEXT status] Dirty value - value is less than maxlength 
+PASS [INPUT in TEXT status] Dirty value - length of value(AAA) in unicode is less than maxlength 
+PASS [INPUT in TEXT status] Dirty value - value equals to maxlength 
+FAIL [INPUT in TEXT status] Dirty value - length of value is greater than maxlength assert_true: The validity.tooLong should be true. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:11:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_tooLong@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:4:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:305:31
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validity-tooLong.html:47:21)
+PASS [INPUT in SEARCH status] Non-dirty value - maxlength is not set 
+PASS [INPUT in SEARCH status] Non-dirty value - value is empty string 
+PASS [INPUT in SEARCH status] Non-dirty value - length of value is less than maxlength 
+PASS [INPUT in SEARCH status] Non-dirty value - length of value equals to maxlength 
+PASS [INPUT in SEARCH status] Non-dirty value - length of value is greater than maxlength 
+PASS [INPUT in SEARCH status] Dirty value - value is less than maxlength 
+PASS [INPUT in SEARCH status] Dirty value - length of value(AAA) in unicode is less than maxlength 
+PASS [INPUT in SEARCH status] Dirty value - value equals to maxlength 
+FAIL [INPUT in SEARCH status] Dirty value - length of value is greater than maxlength assert_true: The validity.tooLong should be true. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:11:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_tooLong@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:4:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:305:31
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validity-tooLong.html:47:21)
+PASS [INPUT in TEL status] Non-dirty value - maxlength is not set 
+PASS [INPUT in TEL status] Non-dirty value - value is empty string 
+PASS [INPUT in TEL status] Non-dirty value - length of value is less than maxlength 
+PASS [INPUT in TEL status] Non-dirty value - length of value equals to maxlength 
+PASS [INPUT in TEL status] Non-dirty value - length of value is greater than maxlength 
+PASS [INPUT in TEL status] Dirty value - value is less than maxlength 
+PASS [INPUT in TEL status] Dirty value - length of value(AAA) in unicode is less than maxlength 
+PASS [INPUT in TEL status] Dirty value - value equals to maxlength 
+FAIL [INPUT in TEL status] Dirty value - length of value is greater than maxlength assert_true: The validity.tooLong should be true. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:11:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_tooLong@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:4:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:305:31
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validity-tooLong.html:47:21)
+PASS [INPUT in URL status] Non-dirty value - maxlength is not set 
+PASS [INPUT in URL status] Non-dirty value - value is empty string 
+PASS [INPUT in URL status] Non-dirty value - length of value is less than maxlength 
+PASS [INPUT in URL status] Non-dirty value - length of value equals to maxlength 
+PASS [INPUT in URL status] Non-dirty value - length of value is greater than maxlength 
+PASS [INPUT in URL status] Dirty value - value is less than maxlength 
+PASS [INPUT in URL status] Dirty value - length of value(AAA) in unicode is less than maxlength 
+PASS [INPUT in URL status] Dirty value - value equals to maxlength 
+FAIL [INPUT in URL status] Dirty value - length of value is greater than maxlength assert_true: The validity.tooLong should be true. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:11:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_tooLong@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:4:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:305:31
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validity-tooLong.html:47:21)
+PASS [INPUT in EMAIL status] Non-dirty value - maxlength is not set 
+PASS [INPUT in EMAIL status] Non-dirty value - value is empty string 
+PASS [INPUT in EMAIL status] Non-dirty value - length of value is less than maxlength 
+PASS [INPUT in EMAIL status] Non-dirty value - length of value equals to maxlength 
+PASS [INPUT in EMAIL status] Non-dirty value - length of value is greater than maxlength 
+PASS [INPUT in EMAIL status] Dirty value - value is less than maxlength 
+PASS [INPUT in EMAIL status] Dirty value - length of value(AAA) in unicode is less than maxlength 
+PASS [INPUT in EMAIL status] Dirty value - value equals to maxlength 
+FAIL [INPUT in EMAIL status] Dirty value - length of value is greater than maxlength assert_true: The validity.tooLong should be true. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:11:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_tooLong@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:4:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:305:31
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validity-tooLong.html:47:21)
+PASS [INPUT in PASSWORD status] Non-dirty value - maxlength is not set 
+PASS [INPUT in PASSWORD status] Non-dirty value - value is empty string 
+PASS [INPUT in PASSWORD status] Non-dirty value - length of value is less than maxlength 
+PASS [INPUT in PASSWORD status] Non-dirty value - length of value equals to maxlength 
+PASS [INPUT in PASSWORD status] Non-dirty value - length of value is greater than maxlength 
+PASS [INPUT in PASSWORD status] Dirty value - value is less than maxlength 
+PASS [INPUT in PASSWORD status] Dirty value - length of value(AAA) in unicode is less than maxlength 
+PASS [INPUT in PASSWORD status] Dirty value - value equals to maxlength 
+FAIL [INPUT in PASSWORD status] Dirty value - length of value is greater than maxlength assert_true: The validity.tooLong should be true. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:11:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_tooLong@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:4:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:305:31
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validity-tooLong.html:47:21)
+PASS [textarea]  Non-dirty value - maxlength is not set 
+PASS [textarea]  Non-dirty value - value is empty string 
+PASS [textarea]  Non-dirty value - length of value is less than maxlength 
+PASS [textarea]  Non-dirty value - length of value equals to maxlength 
+PASS [textarea]  Non-dirty value - length of value is greater than maxlength 
+PASS [textarea]  Dirty value - value is less than maxlength 
+PASS [textarea]  Dirty value - length of value(LF, CRLF) in unicode is less than maxlength 
+PASS [textarea]  Dirty value - length of value equals to maxlength 
+FAIL [textarea]  Dirty value - length of value is greater than maxlength assert_true: The validity.tooLong should be true. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:11:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_tooLong@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:4:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:321:27
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validity-tooLong.html:47:21)
+

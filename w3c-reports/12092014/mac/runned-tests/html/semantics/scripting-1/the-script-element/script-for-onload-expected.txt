@@ -1,0 +1,3 @@
+
+PASS Script for and onload attributes 
+

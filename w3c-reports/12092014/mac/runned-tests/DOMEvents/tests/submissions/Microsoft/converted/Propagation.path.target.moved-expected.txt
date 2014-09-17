@@ -1,0 +1,3 @@
+
+PASS Test Description: Once determined, the event propagation path must not be changed, even if an element in the propagation path is moved within the DOM. 
+

@@ -1,0 +1,67 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 15:46
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/enum.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/partial-interface.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/iterator.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/uniontype.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/caller.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/nointerfaceobject.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/indexed-properties.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/serializer.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/constructor.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/nullableobjects.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/static.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/identifier-qualified-names.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/getter-setter.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/overridebuiltins.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/typesuffixes.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/allowany.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/array.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/dictionary-inherits.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/sequence.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/primitives.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/stringifier-custom.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/prototyperoot.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/documentation-dos.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/inherits-getter.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/putforwards.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/reg-operations.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/treatasundefined.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/attributes.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/interface-inherits.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/operation-optional-arg.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/stringifier.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/replaceable.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/variadic-operations.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/stringifier-attribute.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/equivalent-decl.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/namedconstructor.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/treatasnull.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/map.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/documentation.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/callback.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/typedef.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/overloading.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/generic.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/dictionary.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/nullable.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/exception-inheritance.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/exception.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/implements.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/webidl2/test/syntax/json/constants.json

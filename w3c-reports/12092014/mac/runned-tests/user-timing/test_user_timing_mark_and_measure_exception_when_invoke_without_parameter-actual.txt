@@ -1,0 +1,40 @@
+Description
+
+This test validates exception scenarios of invoking mark() and measure() without parameter.
+
+
+FAIL window.performance is defined and not null. assert_true: window.performance is defined and not null expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/user-timing/resources/webperftestharness.js:58:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/user-timing/resources/webperftestharness.js:58:17
+test_namespace@http://localhost:8800/user-timing/resources/webperftestharness.js:69:16
+global code@http://localhost:8800/user-timing/test_user_timing_mark_and_measure_exception_when_invoke_without_parameter.html:13:23)
+FAIL window.performance is defined assert_true: window.performance is defined expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/user-timing/resources/webperftestharness.js:69:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/user-timing/resources/webperftestharness.js:62:9
+test_namespace@http://localhost:8800/user-timing/resources/webperftestharness.js:69:16
+global code@http://localhost:8800/user-timing/test_user_timing_mark_and_measure_exception_when_invoke_without_parameter.html:13:23)
+FAIL window.performance.mark() interface is not supported! assert_true: window.performance.mark() interface is not supported! expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/user-timing/resources/webperftestharness.js:134:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/user-timing/resources/webperftestharness.js:62:9
+test_true@http://localhost:8800/user-timing/resources/webperftestharness.js:134:12
+onload_test@http://localhost:8800/user-timing/test_user_timing_mark_and_measure_exception_when_invoke_without_parameter.html:34:30
+onload@http://localhost:8800/user-timing/test_user_timing_mark_and_measure_exception_when_invoke_without_parameter.html:62:12)
+FAIL window.performance.measure() interface is not supported! assert_true: window.performance.measure() interface is not supported! expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/user-timing/resources/webperftestharness.js:134:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/user-timing/resources/webperftestharness.js:62:9
+test_true@http://localhost:8800/user-timing/resources/webperftestharness.js:134:12
+onload_test@http://localhost:8800/user-timing/test_user_timing_mark_and_measure_exception_when_invoke_without_parameter.html:55:30
+onload@http://localhost:8800/user-timing/test_user_timing_mark_and_measure_exception_when_invoke_without_parameter.html:62:12)
+

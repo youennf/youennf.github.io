@@ -1,0 +1,10 @@
+
+FAIL Template is not a foster parent element. Test the case when <template> is higher in stack of open elements Can't find variable: newHTMLDocument(stack: http://localhost:8800/html/syntax/parsing/template/additions-to-foster-parenting/template-is-not-a-foster-parent-element.html:19:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/syntax/parsing/template/additions-to-foster-parenting/template-is-not-a-foster-parent-element.html:18:5)
+FAIL Template is not a foster parent element. Test the case when <template> is lower in stack of open elements Can't find variable: newHTMLDocument(stack: http://localhost:8800/html/syntax/parsing/template/additions-to-foster-parenting/template-is-not-a-foster-parent-element.html:47:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/syntax/parsing/template/additions-to-foster-parenting/template-is-not-a-foster-parent-element.html:46:5)
+

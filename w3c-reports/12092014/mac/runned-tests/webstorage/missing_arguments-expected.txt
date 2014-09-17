@@ -1,0 +1,22 @@
+missing_arguments
+
+
+PASS Should throw TypeError for function "function () { localStorage.key(); }". 
+PASS Should throw TypeError for function "function () { localStorage.getItem(); }". 
+PASS Should throw TypeError for function "function () { localStorage.setItem(); }". 
+PASS Should throw TypeError for function "function () { localStorage.setItem("a"); }". 
+PASS Should throw TypeError for function "function () { localStorage.removeItem(); }". 
+PASS Should throw TypeError for function "function () { sessionStorage.key(); }". 
+PASS Should throw TypeError for function "function () { sessionStorage.getItem(); }". 
+PASS Should throw TypeError for function "function () { sessionStorage.setItem(); }". 
+PASS Should throw TypeError for function "function () { sessionStorage.setItem("a"); }". 
+PASS Should throw TypeError for function "function () { sessionStorage.removeItem(); }". 
+FAIL Should throw TypeError for function "function () { new StorageEvent(); }". assert_throws: function "function () { new StorageEvent(); }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/webstorage/missing_arguments.html:27:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/webstorage/missing_arguments.html:26:17
+forEach@[native code]
+global code@http://localhost:8800/webstorage/missing_arguments.html:25:22)
+

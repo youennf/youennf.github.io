@@ -1,0 +1,3 @@
+
+PASS Test Description: If Event.stopPropagation() has been called prior to the dispatch, all phases must be skipped. 
+

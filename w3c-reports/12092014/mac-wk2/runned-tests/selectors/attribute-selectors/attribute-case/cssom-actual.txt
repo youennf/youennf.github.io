@@ -1,0 +1,312 @@
+
+PASS [foo="bar"] /* sanity check */ insertRule 
+PASS [foo="bar"] /* sanity check */ getting CSSRule#cssText 
+FAIL [foo="bar"] /* sanity check */ setting CSSRule#cssText assert_equals: expected "[foo=\"bar\"]" but got "before_set "(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:48:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:44:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+PASS [foo="bar"] /* sanity check */ getting CSSStyleRule#selectorText 
+PASS [foo="bar"] /* sanity check */ setting CSSStyleRule#selectorText 
+PASS [foo="bar"] /* sanity check */ insertRule in @media 
+PASS [foo="bar"] /* sanity check */ getting CSSRule#cssText in @media 
+FAIL [foo="bar"] /* sanity check */ setting CSSRule#cssText in @media assert_equals: expected "[foo=\"bar\"]" but got "before_set "(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:48:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:44:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+PASS [foo="bar"] /* sanity check */ getting CSSStyleRule#selectorText in @media 
+PASS [foo="bar"] /* sanity check */ setting CSSStyleRule#selectorText in @media 
+FAIL [foo="bar" i] insertRule SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:34:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:32:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" i] getting CSSRule#cssText SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:40:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:38:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" i] setting CSSRule#cssText assert_equals: expected "[foo=\"bar\" i]" but got "before_set { "(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:48:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:44:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" i] getting CSSStyleRule#selectorText SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:53:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:51:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" i] setting CSSStyleRule#selectorText assert_equals: expected "[foo=\"bar\" i]" but got "foobar"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:61:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:57:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" i] insertRule in @media SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:34:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:32:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" i] getting CSSRule#cssText in @media SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:40:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:38:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" i] setting CSSRule#cssText in @media assert_equals: expected "[foo=\"bar\" i]" but got "before_set { "(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:48:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:44:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" i] getting CSSStyleRule#selectorText in @media SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:53:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:51:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" i] setting CSSStyleRule#selectorText in @media assert_equals: expected "[foo=\"bar\" i]" but got "foobar"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:61:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:57:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" /**/ i] insertRule SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:34:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:32:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" /**/ i] getting CSSRule#cssText SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:40:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:38:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" /**/ i] setting CSSRule#cssText assert_equals: expected "[foo=\"bar\" i]" but got "before_set { "(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:48:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:44:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" /**/ i] getting CSSStyleRule#selectorText SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:53:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:51:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" /**/ i] setting CSSStyleRule#selectorText assert_equals: expected "[foo=\"bar\" i]" but got "foobar"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:61:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:57:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" /**/ i] insertRule in @media SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:34:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:32:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" /**/ i] getting CSSRule#cssText in @media SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:40:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:38:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" /**/ i] setting CSSRule#cssText in @media assert_equals: expected "[foo=\"bar\" i]" but got "before_set { "(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:48:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:44:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" /**/ i] getting CSSStyleRule#selectorText in @media SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:53:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:51:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar" /**/ i] setting CSSStyleRule#selectorText in @media assert_equals: expected "[foo=\"bar\" i]" but got "foobar"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:61:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:57:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar"/**/i] insertRule SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:34:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:32:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar"/**/i] getting CSSRule#cssText SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:40:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:38:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar"/**/i] setting CSSRule#cssText assert_equals: expected "[foo=\"bar\" i]" but got "before_set { "(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:48:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:44:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar"/**/i] getting CSSStyleRule#selectorText SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:53:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:51:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar"/**/i] setting CSSStyleRule#selectorText assert_equals: expected "[foo=\"bar\" i]" but got "foobar"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:61:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:57:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar"/**/i] insertRule in @media SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:34:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:32:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar"/**/i] getting CSSRule#cssText in @media SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:40:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:38:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar"/**/i] setting CSSRule#cssText in @media assert_equals: expected "[foo=\"bar\" i]" but got "before_set { "(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:48:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:44:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar"/**/i] getting CSSStyleRule#selectorText in @media SyntaxError: DOM Exception 12(stack: insertRule@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:53:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:51:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+FAIL [foo="bar"/**/i] setting CSSStyleRule#selectorText in @media assert_equals: expected "[foo=\"bar\" i]" but got "foobar"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:61:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:57:9
+forEach@[native code]
+http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:31:29
+forEach@[native code]
+global code@http://localhost:8800/selectors/attribute-selectors/attribute-case/cssom.html:28:14)
+

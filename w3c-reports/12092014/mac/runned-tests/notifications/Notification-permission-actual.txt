@@ -1,0 +1,3 @@
+
+PASS Test checks that notification the value of permission is in array 
+

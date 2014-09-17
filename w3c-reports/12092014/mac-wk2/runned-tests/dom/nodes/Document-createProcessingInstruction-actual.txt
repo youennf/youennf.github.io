@@ -1,0 +1,23 @@
+
+PASS Document.createProcessingInstruction in XML documents 
+FAIL Should throw an INVALID_CHARACTER_ERR for target "A" and data "?>". assert_throws: function "function () {
+        document.createProcessingInstructio..." did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/dom/nodes/Document-createProcessingInstruction.js:20:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/nodes/Document-createProcessingInstruction.js:19:9
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Document-createProcessingInstruction.js:1:5)
+PASS Should throw an INVALID_CHARACTER_ERR for target "·A" and data "x". 
+PASS Should throw an INVALID_CHARACTER_ERR for target "×A" and data "x". 
+PASS Should throw an INVALID_CHARACTER_ERR for target "A×" and data "x". 
+PASS Should throw an INVALID_CHARACTER_ERR for target "\\A" and data "x". 
+PASS Should throw an INVALID_CHARACTER_ERR for target "\f" and data "x". 
+PASS Should throw an INVALID_CHARACTER_ERR for target 0 and data "x". 
+PASS Should throw an INVALID_CHARACTER_ERR for target "0" and data "x". 
+PASS Should get a ProcessingInstruction for target "xml:fail" and data "x". 
+PASS Should get a ProcessingInstruction for target "A·A" and data "x". 
+PASS Should get a ProcessingInstruction for target "a0" and data "x". 
+

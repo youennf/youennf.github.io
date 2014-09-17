@@ -1,0 +1,39 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-09 15:44
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/1
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/connect-event.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/dummy-name.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/dummy-shared-worker.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/empty-name.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/global-members.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/interface-objects.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/name.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/no-arguments-ctor.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/null
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/null-arguments.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/number-arguments.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/port-onmessage.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/port-properties.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/port-readonly.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/same-origin.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/setting-port-members.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/undefined
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/undefined-arguments.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/unexpected-global-properties.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/workers/constructors/SharedWorker/unresolvable-url.html

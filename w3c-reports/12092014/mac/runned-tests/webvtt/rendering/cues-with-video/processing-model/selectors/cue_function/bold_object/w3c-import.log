@@ -1,0 +1,60 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-09 15:44
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+animation
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_animation_with_timestamp-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_animation_with_timestamp.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_background_properties-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_background_properties.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_background_shorthand-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_background_shorthand.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_color-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_color.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_font_properties-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_font_properties.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_font_shorthand-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_font_shorthand.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_namespace-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_namespace.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_outline_properties-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_outline_properties.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_outline_shorthand-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_outline_shorthand.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_text-decoration_line-through-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_text-decoration_line-through.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_text-shadow-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_text-shadow.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_timestamp_future-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_timestamp_future.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_timestamp_past-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_timestamp_past.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_transition_with_timestamp-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_transition_with_timestamp.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_white-space_normal_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_white-space_normal_wrapped.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_white-space_nowrap-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_white-space_nowrap.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_white-space_pre-line_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_white-space_pre-line_wrapped.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_white-space_pre-wrap_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_white-space_pre-wrap_wrapped.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_white-space_pre_wrapped-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_white-space_pre_wrapped.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_with_class-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_with_class.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_with_class_object_specific_selector-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/selectors/cue_function/bold_object/bold_with_class_object_specific_selector.html

@@ -1,0 +1,27 @@
+
+PASS The value of the [[Prototype]] internal property of the WeakMap prototype object is the standard built-in Object prototype object (15.2.4). 
+PASS The initial value of WeakMap.prototype.constructor is the built-in WeakMap constructor. 
+PASS WeakMap.prototype.clear 
+PASS WeakMap.prototype.clear.length 
+PASS WeakMap.prototype.clear: ToObject on this 
+PASS WeakMap.prototype.clear: this has no [[WeakMapData]] internal property 
+PASS WeakMap.prototype.clear: basic functionality 
+PASS WeakMap.prototype.delete 
+PASS WeakMap.prototype.delete.length 
+PASS WeakMap.prototype.delete: ToObject on this 
+PASS WeakMap.prototype.delete: this has no [[WeakMapData]] internal property 
+PASS WeakMap.prototype.get 
+PASS WeakMap.prototype.get.length 
+PASS WeakMap.prototype.get: ToObject on this 
+PASS WeakMap.prototype.get: this has no [[WeakMapData]] internal property 
+PASS WeakMap.prototype.get: return undefined 
+PASS WeakMap.prototype.has 
+PASS WeakMap.prototype.has.length 
+PASS WeakMap.prototype.has: ToObject on this 
+PASS WeakMap.prototype.has: this has no [[WeakMapData]] internal property 
+PASS WeakMap.prototype.set 
+PASS WeakMap.prototype.set.length 
+PASS WeakMap.prototype.set: ToObject on this 
+PASS WeakMap.prototype.set: this has no [[WeakMapData]] internal property 
+PASS WeakMap.prototype.@@toStringTag 
+

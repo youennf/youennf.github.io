@@ -1,0 +1,371 @@
+CONSOLE MESSAGE: Deprecated attempt to access property 'href' on a non-DOMURL object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'origin' on a non-DOMURL object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'protocol' on a non-DOMURL object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'username' on a non-DOMURL object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'password' on a non-DOMURL object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'host' on a non-DOMURL object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'hostname' on a non-DOMURL object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'port' on a non-DOMURL object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'pathname' on a non-DOMURL object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'search' on a non-DOMURL object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'hash' on a non-DOMURL object.
+URL IDL tests
+
+
+FAIL URL interface: existence and properties of interface object assert_equals: prototype of window's property "URL" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+PASS URL interface object length 
+FAIL URL interface: existence and properties of interface prototype object assert_false: URL.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URL interface: existence and properties of interface prototype object's "constructor" property assert_true: URL.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URL interface: operation domainToASCII(ScalarValueString) assert_own_property: interface prototype object missing static operation expected property "domainToASCII" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1306:32
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URL interface: operation domainToUnicode(ScalarValueString) assert_own_property: interface prototype object missing static operation expected property "domainToUnicode" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1306:32
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URL interface: attribute href assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URL interface: attribute origin assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URL interface: attribute protocol assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URL interface: attribute username assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URL interface: attribute password assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URL interface: attribute host assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URL interface: attribute hostname assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URL interface: attribute port assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URL interface: attribute pathname assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URL interface: attribute search assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URL interface: attribute searchParams assert_true: The prototype object must have a property "searchParams" expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1265:24
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URL interface: attribute hash assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+PASS URL must be primary interface of new URL("http://foo") 
+PASS Stringification of new URL("http://foo") 
+PASS URL interface: new URL("http://foo") must inherit property "domainToASCII" with the proper type (0) 
+PASS URL interface: calling domainToASCII(ScalarValueString) on new URL("http://foo") with too few arguments must throw TypeError 
+PASS URL interface: new URL("http://foo") must inherit property "domainToUnicode" with the proper type (1) 
+PASS URL interface: calling domainToUnicode(ScalarValueString) on new URL("http://foo") with too few arguments must throw TypeError 
+PASS URL interface: new URL("http://foo") must inherit property "href" with the proper type (2) 
+PASS URL interface: new URL("http://foo") must inherit property "origin" with the proper type (3) 
+PASS URL interface: new URL("http://foo") must inherit property "protocol" with the proper type (4) 
+PASS URL interface: new URL("http://foo") must inherit property "username" with the proper type (5) 
+PASS URL interface: new URL("http://foo") must inherit property "password" with the proper type (6) 
+PASS URL interface: new URL("http://foo") must inherit property "host" with the proper type (7) 
+PASS URL interface: new URL("http://foo") must inherit property "hostname" with the proper type (8) 
+PASS URL interface: new URL("http://foo") must inherit property "port" with the proper type (9) 
+PASS URL interface: new URL("http://foo") must inherit property "pathname" with the proper type (10) 
+PASS URL interface: new URL("http://foo") must inherit property "search" with the proper type (11) 
+FAIL URL interface: new URL("http://foo") must inherit property "searchParams" with the proper type (12) assert_inherits: property "searchParams" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+onload@http://localhost:8800/url/interfaces.html:78:15)
+PASS URL interface: new URL("http://foo") must inherit property "hash" with the proper type (13) 
+FAIL URLSearchParams interface: existence and properties of interface object assert_own_property: window does not have own property "URLSearchParams" expected property "URLSearchParams" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:966:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URLSearchParams interface object length assert_own_property: window does not have own property "URLSearchParams" expected property "URLSearchParams" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1032:32
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1028:13
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URLSearchParams interface: existence and properties of interface prototype object assert_own_property: window does not have own property "URLSearchParams" expected property "URLSearchParams" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1073:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URLSearchParams interface: existence and properties of interface prototype object's "constructor" property assert_own_property: window does not have own property "URLSearchParams" expected property "URLSearchParams" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1161:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URLSearchParams interface: operation append(ScalarValueString,ScalarValueString) assert_own_property: window does not have own property "URLSearchParams" expected property "URLSearchParams" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1284:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URLSearchParams interface: operation delete(ScalarValueString) assert_own_property: window does not have own property "URLSearchParams" expected property "URLSearchParams" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1284:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URLSearchParams interface: operation get(ScalarValueString) assert_own_property: window does not have own property "URLSearchParams" expected property "URLSearchParams" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1284:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URLSearchParams interface: operation getAll(ScalarValueString) assert_own_property: window does not have own property "URLSearchParams" expected property "URLSearchParams" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1284:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URLSearchParams interface: operation has(ScalarValueString) assert_own_property: window does not have own property "URLSearchParams" expected property "URLSearchParams" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1284:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URLSearchParams interface: operation set(ScalarValueString,ScalarValueString) assert_own_property: window does not have own property "URLSearchParams" expected property "URLSearchParams" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1284:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+FAIL URLSearchParams interface: stringifier assert_own_property: window does not have own property "URLSearchParams" expected property "URLSearchParams" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1379:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_stringifier@http://localhost:8800/resources/idlharness.js:1377:9
+test_members@http://localhost:8800/resources/idlharness.js:1460:45
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/url/interfaces.html:78:15)
+

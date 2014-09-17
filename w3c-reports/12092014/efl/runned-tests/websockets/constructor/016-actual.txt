@@ -1,0 +1,7 @@
+
+FAIL WebSockets: non-ascii URL in query, document encoding windows-1252 assert_equals: expected "%C3%A5%C3%A4%C3%B6" but got "%E5%E4%F6"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/websockets/constructor/016.html:13:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

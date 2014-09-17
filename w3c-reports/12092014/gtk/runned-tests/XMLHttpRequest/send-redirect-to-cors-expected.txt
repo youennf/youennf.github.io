@@ -1,0 +1,22 @@
+
+FAIL XMLHttpRequest: send() - Redirect to CORS-enabled resource (301) assert_equals: expected (string) "GET" but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/XMLHttpRequest/send-redirect-to-cors.htm:19:30
+step@http://localhost:8800/resources/testharness.js:798:30
+onreadystatechange@http://localhost:8800/XMLHttpRequest/send-redirect-to-cors.htm:17:22)
+FAIL XMLHttpRequest: send() - Redirect to CORS-enabled resource (302) assert_equals: expected (string) "GET" but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/XMLHttpRequest/send-redirect-to-cors.htm:19:30
+step@http://localhost:8800/resources/testharness.js:798:30
+onreadystatechange@http://localhost:8800/XMLHttpRequest/send-redirect-to-cors.htm:17:22)
+FAIL XMLHttpRequest: send() - Redirect to CORS-enabled resource (303) assert_equals: expected (string) "GET" but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/XMLHttpRequest/send-redirect-to-cors.htm:19:30
+step@http://localhost:8800/resources/testharness.js:798:30
+onreadystatechange@http://localhost:8800/XMLHttpRequest/send-redirect-to-cors.htm:17:22)
+FAIL XMLHttpRequest: send() - Redirect to CORS-enabled resource (307) assert_equals: expected (string) "GET" but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/XMLHttpRequest/send-redirect-to-cors.htm:19:30
+step@http://localhost:8800/resources/testharness.js:798:30
+onreadystatechange@http://localhost:8800/XMLHttpRequest/send-redirect-to-cors.htm:17:22)
+

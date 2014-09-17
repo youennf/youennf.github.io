@@ -1,0 +1,10 @@
+
+PASS XMLHttpRequest: send() - Redirects (basics) (301) 
+PASS XMLHttpRequest: send() - Redirects (basics) (302) 
+FAIL XMLHttpRequest: send() - Redirects (basics) (303) assert_equals: expected "application/x-pony" but got "NO"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/send-redirect.htm:20:30
+step@http://localhost:8800/resources/testharness.js:798:30
+onreadystatechange@http://localhost:8800/XMLHttpRequest/send-redirect.htm:17:22)
+PASS XMLHttpRequest: send() - Redirects (basics) (307) 
+

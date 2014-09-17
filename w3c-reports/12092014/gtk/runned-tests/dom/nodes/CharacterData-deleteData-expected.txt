@@ -1,0 +1,7 @@
+
+PASS CharacterData.deleteData 
+PASS CharacterData.deleteData 1 
+PASS CharacterData.deleteData 2 
+PASS CharacterData.deleteData 3 
+PASS CharacterData.deleteData 4 
+

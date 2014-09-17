@@ -1,0 +1,29 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-11 16:22
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/content-security-policy/script-src/addInlineTestsWithDOMManipulation.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/content-security-policy/script-src/inlineSuccessTest.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/content-security-policy/script-src/inlineTests.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/content-security-policy/script-src/script-src-1_1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/content-security-policy/script-src/script-src-1_1.html.sub.headers
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/content-security-policy/script-src/script-src-1_2_1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/content-security-policy/script-src/script-src-1_2_1.html.sub.headers
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/content-security-policy/script-src/script-src-1_3.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/content-security-policy/script-src/script-src-1_3.html.sub.headers
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/content-security-policy/script-src/script-src-1_4.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/content-security-policy/script-src/script-src-1_4.html.sub.headers

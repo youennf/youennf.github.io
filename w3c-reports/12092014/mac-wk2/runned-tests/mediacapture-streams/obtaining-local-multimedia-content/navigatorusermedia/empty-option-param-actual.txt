@@ -1,0 +1,13 @@
+Description
+
+This test checks that getUserMedia with no value in the options parameter raises a NOT_SUPPORTED_ERR exception.
+
+The feature(s) tested here are known to have been made available via vendor prefixes; you can run this test with vendor prefixes enabled.
+
+FAIL Tests that getUserMedia raises a NOT_SUPPORTED_ERR exception when used with an empty options parameter assert_throws: function "function () {
+      navigator.getUserMedia({}, t.step_fun..." threw object "TypeError: undefined is not a function (evaluating 'navig..." that is not a DOMException NOT_SUPPORTED_ERR: property "code" is equal to undefined, expected 9(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/mediacapture-streams/obtaining-local-multimedia-content/navigatorusermedia/empty-option-param.html:22:16
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/mediacapture-streams/obtaining-local-multimedia-content/navigatorusermedia/empty-option-param.html:20:7)
+

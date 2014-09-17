@@ -1,0 +1,28 @@
+  
+ 
+  
+
+
+
+PASS The length attribute must return the number of elements in the form 
+PASS HTMLFormControlsCollection.item(index) must return the indexed item 
+PASS HTMLFormControlsCollection[index] must return the indexed item 
+FAIL HTMLFormControlsCollection(name) must return the named item HTMLFormControlsCollection is not a function (evaluating 'coll1("r1")')(stack: http://localhost:8800/html/infrastructure/common-dom-interfaces/collections/htmlformcontrolscollection.html:53:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/common-dom-interfaces/collections/htmlformcontrolscollection.html:52:5)
+PASS HTMLFormControlsCollection[name] must return the named item 
+PASS HTMLFormControlsCollection.namedItem(name) must return the named item 
+PASS The namedItem(name) must return an Element 
+FAIL The namedItem(name) must return RadioNodeList Can't find variable: RadioNodeList(stack: http://localhost:8800/html/infrastructure/common-dom-interfaces/collections/htmlformcontrolscollection.html:70:61
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/common-dom-interfaces/collections/htmlformcontrolscollection.html:69:5)
+PASS The namedItem(name) must return null if the name is empty 
+PASS The namedItem(name) must return null if there is no matched element 
+PASS Controls can be indexed by id or name attribute 
+PASS The namedItem(name) must return the items with id or name attribute 
+PASS The HTMLFormControlsCollection interface is used for collections of listed elements in form element 
+PASS The HTMLFormControlsCollection interface is used for collections of listed elements in fieldset element 
+PASS The controls in the form element must be sorted in tree order 
+

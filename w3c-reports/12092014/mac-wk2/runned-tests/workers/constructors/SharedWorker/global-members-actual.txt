@@ -1,0 +1,5 @@
+
+FAIL members of SharedWorkerGlobalScope undefined is not a constructor (evaluating 'new SharedWorker('#')')(stack: http://localhost:8800/workers/constructors/SharedWorker/global-members.html:20:32
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/workers/constructors/SharedWorker/global-members.html:19:20)
+

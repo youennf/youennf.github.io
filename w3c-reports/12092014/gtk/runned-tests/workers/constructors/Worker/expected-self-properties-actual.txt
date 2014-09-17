@@ -1,0 +1,7 @@
+
+FAIL expected interface objects/constructors assert_unreached: Worker did not exist Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/workers/workers.js:6:21
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

@@ -1,0 +1,15 @@
+
+FAIL Date returned by lastModified is in the user's local time zone. assert_equals: Hours and minutes should match local time. expected "16:22" but got "14:22"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/dom/documents/resource-metadata-management/document-lastModified-01.html:11:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/dom/documents/resource-metadata-management/document-lastModified-01.html:10:7)
+FAIL Date returned by lastModified is in the form "MM/DD/YYYY hh:mm:ss". assert_equals: hh part should match hours. expected "16" but got "14"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/dom/documents/resource-metadata-management/document-lastModified-01.html:29:19
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/dom/documents/resource-metadata-management/document-lastModified-01.html:23:7)
+PASS Date returned by lastModified is current. 
+

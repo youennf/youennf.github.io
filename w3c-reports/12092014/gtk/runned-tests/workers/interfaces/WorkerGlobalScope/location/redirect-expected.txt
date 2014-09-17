@@ -1,0 +1,7 @@
+
+FAIL location with a worker in separate file that redirects assert_equals: expected "http://localhost:8800/workers/interfaces/WorkerGlobalScope/location/post-location-members.js?a" but got "http://localhost:8800/workers/interfaces/WorkerGlobalScope/location/helper-redirect.py?fail"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/workers/interfaces/WorkerGlobalScope/location/redirect.html:13:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

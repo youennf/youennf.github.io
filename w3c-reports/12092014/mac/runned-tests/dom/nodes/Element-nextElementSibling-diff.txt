@@ -1,0 +1,12 @@
+--- /Users/youenn/Documents/WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/dom/nodes/Element-nextElementSibling-expected.txt
++++ /Users/youenn/Documents/WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/dom/nodes/Element-nextElementSibling-actual.txt
+@@ -1,7 +1,4 @@
++CONSOLE MESSAGE: line 74: TypeError: null is not an object (evaluating 'document.body.appendChild')
++FAIL: Timed out waiting for notifyDone to be called
+ Test of nextElementSibling
+-
+ The result of this test is unknown.
+-
+-
+-PASS nextElementSibling 
+-

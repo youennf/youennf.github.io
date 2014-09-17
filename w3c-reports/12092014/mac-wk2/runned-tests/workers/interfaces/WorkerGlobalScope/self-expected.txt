@@ -1,0 +1,7 @@
+
+FAIL self assert_true: self = 1 expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/workers/interfaces/WorkerGlobalScope/self.html:31:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

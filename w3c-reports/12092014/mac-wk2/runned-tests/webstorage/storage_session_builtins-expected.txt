@@ -1,0 +1,13 @@
+storage_session_builtins
+
+
+FAIL Web Storage assert_array_equals: b property 0, expected function "function key() {
+    [native code]
+}" but got "key"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:407:19
+http://localhost:8800/webstorage/storage_builtins.js:10:28
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_storage_builtins@http://localhost:8800/webstorage/storage_builtins.js:2:9
+global code@http://localhost:8800/webstorage/storage_session_builtins.html:13:30)
+

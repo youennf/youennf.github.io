@@ -1,0 +1,858 @@
+
+FAIL Checks whether an element "a" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "abbr" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "address" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "area" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "article" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "aside" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "audio" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "b" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "base" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "bdi" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "bdo" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "blockquote" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "body" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "br" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "button" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "canvas" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "caption" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "cite" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "code" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "col" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "colgroup" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "command" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "datalist" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "dd" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "del" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "details" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "dfn" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "dialog" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "div" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "dl" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "dt" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "em" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "embed" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "fieldset" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "figcaption" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "figure" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "footer" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "form" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "h1" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "h2" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "h3" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "h4" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "h5" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "h6" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "head" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "header" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "hgroup" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "hr" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "html" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "i" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "iframe" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "img" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "input" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "ins" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "kbd" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "keygen" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "label" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "legend" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "li" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "link" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "map" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "mark" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "menu" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "meta" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "meter" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "nav" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "noscript" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "object" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "ol" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "optgroup" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "option" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "output" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "p" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "param" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "pre" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "progress" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "q" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "rp" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "rt" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "ruby" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "s" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "samp" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "script" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "section" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "select" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "small" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "source" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "span" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "strong" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "style" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "sub" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "table" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "tbody" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "td" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "textarea" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "tfoot" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "th" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "thead" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "time" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "title" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "tr" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "track" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "u" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "ul" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "var" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "video" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+FAIL Checks whether an element "wbr" can create a shadow root. undefined is not a function (evaluating 'element.createShadowRoot()')(stack: testElement@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:32:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/methods/elements-001.html:46:15)
+

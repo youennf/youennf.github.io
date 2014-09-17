@@ -1,0 +1,6 @@
+CONSOLE MESSAGE: line 105: ReferenceError: Can't find variable: indexedDB
+
+FAIL Blocked event Can't find variable: indexedDB(stack: http://localhost:8800/IndexedDB/transaction-lifetime-blocked.htm:17:31
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/IndexedDB/transaction-lifetime-blocked.htm:16:11)
+

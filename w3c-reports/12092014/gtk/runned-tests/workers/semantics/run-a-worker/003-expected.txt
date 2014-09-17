@@ -1,0 +1,8 @@
+
+PASS worker 
+FAIL shared assert_unreached: Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/workers/semantics/run-a-worker/003.html:21:65
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

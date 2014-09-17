@@ -1,0 +1,8 @@
+
+
+FAIL getElementsByClassName across documents assert_equals: expected 3 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/dom/nodes/getElementsByClassName-31.htm:14:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:843:37)
+

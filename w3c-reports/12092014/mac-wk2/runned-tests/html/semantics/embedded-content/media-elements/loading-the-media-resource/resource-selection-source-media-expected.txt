@@ -1,0 +1,9 @@
+
+
+FAIL the <source> media attribute has no effect assert_equals: expected 2 but got 3(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/loading-the-media-resource/resource-selection-source-media.html:11:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/loading-the-media-resource/resource-selection-source-media.html:8:5)
+

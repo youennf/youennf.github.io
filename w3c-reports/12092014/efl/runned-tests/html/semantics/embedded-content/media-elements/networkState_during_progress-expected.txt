@@ -1,0 +1,15 @@
+spec reference
+
+  
+
+FAIL audioElement.networkState should be NETWORK_LOADING during progress event assert_equals: expected 2 but got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/networkState_during_progress.html:21:17
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/html/semantics/embedded-content/media-elements/networkState_during_progress.html:20:10)
+FAIL videoElement.networkState should be NETWORK_LOADING during progress event assert_equals: expected 2 but got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/networkState_during_progress.html:33:17
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/html/semantics/embedded-content/media-elements/networkState_during_progress.html:32:10)
+

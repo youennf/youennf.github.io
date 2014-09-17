@@ -1,0 +1,4 @@
+CONSOLE MESSAGE: line 8: TypeError: null is not an object (evaluating 'parent.appendChild')
+This test requires JavaScript.
+
+Harness Error. harness_status.status = 1 , harness_status.message = TypeError: null is not an object (evaluating 'parent.appendChild')

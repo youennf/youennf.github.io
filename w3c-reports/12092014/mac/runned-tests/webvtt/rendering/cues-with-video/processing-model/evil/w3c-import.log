@@ -1,0 +1,32 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-09 15:44
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/evil/9_cues_overlapping_completely-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/evil/9_cues_overlapping_completely.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/evil/9_cues_overlapping_completely_all_cues_have_same_timestamp-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/evil/9_cues_overlapping_completely_all_cues_have_same_timestamp.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/evil/media_404_omit_subtitles-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/evil/media_404_omit_subtitles.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/evil/media_height_19-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/evil/media_height_19.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/evil/single_quote-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/evil/single_quote.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/evil/size_90-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/evil/size_90.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/evil/size_99-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/rendering/cues-with-video/processing-model/evil/size_99.html

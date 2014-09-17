@@ -1,0 +1,13 @@
+
+PASS history.state should initially be null 
+PASS popstate event should not fire before onload fires 
+PASS history.state should still be null onload 
+FAIL popstate event should not fire after onload fires assert_false: expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/browsers/history/the-history-interface/006.html:26:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/browsers/history/the-history-interface/006.html:25:7)
+PASS history.state should still be null after onload 
+PASS writing to history.state should be silently ignored and not throw an error 
+

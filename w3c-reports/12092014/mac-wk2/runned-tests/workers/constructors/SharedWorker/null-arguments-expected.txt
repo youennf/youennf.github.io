@@ -1,0 +1,5 @@
+
+FAIL null as arguments undefined is not a constructor (evaluating 'new SharedWorker(null, null)')(stack: http://localhost:8800/workers/constructors/SharedWorker/null-arguments.html:14:32
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/workers/constructors/SharedWorker/null-arguments.html:13:20)
+

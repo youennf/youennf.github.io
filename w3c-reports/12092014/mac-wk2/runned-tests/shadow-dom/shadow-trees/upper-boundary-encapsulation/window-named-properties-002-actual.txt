@@ -1,0 +1,66 @@
+
+FAIL "a" element with name attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testNameAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:48:15)
+FAIL "applet" element with name attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testNameAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:48:15)
+FAIL "area" element with name attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testNameAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:48:15)
+FAIL "embed" element with name attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testNameAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:48:15)
+FAIL "form" element with name attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testNameAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:48:15)
+FAIL "frameset" element with name attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testNameAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:48:15)
+FAIL "img" element with name attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testNameAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:48:15)
+FAIL "object" element with name attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testNameAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-002.html:48:15)
+

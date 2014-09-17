@@ -1,0 +1,5 @@
+
+FAIL shared worker - EventSource: close() undefined is not a constructor (evaluating 'new SharedWorker('#')')(stack: http://localhost:8800/eventsource/shared-worker/eventsource-close.htm:27:38
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/eventsource/shared-worker/eventsource-close.htm:26:16)
+

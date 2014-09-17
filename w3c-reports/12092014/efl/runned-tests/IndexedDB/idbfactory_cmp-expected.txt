@@ -1,0 +1,6 @@
+
+FAIL IDBFactory.cmp() undefined is not an object (evaluating 'window.indexedDB.cmp')(stack: http://localhost:8800/IndexedDB/idbfactory_cmp.htm:11:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/IndexedDB/idbfactory_cmp.htm:10:9)
+

@@ -1,0 +1,1808 @@
+
+PASS Typed Array constructors 
+FAIL Constructing interface Int8Array with no arguments should throw. assert_throws: function "function () {
+        new window[i]();
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/typedarrays/constructors.html:32:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:30:9
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:29:57
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL Constructing interface Uint8Array with no arguments should throw. assert_throws: function "function () {
+        new window[i]();
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/typedarrays/constructors.html:32:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:30:9
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:29:57
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL Constructing interface Uint8ClampedArray with no arguments should throw. assert_throws: function "function () {
+        new window[i]();
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/typedarrays/constructors.html:32:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:30:9
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:29:57
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL Constructing interface Int16Array with no arguments should throw. assert_throws: function "function () {
+        new window[i]();
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/typedarrays/constructors.html:32:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:30:9
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:29:57
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL Constructing interface Uint16Array with no arguments should throw. assert_throws: function "function () {
+        new window[i]();
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/typedarrays/constructors.html:32:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:30:9
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:29:57
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL Constructing interface Int32Array with no arguments should throw. assert_throws: function "function () {
+        new window[i]();
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/typedarrays/constructors.html:32:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:30:9
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:29:57
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL Constructing interface Uint32Array with no arguments should throw. assert_throws: function "function () {
+        new window[i]();
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/typedarrays/constructors.html:32:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:30:9
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:29:57
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL Constructing interface Float32Array with no arguments should throw. assert_throws: function "function () {
+        new window[i]();
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/typedarrays/constructors.html:32:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:30:9
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:29:57
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL Constructing interface Float64Array with no arguments should throw. assert_throws: function "function () {
+        new window[i]();
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/typedarrays/constructors.html:32:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:30:9
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:29:57
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL Constructing interface ArrayBuffer with no arguments should throw. assert_throws: function "function () {
+        new window[i]();
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/typedarrays/constructors.html:32:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:30:9
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:29:57
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS Constructing interface DataView with no arguments should throw. 
+FAIL The argument NaN (0) should be interpreted as 0 for interface Int8Array. Invalid array length argument (fractional lengths not allowed)(stack: Int8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument Infinity (1) should be interpreted as 0 for interface Int8Array. Invalid array length argument (fractional lengths not allowed)(stack: Int8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -Infinity (2) should be interpreted as 0 for interface Int8Array. Invalid array length argument (fractional lengths not allowed)(stack: Int8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 0 (3) should be interpreted as 0 for interface Int8Array. 
+PASS The argument -0 (4) should be interpreted as 0 for interface Int8Array. 
+FAIL The argument -0.4 (5) should be interpreted as 0 for interface Int8Array. Invalid array length argument (fractional lengths not allowed)(stack: Int8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -0.9 (6) should be interpreted as 0 for interface Int8Array. Invalid array length argument (fractional lengths not allowed)(stack: Int8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 1.1 (7) should be interpreted as 1 for interface Int8Array. Invalid array length argument (fractional lengths not allowed)(stack: Int8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 2.9 (8) should be interpreted as 2 for interface Int8Array. Invalid array length argument (fractional lengths not allowed)(stack: Int8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 1 (9) should be interpreted as 1 for interface Int8Array. 
+FAIL The argument -4043309056 (10) should be interpreted as 251658240 for interface Int8Array. Invalid array length argument (fractional lengths not allowed)(stack: Int8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1" (11) should be interpreted as 1 for interface Int8Array. Invalid array length argument(stack: Int8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1e2" (12) should be interpreted as 100 for interface Int8Array. Invalid array length argument(stack: Int8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument undefined (13) should be interpreted as 0 for interface Int8Array. Invalid array length argument(stack: Int8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument null (14) should be interpreted as 0 for interface Int8Array. Invalid array length argument(stack: Int8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument false (15) should be interpreted as 0 for interface Int8Array. Invalid array length argument(stack: Int8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument true (16) should be interpreted as 1 for interface Int8Array. Invalid array length argument(stack: Int8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument object "[object Object]" (17) should be interpreted as 0 for interface Int8Array. 
+FAIL The argument object "[object Object]" (18) should be interpreted as 0 for interface Int8Array. assert_equals: expected 0 but got 2(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/typedarrays/constructors.html:42:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument [0, 0] (19) should be interpreted as 2 for interface Int8Array. 
+FAIL The argument NaN (0) should be interpreted as 0 for interface Uint8Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument Infinity (1) should be interpreted as 0 for interface Uint8Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -Infinity (2) should be interpreted as 0 for interface Uint8Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 0 (3) should be interpreted as 0 for interface Uint8Array. 
+PASS The argument -0 (4) should be interpreted as 0 for interface Uint8Array. 
+FAIL The argument -0.4 (5) should be interpreted as 0 for interface Uint8Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -0.9 (6) should be interpreted as 0 for interface Uint8Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 1.1 (7) should be interpreted as 1 for interface Uint8Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 2.9 (8) should be interpreted as 2 for interface Uint8Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 1 (9) should be interpreted as 1 for interface Uint8Array. 
+FAIL The argument -4043309056 (10) should be interpreted as 251658240 for interface Uint8Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1" (11) should be interpreted as 1 for interface Uint8Array. Invalid array length argument(stack: Uint8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1e2" (12) should be interpreted as 100 for interface Uint8Array. Invalid array length argument(stack: Uint8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument undefined (13) should be interpreted as 0 for interface Uint8Array. Invalid array length argument(stack: Uint8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument null (14) should be interpreted as 0 for interface Uint8Array. Invalid array length argument(stack: Uint8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument false (15) should be interpreted as 0 for interface Uint8Array. Invalid array length argument(stack: Uint8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument true (16) should be interpreted as 1 for interface Uint8Array. Invalid array length argument(stack: Uint8Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument object "[object Object]" (17) should be interpreted as 0 for interface Uint8Array. 
+FAIL The argument object "[object Object]" (18) should be interpreted as 0 for interface Uint8Array. assert_equals: expected 0 but got 2(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/typedarrays/constructors.html:42:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument [0, 0] (19) should be interpreted as 2 for interface Uint8Array. 
+FAIL The argument NaN (0) should be interpreted as 0 for interface Uint8ClampedArray. Invalid array length argument (fractional lengths not allowed)(stack: Uint8ClampedArray@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument Infinity (1) should be interpreted as 0 for interface Uint8ClampedArray. Invalid array length argument (fractional lengths not allowed)(stack: Uint8ClampedArray@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -Infinity (2) should be interpreted as 0 for interface Uint8ClampedArray. Invalid array length argument (fractional lengths not allowed)(stack: Uint8ClampedArray@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 0 (3) should be interpreted as 0 for interface Uint8ClampedArray. 
+PASS The argument -0 (4) should be interpreted as 0 for interface Uint8ClampedArray. 
+FAIL The argument -0.4 (5) should be interpreted as 0 for interface Uint8ClampedArray. Invalid array length argument (fractional lengths not allowed)(stack: Uint8ClampedArray@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -0.9 (6) should be interpreted as 0 for interface Uint8ClampedArray. Invalid array length argument (fractional lengths not allowed)(stack: Uint8ClampedArray@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 1.1 (7) should be interpreted as 1 for interface Uint8ClampedArray. Invalid array length argument (fractional lengths not allowed)(stack: Uint8ClampedArray@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 2.9 (8) should be interpreted as 2 for interface Uint8ClampedArray. Invalid array length argument (fractional lengths not allowed)(stack: Uint8ClampedArray@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 1 (9) should be interpreted as 1 for interface Uint8ClampedArray. 
+FAIL The argument -4043309056 (10) should be interpreted as 251658240 for interface Uint8ClampedArray. Invalid array length argument (fractional lengths not allowed)(stack: Uint8ClampedArray@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1" (11) should be interpreted as 1 for interface Uint8ClampedArray. Invalid array length argument(stack: Uint8ClampedArray@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1e2" (12) should be interpreted as 100 for interface Uint8ClampedArray. Invalid array length argument(stack: Uint8ClampedArray@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument undefined (13) should be interpreted as 0 for interface Uint8ClampedArray. Invalid array length argument(stack: Uint8ClampedArray@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument null (14) should be interpreted as 0 for interface Uint8ClampedArray. Invalid array length argument(stack: Uint8ClampedArray@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument false (15) should be interpreted as 0 for interface Uint8ClampedArray. Invalid array length argument(stack: Uint8ClampedArray@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument true (16) should be interpreted as 1 for interface Uint8ClampedArray. Invalid array length argument(stack: Uint8ClampedArray@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument object "[object Object]" (17) should be interpreted as 0 for interface Uint8ClampedArray. 
+FAIL The argument object "[object Object]" (18) should be interpreted as 0 for interface Uint8ClampedArray. assert_equals: expected 0 but got 2(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/typedarrays/constructors.html:42:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument [0, 0] (19) should be interpreted as 2 for interface Uint8ClampedArray. 
+FAIL The argument NaN (0) should be interpreted as 0 for interface Int16Array. Invalid array length argument (fractional lengths not allowed)(stack: Int16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument Infinity (1) should be interpreted as 0 for interface Int16Array. Invalid array length argument (fractional lengths not allowed)(stack: Int16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -Infinity (2) should be interpreted as 0 for interface Int16Array. Invalid array length argument (fractional lengths not allowed)(stack: Int16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 0 (3) should be interpreted as 0 for interface Int16Array. 
+PASS The argument -0 (4) should be interpreted as 0 for interface Int16Array. 
+FAIL The argument -0.4 (5) should be interpreted as 0 for interface Int16Array. Invalid array length argument (fractional lengths not allowed)(stack: Int16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -0.9 (6) should be interpreted as 0 for interface Int16Array. Invalid array length argument (fractional lengths not allowed)(stack: Int16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 1.1 (7) should be interpreted as 1 for interface Int16Array. Invalid array length argument (fractional lengths not allowed)(stack: Int16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 2.9 (8) should be interpreted as 2 for interface Int16Array. Invalid array length argument (fractional lengths not allowed)(stack: Int16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 1 (9) should be interpreted as 1 for interface Int16Array. 
+FAIL The argument -4043309056 (10) should be interpreted as 251658240 for interface Int16Array. Invalid array length argument (fractional lengths not allowed)(stack: Int16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1" (11) should be interpreted as 1 for interface Int16Array. Invalid array length argument(stack: Int16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1e2" (12) should be interpreted as 100 for interface Int16Array. Invalid array length argument(stack: Int16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument undefined (13) should be interpreted as 0 for interface Int16Array. Invalid array length argument(stack: Int16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument null (14) should be interpreted as 0 for interface Int16Array. Invalid array length argument(stack: Int16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument false (15) should be interpreted as 0 for interface Int16Array. Invalid array length argument(stack: Int16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument true (16) should be interpreted as 1 for interface Int16Array. Invalid array length argument(stack: Int16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument object "[object Object]" (17) should be interpreted as 0 for interface Int16Array. 
+FAIL The argument object "[object Object]" (18) should be interpreted as 0 for interface Int16Array. assert_equals: expected 0 but got 2(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/typedarrays/constructors.html:42:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument [0, 0] (19) should be interpreted as 2 for interface Int16Array. 
+FAIL The argument NaN (0) should be interpreted as 0 for interface Uint16Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument Infinity (1) should be interpreted as 0 for interface Uint16Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -Infinity (2) should be interpreted as 0 for interface Uint16Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 0 (3) should be interpreted as 0 for interface Uint16Array. 
+PASS The argument -0 (4) should be interpreted as 0 for interface Uint16Array. 
+FAIL The argument -0.4 (5) should be interpreted as 0 for interface Uint16Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -0.9 (6) should be interpreted as 0 for interface Uint16Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 1.1 (7) should be interpreted as 1 for interface Uint16Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 2.9 (8) should be interpreted as 2 for interface Uint16Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 1 (9) should be interpreted as 1 for interface Uint16Array. 
+FAIL The argument -4043309056 (10) should be interpreted as 251658240 for interface Uint16Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1" (11) should be interpreted as 1 for interface Uint16Array. Invalid array length argument(stack: Uint16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1e2" (12) should be interpreted as 100 for interface Uint16Array. Invalid array length argument(stack: Uint16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument undefined (13) should be interpreted as 0 for interface Uint16Array. Invalid array length argument(stack: Uint16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument null (14) should be interpreted as 0 for interface Uint16Array. Invalid array length argument(stack: Uint16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument false (15) should be interpreted as 0 for interface Uint16Array. Invalid array length argument(stack: Uint16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument true (16) should be interpreted as 1 for interface Uint16Array. Invalid array length argument(stack: Uint16Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument object "[object Object]" (17) should be interpreted as 0 for interface Uint16Array. 
+FAIL The argument object "[object Object]" (18) should be interpreted as 0 for interface Uint16Array. assert_equals: expected 0 but got 2(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/typedarrays/constructors.html:42:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument [0, 0] (19) should be interpreted as 2 for interface Uint16Array. 
+FAIL The argument NaN (0) should be interpreted as 0 for interface Int32Array. Invalid array length argument (fractional lengths not allowed)(stack: Int32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument Infinity (1) should be interpreted as 0 for interface Int32Array. Invalid array length argument (fractional lengths not allowed)(stack: Int32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -Infinity (2) should be interpreted as 0 for interface Int32Array. Invalid array length argument (fractional lengths not allowed)(stack: Int32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 0 (3) should be interpreted as 0 for interface Int32Array. 
+PASS The argument -0 (4) should be interpreted as 0 for interface Int32Array. 
+FAIL The argument -0.4 (5) should be interpreted as 0 for interface Int32Array. Invalid array length argument (fractional lengths not allowed)(stack: Int32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -0.9 (6) should be interpreted as 0 for interface Int32Array. Invalid array length argument (fractional lengths not allowed)(stack: Int32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 1.1 (7) should be interpreted as 1 for interface Int32Array. Invalid array length argument (fractional lengths not allowed)(stack: Int32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 2.9 (8) should be interpreted as 2 for interface Int32Array. Invalid array length argument (fractional lengths not allowed)(stack: Int32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 1 (9) should be interpreted as 1 for interface Int32Array. 
+FAIL The argument -4043309056 (10) should be interpreted as 251658240 for interface Int32Array. Invalid array length argument (fractional lengths not allowed)(stack: Int32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1" (11) should be interpreted as 1 for interface Int32Array. Invalid array length argument(stack: Int32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1e2" (12) should be interpreted as 100 for interface Int32Array. Invalid array length argument(stack: Int32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument undefined (13) should be interpreted as 0 for interface Int32Array. Invalid array length argument(stack: Int32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument null (14) should be interpreted as 0 for interface Int32Array. Invalid array length argument(stack: Int32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument false (15) should be interpreted as 0 for interface Int32Array. Invalid array length argument(stack: Int32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument true (16) should be interpreted as 1 for interface Int32Array. Invalid array length argument(stack: Int32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument object "[object Object]" (17) should be interpreted as 0 for interface Int32Array. 
+FAIL The argument object "[object Object]" (18) should be interpreted as 0 for interface Int32Array. assert_equals: expected 0 but got 2(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/typedarrays/constructors.html:42:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument [0, 0] (19) should be interpreted as 2 for interface Int32Array. 
+FAIL The argument NaN (0) should be interpreted as 0 for interface Uint32Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument Infinity (1) should be interpreted as 0 for interface Uint32Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -Infinity (2) should be interpreted as 0 for interface Uint32Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 0 (3) should be interpreted as 0 for interface Uint32Array. 
+PASS The argument -0 (4) should be interpreted as 0 for interface Uint32Array. 
+FAIL The argument -0.4 (5) should be interpreted as 0 for interface Uint32Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -0.9 (6) should be interpreted as 0 for interface Uint32Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 1.1 (7) should be interpreted as 1 for interface Uint32Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 2.9 (8) should be interpreted as 2 for interface Uint32Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 1 (9) should be interpreted as 1 for interface Uint32Array. 
+FAIL The argument -4043309056 (10) should be interpreted as 251658240 for interface Uint32Array. Invalid array length argument (fractional lengths not allowed)(stack: Uint32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1" (11) should be interpreted as 1 for interface Uint32Array. Invalid array length argument(stack: Uint32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1e2" (12) should be interpreted as 100 for interface Uint32Array. Invalid array length argument(stack: Uint32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument undefined (13) should be interpreted as 0 for interface Uint32Array. Invalid array length argument(stack: Uint32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument null (14) should be interpreted as 0 for interface Uint32Array. Invalid array length argument(stack: Uint32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument false (15) should be interpreted as 0 for interface Uint32Array. Invalid array length argument(stack: Uint32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument true (16) should be interpreted as 1 for interface Uint32Array. Invalid array length argument(stack: Uint32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument object "[object Object]" (17) should be interpreted as 0 for interface Uint32Array. 
+FAIL The argument object "[object Object]" (18) should be interpreted as 0 for interface Uint32Array. assert_equals: expected 0 but got 2(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/typedarrays/constructors.html:42:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument [0, 0] (19) should be interpreted as 2 for interface Uint32Array. 
+FAIL The argument NaN (0) should be interpreted as 0 for interface Float32Array. Invalid array length argument (fractional lengths not allowed)(stack: Float32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument Infinity (1) should be interpreted as 0 for interface Float32Array. Invalid array length argument (fractional lengths not allowed)(stack: Float32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -Infinity (2) should be interpreted as 0 for interface Float32Array. Invalid array length argument (fractional lengths not allowed)(stack: Float32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 0 (3) should be interpreted as 0 for interface Float32Array. 
+PASS The argument -0 (4) should be interpreted as 0 for interface Float32Array. 
+FAIL The argument -0.4 (5) should be interpreted as 0 for interface Float32Array. Invalid array length argument (fractional lengths not allowed)(stack: Float32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -0.9 (6) should be interpreted as 0 for interface Float32Array. Invalid array length argument (fractional lengths not allowed)(stack: Float32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 1.1 (7) should be interpreted as 1 for interface Float32Array. Invalid array length argument (fractional lengths not allowed)(stack: Float32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 2.9 (8) should be interpreted as 2 for interface Float32Array. Invalid array length argument (fractional lengths not allowed)(stack: Float32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 1 (9) should be interpreted as 1 for interface Float32Array. 
+FAIL The argument -4043309056 (10) should be interpreted as 251658240 for interface Float32Array. Invalid array length argument (fractional lengths not allowed)(stack: Float32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1" (11) should be interpreted as 1 for interface Float32Array. Invalid array length argument(stack: Float32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1e2" (12) should be interpreted as 100 for interface Float32Array. Invalid array length argument(stack: Float32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument undefined (13) should be interpreted as 0 for interface Float32Array. Invalid array length argument(stack: Float32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument null (14) should be interpreted as 0 for interface Float32Array. Invalid array length argument(stack: Float32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument false (15) should be interpreted as 0 for interface Float32Array. Invalid array length argument(stack: Float32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument true (16) should be interpreted as 1 for interface Float32Array. Invalid array length argument(stack: Float32Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument object "[object Object]" (17) should be interpreted as 0 for interface Float32Array. 
+FAIL The argument object "[object Object]" (18) should be interpreted as 0 for interface Float32Array. assert_equals: expected 0 but got 2(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/typedarrays/constructors.html:42:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument [0, 0] (19) should be interpreted as 2 for interface Float32Array. 
+FAIL The argument NaN (0) should be interpreted as 0 for interface Float64Array. Invalid array length argument (fractional lengths not allowed)(stack: Float64Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument Infinity (1) should be interpreted as 0 for interface Float64Array. Invalid array length argument (fractional lengths not allowed)(stack: Float64Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -Infinity (2) should be interpreted as 0 for interface Float64Array. Invalid array length argument (fractional lengths not allowed)(stack: Float64Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 0 (3) should be interpreted as 0 for interface Float64Array. 
+PASS The argument -0 (4) should be interpreted as 0 for interface Float64Array. 
+FAIL The argument -0.4 (5) should be interpreted as 0 for interface Float64Array. Invalid array length argument (fractional lengths not allowed)(stack: Float64Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument -0.9 (6) should be interpreted as 0 for interface Float64Array. Invalid array length argument (fractional lengths not allowed)(stack: Float64Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 1.1 (7) should be interpreted as 1 for interface Float64Array. Invalid array length argument (fractional lengths not allowed)(stack: Float64Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument 2.9 (8) should be interpreted as 2 for interface Float64Array. Invalid array length argument (fractional lengths not allowed)(stack: Float64Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument 1 (9) should be interpreted as 1 for interface Float64Array. 
+FAIL The argument -4043309056 (10) should be interpreted as 251658240 for interface Float64Array. Invalid array length argument (fractional lengths not allowed)(stack: Float64Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1" (11) should be interpreted as 1 for interface Float64Array. Invalid array length argument(stack: Float64Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument "1e2" (12) should be interpreted as 100 for interface Float64Array. Invalid array length argument(stack: Float64Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument undefined (13) should be interpreted as 0 for interface Float64Array. Invalid array length argument(stack: Float64Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument null (14) should be interpreted as 0 for interface Float64Array. Invalid array length argument(stack: Float64Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument false (15) should be interpreted as 0 for interface Float64Array. Invalid array length argument(stack: Float64Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+FAIL The argument true (16) should be interpreted as 1 for interface Float64Array. Invalid array length argument(stack: Float64Array@[native code]
+http://localhost:8800/typedarrays/constructors.html:41:31
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument object "[object Object]" (17) should be interpreted as 0 for interface Float64Array. 
+FAIL The argument object "[object Object]" (18) should be interpreted as 0 for interface Float64Array. assert_equals: expected 0 but got 2(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/typedarrays/constructors.html:42:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/typedarrays/constructors.html:40:11
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:38:17
+forEach@[native code]
+http://localhost:8800/typedarrays/constructors.html:37:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/typedarrays/constructors.html:28:5)
+PASS The argument [0, 0] (19) should be interpreted as 2 for interface Float64Array. 
+

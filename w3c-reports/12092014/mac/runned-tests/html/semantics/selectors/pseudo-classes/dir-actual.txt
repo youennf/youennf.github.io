@@ -1,0 +1,21 @@
+WERBEH HEBREW HEBREW WERBEH HEBREW WERBEH WERBEH HEBREW ‮WERBEH‬ HEBREW إيان עברית
+
+FAIL ':dir(rtl)' matches all elements whose directionality is 'rtl'. SyntaxError: DOM Exception 12(stack: querySelectorAll@[native code]
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:11:45
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/dir.html:30:15)
+FAIL ':dir(ltr)' matches all elements whose directionality is 'ltr'. SyntaxError: DOM Exception 12(stack: querySelectorAll@[native code]
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:11:45
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/dir.html:31:15)
+FAIL ':dir(ltr)' doesn't match elements not in the document. SyntaxError: DOM Exception 12(stack: querySelectorAll@[native code]
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:11:45
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/dir.html:35:15)
+

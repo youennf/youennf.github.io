@@ -1,0 +1,8 @@
+
+FAIL The scoped attribute is present, the style information must be applied only to its parent element assert_equals: The width should not be applied. expected "50px" but got "100px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/document-metadata/the-style-element/style_scoped.html:38:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/document-metadata/the-style-element/style_scoped.html:28:11)
+

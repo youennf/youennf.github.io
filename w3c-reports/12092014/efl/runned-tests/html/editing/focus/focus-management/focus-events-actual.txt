@@ -1,0 +1,17 @@
+ 
+
+FAIL focusing on a focusable element fires a focus event at the element assert_true: focus event is trusted expected true got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/editing/focus/focus-management/focus-events.html:18:16
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:843:37
+focus@[native code]
+global code@http://localhost:8800/html/editing/focus/focus-management/focus-events.html:31:11)
+FAIL focusing on a focusable element fires a blur event at the previous focussed element assert_true: blur event is trusted expected true got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/editing/focus/focus-management/focus-events.html:25:16
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:843:37
+focus@[native code]
+global code@http://localhost:8800/html/editing/focus/focus-management/focus-events.html:31:11)
+

@@ -1,0 +1,6 @@
+ERR<6079>:evas_main lib/evas/canvas/evas_gl.c:42 evas_gl_new() Evas GL engine not available.
+1   0x7fd110f07ab0
+2   0x7fd11129f900
+3   0x7fd10ef24319 WebCore::NavigatorContentUtils::registerProtocolHandler(WebCore::Navigator*, WTF::String const&, WTF::String const&, WTF::String const&, int&)
+4   0x7fd10fef534b WebCore::jsNavigatorPrototypeFunctionRegisterProtocolHandler(JSC::ExecState*)
+5   0x7fd0bf90b0b4

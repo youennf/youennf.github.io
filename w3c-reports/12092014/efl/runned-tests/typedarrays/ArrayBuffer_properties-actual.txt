@@ -1,0 +1,11 @@
+
+PASS Typed Arrays Test: ArrayBuffer properties 
+PASS Check if the byteLength is fixed at construction time and readonly 
+PASS Check if the new ArrayBuffer contains all bytes from begin to the end of this ArrayBuffer when the end is unspecified 
+PASS Check if the new ArrayBuffer contains the bytes from begin to the end of this ArrayBuffer when the end is specified 
+PASS Check if the slice range specified by the begin and end values is clamped to the valid index range for the current array 
+PASS Check if it refers to an index from the end of the array when either begin or end is negative 
+PASS Check if the length is clamped to zero when the computed length of the new ArrayBuffer is negative 
+PASS Check if the isView returns true when the value is an object implementing the ArrayBufferView interface 
+PASS Check if the isView returns false when the value is an object not implementing the ArrayBufferView interface 
+

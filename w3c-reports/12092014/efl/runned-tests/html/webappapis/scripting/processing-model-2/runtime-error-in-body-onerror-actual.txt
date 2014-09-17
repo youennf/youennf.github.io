@@ -1,0 +1,8 @@
+CONSOLE MESSAGE: line 16: ReferenceError: Can't find variable: undefined_variable
+
+FAIL runtime error in <body onerror> assert_equals: ran expected 1 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/webappapis/scripting/processing-model-2/runtime-error-in-body-onerror.html:20:22
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/webappapis/scripting/processing-model-2/runtime-error-in-body-onerror.html:19:11)
+

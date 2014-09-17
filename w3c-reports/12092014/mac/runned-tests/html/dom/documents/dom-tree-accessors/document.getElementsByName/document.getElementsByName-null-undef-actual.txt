@@ -1,0 +1,3 @@
+
+PASS Calling getElementsByName with null and undefined 
+

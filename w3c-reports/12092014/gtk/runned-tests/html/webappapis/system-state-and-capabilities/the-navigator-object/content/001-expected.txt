@@ -1,0 +1,6 @@
+
+FAIL isContentHandlerRegistered for new content type undefined is not a function (evaluating 'navigator.isContentHandlerRegistered('application/x-notRegisteredInOtherTCs-001', location.href.replace(/\/[^\/]*$/, "") + '/%s')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content/001.xhtml:13:53
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content/001.xhtml:12:5)
+

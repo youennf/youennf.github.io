@@ -1,0 +1,6 @@
+CONSOLE MESSAGE: line 134: TypeError: undefined is not a function (evaluating 'document.createTouch(window, target0, 44, 25, 30, 45, 50)')
+Touch Events: createTouch and createTouchList tests
+
+Please wait for test to complete...
+
+Harness Error. harness_status.status = 1 , harness_status.message = TypeError: undefined is not a function (evaluating 'document.createTouch(window, target0, 44, 25, 30, 45, 50)')

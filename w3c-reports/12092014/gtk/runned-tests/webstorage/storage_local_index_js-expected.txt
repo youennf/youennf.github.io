@@ -1,0 +1,8 @@
+storage_local_index
+
+
+PASS Web Storage 
+PASS Web Storage 1 
+PASS Web Storage 2 
+PASS Web Storage 3 
+

@@ -1,0 +1,8 @@
+
+FAIL Getter with CDATA section assert_equals: expected "\n\n\n  var x = \"y\";\n\n" but got "\n7;\n\n  var x = \"y\";\n\n"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/scripting-1/the-script-element/script-text.xhtml:35:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/scripting-1/the-script-element/script-text.xhtml:34:5)
+

@@ -1,0 +1,32 @@
+
+FAIL IDBCursor.direction - undefined DataError: DOM IDBDatabase Exception 0(stack: openCursor@[native code]
+http://localhost:8800/IndexedDB/idbcursor-direction.htm:48:42
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL IDBCursor.direction - next DataError: DOM IDBDatabase Exception 0(stack: openCursor@[native code]
+http://localhost:8800/IndexedDB/idbcursor-direction.htm:30:42
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL IDBCursor.direction - prev DataError: DOM IDBDatabase Exception 0(stack: openCursor@[native code]
+http://localhost:8800/IndexedDB/idbcursor-direction.htm:30:42
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL IDBCursor.direction - nextunique DataError: DOM IDBDatabase Exception 0(stack: openCursor@[native code]
+http://localhost:8800/IndexedDB/idbcursor-direction.htm:30:42
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL IDBCursor.direction - prevunique DataError: DOM IDBDatabase Exception 0(stack: openCursor@[native code]
+http://localhost:8800/IndexedDB/idbcursor-direction.htm:30:42
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

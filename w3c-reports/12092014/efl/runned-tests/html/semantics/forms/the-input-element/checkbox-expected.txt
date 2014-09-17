@@ -1,0 +1,33 @@
+     
+
+FAIL click on mutable checkbox fires the input and change events assert_true: event should be trusted expected true got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/semantics/forms/the-input-element/checkbox.html:42:16
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+click@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/checkbox.html:57:20
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/semantics/forms/the-input-element/checkbox.html:56:10)
+PASS click on non-mutable checkbox doesn't fire the input or change event 
+PASS pre-activation steps on unchecked checkbox 
+PASS pre-activation steps on checked checkbox 
+FAIL canceled activation steps on unchecked checkbox assert_false: expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/forms/the-input-element/checkbox.html:86:17
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+click@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/checkbox.html:94:20
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/semantics/forms/the-input-element/checkbox.html:91:10)
+FAIL canceled activation steps on unchecked checkbox (indeterminate=true in onclick) assert_false: expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/forms/the-input-element/checkbox.html:100:17
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+click@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/checkbox.html:108:20
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/semantics/forms/the-input-element/checkbox.html:105:10)
+

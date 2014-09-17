@@ -1,0 +1,13 @@
+CONSOLE MESSAGE: Cross-origin text track load denied by Cross-Origin Resource Sharing policy.
+
+
+FAIL VTTCue.align, script-created cue SyntaxError: DOM Exception 12(stack: http://localhost:8800/webvtt/webvtt-api-for-browsers/vttcue-interface/align.html:24:7
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/webvtt/webvtt-api-for-browsers/vttcue-interface/align.html:7:5)
+FAIL VTTCue.align, parsed cue assert_unreached: got error event Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/webvtt/webvtt-api-for-browsers/vttcue-interface/align.html:45:23
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

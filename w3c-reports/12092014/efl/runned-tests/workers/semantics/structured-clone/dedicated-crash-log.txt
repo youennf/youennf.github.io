@@ -1,0 +1,62 @@
+crash log for WebProcess (pid <unknown>):
+
+Coredump core-pid_<unknown>-_-process_WebProcess not found. To enable crash logs:
+
+- run this command as super-user: echo "/path/to/coredumps/core-pid_%p-_-process_%e" > /proc/sys/kernel/core_pattern
+- enable core dumps: ulimit -c unlimited
+- set the WEBKIT_CORE_DUMPS_DIRECTORY environment variable: export WEBKIT_CORE_DUMPS_DIRECTORY=/path/to/coredumps
+
+
+STDERR: 1   0x7f6f501a2ae7 WTFCrash
+STDERR: 2   0x7f6f4fe78c45 JSC::BlockAllocator::BlockAllocator()
+STDERR: 3   0x7f6f4fe9831c JSC::Heap::Heap(JSC::VM*, JSC::HeapType)
+STDERR: 4   0x7f6f5013ef9d JSC::VM::VM(JSC::VM::VMType, JSC::HeapType)
+STDERR: 5   0x7f6f5014089d JSC::VM::create(JSC::HeapType)
+STDERR: 1   0x7f6f501a2ae7 WTFCrash
+STDERR: 2   0x7f6f4fe78c45 JSC::BlockAllocator::BlockAllocator()
+STDERR: 3   0x7f6f4fe9831c JSC::Heap::Heap(JSC::VM*, JSC::HeapType)
+STDERR: 4   0x7f6f5013ef9d JSC::VM::VM(JSC::VM::VMType, JSC::HeapType)
+STDERR: 5   0x7f6f5014089d JSC::VM::create(JSC::HeapType)
+STDERR: 1   0x7f6f501a2ae7 WTFCrash
+STDERR: 2   0x7f6f4fe78c45 JSC::BlockAllocator::BlockAllocator()
+STDERR: 3   0x7f6f4fe9831c JSC::Heap::Heap(JSC::VM*, JSC::HeapType)
+STDERR: 4   0x7f6f5013ef9d JSC::VM::VM(JSC::VM::VMType, JSC::HeapType)
+STDERR: 5   0x7f6f5014089d JSC::VM::create(JSC::HeapType)
+STDERR: 6   0x7f6f4e2e0793 WebCore::WorkerScriptController::WorkerScriptController(WebCore::WorkerGlobalScope*)
+STDERR: 6   0x7f6f4e2e0793 WebCore::WorkerScriptController::WorkerScriptController(WebCore::WorkerGlobalScope*)
+STDERR: 6   0x7f6f4e2e0793 WebCore::WorkerScriptController::WorkerScriptController(WebCore::WorkerGlobalScope*)
+STDERR: 7   0x7f6f4ed8c711 WebCore::WorkerGlobalScope::WorkerGlobalScope(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WebCore::WorkerThread&, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+STDERR: 7   0x7f6f4ed8c711 WebCore::WorkerGlobalScope::WorkerGlobalScope(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WebCore::WorkerThread&, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+STDERR: 7   0x7f6f4ed8c711 WebCore::WorkerGlobalScope::WorkerGlobalScope(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WebCore::WorkerThread&, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+STDERR: 8   0x7f6f4ed861e7 WebCore::DedicatedWorkerGlobalScope::DedicatedWorkerGlobalScope(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WebCore::DedicatedWorkerThread&, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+STDERR: 8   0x7f6f4ed861e7 WebCore::DedicatedWorkerGlobalScope::DedicatedWorkerGlobalScope(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WebCore::DedicatedWorkerThread&, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+STDERR: 8   0x7f6f4ed861e7 WebCore::DedicatedWorkerGlobalScope::DedicatedWorkerGlobalScope(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WebCore::DedicatedWorkerThread&, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+STDERR: 1   0x7f6f501a2ae7 WTFCrash
+STDERR: 2   0x7f6f4fe78c45 JSC::BlockAllocator::BlockAllocator()
+STDERR: 3   0x7f6f4fe9831c JSC::Heap::Heap(JSC::VM*, JSC::HeapType)
+STDERR: 4   0x7f6f5013ef9d JSC::VM::VM(JSC::VM::VMType, JSC::HeapType)
+STDERR: 5   0x7f6f5014089d JSC::VM::create(JSC::HeapType)
+STDERR: 9   0x7f6f4ed86608 WebCore::DedicatedWorkerGlobalScope::create(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WebCore::DedicatedWorkerThread&, WTF::String const&, WebCore::ContentSecurityPolicy::HeaderType, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+STDERR: 10  0x7f6f4ed86926 WebCore::DedicatedWorkerThread::createWorkerGlobalScope(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WTF::String const&, WebCore::ContentSecurityPolicy::HeaderType, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+STDERR: 11  0x7f6f4ed94101 WebCore::WorkerThread::workerThread()
+STDERR: 12  0x7f6f501e56c2
+STDERR: 13  0x7f6f4af20f35
+STDERR: 14  0x7f6f505f9c3d clone
+STDERR: 9   0x7f6f4ed86608 WebCore::DedicatedWorkerGlobalScope::create(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WebCore::DedicatedWorkerThread&, WTF::String const&, WebCore::ContentSecurityPolicy::HeaderType, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+STDERR: 10  0x7f6f4ed86926 WebCore::DedicatedWorkerThread::createWorkerGlobalScope(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WTF::String const&, WebCore::ContentSecurityPolicy::HeaderType, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+STDERR: 11  0x7f6f4ed94101 WebCore::WorkerThread::workerThread()
+STDERR: 12  0x7f6f501e56c2
+STDERR: 13  0x7f6f4af20f35
+STDERR: 14  0x7f6f505f9c3d clone
+STDERR: 6   0x7f6f4e2e0793 WebCore::WorkerScriptController::WorkerScriptController(WebCore::WorkerGlobalScope*)
+STDERR: 9   0x7f6f4ed86608 WebCore::DedicatedWorkerGlobalScope::create(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WebCore::DedicatedWorkerThread&, WTF::String const&, WebCore::ContentSecurityPolicy::HeaderType, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+STDERR: 10  0x7f6f4ed86926 WebCore::DedicatedWorkerThread::createWorkerGlobalScope(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WTF::String const&, WebCore::ContentSecurityPolicy::HeaderType, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+STDERR: 11  0x7f6f4ed94101 WebCore::WorkerThread::workerThread()
+STDERR: 12  0x7f6f501e56c2
+STDERR: 13  0x7f6f4af20f35
+STDERR: 14  0x7f6f505f9c3d clone
+STDERR: 7   0x7f6f4ed8c711 WebCore::WorkerGlobalScope::WorkerGlobalScope(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WebCore::WorkerThread&, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+STDERR: 8   0x7f6f4ed861e7 WebCore::DedicatedWorkerGlobalScope::DedicatedWorkerGlobalScope(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WebCore::DedicatedWorkerThread&, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+STDERR: 9   0x7f6f4ed86608 WebCore::DedicatedWorkerGlobalScope::create(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WebCore::DedicatedWorkerThread&, WTF::String const&, WebCore::ContentSecurityPolicy::HeaderType, WTF::PassRefPtr<WebCore::SecurityOrigin>)
+STDERR: 1   0x7f6f501a2ae7 WTFCrash
+STDERR: 10  0x7f6f4ed86926 WebCore::DedicatedWorkerThread::createWorkerGlobalScope(WebCore::URL const&, WTF::String const&, std::unique_ptr<WebCore::GroupSettings, std::default_delete<WebCore::GroupSettings> >, WTF::String const&, WebCore::ContentSecurityPolicy::HeaderType, WTF::PassRefPtr<WebCore::SecurityOrigin>)

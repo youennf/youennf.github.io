@@ -1,0 +1,16 @@
+
+FAIL Only <a>s, <area>s and <link>s that have a href attribute match ':link' assert_array_equals: lengths differ, expected 7 got 3(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:12:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/link.html:20:15)
+FAIL ':link' doesn't match elements whos href attribute has been removed assert_array_equals: lengths differ, expected 6 got 3(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:12:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/link.html:23:15)
+

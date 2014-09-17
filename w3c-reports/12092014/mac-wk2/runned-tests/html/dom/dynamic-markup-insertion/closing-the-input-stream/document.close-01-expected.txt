@@ -1,0 +1,10 @@
+
+FAIL document.close in XHTML assert_throws: document.close in XHTML should throw an INVALID_STATE_ERR  function "function () {
+    document.close();
+  }" threw object "TypeError: undefined is not a function (evaluating 'docum..." that is not a DOMException INVALID_STATE_ERR: property "code" is equal to undefined, expected 11(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/html/dom/dynamic-markup-insertion/closing-the-input-stream/document.close-01.xhtml:22:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/dom/dynamic-markup-insertion/closing-the-input-stream/document.close-01.xhtml:21:5)
+

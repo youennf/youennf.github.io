@@ -1,0 +1,8 @@
+
+PASS Typed Arrays Test: Uint8ClampedArray subarray 
+PASS Check if a new Uint8ClampedArray is returned for the Uint8ClampedArray, referencing the elements at begin 
+PASS Check if a new Uint8ClampedArray is returned for the Uint8ClampedArray, referencing the elements at begin to end 
+PASS Check if the subarray range specified by the begin and end values is clamped to the valid index range for the current array 
+PASS Check if it refers to an index from the end of the array when either begin or end is negative 
+PASS Check if the length is clamped to zero when the computed length of the new Uint8ClampedArray is negative 
+

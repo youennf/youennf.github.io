@@ -1,0 +1,68 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-09 15:43
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/allowany.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/array.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/attributes.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/callback.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/caller.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/constants.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/constructor.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/dictionary-inherits.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/dictionary.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/documentation-dos.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/documentation.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/enum.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/equivalent-decl.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/exception-inheritance.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/exception.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/getter-setter.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/identifier-qualified-names.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/implements.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/indexed-properties.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/inherits-getter.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/interface-inherits.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/iterator.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/module.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/namedconstructor.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/namespaceobject.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/nointerfaceobject.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/nullable.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/nullableobjects.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/operation-optional-arg.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/overloading.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/overridebuiltins.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/partial-interface.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/primitives.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/prototyperoot.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/putforwards.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/reg-operations.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/replaceable.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/sequence.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/serializer.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/special-omittable.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/static.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/stringifier-attribute.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/stringifier-custom.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/stringifier.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/treatasnull.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/treatasundefined.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/typedef.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/typesuffixes.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/uniontype.widlprocxml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/WebIDL/tests/submissions/W3C/valid/xml/variadic-operations.widlprocxml

@@ -1,0 +1,8 @@
+
+FAIL Indexed child browsing contexts assert_equals: The first child browsing context's container should be the object element. expected (undefined) undefined but got (object) object "[object Window]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/browsers/the-window-object/accessing-other-browsing-contexts/indexed-browsing-contexts-03.html:13:20
+step@http://localhost:8800/resources/testharness.js:798:30
+on_load@http://localhost:8800/html/browsers/the-window-object/accessing-other-browsing-contexts/indexed-browsing-contexts-03.html:12:12
+onload@http://localhost:8800/html/browsers/the-window-object/accessing-other-browsing-contexts/indexed-browsing-contexts-03.html:23:8)
+

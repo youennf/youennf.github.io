@@ -1,0 +1,16 @@
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?1&origin=none&code=400
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-makeheader.py?3&headers=x-custom&code=400
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-makeheader.py?2&origin=none&preflight=200. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-makeheader.py?5&headers=x-custom&preflight=400. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-makeheader.py?4&headers=x-custom&code=400&preflight=200. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+The returned status code in different scenarios
+
+   allowed  preflight  response  | status |
+   -------  ---------  --------  | ------ |
+ 1      no          x       400  |      0 |
+ 2      no        200         x  |      0 |
+ 3     yes          x       400  |    400 |
+ 4     yes        200       400  |    400 |
+ 5     yes        400         x  |      0 |
+
+Harness Error. harness_status.status = 2 , harness_status.message = null

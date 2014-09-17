@@ -1,0 +1,10 @@
+
+FAIL A_08_02_01_T01 undefined is not a function (evaluating 'div.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/html-elements-in-shadow-trees/html-forms/test-001.html:35:33
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/html-elements-in-shadow-trees/html-forms/test-001.html:26:5)
+FAIL A_08_02_01_T02 undefined is not a function (evaluating 'div.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/html-elements-in-shadow-trees/html-forms/test-001.html:60:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/html-elements-in-shadow-trees/html-forms/test-001.html:52:5)
+

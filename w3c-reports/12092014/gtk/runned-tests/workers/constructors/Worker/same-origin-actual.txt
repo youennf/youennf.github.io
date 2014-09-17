@@ -1,0 +1,15 @@
+
+PASS unsupported_scheme 
+FAIL data_url SecurityError: DOM Exception 18(stack: [native code]
+http://localhost:8800/workers/constructors/Worker/same-origin.html:18:26
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/constructors/Worker/same-origin.html:17:11)
+PASS about_blank 
+PASS example_invalid 
+PASS port_81 
+PASS https_port_80 
+PASS https_port_8000 
+PASS http_post_8012 
+PASS javascript_url 
+

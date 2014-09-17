@@ -1,0 +1,5 @@
+
+FAIL A_08_01_01_T01 undefined is not a function (evaluating 'root.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/html-elements-in-shadow-trees/inert-html-elements/test-001.html:62:34
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/html-elements-in-shadow-trees/inert-html-elements/test-001.html:39:20)
+

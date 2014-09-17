@@ -1,0 +1,10 @@
+
+FAIL Test Description: dispatchEvent - DOMException NOT_SUPPORTED_ERR raises if the Event object has not been created using DocumentEvent.createEvent(). assert_throws: function "function () {
+            TARGET.dispatchEvent(EventObjec..." did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+DispatchEvent@http://localhost:8800/DOMEvents/tests/submissions/Microsoft/converted/dispatchEvent.NOT_SUPPORTED_ERR.html:41:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+click@[native code]
+onload@http://localhost:8800/DOMEvents/tests/submissions/Microsoft/converted/dispatchEvent.NOT_SUPPORTED_ERR.html:36:22)
+

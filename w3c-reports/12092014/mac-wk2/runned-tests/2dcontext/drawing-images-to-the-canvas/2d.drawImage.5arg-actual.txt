@@ -1,0 +1,13 @@
+2d.drawImage.5arg
+Actual output:
+Expected output:
+
+ 
+
+FAIL Canvas test: 2d.drawImage.5arg IndexSizeError: DOM Exception 1(stack: drawImage@[native code]
+http://localhost:8800/2dcontext/drawing-images-to-the-canvas/2d.drawImage.5arg.html:24:14
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

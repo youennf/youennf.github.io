@@ -1,0 +1,14 @@
+     
+
+FAIL The window's frameElement attribute must return its container element if it is a nested browsing context undefined is not an object (evaluating 'document.getElementById("fr3").contentWindow[0].frameElement')(stack: http://localhost:8800/html/browsers/windows/nested-browsing-contexts/frameElement.sub.html:20:66
+step@http://localhost:8800/resources/testharness.js:798:30
+on_load@http://localhost:8800/html/browsers/windows/nested-browsing-contexts/frameElement.sub.html:13:10
+onload@http://localhost:8800/html/browsers/windows/nested-browsing-contexts/frameElement.sub.html:34:8)
+FAIL The SecurityError must be thrown if the container's document does not have the same effective script origin assert_throws: The SecurityError exception should be thrown. function "function () { frames[1].frameElement; }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/html/browsers/windows/nested-browsing-contexts/frameElement.sub.html:27:18
+step@http://localhost:8800/resources/testharness.js:798:30
+on_load@http://localhost:8800/html/browsers/windows/nested-browsing-contexts/frameElement.sub.html:26:10
+onload@http://localhost:8800/html/browsers/windows/nested-browsing-contexts/frameElement.sub.html:34:8)
+PASS The window's frameElement attribute must return null if it is not a nested browsing context 
+

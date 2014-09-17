@@ -1,0 +1,30 @@
+
+FAIL Registering valid custom element types assert_unreached: Exception should not be thrown in case of attempt to register a custom element with a name 'x-frame' Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/custom-elements/concepts/custom-elements-type-naming.html:29:29
+forEach@[native code]
+http://localhost:8800/custom-elements/concepts/custom-elements-type-naming.html:25:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-naming.html:17:5)
+FAIL Registering invalid custom element types should fail assert_throws: Exception should be thrown in case of attempt to register element with the name 'xframe' function "function () {
+            doc.registerElement(value);
+   ..." threw object "TypeError: undefined is not a function (evaluating 'doc.r..." that is not a DOMException SyntaxError: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/custom-elements/concepts/custom-elements-type-naming.html:40:22
+forEach@[native code]
+http://localhost:8800/custom-elements/concepts/custom-elements-type-naming.html:39:25
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-naming.html:35:5)
+FAIL Registering forbidden custom element types should fail assert_throws: Exception should be thrown in case of attempt to register element with the name 'annotation-xml' function "function () {
+            doc.registerElement(value);
+   ..." threw object "TypeError: undefined is not a function (evaluating 'doc.r..." that is not a DOMException SyntaxError: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/custom-elements/concepts/custom-elements-type-naming.html:58:22
+forEach@[native code]
+http://localhost:8800/custom-elements/concepts/custom-elements-type-naming.html:57:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/concepts/custom-elements-type-naming.html:47:5)
+

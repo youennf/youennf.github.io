@@ -1,0 +1,7 @@
+
+FAIL close() and incoming message assert_true: got error expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/workers/interfaces/WorkerGlobalScope/close/incoming-message.html:28:16
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

@@ -1,0 +1,15 @@
+2d.line.cap.round
+lineCap 'round' is rendered correctly
+Actual output:
+Expected output:
+
+
+FAIL lineCap 'round' is rendered correctly assert_equals: Red channel of the pixel at (67, 6) expected 0 but got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+_assertPixel@http://localhost:8800/common/canvas-tests.js:38:18
+http://localhost:8800/2dcontext/line-styles/2d.line.cap.round.html:67:13
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

@@ -1,0 +1,27 @@
+FAIL: Timed out waiting for notifyDone to be called
+Validation of li characteristic requiring manual testing
+
+The spec states: "If the parent element is an ol element, then the li element has an ordinal value."
+
+This manual test is needed to verify that NON-ol element parents do NOT result in an ordinal value.
+
+It needs to be manual because the ordinal value assigned to each list element by the user agent is NOT available programmatically. Values which are set either via markup or IDL are available programmatically, but not the calculated values for all the other list items.
+
+And, as we cannot be sure how a mistakenly assigned value would be rendered, this test cannot be a reftest.
+
+So, please use the buttons to answer the following questions:
+
+HTML Markup	Do you see any sort of sequencing information?
+Menu Item
+Menu Item
+  
+Toolbar Menu Item
+Toolbar Menu Item
+Toolbar Menu Item
+Toolbar Menu Item
+  
+list item
+list item
+list item
+  
+

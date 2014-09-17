@@ -1,0 +1,16 @@
+
+FAIL Error should be thrown if namespace is SVG and local name is not specified assert_throws: Exception should be thrown in case of attempt to register a custom element with SVG namespace and name is not specified function "function () {
+        doc.registerElement('x-svg-a', {pro..." threw object "TypeError: undefined is not a function (evaluating 'doc.r..." that is not a DOMException NotSupportedError: property "code" is equal to undefined, expected 9(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-svg-namespace-name-is-null.html:20:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-svg-namespace-name-is-null.html:17:5)
+FAIL Error should be thrown if namespace is SVG and local name is null assert_throws: Exception should be thrown in case of attempt to register a custom element with SVG namespace and name is null function "function () {
+        doc.registerElement('x-svg-b', {pro..." threw object "TypeError: undefined is not a function (evaluating 'doc.r..." that is not a DOMException NotSupportedError: property "code" is equal to undefined, expected 9(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-svg-namespace-name-is-null.html:30:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-svg-namespace-name-is-null.html:27:5)
+

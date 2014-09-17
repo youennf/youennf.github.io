@@ -1,0 +1,12 @@
+--- /localHome/youenn/EFL-WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/html/semantics/scripting-1/the-script-element/script-text-expected.txt
++++ /localHome/youenn/EFL-WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/html/semantics/scripting-1/the-script-element/script-text-actual.txt
+@@ -1,2 +1,8 @@
+ 
+-Harness Error. harness_status.status = 1 , harness_status.message = Error: NotSupportedError: DOM Exception 9
++FAIL Getter with CDATA section assert_equals: expected "\n\n\n  var x = \"y\";\n\n" but got "\n7;\n\n  var x = \"y\";\n\n"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
++assert_equals@http://localhost:8800/resources/testharness.js:335:15
++http://localhost:8800/html/semantics/scripting-1/the-script-element/script-text.xhtml:23:16
++step@http://localhost:8800/resources/testharness.js:798:30
++test@http://localhost:8800/resources/testharness.js:73:22
++global code@http://localhost:8800/html/semantics/scripting-1/the-script-element/script-text.xhtml:22:5)
++

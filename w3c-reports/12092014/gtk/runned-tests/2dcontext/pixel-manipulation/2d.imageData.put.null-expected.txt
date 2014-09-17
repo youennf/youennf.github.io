@@ -1,0 +1,12 @@
+2d.imageData.put.null
+putImageData() with null imagedata throws TypeError
+Actual output:
+
+FAIL putImageData() with null imagedata throws TypeError assert_throws: function "function () { ctx.putImageData(null, 0, 0); }" threw object "Error: TypeMismatchError: DOM Exception 17" ("TypeMismatchError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/2dcontext/pixel-manipulation/2d.imageData.put.null.html:22:14
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

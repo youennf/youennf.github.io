@@ -1,0 +1,12 @@
+When prompted, accept to share your video stream.
+
+Description
+
+This test checks that the video track of MediaStream object returned by the success callback in getUserMedia is correctly initialized.
+
+The feature(s) tested here are known to have been made available via vendor prefixes; you can run this test with vendor prefixes enabled.
+
+FAIL Tests that the video MediaStreamTrack objects are properly initialized undefined is not a function (evaluating 'navigator.getUserMedia')(stack: http://localhost:8800/mediacapture-streams/stream-api/mediastreamtrack/mediastreamtrack-init.html:62:25
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/mediacapture-streams/stream-api/mediastreamtrack/mediastreamtrack-init.html:61:7)
+

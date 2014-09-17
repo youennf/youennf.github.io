@@ -1,0 +1,9 @@
+Blocked access to external URL http://www1.localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/set-cookie.html#393c09b8-f943-4cff-ae27-64f130cdb018
+Blocked access to external URL http://www1.localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/cors-tester.py?id=393c09b8-f943-4cff-ae27-64f130cdb018&origin=http%3A%2F%2Flocalhost%3A8800
+Blocked access to external URL http://www1.localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/cors-tester.py?delete-cookie&id=393c09b8-f943-4cff-ae27-64f130cdb018
+Test id: 393c09b8-f943-4cff-ae27-64f130cdb018
+
+
+
+PASS track CORS: No CORS, same-origin, with headers, redirects to not same-origin, with headers 
+

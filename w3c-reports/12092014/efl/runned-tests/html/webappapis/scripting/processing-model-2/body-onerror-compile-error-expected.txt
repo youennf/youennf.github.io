@@ -1,0 +1,9 @@
+CONSOLE MESSAGE: line 27: SyntaxError: Unexpected token ')'
+
+FAIL <body onerror> - compile error in <script> assert_true: ran expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/webappapis/scripting/processing-model-2/body-onerror-compile-error.html:31:20
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/webappapis/scripting/processing-model-2/body-onerror-compile-error.html:30:11)
+PASS <body onerror> - compile error in <script> (column) 
+

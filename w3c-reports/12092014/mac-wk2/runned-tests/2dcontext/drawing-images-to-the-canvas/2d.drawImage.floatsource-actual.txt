@@ -1,0 +1,14 @@
+2d.drawImage.floatsource
+Actual output:
+Expected output:
+
+
+FAIL Canvas test: 2d.drawImage.floatsource assert_approx_equals: Green channel of the pixel at (50, 25) expected 255 +/- 2 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_approx_equals@http://localhost:8800/resources/testharness.js:425:15
+_assertPixelApprox@http://localhost:8800/common/canvas-tests.js:48:25
+http://localhost:8800/2dcontext/drawing-images-to-the-canvas/2d.drawImage.floatsource.html:23:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

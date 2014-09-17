@@ -1,0 +1,5 @@
+storage_session_clear
+
+
+PASS Web Storage 
+

@@ -1,0 +1,13 @@
+Blocked access to external URL http://www1.localhost:8800/html/webappapis/scripting/processing-model-2/support/undefined-variable.js
+
+FAIL window.onerror - runtime error in <script src=//www1...> assert_true: ran expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/webappapis/scripting/processing-model-2/runtime-error-cross-origin.html:28:24
+step@http://localhost:8800/resources/testharness.js:798:30
+onload@http://localhost:8800/html/webappapis/scripting/processing-model-2/runtime-error-cross-origin.html:27:15)
+FAIL window.onerror - runtime error in <script src=//www1...> (column) assert_equals: fourth arg expected (number) 0 but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/webappapis/scripting/processing-model-2/runtime-error-cross-origin.html:32:26
+step@http://localhost:8800/resources/testharness.js:798:30
+onload@http://localhost:8800/html/webappapis/scripting/processing-model-2/runtime-error-cross-origin.html:31:19)
+

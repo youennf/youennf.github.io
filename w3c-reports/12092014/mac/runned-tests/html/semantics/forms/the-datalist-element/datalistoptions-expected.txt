@@ -1,0 +1,8 @@
+Number:   Select number:  
+
+FAIL options label/value undefined is not an object (evaluating 'datalist.options.length')(stack: http://localhost:8800/html/semantics/forms/the-datalist-element/datalistoptions.html:29:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-datalist-element/datalistoptions.html:25:7)
+PASS If an element has a datalist element ancestor, it is barred from constraint validation 
+

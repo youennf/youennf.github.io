@@ -1,0 +1,41 @@
+  
+
+PASS Original length 
+PASS Setting length to original value has no effect 
+PASS Setting length to shorter value 
+PASS Setting length to longer value 
+FAIL Insert <p><option>6</option></p> into <select> assert_equals: Correct length expected 5 but got 6(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/common-dom-interfaces/collections/htmloptionscollection.html:95:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/common-dom-interfaces/collections/htmloptionscollection.html:87:5)
+FAIL Insert <select><option>6</option></select> into <select> assert_equals: Correct length expected 5 but got 6(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/common-dom-interfaces/collections/htmloptionscollection.html:108:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/common-dom-interfaces/collections/htmloptionscollection.html:100:5)
+PASS Insert <optgroup><option>6</option></optgroup> into <select> 
+FAIL Insert <optgroup><optgroup><option>6</option></optgroup></optgroup> into <select> assert_equals: Correct length expected 5 but got 6(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/infrastructure/common-dom-interfaces/collections/htmloptionscollection.html:137:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/common-dom-interfaces/collections/htmloptionscollection.html:127:5)
+PASS namedItem id attribute 
+PASS namedItem name attribute 
+PASS namedItem doesn't match anything 
+PASS namedItem multiple IDs 
+PASS namedItem multiple names 
+PASS namedItem multiple name and ID 
+PASS namedItem multiple name and ID with multiple attributes 
+PASS namedItem id attribute multiple attributes one element 
+PASS namedItem name attribute multiple attributes one element 
+FAIL Add non-option to collection assert_throws: function "function () {b_opts.add(add);}" threw object "Error: TypeMismatchError: DOM Exception 17" ("TypeMismatchError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/html/infrastructure/common-dom-interfaces/collections/htmloptionscollection.html:180:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/infrastructure/common-dom-interfaces/collections/htmloptionscollection.html:178:5)
+

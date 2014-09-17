@@ -1,0 +1,11 @@
+
+FAIL XMLHttpRequest: abort() while sending data assert_equals: expected 4 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/abort-during-upload.htm:29:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/XMLHttpRequest/abort-during-upload.htm:28:20
+abort@[native code]
+http://localhost:8800/XMLHttpRequest/abort-during-upload.htm:38:21
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/XMLHttpRequest/abort-during-upload.htm:21:16)
+

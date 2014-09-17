@@ -1,0 +1,4 @@
+CONSOLE MESSAGE: line 39: ReferenceError: Can't find variable: setup
+CONSOLE MESSAGE: line 8: ReferenceError: Can't find variable: assert_equals
+FAIL: Timed out waiting for notifyDone to be called
+

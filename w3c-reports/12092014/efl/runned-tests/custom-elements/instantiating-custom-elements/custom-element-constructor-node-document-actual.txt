@@ -1,0 +1,28 @@
+
+FAIL Custom element constructor sets owner document to the document, where custom element type is registered undefined is not a function (evaluating 'doc.registerElement('x-a')')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-node-document.html:18:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-node-document.html:16:5)
+FAIL Custom element constructor sets owner document to the document, where custom element type is registered. Test constructor of extended HTML element undefined is not a function (evaluating 'doc.registerElement(name, {
+            prototype: proto,
+            extends: tagName
+        })')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-node-document.html:33:55
+forEach@[native code]
+http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-node-document.html:29:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-node-document.html:27:5)
+FAIL Custom element constructor sets owner document to the document, where custom element type is registered. Test different documents with shared registry undefined is not a function (evaluating 'doc.registerElement(name)')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-node-document.html:52:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-node-document.html:47:5)
+FAIL Custom element constructor sets owner document to the document, where custom element type is registered. Test constructor of extended HTML element for different documents with shared registry undefined is not a function (evaluating 'doc.registerElement(name, {
+            prototype: proto,
+            extends: tagName
+        })')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-node-document.html:75:55
+forEach@[native code]
+http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-node-document.html:71:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-node-document.html:68:5)
+

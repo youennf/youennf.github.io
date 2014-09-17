@@ -1,0 +1,41 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 17:45
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/Element.getElementsByClassName-null-undef.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/nameditem-05.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/document.title-03.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/document.getElementsByClassName-same.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/document.images.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/document.head-02.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/document.title-05.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/nameditem-03.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/document.title-07.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/document.title-08.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/document.title-06.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/document.title-02.xhtml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/nameditem-06.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/nameditem-01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/document.head-01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/Document.getElementsByClassName-null-undef.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/document.body-setter-01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/document.body-getter.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/document.embeds-document.plugins-01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/document.title-01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/document.title-04.xhtml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/nameditem-04.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/documents/dom-tree-accessors/nameditem-02.html

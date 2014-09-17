@@ -1,0 +1,6 @@
+Test id: 521991de-86bc-42b2-be76-a0d1318786e3
+
+
+
+PASS track CORS: No CORS, same-origin, with headers, redirects to not same-origin, with headers 
+

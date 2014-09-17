@@ -1,0 +1,6 @@
+
+FAIL IDBCursor.continue() - attempt to call continue two times DataError: DOM IDBDatabase Exception 0(stack: continue@[native code]
+http://localhost:8800/IndexedDB/idbcursor_continue_invalid.htm:39:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

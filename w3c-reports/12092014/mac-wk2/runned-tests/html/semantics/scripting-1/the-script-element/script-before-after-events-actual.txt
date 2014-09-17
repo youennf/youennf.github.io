@@ -1,0 +1,7 @@
+
+FAIL 'beforescriptexecute'/'afterscriptexecute' events have been fired assert_true: expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/semantics/scripting-1/the-script-element/script-before-after-events.html:33:16
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:843:37)
+

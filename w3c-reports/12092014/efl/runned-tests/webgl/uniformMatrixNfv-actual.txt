@@ -1,0 +1,8 @@
+CONSOLE MESSAGE: WebGL: INVALID_VALUE: getUniformLocation: no object or object deleted
+CONSOLE MESSAGE: WebGL: INVALID_VALUE: getUniformLocation: no object or object deleted
+CONSOLE MESSAGE: WebGL: INVALID_VALUE: getUniformLocation: no object or object deleted
+
+PASS Should not throw for 2 
+PASS Should not throw for 3 
+PASS Should not throw for 4 
+

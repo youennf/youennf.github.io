@@ -1,0 +1,13 @@
+ button1 button2      
+
+
+ 
+
+FAIL ':enabled' should <a>s/<area>s/<link>s that have an href attribute and elements that are not disabled assert_array_equals: lengths differ, expected 14 got 10(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:12:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/enabled.html:41:15)
+

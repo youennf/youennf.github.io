@@ -1,0 +1,30 @@
+
+FAIL IDBKeyRange.only() - returns an IDBKeyRange and the properties are set correctly Can't find variable: IDBKeyRange(stack: http://localhost:8800/IndexedDB/idbkeyrange.htm:12:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/IndexedDB/idbkeyrange.htm:11:9)
+FAIL IDBKeyRange.lowerBound() - returns an IDBKeyRange and the properties are set correctly Can't find variable: IDBKeyRange(stack: http://localhost:8800/IndexedDB/idbkeyrange.htm:22:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/IndexedDB/idbkeyrange.htm:21:9)
+FAIL IDBKeyRange.lowerBound() - 'open' parameter has correct default set Can't find variable: IDBKeyRange(stack: http://localhost:8800/IndexedDB/idbkeyrange.htm:31:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/IndexedDB/idbkeyrange.htm:30:9)
+FAIL IDBKeyRange.upperBound() - returns an IDBKeyRange and the properties are set correctly Can't find variable: IDBKeyRange(stack: http://localhost:8800/IndexedDB/idbkeyrange.htm:37:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/IndexedDB/idbkeyrange.htm:36:9)
+FAIL IDBKeyRange.upperBound() - 'open' parameter has correct default set Can't find variable: IDBKeyRange(stack: http://localhost:8800/IndexedDB/idbkeyrange.htm:46:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/IndexedDB/idbkeyrange.htm:45:9)
+FAIL IDBKeyRange.bound() - returns an IDBKeyRange and the properties are set correctly Can't find variable: IDBKeyRange(stack: http://localhost:8800/IndexedDB/idbkeyrange.htm:52:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/IndexedDB/idbkeyrange.htm:51:9)
+FAIL IDBKeyRange.bound() - 'lowerOpen' and 'upperOpen' parameters have correct defaults set Can't find variable: IDBKeyRange(stack: http://localhost:8800/IndexedDB/idbkeyrange.htm:61:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/IndexedDB/idbkeyrange.htm:60:9)
+

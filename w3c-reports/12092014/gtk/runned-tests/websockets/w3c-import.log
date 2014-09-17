@@ -1,0 +1,103 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 15:42
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-Secure-blocked-port.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-binary-arraybufferview-float32.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-valid-url-protocol.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Close-string.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-unicode-data.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-binary-arraybufferview-uint8-offset-length.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-1000-verify-code.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-valid-url-array-protocols.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-binary-arraybufferview-uint16-offset-length.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-verify-url-set-non-default-port.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-server-initiated-close.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-wrong-scheme.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-non-absolute-url.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-invalid-urls.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-undefined.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Send-binary-arraybufferview-int8.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-Secure-valid-url-binaryType-blob.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-Secure-extensions-empty.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-valid-url.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Send-null.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./constructor.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Close-0.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-binary-65K-arraybuffer.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-binary-arraybufferview-uint8-offset.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-binary-arraybufferview-int32.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-protocol-with-space.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-Reason-124Bytes.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-data.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Close-reason-unpaired-surrogates.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-3000-verify-code.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-3000-reason.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Close-1000.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-1000.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-binary-arraybufferview-uint32-offset.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-string.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./constants.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-paired-surrogates.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-null.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-4999-reason.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-unpaired-surrogates.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-protocols-repeated.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./interfaces.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-readyState-Closing.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Send-Unpaired-Surrogates.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-65K-data.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Close-Reason-124Bytes.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-1005-verify-code.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Close-NaN.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./websocket.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-onlyReason.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-readyState-Closed.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-valid-url-protocol-empty.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Close-1000-reason.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Send-data.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-binary-arraybuffer.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Close-undefined.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Send-0byte-data.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-Secure-valid-url.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Send-65K-data.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Send-before-open.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-2999-reason.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-Secure-valid-url-protocol-string.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Close-null.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-NaN.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-binary-blob.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Send-binary-blob.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-nonAscii-protocol-string.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-1000-reason.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./eventhandlers.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-Secure-valid-url-protocol-setCorrectly.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Send-paired-surrogates.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Send-binary-65K-arraybuffer.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Send-binary-arraybufferview-int16-offset.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-Secure-verify-url-set-non-default-port.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-Reason-Unpaired-surrogates.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Send-binary-arraybuffer.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-Secure-url-with-space.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-1005.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-null.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Send-unicode-data.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./README.md
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Close-0.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Create-Secure-valid-url-array-protocols.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./binaryType-wrong-value.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/./Secure-Send-binary-arraybufferview-float64.htm

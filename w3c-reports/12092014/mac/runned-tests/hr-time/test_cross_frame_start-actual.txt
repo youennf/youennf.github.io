@@ -1,0 +1,23 @@
+Description
+
+This test validates the values of the window.performance.now() are based on the current document's navigationStart.
+
+
+
+FAIL parent performance.now() > 0 undefined is not an object (evaluating 'window.performance.now')(stack: http://localhost:8800/hr-time/test_cross_frame_start.html:29:63
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+finish_test@http://localhost:8800/hr-time/test_cross_frame_start.html:29:19)
+FAIL child performance.now() > 0 undefined is not an object (evaluating 'childWindow.performance.now')(stack: http://localhost:8800/hr-time/test_cross_frame_start.html:30:68
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+finish_test@http://localhost:8800/hr-time/test_cross_frame_start.html:30:19)
+FAIL Child created at least 1 second after parent undefined is not an object (evaluating 'childWindow.performance.timing')(stack: http://localhost:8800/hr-time/test_cross_frame_start.html:33:69
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+finish_test@http://localhost:8800/hr-time/test_cross_frame_start.html:33:19)
+FAIL Child and parent time bases are correct undefined is not an object (evaluating 'window.performance.now')(stack: http://localhost:8800/hr-time/test_cross_frame_start.html:37:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+finish_test@http://localhost:8800/hr-time/test_cross_frame_start.html:36:12)
+

@@ -1,0 +1,6 @@
+
+FAIL A_10_02_01_05_T01 undefined is not a function (evaluating 'host.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/attributes/test-005.html:33:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/elements-and-dom-objects/extensions-to-element-interface/attributes/test-005.html:25:5)
+

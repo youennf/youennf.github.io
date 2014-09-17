@@ -1,0 +1,7 @@
+
+FAIL NOT invoking resource selection by inserting <source> when networkState is not NETWORK_EMPTY assert_equals: networkState in second script expected 2 but got 3(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/loading-the-media-resource/resource-selection-invoke-insert-source-networkState.html:23:16
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/loading-the-media-resource/resource-selection-invoke-insert-source-networkState.html:22:7)
+

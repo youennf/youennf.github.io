@@ -1,0 +1,6 @@
+
+FAIL Non-matching url in isContentHandlerRegistered undefined is not a function (evaluating 'navigator.registerContentHandler(ctype, url, 'test')')(stack: http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content/004.xhtml:22:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/webappapis/system-state-and-capabilities/the-navigator-object/content/004.xhtml:20:5)
+

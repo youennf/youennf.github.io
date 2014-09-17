@@ -1,0 +1,7 @@
+
+FAIL Blocked event assert_array_equals: lengths differ, expected 1 got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+OpenSecond@http://localhost:8800/IndexedDB/transaction-lifetime-blocked.htm:56:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

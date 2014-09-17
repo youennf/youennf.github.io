@@ -1,0 +1,84 @@
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3A%2F%2Flocalhost%3A8800. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=%2F%2Fwww1.localhost%3A8800. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=%3A%2F%2Fwww1.localhost%3A8800. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=ftp%3A%2F%2Fwww1.localhost%3A8800. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3Awww1.localhost%3A8800. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3A%2F%2Fwww1.localhost%3A8800%3F. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=www1.localhost%3A8800. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3A%2F%2Fwww1.localhost%3A8800%2F. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3A%2F%2Fwww1.localhost%3A8800%20%2F. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3A%2F%2Fwww1.localhost%3A8800%23. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3A%2F%2Fwww1.localhost%3A8800%3A80. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3A%2F%2Fwww1.localhost%3A8800%2C%20*. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3A%2F%2Fwww1.localhost%3A8800%2523. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=HTTP%3A%2F%2FWWW1.LOCALHOST%3A8800. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=HTTP%3A%2F%2Fwww1.localhost%3A8800. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3A%2F%2FWWW1.LOCALHOST%3A8800. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3A%3A%2F%2Fwww1.localhost%3A8800. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=-. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=**. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3A%2Fwww1.localhost%3A8800. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin='*'. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=*%20*. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=%22*%22. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=*http%3A%2F%2F*. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=*http%3A%2F%2Fwww1.localhost%3A8800. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=*%20http%3A%2F%2Fwww1.localhost%3A8800. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=*%2C%20http%3A%2F%2Fwww1.localhost%3A8800. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=null%20http%3A%2F%2Fwww1.localhost%3A8800. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3A%2F%2Fexample.net. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=null. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3A%2F%2Flocalhost%3A8800%2Fcors%2Fremote-origin.htm. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3A%2F%2Flocalhost%3A8800%2Fcors%2F. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8800/cors/resources/cors-makeheader.py?origin=http%3A%2F%2Fwww1.localhost%3A8800%2Fcors%2F. Origin http://www1.localhost:8800 is not allowed by Access-Control-Allow-Origin.
+Access-Control-Allow-Origin handling
+
+
+
+PASS Allow origin: * 
+PASS Allow origin: _*__ 
+PASS Allow origin: [tab]* 
+PASS Allow origin: http://www1.localhost:8800 
+PASS Allow origin: _http://www1.localhost:8800 
+PASS Allow origin: _http://www1.localhost:8800___[tab]_ 
+PASS Allow origin: [tab]http://www1.localhost:8800 
+PASS Disallow origin: http://localhost:8800 
+PASS Disallow origin: //www1.localhost:8800 
+PASS Disallow origin: ://www1.localhost:8800 
+PASS Disallow origin: ftp://www1.localhost:8800 
+PASS Disallow origin: http:://www1.localhost:8800 
+PASS Disallow origin: http:/www1.localhost:8800 
+PASS Disallow origin: http:www1.localhost:8800 
+PASS Disallow origin: www1.localhost:8800 
+PASS Disallow origin: http://www1.localhost:8800? 
+PASS Disallow origin: http://www1.localhost:8800/ 
+PASS Disallow origin: http://www1.localhost:8800_/ 
+PASS Disallow origin: http://www1.localhost:8800# 
+PASS Disallow origin: http://www1.localhost:8800%23 
+PASS Disallow origin: http://www1.localhost:8800:80 
+PASS Disallow origin: http://www1.localhost:8800,_* 
+PASS Disallow origin: http://www1.localhost:8800\0 
+PASS Disallow origin: HTTP://WWW1.LOCALHOST:8800 
+PASS Disallow origin: HTTP://www1.localhost:8800 
+PASS Disallow origin: http://WWW1.LOCALHOST:8800 
+PASS Disallow origin: - 
+PASS Disallow origin: ** 
+PASS Disallow origin: \0* 
+PASS Disallow origin: *\0 
+PASS Disallow origin: '*' 
+PASS Disallow origin: "*" 
+PASS Disallow origin: *_* 
+PASS Disallow origin: *http://* 
+PASS Disallow origin: *http://www1.localhost:8800 
+PASS Disallow origin: *_http://www1.localhost:8800 
+PASS Disallow origin: *,_http://www1.localhost:8800 
+PASS Disallow origin: \0http://www1.localhost:8800 
+PASS Disallow origin: null_http://www1.localhost:8800 
+PASS Disallow origin: http://example.net 
+PASS Disallow origin: null 
+PASS Disallow origin:  
+PASS Disallow origin: http://localhost:8800/cors/remote-origin.htm 
+PASS Disallow origin: http://localhost:8800/cors/ 
+PASS Disallow origin: http://www1.localhost:8800/cors/ 
+

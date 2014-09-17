@@ -1,0 +1,20 @@
+
+FAIL Accessing child browsing contexts 1 assert_equals: The top browsing context should have 3 child browsing contexts. expected 3 but got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/browsers/the-window-object/accessing-other-browsing-contexts/indexed-browsing-contexts-02.html:16:20
+step@http://localhost:8800/resources/testharness.js:798:30
+on_load@http://localhost:8800/html/browsers/the-window-object/accessing-other-browsing-contexts/indexed-browsing-contexts-02.html:15:12
+onload@http://localhost:8800/html/browsers/the-window-object/accessing-other-browsing-contexts/indexed-browsing-contexts-02.html:54:8)
+FAIL Accessing child browsing contexts 2 assert_equals: The child browsing context created by the iframe element should have 2 child browsing contexts. expected 2 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/browsers/the-window-object/accessing-other-browsing-contexts/indexed-browsing-contexts-02.html:27:20
+step@http://localhost:8800/resources/testharness.js:798:30
+on_load@http://localhost:8800/html/browsers/the-window-object/accessing-other-browsing-contexts/indexed-browsing-contexts-02.html:26:12
+onload@http://localhost:8800/html/browsers/the-window-object/accessing-other-browsing-contexts/indexed-browsing-contexts-02.html:54:8)
+FAIL Accessing child browsing contexts 3 assert_equals: The top browsing context should have 3 child browsing contexts. expected 3 but got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/browsers/the-window-object/accessing-other-browsing-contexts/indexed-browsing-contexts-02.html:41:20
+step@http://localhost:8800/resources/testharness.js:798:30
+on_load@http://localhost:8800/html/browsers/the-window-object/accessing-other-browsing-contexts/indexed-browsing-contexts-02.html:39:12
+onload@http://localhost:8800/html/browsers/the-window-object/accessing-other-browsing-contexts/indexed-browsing-contexts-02.html:54:8)
+

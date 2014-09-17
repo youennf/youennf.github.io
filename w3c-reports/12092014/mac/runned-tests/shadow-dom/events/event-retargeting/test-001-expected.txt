@@ -1,0 +1,8 @@
+
+FAIL A_05_01_01_T1 undefined is not a function (evaluating 'div.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/events/event-retargeting/test-001.html:39:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL A_05_01_01_T2 undefined is not a function (evaluating 'div.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/events/event-retargeting/test-001.html:81:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

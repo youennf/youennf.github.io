@@ -1,0 +1,8 @@
+
+FAIL IDBObjectStore.createIndex() - Event ordering for a later deleted index assert_object_equals: events property "1" expected ["rq_add1.success", "rq_add2.error: ConstraintError", "rq_add3.success", "transaction.complete", "open_rq.success"] got ["rq_add1.success", "rq_add2.success", "rq_add3.success", "transaction.complete", "open_rq.success"](stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+check_equal@http://localhost:8800/resources/testharness.js:378:28
+assert_object_equals@http://localhost:8800/resources/testharness.js:390:21
+onsuccess@http://localhost:8800/IndexedDB/idbobjectstore_createIndex4-deleteIndex-event_order.htm:45:29
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

@@ -1,0 +1,6 @@
+event_session_StorageEventInit
+
+
+PASS Web Storage 
+PASS storageeventinit test 
+

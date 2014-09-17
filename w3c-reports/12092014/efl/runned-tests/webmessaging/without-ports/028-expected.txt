@@ -1,0 +1,7 @@
+
+FAIL Cloning objects, preserving sharing #2 assert_equals: expected object "[object ImageData]" but got object "[object ImageData]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/webmessaging/without-ports/028.html:16:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

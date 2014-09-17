@@ -1,0 +1,73 @@
+CONSOLE MESSAGE: line 188: callback not yet supported
+idlharness test
+
+This test validates the WebIDL included in the Timing control for script-based animations specification.
+
+partial interface Window {
+  long requestAnimationFrame(FrameRequestCallback callback);
+  void cancelAnimationFrame(long handle);
+};
+
+callback FrameRequestCallback = void (DOMHighResTimeStamp time);
+
+PASS Window interface: operation requestAnimationFrame(FrameRequestCallback) 
+PASS Window interface: operation cancelAnimationFrame(long) 
+PASS Window must be primary interface of window 
+PASS Stringification of window 
+FAIL Window interface: window must inherit property "requestAnimationFrame" with the proper type (0) assert_inherits: property "requestAnimationFrame" found on object expected in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:548:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/animation-timing/idlharness.html:41:17
+global code@http://localhost:8800/animation-timing/idlharness.html:42:3)
+FAIL Window interface: calling requestAnimationFrame(FrameRequestCallback) on window with too few arguments must throw TypeError assert_inherits: property "requestAnimationFrame" found on object expected in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:548:19
+http://localhost:8800/resources/idlharness.js:1627:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1622:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/animation-timing/idlharness.html:41:17
+global code@http://localhost:8800/animation-timing/idlharness.html:42:3)
+FAIL Window interface: window must inherit property "cancelAnimationFrame" with the proper type (1) assert_inherits: property "cancelAnimationFrame" found on object expected in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:548:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/animation-timing/idlharness.html:41:17
+global code@http://localhost:8800/animation-timing/idlharness.html:42:3)
+FAIL Window interface: calling cancelAnimationFrame(long) on window with too few arguments must throw TypeError assert_inherits: property "cancelAnimationFrame" found on object expected in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:548:19
+http://localhost:8800/resources/idlharness.js:1627:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1622:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/animation-timing/idlharness.html:41:17
+global code@http://localhost:8800/animation-timing/idlharness.html:42:3)
+

@@ -1,0 +1,8 @@
+
+FAIL XMLHttpRequest: overrideMimeType() in LOADING state assert_throws: function "function () {
+              client.overrideMimeType('appl..." did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/XMLHttpRequest/overridemimetype-loading-state.htm:18:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

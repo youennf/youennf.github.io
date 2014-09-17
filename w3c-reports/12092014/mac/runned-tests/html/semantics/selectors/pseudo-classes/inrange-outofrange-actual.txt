@@ -1,0 +1,27 @@
+   
+
+FAIL ':in-range' matches all elements that are candidates for constraint validation, have range limitations, and that are neither suffering from an underflow nor suffering from an overflow assert_array_equals: lengths differ, expected 1 got 2(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:12:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/inrange-outofrange.html:16:15)
+PASS ':out-of-range' matches all elements that are candidates for constraint validation, have range limitations, and that are either suffering from an underflow or suffering from an overflow 
+FAIL ':in-range' update number1's value < min assert_array_equals: lengths differ, expected 0 got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:12:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/inrange-outofrange.html:21:15)
+PASS ':out-of-range' update number1's value < min 
+FAIL ':in-range' update number3's min < value assert_array_equals: lengths differ, expected 1 got 2(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:12:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/inrange-outofrange.html:25:15)
+PASS ':out-of-range' update number3's min < value 
+

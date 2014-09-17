@@ -1,0 +1,31 @@
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-makeheader.py?headers=x-print. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-makeheader.py?headers=x-print,. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-makeheader.py?headers=x-print. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-makeheader.py?headers=,y-lol,x-PriNT,%20,,,Y-PRINT. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-makeheader.py?headers=,y-lol,x-PriNT,%20,,,Y-PRINT. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+Request headers
+
+
+FAIL basic request header NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/request-headers.htm:22:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/cors/request-headers.htm:18:5)
+FAIL Simple request headers need not be in allow-headers NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/request-headers.htm:36:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/cors/request-headers.htm:28:5)
+PASS Unspecified request headers are disallowed 
+FAIL Strange allowheaders (case insensitive) NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/request-headers.htm:59:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/cors/request-headers.htm:54:5)
+PASS INVALID_STATE_ERR on setRequestHeader before open() 
+FAIL INVALID_STATE_ERR on setRequestHeader after send() NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/request-headers.htm:75:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/cors/request-headers.htm:72:5)
+

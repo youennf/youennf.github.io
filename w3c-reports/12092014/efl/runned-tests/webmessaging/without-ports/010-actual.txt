@@ -1,0 +1,27 @@
+
+PASS undefined 
+PASS null 
+PASS false 
+PASS true 
+PASS 1 
+PASS NaN 
+PASS Infinity 
+PASS string 
+PASS date 
+PASS regex 
+PASS self 
+FAIL array assert_array_equals: array property 8, expected true but got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:407:19
+assert_array_equals_@http://localhost:8800/webmessaging/without-ports/010.html:34:22
+http://localhost:8800/webmessaging/without-ports/010.html:153:65
+step@http://localhost:8800/resources/testharness.js:798:30
+onmessage@http://localhost:8800/webmessaging/without-ports/010.html:153:31)
+FAIL object assert_equals: object expected true but got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_object_equals_@http://localhost:8800/webmessaging/without-ports/010.html:56:20
+http://localhost:8800/webmessaging/without-ports/010.html:154:67
+step@http://localhost:8800/resources/testharness.js:798:30
+onmessage@http://localhost:8800/webmessaging/without-ports/010.html:154:32)
+PASS error 
+PASS unreached 
+

@@ -1,0 +1,13 @@
+2d.drawImage.nowrap
+Stretched images do not get pixels wrapping around the edges
+Actual output:
+Expected output:
+
+
+FAIL Stretched images do not get pixels wrapping around the edges IndexSizeError: DOM Exception 1(stack: drawImage@[native code]
+http://localhost:8800/2dcontext/drawing-images-to-the-canvas/2d.drawImage.nowrap.html:24:14
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

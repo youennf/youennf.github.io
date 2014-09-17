@@ -1,0 +1,16 @@
+
+PASS .go commands should be queued until the thread has ended 
+PASS browser needs to support hashchange events for this testcase 
+FAIL queued .go commands should all be executed when the queue is processed assert_equals: the wrong number of queued commands were executed expected 2 but got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/browsers/history/the-history-interface/004.html:46:17
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+checkjumps@http://localhost:8800/html/browsers/history/the-history-interface/004.html:45:7)
+FAIL history position should be calculated when executing, not when calling the .go command assert_equals: expected "" but got "bar"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/browsers/history/the-history-interface/004.html:49:17
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+checkjumps@http://localhost:8800/html/browsers/history/the-history-interface/004.html:48:7)
+

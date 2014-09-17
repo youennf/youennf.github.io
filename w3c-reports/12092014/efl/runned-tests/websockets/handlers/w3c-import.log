@@ -1,0 +1,38 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 17:46
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/simple_handshake_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/origin_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/handshake_sleep_1_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/echo-query_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/echo-query_v13_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/handshake_no_protocol_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/echo-cookie_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/protocol_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/protocol_array_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/sleep_10_v13_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/empty-message_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/handshake_protocol_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/invalid_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/echo_close_data_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/echo_exit_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/set-cookie_http_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/set-cookie_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/echo_raw_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/echo_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/websockets/handlers/wrong_accept_key_wsh.py

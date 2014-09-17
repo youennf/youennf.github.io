@@ -1,0 +1,10 @@
+Remove the manifest file (manifest/clock.manifest) from the server.
+Refresh the page, then calling update() will throw InvalidStateError exception.
+
+FAIL INVALID_STATE_ERR error test assert_throws: function "function () {cache.update();}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/html/browsers/offline/application-cache-api/api_update_error.html:19:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/browsers/offline/application-cache-api/api_update_error.html:18:11)
+

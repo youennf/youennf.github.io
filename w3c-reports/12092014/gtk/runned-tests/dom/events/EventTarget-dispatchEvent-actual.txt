@@ -1,0 +1,28 @@
+CONSOLE MESSAGE: line 53: Error
+
+FAIL If the event's initialized flag is not set, an InvalidStateError must be thrown. assert_throws: function "function () { document.dispatchEvent(e); }" threw object "Error: UNSPECIFIED_EVENT_TYPE_ERR: DOM Events Exception 0" that is not a DOMException InvalidStateError: property "code" is equal to 0, expected 11(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/dom/events/EventTarget-dispatchEvent.html:18:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/events/EventTarget-dispatchEvent.html:15:5)
+FAIL If the event's dispatch flag is set, an InvalidStateError must be thrown. assert_throws: function "function () {
+      target.dispatchEvent(e);
+    }" threw object "Error: DISPATCH_REQUEST_ERR: DOM Events Exception 1" that is not a DOMException InvalidStateError: property "code" is equal to 1, expected 11(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/dom/events/EventTarget-dispatchEvent.html:28:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+dispatchEvent@[native code]
+http://localhost:8800/dom/events/EventTarget-dispatchEvent.html:36:37
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/dom/events/EventTarget-dispatchEvent.html:22:23)
+PASS Exceptions from event listeners must not be propagated. 
+FAIL Event listeners added during dispatch should be called assert_array_equals: lengths differ, expected 2 got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/dom/events/EventTarget-dispatchEvent.html:77:22
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/dom/events/EventTarget-dispatchEvent.html:65:11)
+PASS Event listeners should be called in order of addition 
+

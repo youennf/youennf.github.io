@@ -1,0 +1,81 @@
+
+PASS Audio constructor 
+FAIL No arguments, without new AudioConstructor is not a function (evaluating 'Audio()')(stack: http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:14:31
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:30:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:29:9
+forEach@[native code]
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:27:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:8:5)
+PASS No arguments, with new 
+FAIL Empty string argument, without new AudioConstructor is not a function (evaluating 'Audio("")')(stack: http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:16:31
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:30:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:29:9
+forEach@[native code]
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:27:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:8:5)
+PASS Empty string argument, with new 
+FAIL Non-empty string argument, without new AudioConstructor is not a function (evaluating 'Audio("src")')(stack: http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:18:31
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:30:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:29:9
+forEach@[native code]
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:27:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:8:5)
+PASS Non-empty string argument, with new 
+FAIL Null argument, without new AudioConstructor is not a function (evaluating 'Audio(null)')(stack: http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:20:31
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:30:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:29:9
+forEach@[native code]
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:27:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:8:5)
+PASS Null argument, with new 
+FAIL Undefined argument, without new AudioConstructor is not a function (evaluating 'Audio(undefined)')(stack: http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:22:31
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:30:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:29:9
+forEach@[native code]
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:27:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:8:5)
+FAIL Undefined argument, with new assert_equals: expected (object) null but got (string) "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:36:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:29:9
+forEach@[native code]
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:27:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:8:5)
+FAIL Extra argument, without new AudioConstructor is not a function (evaluating 'Audio("", throwingObject)')(stack: http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:24:31
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:30:23
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:29:9
+forEach@[native code]
+http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:27:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/the-audio-element/audio_constructor.html:8:5)
+PASS Extra argument, with new 
+PASS Calling HTMLAudioElement should throw 
+PASS Constructing HTMLAudioElement should throw 
+

@@ -1,0 +1,47 @@
+  
+
+
+
+
+  
+  
+
+PASS ':valid' matches elements that satisfy their constraints 
+FAIL ':valid' matches form elements that are not the form owner of any elements that themselves are candidates for constraint validation but do not satisfy their constraints assert_array_equals: lengths differ, expected 2 got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:12:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/valid-invalid.html:42:15)
+FAIL ':valid' matches fieldset elements that have no descendant elements that themselves are candidates for constraint validation but do not satisfy their constraints assert_array_equals: lengths differ, expected 2 got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:12:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/valid-invalid.html:44:15)
+PASS ':valid' matches elements that satisfy their pattern constraints 
+PASS ':valid' matches elements that satisfy their number constraints 
+PASS ':invalid' matches elements that do not satisfy their simple text  constraints 
+FAIL ':invalid' matches form elements that are the form owner of one or more elements that themselves are candidates for constraint validation but do not satisfy their constraints assert_array_equals: lengths differ, expected 2 got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:12:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/valid-invalid.html:53:15)
+FAIL ':invalid' matches fieldset elements that have of one or more descendant elements that themselves are candidates for constraint validation but do not satisfy their constraints assert_array_equals: lengths differ, expected 2 got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:12:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/valid-invalid.html:55:15)
+PASS ':invalid' matches elements that do not satisfy their pattern constraints 
+PASS ':invalid' matches elements that do not satisfy their number constraints 
+PASS ':valid' matches new elements that satisfy their constraints 
+PASS ':invalid' doesn't match new elements that satisfy their constraints 
+PASS ':valid' doesn't match new elements that do not satisfy their constraints 
+PASS ':invalid' matches new elements that do not satisfy their constraints 
+

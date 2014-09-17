@@ -1,0 +1,32 @@
+
+FAIL Element input should have own property capture assert_own_property: expected property "capture" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/html-media-capture/capture_reflect.html:35:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html-media-capture/capture_reflect.html:32:11)
+FAIL input.capture is false when the capture attribute is absent assert_false: expected false got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html-media-capture/capture_reflect.html:41:21
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html-media-capture/capture_reflect.html:40:11)
+FAIL input.capture is true when the capture attribute is present assert_true: expected true got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html-media-capture/capture_reflect.html:45:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html-media-capture/capture_reflect.html:44:11)
+FAIL input.capture is true when the capture attribute is present as empty string assert_true: expected true got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html-media-capture/capture_reflect.html:49:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html-media-capture/capture_reflect.html:48:11)
+FAIL input.capture is true when the capture attribute is present as canonical name assert_true: expected true got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html-media-capture/capture_reflect.html:53:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html-media-capture/capture_reflect.html:52:11)
+

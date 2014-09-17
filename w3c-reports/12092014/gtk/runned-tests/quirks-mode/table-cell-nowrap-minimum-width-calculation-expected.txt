@@ -1,0 +1,13 @@
+    
+
+FAIL The table cell nowrap minimum width calculation quirk, basic assert_equals: quirks mode expected "10px" but got "8px"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/quirks-mode/table-cell-nowrap-minimum-width-calculation.html:59:34
+forEach@[native code]
+http://localhost:8800/quirks-mode/table-cell-nowrap-minimum-width-calculation.html:56:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/quirks-mode/table-cell-nowrap-minimum-width-calculation.html:53:17
+forEach@[native code]
+onload@http://localhost:8800/quirks-mode/table-cell-nowrap-minimum-width-calculation.html:52:22)
+

@@ -1,0 +1,44 @@
+
+FAIL Test that single unresolved custom element is accessible by Document.querySelectorAll(':unresolved') SyntaxError: DOM Exception 12(stack: querySelectorAll@[native code]
+http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:20:43
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:17:5)
+FAIL Test that single registered custom element is not accessible by :unresolved SyntaxError: DOM Exception 12(stack: querySelectorAll@[native code]
+http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:33:43
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:30:5)
+FAIL If there are more than one unresolved custom element then all of them accessible by Document.querySelectorAll(':unresolved') SyntaxError: DOM Exception 12(stack: querySelectorAll@[native code]
+http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:51:43
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:48:5)
+FAIL Unresolved custom element, created via Document.createElement(), should be accessible by Document.querySelectorAll(':unresolved') SyntaxError: DOM Exception 12(stack: querySelectorAll@[native code]
+http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:78:43
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:74:5)
+FAIL All unresolved custom element including nested ones are accessible by Document.querySelectorAll(':unresolved') SyntaxError: DOM Exception 12(stack: querySelectorAll@[native code]
+http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:92:43
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:89:5)
+FAIL Unresolved custom element should be accessible by Document.querySelectorAll(':unresolved') in a loaded document SyntaxError: DOM Exception 12(stack: querySelectorAll@[native code]
+http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:116:43
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test that Document.querySelectorAll(':unresolved') returns unresolved custom elements, extending HTML elements by IS attribute SyntaxError: DOM Exception 12(stack: querySelectorAll@[native code]
+http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:145:51
+forEach@[native code]
+http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:131:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:128:5)
+FAIL Test Document.querySelectorAll(':unresolved') returns mix of custom elements of different types SyntaxError: DOM Exception 12(stack: querySelectorAll@[native code]
+http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:168:43
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/unresolved-element-pseudoclass/unresolved-element-pseudoclass-matching-query-selector-all.html:165:5)
+

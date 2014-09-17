@@ -1,0 +1,17 @@
+
+FAIL document.open should redirect to window.open when called with three arguments assert_unreached: The call should be redirected to the real window.open Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+open@http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/document.open-02.html:10:19
+open@[native code]
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/document.open-02.html:15:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/document.open-02.html:12:5)
+FAIL document.open should throw when it has no window and is called with three arguments assert_throws: function "function () {
+    doc.open("/resources/testharness.js", "..." did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/document.open-02.html:23:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/document.open-02.html:19:5)
+

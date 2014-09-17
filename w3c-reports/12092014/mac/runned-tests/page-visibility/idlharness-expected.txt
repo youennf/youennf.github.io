@@ -1,0 +1,75 @@
+CONSOLE MESSAGE: Deprecated attempt to access property 'hidden' on a non-Document object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'visibilityState' on a non-Document object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'nodeType' on a non-Node object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'nodeType' on a non-Node object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'nodeType' on a non-Node object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'nodeType' on a non-Node object.
+Page Visibility IDL tests
+
+enum VisibilityState { "hidden", "visible", "prerender", "unloaded" };
+
+partial interface Document {
+  readonly attribute boolean hidden;
+  readonly attribute VisibilityState visibilityState; 
+};
+
+FAIL Document interface: attribute hidden assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/page-visibility/idlharness.html:40:17
+global code@http://localhost:8800/page-visibility/idlharness.html:41:3)
+FAIL Document interface: attribute visibilityState assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/page-visibility/idlharness.html:40:17
+global code@http://localhost:8800/page-visibility/idlharness.html:41:3)
+FAIL Document must be primary interface of window.document assert_equals: window.document's prototype is not Document.prototype expected Node object of unknown type but got Node object of unknown type(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1536:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_primary_interface_of@http://localhost:8800/resources/idlharness.js:1523:13
+test_object@http://localhost:8800/resources/idlharness.js:1495:35
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/page-visibility/idlharness.html:40:17
+global code@http://localhost:8800/page-visibility/idlharness.html:41:3)
+FAIL Stringification of window.document assert_equals: class string of window.document expected "[object Document]" but got "[object HTMLDocument]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/resources/idlharness.js:1549:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_primary_interface_of@http://localhost:8800/resources/idlharness.js:1545:9
+test_object@http://localhost:8800/resources/idlharness.js:1495:35
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/page-visibility/idlharness.html:40:17
+global code@http://localhost:8800/page-visibility/idlharness.html:41:3)
+PASS Document interface: window.document must inherit property "hidden" with the proper type (0) 
+PASS Document interface: window.document must inherit property "visibilityState" with the proper type (1) 
+

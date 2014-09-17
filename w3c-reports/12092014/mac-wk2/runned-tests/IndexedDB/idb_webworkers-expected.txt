@@ -1,0 +1,7 @@
+
+FAIL IndexedDB inside of a WebWorker  assert_equals: worker has idb object expected true but got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/IndexedDB/idb_webworkers.htm:17:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

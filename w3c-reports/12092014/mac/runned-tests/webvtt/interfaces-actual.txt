@@ -1,0 +1,378 @@
+CONSOLE MESSAGE: Deprecated attempt to access property 'vertical' on a non-VTTCue object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'snapToLines' on a non-VTTCue object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'line' on a non-VTTCue object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'position' on a non-VTTCue object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'size' on a non-VTTCue object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'align' on a non-VTTCue object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'text' on a non-VTTCue object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'width' on a non-VTTRegion object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'regionAnchorX' on a non-VTTRegion object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'regionAnchorY' on a non-VTTRegion object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'viewportAnchorX' on a non-VTTRegion object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'viewportAnchorY' on a non-VTTRegion object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'scroll' on a non-VTTRegion object.
+WebVTT IDL tests
+
+
+FAIL VTTCue interface: existence and properties of interface object assert_equals: prototype of window's property "VTTCue" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+PASS VTTCue interface object length 
+FAIL VTTCue interface: existence and properties of interface prototype object assert_false: VTTCue.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTCue interface: existence and properties of interface prototype object's "constructor" property assert_true: VTTCue.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTCue interface: attribute region assert_true: The prototype object must have a property "region" expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1265:24
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTCue interface: attribute vertical assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTCue interface: attribute snapToLines assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTCue interface: attribute line assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTCue interface: attribute lineAlign assert_true: The prototype object must have a property "lineAlign" expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1265:24
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTCue interface: attribute position assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTCue interface: attribute positionAlign assert_true: The prototype object must have a property "positionAlign" expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1265:24
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTCue interface: attribute size assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTCue interface: attribute align assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTCue interface: attribute text assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+PASS VTTCue interface: operation getCueAsHTML() 
+PASS VTTCue must be primary interface of new VTTCue(0, 1, "foo") 
+FAIL Stringification of new VTTCue(0, 1, "foo") undefined is not an object (evaluating 'this.array.members[this.base].has_stringifier')(stack: has_stringifier@http://localhost:8800/resources/idlharness.js:1662:38
+http://localhost:8800/resources/idlharness.js:1550:34
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_primary_interface_of@http://localhost:8800/resources/idlharness.js:1545:9
+test_object@http://localhost:8800/resources/idlharness.js:1495:35
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTCue interface: new VTTCue(0, 1, "foo") must inherit property "region" with the proper type (0) assert_inherits: property "region" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+PASS VTTCue interface: new VTTCue(0, 1, "foo") must inherit property "vertical" with the proper type (1) 
+PASS VTTCue interface: new VTTCue(0, 1, "foo") must inherit property "snapToLines" with the proper type (2) 
+FAIL VTTCue interface: new VTTCue(0, 1, "foo") must inherit property "line" with the proper type (3) Unrecognized type [object Object],[object Object]
+FAIL VTTCue interface: new VTTCue(0, 1, "foo") must inherit property "lineAlign" with the proper type (4) assert_inherits: property "lineAlign" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+PASS VTTCue interface: new VTTCue(0, 1, "foo") must inherit property "position" with the proper type (5) 
+FAIL VTTCue interface: new VTTCue(0, 1, "foo") must inherit property "positionAlign" with the proper type (6) assert_inherits: property "positionAlign" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+PASS VTTCue interface: new VTTCue(0, 1, "foo") must inherit property "size" with the proper type (7) 
+PASS VTTCue interface: new VTTCue(0, 1, "foo") must inherit property "align" with the proper type (8) 
+PASS VTTCue interface: new VTTCue(0, 1, "foo") must inherit property "text" with the proper type (9) 
+PASS VTTCue interface: new VTTCue(0, 1, "foo") must inherit property "getCueAsHTML" with the proper type (10) 
+FAIL VTTRegion interface: existence and properties of interface object assert_equals: prototype of window's property "VTTRegion" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+PASS VTTRegion interface object length 
+FAIL VTTRegion interface: existence and properties of interface prototype object assert_false: VTTRegion.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTRegion interface: existence and properties of interface prototype object's "constructor" property assert_true: VTTRegion.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTRegion interface: attribute width assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTRegion interface: attribute lines assert_true: The prototype object must have a property "lines" expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1265:24
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTRegion interface: attribute regionAnchorX assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTRegion interface: attribute regionAnchorY assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTRegion interface: attribute viewportAnchorX assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTRegion interface: attribute viewportAnchorY assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+FAIL VTTRegion interface: attribute scroll assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+PASS VTTRegion must be primary interface of new VTTRegion() 
+PASS Stringification of new VTTRegion() 
+PASS VTTRegion interface: new VTTRegion() must inherit property "width" with the proper type (0) 
+FAIL VTTRegion interface: new VTTRegion() must inherit property "lines" with the proper type (1) assert_inherits: property "lines" not found in prototype chain(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:553:19
+http://localhost:8800/resources/idlharness.js:1586:36
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+onload@http://localhost:8800/webvtt/interfaces.html:61:15)
+PASS VTTRegion interface: new VTTRegion() must inherit property "regionAnchorX" with the proper type (2) 
+PASS VTTRegion interface: new VTTRegion() must inherit property "regionAnchorY" with the proper type (3) 
+PASS VTTRegion interface: new VTTRegion() must inherit property "viewportAnchorX" with the proper type (4) 
+PASS VTTRegion interface: new VTTRegion() must inherit property "viewportAnchorY" with the proper type (5) 
+PASS VTTRegion interface: new VTTRegion() must inherit property "scroll" with the proper type (6) 
+

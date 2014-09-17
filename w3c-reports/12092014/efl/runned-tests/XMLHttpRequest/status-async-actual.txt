@@ -1,0 +1,41 @@
+
+PASS XMLHttpRequest: status/statusText - various responses 1 (GET 204) 
+PASS XMLHttpRequest: status/statusText - various responses 2 (HEAD 204) 
+PASS XMLHttpRequest: status/statusText - various responses 3 (CHICKEN 204) 
+PASS XMLHttpRequest: status/statusText - various responses 4 (GET 401) 
+PASS XMLHttpRequest: status/statusText - various responses 5 (HEAD 401) 
+PASS XMLHttpRequest: status/statusText - various responses 6 (CHICKEN 401) 
+PASS XMLHttpRequest: status/statusText - various responses 7 (GET 402) 
+PASS XMLHttpRequest: status/statusText - various responses 8 (HEAD 402) 
+PASS XMLHttpRequest: status/statusText - various responses 9 (CHICKEN 402) 
+PASS XMLHttpRequest: status/statusText - various responses 10 (GET 402) 
+PASS XMLHttpRequest: status/statusText - various responses 11 (HEAD 402) 
+PASS XMLHttpRequest: status/statusText - various responses 12 (CHICKEN 402) 
+PASS XMLHttpRequest: status/statusText - various responses 13 (GET 402) 
+PASS XMLHttpRequest: status/statusText - various responses 14 (HEAD 402) 
+PASS XMLHttpRequest: status/statusText - various responses 15 (CHICKEN 402) 
+PASS XMLHttpRequest: status/statusText - various responses 16 (GET 502) 
+PASS XMLHttpRequest: status/statusText - various responses 17 (HEAD 502) 
+PASS XMLHttpRequest: status/statusText - various responses 18 (CHICKEN 502) 
+PASS XMLHttpRequest: status/statusText - various responses 19 (GET 502) 
+PASS XMLHttpRequest: status/statusText - various responses 20 (HEAD 502) 
+PASS XMLHttpRequest: status/statusText - various responses 21 (CHICKEN 502) 
+PASS XMLHttpRequest: status/statusText - various responses 22 (GET 503) 
+PASS XMLHttpRequest: status/statusText - various responses 23 (HEAD 503) 
+PASS XMLHttpRequest: status/statusText - various responses 24 (CHICKEN 503) 
+FAIL XMLHttpRequest: status/statusText - various responses 25 (GET 699) assert_equals: expected 699 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/status-async.htm:24:30
+step@http://localhost:8800/resources/testharness.js:798:30
+onreadystatechange@http://localhost:8800/XMLHttpRequest/status-async.htm:22:22)
+FAIL XMLHttpRequest: status/statusText - various responses 26 (HEAD 699) assert_equals: expected 699 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/status-async.htm:24:30
+step@http://localhost:8800/resources/testharness.js:798:30
+onreadystatechange@http://localhost:8800/XMLHttpRequest/status-async.htm:22:22)
+FAIL XMLHttpRequest: status/statusText - various responses 27 (CHICKEN 699) assert_equals: expected 699 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/status-async.htm:24:30
+step@http://localhost:8800/resources/testharness.js:798:30
+onreadystatechange@http://localhost:8800/XMLHttpRequest/status-async.htm:22:22)
+

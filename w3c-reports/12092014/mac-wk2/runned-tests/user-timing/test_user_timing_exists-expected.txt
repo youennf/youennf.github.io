@@ -1,0 +1,7 @@
+CONSOLE MESSAGE: line 22: TypeError: undefined is not an object (evaluating 'window.performance.mark')
+Description
+
+This test validates that all of the methods used to interact with the User Timing API are defined.
+
+
+Harness Error. harness_status.status = 1 , harness_status.message = TypeError: undefined is not an object (evaluating 'window.performance.mark')

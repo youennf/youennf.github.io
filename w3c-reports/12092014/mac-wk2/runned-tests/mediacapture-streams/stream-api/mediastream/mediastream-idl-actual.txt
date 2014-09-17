@@ -1,0 +1,12 @@
+When prompted, accept to share your video and audio stream.
+
+Description
+
+This test checks that the MediaStream constructor follows the algorithm set in the spec.
+
+The feature(s) tested here are known to have been made available via vendor prefixes; you can run this test with vendor prefixes enabled.
+
+FAIL Tests that a MediaStream constructor follows the algorithm set in the spec undefined is not a function (evaluating 'navigator.getUserMedia')(stack: http://localhost:8800/mediacapture-streams/stream-api/mediastream/mediastream-idl.html:27:25
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/mediacapture-streams/stream-api/mediastream/mediastream-idl.html:26:7)
+

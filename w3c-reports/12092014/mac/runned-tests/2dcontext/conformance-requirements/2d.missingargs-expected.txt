@@ -1,0 +1,12 @@
+2d.missingargs
+Missing arguments cause TypeError
+Actual output:
+
+FAIL Missing arguments cause TypeError assert_throws: function "function () { g.addColorStop(0); }" threw object "Error: SyntaxError: DOM Exception 12" ("SyntaxError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/2dcontext/conformance-requirements/2d.missingargs.html:137:14
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

@@ -1,0 +1,19 @@
+
+PASS HTMLTableRowElement.rowIndex 
+PASS HTMLTableRowElement.rowIndex 1 
+PASS HTMLTableRowElement.rowIndex 2 
+PASS HTMLTableRowElement.rowIndex 3 
+FAIL HTMLTableRowElement.rowIndex 4 assert_equals: expected 0 but got -1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/tabular-data/the-tr-element/rowIndex.html:34:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/tabular-data/the-tr-element/rowIndex.html:31:5)
+PASS HTMLTableRowElement.rowIndex 5 
+PASS HTMLTableRowElement.rowIndex 6 
+PASS HTMLTableRowElement.rowIndex 7 
+PASS HTMLTableRowElement.rowIndex 8 
+PASS HTMLTableRowElement.rowIndex 9 
+PASS HTMLTableRowElement.rowIndex 10 
+PASS HTMLTableRowElement.rowIndex 11 
+

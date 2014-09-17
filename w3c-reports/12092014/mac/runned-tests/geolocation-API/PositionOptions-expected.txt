@@ -1,0 +1,4 @@
+Clear all Geolocation permissions before running this test. If prompted for permission, please allow.
+
+
+Harness Error. harness_status.status = 2 , harness_status.message = null

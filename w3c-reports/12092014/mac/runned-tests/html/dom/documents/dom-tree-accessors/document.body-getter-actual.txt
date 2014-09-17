@@ -1,0 +1,43 @@
+
+PASS Childless document 
+PASS Childless html element 
+FAIL Body followed by frameset inside the html element assert_equals: expected Element node <body></body> but got Element node <frameset></frameset>(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/dom/documents/dom-tree-accessors/document.body-getter.html:31:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/dom/documents/dom-tree-accessors/document.body-getter.html:25:5)
+PASS Frameset followed by body inside the html element 
+FAIL Body followed by frameset inside a non-HTML html element assert_equals: expected null but got Element node <frameset></frameset>(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/dom/documents/dom-tree-accessors/document.body-getter.html:47:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/dom/documents/dom-tree-accessors/document.body-getter.html:41:5)
+FAIL Frameset followed by body inside a non-HTML html element assert_equals: expected null but got Element node <frameset></frameset>(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/dom/documents/dom-tree-accessors/document.body-getter.html:55:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/dom/documents/dom-tree-accessors/document.body-getter.html:49:5)
+PASS Non-HTML body followed by body inside the html element 
+PASS Non-HTML frameset followed by body inside the html element 
+PASS Body inside an x element followed by a body 
+PASS Frameset inside an x element followed by a frameset 
+PASS Body as the root node 
+PASS Frameset as the root node 
+FAIL Body as the root node with a frameset child assert_equals: expected null but got Element node <frameset></frameset>(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/dom/documents/dom-tree-accessors/document.body-getter.html:105:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/dom/documents/dom-tree-accessors/document.body-getter.html:101:5)
+FAIL Frameset as the root node with a body child assert_equals: expected null but got Element node <body></body>(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/dom/documents/dom-tree-accessors/document.body-getter.html:111:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/dom/documents/dom-tree-accessors/document.body-getter.html:107:5)
+PASS Non-HTML body as the root node 
+PASS Non-HTML frameset as the root node 
+

@@ -1,0 +1,5 @@
+CONSOLE MESSAGE: line 15: TypeError: undefined is not an object (evaluating 'w.close')
+FAIL: Timed out waiting for notifyDone to be called
+Test requires popup blocker disabled
+
+

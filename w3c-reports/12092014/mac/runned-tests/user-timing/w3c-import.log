@@ -1,0 +1,30 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-09 15:44
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/user-timing/./idlharness.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/user-timing/./test_user_timing_clear_marks.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/user-timing/./test_user_timing_clear_measures.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/user-timing/./test_user_timing_entry_type.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/user-timing/./test_user_timing_exists.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/user-timing/./test_user_timing_mark.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/user-timing/./test_user_timing_mark_and_measure_exception_when_invoke_without_parameter.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/user-timing/./test_user_timing_mark_exceptions.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/user-timing/./test_user_timing_mark_with_name_of_navigation_timing_optional_attribute.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/user-timing/./test_user_timing_measure.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/user-timing/./test_user_timing_measure_exceptions.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/user-timing/./test_user_timing_measure_navigation_timing.html

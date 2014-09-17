@@ -1,0 +1,3 @@
+CONSOLE MESSAGE: line 24: ReferenceError: Can't find variable: indexedDB
+
+Harness Error. harness_status.status = 1 , harness_status.message = ReferenceError: Can't find variable: indexedDB

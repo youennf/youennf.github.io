@@ -1,0 +1,9 @@
+
+FAIL XMLHttpRequest: send() - Redirects (infinite loop; sync) (301) assert_throws: function "function () { client.send(null); }" threw object "Error: NETWORK_ERR: XMLHttpRequest Exception 101" that is not a DOMException NetworkError: property "code" is equal to 101, expected 19(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/XMLHttpRequest/send-redirect-infinite-sync.htm:18:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+redirect@http://localhost:8800/XMLHttpRequest/send-redirect-infinite-sync.htm:15:13
+global code@http://localhost:8800/XMLHttpRequest/send-redirect-infinite-sync.htm:21:15)
+

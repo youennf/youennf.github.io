@@ -1,0 +1,14 @@
+
+FAIL XMLHttpRequest: The abort() method: abort and loadend events assert_array_equals: lengths differ, expected 6 got 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/XMLHttpRequest/abort-event-order.htm:54:40
+step@http://localhost:8800/resources/testharness.js:798:30
+VerifyResult@http://localhost:8800/XMLHttpRequest/abort-event-order.htm:52:26
+http://localhost:8800/XMLHttpRequest/abort-event-order.htm:37:37
+step@http://localhost:8800/resources/testharness.js:798:30
+onloadstart@http://localhost:8800/XMLHttpRequest/abort-event-order.htm:31:26
+send@[native code]
+http://localhost:8800/XMLHttpRequest/abort-event-order.htm:61:21
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/XMLHttpRequest/abort-event-order.htm:16:18)
+

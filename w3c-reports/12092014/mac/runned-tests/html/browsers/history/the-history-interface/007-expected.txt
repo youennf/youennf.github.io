@@ -1,0 +1,2 @@
+FAIL: Timed out waiting for notifyDone to be called
+It looks like the browser stopped loading the page when encountering a .go(-1) command pointing to a pushed state. This will break the tests.

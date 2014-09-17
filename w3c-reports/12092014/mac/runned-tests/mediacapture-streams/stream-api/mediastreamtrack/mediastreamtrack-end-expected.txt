@@ -1,0 +1,12 @@
+When prompted, accept to share your video and audio stream, and then revoke that permission.
+
+Description
+
+This test checks that the video and audio tracks of MediaStream object returned by the success callback in getUserMedia are correctly set into ended state when permission is revoked.
+
+The feature(s) tested here are known to have been made available via vendor prefixes; you can run this test with vendor prefixes enabled.
+
+FAIL Tests that the video MediaStreamTrack objects are properly ended on permission revocation undefined is not a function (evaluating 'navigator.getUserMedia')(stack: http://localhost:8800/mediacapture-streams/stream-api/mediastreamtrack/mediastreamtrack-end.html:24:25
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/mediacapture-streams/stream-api/mediastreamtrack/mediastreamtrack-end.html:23:7)
+

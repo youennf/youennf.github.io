@@ -1,0 +1,12 @@
+2d.imageData.object.ctor
+ImageData does not have a usable constructor
+Actual output:
+
+FAIL ImageData does not have a usable constructor assert_throws: function "function () { new window.ImageData(1,1); }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/2dcontext/pixel-manipulation/2d.imageData.object.ctor.html:23:14
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

@@ -1,0 +1,34 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 15:46
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./apisample6.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./apisample.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./.htaccess
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./apisample7.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./apisample5.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./apisample10.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./apisample9.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./apisample4.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./apisample2.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./testharness.css
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./apisample3.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./readme.md
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./idlharness.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./testharness.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./testharnessreport.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/resources/./apisample8.html

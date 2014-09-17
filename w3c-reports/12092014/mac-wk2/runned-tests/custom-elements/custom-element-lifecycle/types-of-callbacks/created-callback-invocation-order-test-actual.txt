@@ -1,0 +1,50 @@
+
+FAIL Test attached callback is enqueued after created callback undefined is not a function (evaluating 'doc.registerElement('x-a', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-order-test.html:37:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attributeChanged callback is enqueued after created callback. Document has browsing context undefined is not a function (evaluating 'doc.registerElement('x-b', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-order-test.html:49:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attributeChanged callback is enqueued after created callback. Document has no browsing context undefined is not a function (evaluating 'doc.registerElement('x-c', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-order-test.html:65:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-order-test.html:62:5)
+FAIL Test detached callback is enqueued after created callback. undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-order-test.html:79:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attributeChanged callback is not enqueued before created callback started. Document has no browsing context undefined is not a function (evaluating 'doc.registerElement('x-d', {prototype: proto1})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-order-test.html:100:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-order-test.html:90:5)
+FAIL Test attributeChanged callback is not enqueued before created callback started. Document has browsing context undefined is not a function (evaluating 'doc.registerElement('x-f', {prototype: proto1})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-order-test.html:119:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attributeChanged callback is enqueued after created callback started. Document has no browsing context undefined is not a function (evaluating 'doc.registerElement('x-h', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-order-test.html:136:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-order-test.html:129:5)
+FAIL Test attached callback is enqueued after created callback, but before created callback had started undefined is not a function (evaluating 'docNoBrowsingContext.registerElement('x-i', {prototype: proto1})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-order-test.html:158:41
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attached callback is enqueued after created callback had started undefined is not a function (evaluating 'docNoBrowsingContext.registerElement('x-l', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-order-test.html:184:41
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test detached callback is not enqueued before created callback had started undefined is not a function (evaluating 'doc.registerElement('x-m', {prototype: proto1})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-order-test.html:202:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test detached callback is enqueued after created callback had started undefined is not a function (evaluating 'doc.registerElement('x-o', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-order-test.html:217:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attached callback is enqueued after created callback after registration of custom element type undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/created-callback-invocation-order-test.html:227:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

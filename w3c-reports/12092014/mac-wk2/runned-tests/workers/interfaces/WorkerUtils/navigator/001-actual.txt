@@ -1,0 +1,7 @@
+
+FAIL navigator assert_equals: expected 6 but got 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/workers/interfaces/WorkerUtils/navigator/001.html:24:56
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

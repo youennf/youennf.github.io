@@ -1,0 +1,4 @@
+CONSOLE MESSAGE: WebSocket connection to 'ws://localhost:49001/handshake_no_protocol' failed: Compressed bit must be 0 if no negotiated deflate-frame extension
+
+PASS WebSockets: no protocol in response 
+

@@ -1,0 +1,9 @@
+CONSOLE MESSAGE: WebSocket connection to 'ws://localhost:49001/' failed: WebSocket is closed before the connection is established.
+
+FAIL WebSockets: delete readyState assert_equals: expected 2 but got 3(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/websockets/interfaces/WebSocket/readyState/003.html:13:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/websockets/interfaces/WebSocket/readyState/003.html:8:5)
+

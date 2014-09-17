@@ -1,0 +1,18 @@
+CONSOLE MESSAGE: Refused to set unsafe header "Content-Transfer-Encoding"
+CONSOLE MESSAGE: Refused to set unsafe header "Content-Transfer-Encoding"
+
+PASS XMLHttpRequest: setRequestHeader() - headers that are allowed (Authorization) 
+PASS XMLHttpRequest: setRequestHeader() - headers that are allowed (Pragma) 
+FAIL XMLHttpRequest: setRequestHeader() - headers that are allowed (Content-Transfer-Encoding) assert_equals: expected "content-transfer-encoding," but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/setrequestheader-header-allowed.htm:19:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+request@http://localhost:8800/XMLHttpRequest/setrequestheader-header-allowed.htm:13:13
+global code@http://localhost:8800/XMLHttpRequest/setrequestheader-header-allowed.htm:24:14)
+PASS XMLHttpRequest: setRequestHeader() - headers that are allowed (Content-Type) 
+PASS XMLHttpRequest: setRequestHeader() - headers that are allowed (Overwrite) 
+PASS XMLHttpRequest: setRequestHeader() - headers that are allowed (If) 
+PASS XMLHttpRequest: setRequestHeader() - headers that are allowed (Status-URI) 
+PASS XMLHttpRequest: setRequestHeader() - headers that are allowed (X-Pink-Unicorn) 
+

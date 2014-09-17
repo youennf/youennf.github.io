@@ -1,0 +1,40 @@
+
+FAIL Test custom element type, after assigning IS attribute value. Element is created by constructor undefined is not a function (evaluating 'doc.registerElement('x-a')')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:19:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:17:5)
+FAIL Test custom element type, after assigning IS attribute value. Element is created via innerHTML property undefined is not a function (evaluating 'doc.registerElement('x-c')')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:31:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:29:5)
+FAIL Test custom element type, after assigning IS attribute value to unresolved element. Element is created via innerHTML property undefined is not a function (evaluating 'doc.registerElement('x-e')')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:47:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:42:5)
+FAIL Test custom element type, after assigning IS attribute value. Element is defined in loaded HTML document undefined is not a function (evaluating 'doc.registerElement('x-element')')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:56:51
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test custom element type, after assigning IS attribute value to unresolved element. Element is defined in loaded HTML document undefined is not a function (evaluating 'doc.registerElement('x-element')')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:69:51
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test custom element type after changing IS attribute value. Element is HTML5 element with IS attribute referring to custom element type undefined is not a function (evaluating 'doc.registerElement(name, {prototype: proto, extends: tagName})')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:86:55
+forEach@[native code]
+http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:79:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:77:5)
+FAIL Test custom element type after changing IS attribute value several times. Element is HTML5 element with IS attribute referring to custom element type undefined is not a function (evaluating 'doc.registerElement(localName, {prototype: proto, extends: 'a'})')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:115:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:110:5)
+FAIL Test custom element type, after removing IS attribute value. Element is created via innerHTML property undefined is not a function (evaluating 'doc.registerElement('x-g')')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:134:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:132:5)
+FAIL Test custom element type, after removing IS attribute value. Element is HTML5 element with IS attribute referring to custom element type undefined is not a function (evaluating 'doc.registerElement('x-i', {prototype: proto, extends: 'a'})')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:149:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/changing-is-attribute.html:145:5)
+

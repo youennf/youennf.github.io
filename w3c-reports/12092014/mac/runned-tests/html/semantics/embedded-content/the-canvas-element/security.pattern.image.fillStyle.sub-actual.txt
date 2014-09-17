@@ -1,0 +1,13 @@
+Blocked access to external URL http://www2.localhost:8800/images/yellow.png
+Blocked access to external URL http://www2.localhost:8800/images/yellow.png
+security.pattern.image.fillStyle.sub
+Setting fillStyle to a pattern of a different-origin image makes the canvas origin-unclean
+Actual output:
+
+FAIL Setting fillStyle to a pattern of a different-origin image makes the canvas origin-unclean InvalidStateError: DOM Exception 11(stack: createPattern@[native code]
+http://localhost:8800/html/semantics/embedded-content/the-canvas-element/security.pattern.image.fillStyle.sub.html:22:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

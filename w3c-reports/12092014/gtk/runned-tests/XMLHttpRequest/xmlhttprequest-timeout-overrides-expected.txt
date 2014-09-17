@@ -1,0 +1,14 @@
+Description
+
+This test validates that the XHR2 timeout property behaves as expected in async cases in document (i.e. non-worker) context.
+
+
+PASS Timeout test: timeout disabled after initially set, original timeout at 1000, reset at 400 to 0 
+FAIL Timeout test: timeout overrides load after a delay, original timeout at 1000, reset at 200 to 400 assert_equals: expected "timeout" but got "load"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/resources/xmlhttprequest-timeout-runner.js:7:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testResultCallbackHandler@http://localhost:8800/XMLHttpRequest/resources/xmlhttprequest-timeout-runner.js:7:13)
+PASS Timeout test: timeout enabled after initially disabled, original timeout at 0, reset at 400 to 1000 
+

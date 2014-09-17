@@ -1,0 +1,271 @@
+
+FAIL Historical DOM features must be removed: CDATASection assert_equals: expected (undefined) undefined but got (object) object "[object CDATASectionConstructor]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:9:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isInterfaceNuked@http://localhost:8800/dom/historical.html:8:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:31:24)
+PASS Historical DOM features must be removed: DOMConfiguration 
+PASS Historical DOM features must be removed: DOMErrorHandler 
+PASS Historical DOM features must be removed: DOMImplementationList 
+PASS Historical DOM features must be removed: DOMImplementationSource 
+PASS Historical DOM features must be removed: DOMLocator 
+PASS Historical DOM features must be removed: DOMObject 
+PASS Historical DOM features must be removed: DOMUserData 
+FAIL Historical DOM features must be removed: Entity assert_equals: expected (undefined) undefined but got (object) object "[object EntityConstructor]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:9:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isInterfaceNuked@http://localhost:8800/dom/historical.html:8:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:31:24)
+FAIL Historical DOM features must be removed: EntityReference assert_equals: expected (undefined) undefined but got (object) object "[object EntityReferenceConstructor]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:9:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isInterfaceNuked@http://localhost:8800/dom/historical.html:8:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:31:24)
+FAIL Historical DOM features must be removed: EventException assert_equals: expected (undefined) undefined but got (object) object "[object EventExceptionConstructor]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:9:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isInterfaceNuked@http://localhost:8800/dom/historical.html:8:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:31:24)
+FAIL Historical DOM features must be removed: NamedNodeMap assert_equals: expected (undefined) undefined but got (object) object "[object NamedNodeMapConstructor]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:9:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isInterfaceNuked@http://localhost:8800/dom/historical.html:8:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:31:24)
+PASS Historical DOM features must be removed: NameList 
+FAIL Historical DOM features must be removed: Notation assert_equals: expected (undefined) undefined but got (object) object "[object NotationConstructor]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:9:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isInterfaceNuked@http://localhost:8800/dom/historical.html:8:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:31:24)
+PASS Historical DOM features must be removed: TypeInfo 
+PASS Historical DOM features must be removed: UserDataHandler 
+FAIL Historical DOM features must be removed: RangeException assert_equals: expected (undefined) undefined but got (object) object "[object RangeExceptionConstructor]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:9:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isInterfaceNuked@http://localhost:8800/dom/historical.html:8:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:31:24)
+FAIL Historical DOM features must be removed: createCDATASection assert_equals: expected (undefined) undefined but got (function) function "function createCDATASection() {
+    [native code]
+}"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:36:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromDocument@http://localhost:8800/dom/historical.html:34:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:58:22)
+FAIL Historical DOM features must be removed: createAttribute assert_equals: expected (undefined) undefined but got (function) function "function createAttribute() {
+    [native code]
+}"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:36:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromDocument@http://localhost:8800/dom/historical.html:34:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:58:22)
+FAIL Historical DOM features must be removed: createAttributeNS assert_equals: expected (undefined) undefined but got (function) function "function createAttributeNS() {
+    [native code]
+}"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:36:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromDocument@http://localhost:8800/dom/historical.html:34:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:58:22)
+FAIL Historical DOM features must be removed: createEntityReference assert_equals: expected (undefined) undefined but got (function) function "function createEntityReference() {
+    [native code]
+}"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:36:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromDocument@http://localhost:8800/dom/historical.html:34:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:58:22)
+FAIL Historical DOM features must be removed: inputEncoding assert_equals: expected (undefined) undefined but got (string) "ISO-8859-1"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:36:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromDocument@http://localhost:8800/dom/historical.html:34:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:58:22)
+FAIL Historical DOM features must be removed: xmlEncoding assert_equals: expected (undefined) undefined but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:36:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromDocument@http://localhost:8800/dom/historical.html:34:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:58:22)
+FAIL Historical DOM features must be removed: xmlStandalone assert_equals: expected (undefined) undefined but got (boolean) false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:36:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromDocument@http://localhost:8800/dom/historical.html:34:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:58:22)
+FAIL Historical DOM features must be removed: xmlVersion assert_equals: expected (undefined) undefined but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:36:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromDocument@http://localhost:8800/dom/historical.html:34:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:58:22)
+PASS Historical DOM features must be removed: strictErrorChecking 
+PASS Historical DOM features must be removed: domConfig 
+PASS Historical DOM features must be removed: normalizeDocument 
+PASS Historical DOM features must be removed: renameNode 
+FAIL Historical DOM features must be removed: charset assert_equals: expected (undefined) undefined but got (string) "ISO-8859-1"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:36:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromDocument@http://localhost:8800/dom/historical.html:34:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:58:22)
+FAIL Historical DOM features must be removed: defaultCharset assert_equals: expected (undefined) undefined but got (string) "ISO-8859-1"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:36:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromDocument@http://localhost:8800/dom/historical.html:34:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:58:22)
+FAIL Historical DOM features must be removed: height assert_equals: expected (undefined) undefined but got (number) 600(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:36:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromDocument@http://localhost:8800/dom/historical.html:34:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:58:22)
+FAIL Historical DOM features must be removed: width assert_equals: expected (undefined) undefined but got (number) 800(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:36:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromDocument@http://localhost:8800/dom/historical.html:34:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:58:22)
+PASS DOMImplementation.getFeature() must be nuked. 
+FAIL Historical DOM features must be removed: getAttributeNode assert_equals: expected (undefined) undefined but got (function) function "function getAttributeNode() {
+    [native code]
+}"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:67:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromElement@http://localhost:8800/dom/historical.html:65:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:81:21)
+FAIL Historical DOM features must be removed: getAttributeNodeNS assert_equals: expected (undefined) undefined but got (function) function "function getAttributeNodeNS() {
+    [native code]
+}"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:67:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromElement@http://localhost:8800/dom/historical.html:65:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:81:21)
+FAIL Historical DOM features must be removed: setAttributeNode assert_equals: expected (undefined) undefined but got (function) function "function setAttributeNode() {
+    [native code]
+}"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:67:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromElement@http://localhost:8800/dom/historical.html:65:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:81:21)
+FAIL Historical DOM features must be removed: removeAttributeNode assert_equals: expected (undefined) undefined but got (function) function "function removeAttributeNode() {
+    [native code]
+}"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:67:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromElement@http://localhost:8800/dom/historical.html:65:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:81:21)
+PASS Historical DOM features must be removed: schemaTypeInfo 
+PASS Historical DOM features must be removed: setIdAttribute 
+PASS Historical DOM features must be removed: setIdAttributeNS 
+PASS Historical DOM features must be removed: setIdAttributeNode 
+FAIL DocumentType member must be nuked: entities assert_equals: expected (undefined) undefined but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:86:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromDoctype@http://localhost:8800/dom/historical.html:84:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:94:21)
+FAIL DocumentType member must be nuked: notations assert_equals: expected (undefined) undefined but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:86:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromDoctype@http://localhost:8800/dom/historical.html:84:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:94:21)
+FAIL DocumentType member must be nuked: internalSubset assert_equals: expected (undefined) undefined but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:86:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromDoctype@http://localhost:8800/dom/historical.html:84:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:94:21)
+PASS Text member must be nuked: isElementContentWhitespace 
+FAIL Text member must be nuked: replaceWholeText assert_equals: expected (undefined) undefined but got (function) function "function replaceWholeText() {
+    [native code]
+}"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:99:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromText@http://localhost:8800/dom/historical.html:97:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:106:18)
+PASS Node member must be nuked: hasAttributes 
+FAIL Node member must be nuked: isSupported assert_equals: expected (undefined) undefined but got (function) function "function isSupported() {
+    [native code]
+}"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/historical.html:113:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+isNukedFromNode@http://localhost:8800/dom/historical.html:109:7
+forEach@[native code]
+global code@http://localhost:8800/dom/historical.html:129:18)
+PASS Node member must be nuked: getFeature 
+PASS Node member must be nuked: getUserData 
+PASS Node member must be nuked: setUserData 
+PASS Window member must be nuked: attachEvent 
+

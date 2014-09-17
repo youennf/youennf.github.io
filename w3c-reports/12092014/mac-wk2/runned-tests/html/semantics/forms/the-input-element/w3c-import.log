@@ -1,0 +1,53 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-11 16:22
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/button.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/checkbox.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/checked.xhtml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/color.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/contains.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/date.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/datetime-2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/datetime-local.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/datetime.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/email.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/hidden.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/image01-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/image01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/input-textselection-01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/input-type-button.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/input-type-checkbox.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/month.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/number.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/password.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/pattern_attribute.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/radio-groupname-case.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/radio.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/range-2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/range.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/required_attribute.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/reset.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/search_input.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/telephone.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/text.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/time-2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/time.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/type-change-state.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/url.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/valueMode.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/the-input-element/week.html

@@ -1,0 +1,12 @@
+
+FAIL A_04_01_07_T01 undefined is not a function (evaluating 'div.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-007.html:30:33
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-007.html:26:5)
+FAIL A_04_01_07_T02 undefined is not a function (evaluating 'div.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-007.html:65:37
+forEach@[native code]
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-007.html:50:43
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/test-007.html:48:5)
+

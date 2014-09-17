@@ -1,0 +1,7 @@
+
+FAIL IDBVersionChangeEvent fired in upgradeneeded, versionchange and deleteDatabase assert_equals: old version (upgradeneeded) expected 0 but got 9223372036854776000(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/IndexedDB/idbversionchangeevent.htm:22:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

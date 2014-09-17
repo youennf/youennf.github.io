@@ -1,0 +1,7 @@
+
+FAIL onerror, "not handled" with an error in the onerror function assert_equals: typeof e.column expected "number" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/workers/interfaces/WorkerGlobalScope/onerror/exception-in-onerror.html:24:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

@@ -1,0 +1,33 @@
+      
+
+FAIL XMLHttpRequest: send() - Document Can't find variable: number(stack: http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:28:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+request@http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:24:13
+init@http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:38:49
+onload@http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:48:5)
+FAIL XMLHttpRequest: send() - Document 1 Can't find variable: number(stack: http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:28:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+request@http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:24:13
+init@http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:38:49
+onload@http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:49:5)
+FAIL XMLHttpRequest: send() - Document 2 Can't find variable: number(stack: http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:28:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+request@http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:24:13
+init@http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:38:49
+onload@http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:50:5)
+FAIL XMLHttpRequest: send() - Document 3 Can't find variable: number(stack: http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:28:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+request@http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:24:13
+init@http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:38:49
+onload@http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:52:5)
+FAIL XMLHttpRequest: send() - Document 4 Can't find variable: number(stack: http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:28:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+request@http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:24:13
+init@http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:38:49
+onload@http://localhost:8800/XMLHttpRequest/send-entity-body-document.htm:51:5)
+

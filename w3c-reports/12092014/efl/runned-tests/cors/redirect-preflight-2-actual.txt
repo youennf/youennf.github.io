@@ -1,0 +1,10 @@
+Preflight after redirect
+
+
+PASS Same-origin custom-header request, redirect to cross-origin fails after doing a non-successful preflight 
+FAIL Same-origin custom-header request, redirect to cross-origin succeeds after doing a preflight assert_unreached: Error during request Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/cors/redirect-preflight-2.htm:50:67
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

@@ -1,0 +1,18 @@
+
+FAIL The parentNode attribute of a shadow root must always return null. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/shadow-root-001.html:29:47
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/shadow-root-001.html:27:5)
+FAIL The parentElement attribute of a shadow root must always return null. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/shadow-root-001.html:35:47
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/shadow-root-001.html:33:5)
+FAIL The parentNode attribute of a shadow root must always return null, even if the shadow root is nested inside another shadow root. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/shadow-root-001.html:41:52
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/shadow-root-001.html:39:5)
+FAIL The parentElement attribute of a shadow root must always return null, even if the shadow root is nested inside another shadow root. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/shadow-root-001.html:53:52
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/shadow-root-001.html:51:5)
+

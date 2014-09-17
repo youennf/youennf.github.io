@@ -1,0 +1,17 @@
+                  
+
+PASS If there is one img, it should be returned (name) 
+PASS If there are two imgs, a collection should be returned. (name) 
+PASS If there is one img, it should not be returned (id) 
+FAIL If there are two imgs, nothing should be returned. (id) assert_equals: collection should be an HTMLCollection expected "[object HTMLCollection]" but got "[object Undefined]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+assert_class_string@http://localhost:8800/resources/testharness.js:512:22
+http://localhost:8800/html/dom/documents/dom-tree-accessors/nameditem-06.html:67:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/dom/documents/dom-tree-accessors/nameditem-06.html:59:5)
+PASS If there are two imgs, the one with a name should be returned. (name and id) 
+PASS If there are two imgs, the one with a name should be returned. (id and name) 
+PASS A name should affect getting an img by id 
+PASS An id shouldn't affect getting an img by name 
+

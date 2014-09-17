@@ -1,0 +1,76 @@
+Description
+
+This test validates that the TYPE_* enumerations of window.performance.navigation exist and their values are correct.
+
+
+FAIL window.performance is defined and not null. assert_true: window.performance is defined and not null expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/navigation-timing/resources/webperftestharness.js:58:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:58:17
+test_namespace@http://localhost:8800/navigation-timing/resources/webperftestharness.js:69:16
+global code@http://localhost:8800/navigation-timing/test_navigation_type_enums.html:19:23)
+FAIL window.performance is defined assert_true: window.performance is defined expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/navigation-timing/resources/webperftestharness.js:69:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:62:9
+test_namespace@http://localhost:8800/navigation-timing/resources/webperftestharness.js:69:16
+global code@http://localhost:8800/navigation-timing/test_navigation_type_enums.html:19:23)
+FAIL window.performance.navigation is defined undefined is not an object (evaluating 'performanceNamespace[child_name]')(stack: http://localhost:8800/navigation-timing/resources/webperftestharness.js:74:62
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:62:9
+test_namespace@http://localhost:8800/navigation-timing/resources/webperftestharness.js:74:16
+global code@http://localhost:8800/navigation-timing/test_navigation_type_enums.html:19:23)
+FAIL window.performance.navigation.TYPE_NAVIGATE is defined. undefined is not an object (evaluating 'performanceNamespace[parent_name]')(stack: http://localhost:8800/navigation-timing/resources/webperftestharness.js:87:58
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:62:9
+test_enum@http://localhost:8800/navigation-timing/resources/webperftestharness.js:87:12
+global code@http://localhost:8800/navigation-timing/test_navigation_type_enums.html:21:18)
+FAIL window.performance.navigation.TYPE_NAVIGATE = 0 undefined is not an object (evaluating 'performanceNamespace[parent_name]')(stack: http://localhost:8800/navigation-timing/resources/webperftestharness.js:90:60
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:62:9
+test_enum@http://localhost:8800/navigation-timing/resources/webperftestharness.js:90:12
+global code@http://localhost:8800/navigation-timing/test_navigation_type_enums.html:21:18)
+FAIL window.performance.navigation.TYPE_RELOAD is defined. undefined is not an object (evaluating 'performanceNamespace[parent_name]')(stack: http://localhost:8800/navigation-timing/resources/webperftestharness.js:87:58
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:62:9
+test_enum@http://localhost:8800/navigation-timing/resources/webperftestharness.js:87:12
+global code@http://localhost:8800/navigation-timing/test_navigation_type_enums.html:22:18)
+FAIL window.performance.navigation.TYPE_RELOAD = 1 undefined is not an object (evaluating 'performanceNamespace[parent_name]')(stack: http://localhost:8800/navigation-timing/resources/webperftestharness.js:90:60
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:62:9
+test_enum@http://localhost:8800/navigation-timing/resources/webperftestharness.js:90:12
+global code@http://localhost:8800/navigation-timing/test_navigation_type_enums.html:22:18)
+FAIL window.performance.navigation.TYPE_BACK_FORWARD is defined. undefined is not an object (evaluating 'performanceNamespace[parent_name]')(stack: http://localhost:8800/navigation-timing/resources/webperftestharness.js:87:58
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:62:9
+test_enum@http://localhost:8800/navigation-timing/resources/webperftestharness.js:87:12
+global code@http://localhost:8800/navigation-timing/test_navigation_type_enums.html:23:18)
+FAIL window.performance.navigation.TYPE_BACK_FORWARD = 2 undefined is not an object (evaluating 'performanceNamespace[parent_name]')(stack: http://localhost:8800/navigation-timing/resources/webperftestharness.js:90:60
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:62:9
+test_enum@http://localhost:8800/navigation-timing/resources/webperftestharness.js:90:12
+global code@http://localhost:8800/navigation-timing/test_navigation_type_enums.html:23:18)
+FAIL window.performance.navigation.TYPE_RESERVED is defined. undefined is not an object (evaluating 'performanceNamespace[parent_name]')(stack: http://localhost:8800/navigation-timing/resources/webperftestharness.js:87:58
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:62:9
+test_enum@http://localhost:8800/navigation-timing/resources/webperftestharness.js:87:12
+global code@http://localhost:8800/navigation-timing/test_navigation_type_enums.html:24:18)
+FAIL window.performance.navigation.TYPE_RESERVED = 255 undefined is not an object (evaluating 'performanceNamespace[parent_name]')(stack: http://localhost:8800/navigation-timing/resources/webperftestharness.js:90:60
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:62:9
+test_enum@http://localhost:8800/navigation-timing/resources/webperftestharness.js:90:12
+global code@http://localhost:8800/navigation-timing/test_navigation_type_enums.html:24:18)
+

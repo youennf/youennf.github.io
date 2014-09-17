@@ -1,0 +1,8 @@
+
+
+FAIL Replacement of document prototype object after document.open assert_equals: expected (undefined) undefined but got (number) 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/008.html:16:16
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

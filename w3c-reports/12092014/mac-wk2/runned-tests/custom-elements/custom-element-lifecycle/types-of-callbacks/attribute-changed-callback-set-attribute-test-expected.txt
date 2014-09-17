@@ -1,0 +1,115 @@
+
+FAIL Test attributeChanged callback is called if attribute value is set by method setAttribute(). The custom element is created via constructor. undefined is not a function (evaluating 'doc.registerElement('x-a', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:20:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:17:5)
+FAIL Test attributeChanged callback arguments if attribute value is set by method setAttribute(). The custom element is created via constructor. undefined is not a function (evaluating 'doc.registerElement('x-b', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:33:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:30:5)
+FAIL Test attributeChanged callback is called if attribute value is set by method classList.add(). The custom element is created via constructor. undefined is not a function (evaluating 'doc.registerElement('x-c', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:46:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:43:5)
+FAIL Test attributeChanged callback arguments if attribute value is set by method classList.add(). The custom element is created via constructor. undefined is not a function (evaluating 'doc.registerElement('x-d', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:59:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:56:5)
+FAIL Test attributeChanged callback is called if attribute value is set by method classList.toggle(). The custom element is created via constructor. undefined is not a function (evaluating 'doc.registerElement('x-e', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:72:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:69:5)
+FAIL Test attributeChanged callback arguments if attribute value is set by method classList.toggle(). The custom element is created via constructor. undefined is not a function (evaluating 'doc.registerElement('x-f', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:85:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:82:5)
+FAIL Test attributeChanged callback is called if attribute value is set as property. The custom element is created via constructor. undefined is not a function (evaluating 'doc.registerElement('x-g', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:98:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:95:5)
+FAIL Test attributeChanged callback arguments if attribute value is set as property. The custom element is created via constructor. undefined is not a function (evaluating 'doc.registerElement('x-h', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:111:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:108:5)
+FAIL Test attributeChanged callback is not called if attribute value is specified in HTML. The custom element is created via innerHTML property. undefined is not a function (evaluating 'doc.registerElement('x-i', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:124:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:121:5)
+FAIL Test attributeChanged callback is called if attribute value is set by method setAttribute(). The custom element is created via innerHTML property. undefined is not a function (evaluating 'doc.registerElement('x-j', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:136:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:133:5)
+FAIL Test attributeChanged callback arguments if attribute value is set by method setAttribute(). The custom element is created via innerHTML property. undefined is not a function (evaluating 'doc.registerElement('x-k', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:150:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:147:5)
+FAIL Test attributeChanged callback is not called if attribute value of unresolved element is set by method setAttribute(). undefined is not a function (evaluating 'doc.registerElement('x-l', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:170:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:161:5)
+FAIL Test attributeChanged callback of the custom element that extends some HTML element. Test that the callback is called undefined is not a function (evaluating 'doc.registerElement('x-' + element + '-' + element + '-1', {
+            prototype: proto,
+            extends: element
+        })')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:186:55
+forEach@[native code]
+http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:183:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:181:5)
+FAIL Test attributeChanged callback is called if attribute is set by method classList.add(). The custom element extends some HTML element. undefined is not a function (evaluating 'doc.registerElement('x-' + element + '-' + element + '-1-1', {
+            prototype: proto,
+            extends: element
+        })')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:205:55
+forEach@[native code]
+http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:202:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:200:5)
+FAIL Test attributeChanged callback arguments if attribute value is set by method setAttribute(). The custom element extends some HTML element. undefined is not a function (evaluating 'doc.registerElement('x-' + element + '-' + element + '-2', {
+            prototype: proto,
+            extends: element
+        })')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:224:55
+forEach@[native code]
+http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:221:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:219:5)
+FAIL Test attributeChanged callback is called if attribute value is set by method setAttribute(). The document has browsing context. undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:240:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attributeChanged callback arguments if attribute value is set by method setAttribute(). The document has browsing context. undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:252:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attributeChanged callback is called if attribute value is set by method classList.add(). The document has browsing context. undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:264:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attributeChanged callback arguments if attribute value is set by method classList.add(). The document has browsing context. undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:276:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attributeChanged callback is not called if attribute value of unresolved element is set by method setAttribute(). The document has browsing context. undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:292:24
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attributeChanged callback is called if attribute value is set by method setAttribute(). The document has browsing context. The custom element extends some HTML element. undefined is not a function (evaluating 'doc.registerElement('x-' + element + '-' + element + '-1', {
+            prototype: proto,
+            extends: element
+        })')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:307:55
+forEach@[native code]
+http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:304:27
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test attributeChanged callback arguments if attribute value is set by method setAttribute(). The document has browsing context. The custom element extends some HTML element. undefined is not a function (evaluating 'doc.registerElement('x-' + element + '-' + element + '-2', {
+            prototype: proto,
+            extends: element
+        })')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:325:55
+forEach@[native code]
+http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/attribute-changed-callback-set-attribute-test.html:322:27
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

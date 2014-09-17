@@ -1,0 +1,48 @@
+
+FAIL Call getCurrentPosition without arguments, check that exception is thrown assert_throws: function "function () {
+    geo.getCurrentPosition();
+  }" threw object "Error: TypeMismatchError: DOM Exception 17" ("TypeMismatchError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/geolocation-API/getCurrentPosition_TypeError.html:14:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/geolocation-API/getCurrentPosition_TypeError.html:13:5)
+FAIL Call getCurrentPosition with null success callback, check that exception is thrown assert_throws: function "function () {
+    geo.getCurrentPosition(null);
+  }" threw object "Error: TypeMismatchError: DOM Exception 17" ("TypeMismatchError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/geolocation-API/getCurrentPosition_TypeError.html:21:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/geolocation-API/getCurrentPosition_TypeError.html:20:5)
+FAIL Call getCurrentPosition with null success and error callbacks, check that exception is thrown assert_throws: function "function () {
+    geo.getCurrentPosition(null, null);
+  }" threw object "Error: TypeMismatchError: DOM Exception 17" ("TypeMismatchError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/geolocation-API/getCurrentPosition_TypeError.html:28:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/geolocation-API/getCurrentPosition_TypeError.html:27:5)
+FAIL Call getCurrentPosition() with wrong type for first argument. Exception expected. assert_throws: function "function () {
+    geo.getCurrentPosition(3);
+  }" threw object "Error: TypeMismatchError: DOM Exception 17" ("TypeMismatchError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/geolocation-API/getCurrentPosition_TypeError.html:35:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/geolocation-API/getCurrentPosition_TypeError.html:34:5)
+FAIL Call getCurrentPosition() with wrong type for second argument. Exception expected. assert_throws: function "function () {
+    geo.getCurrentPosition(dummyFunction, 4..." threw object "Error: TypeMismatchError: DOM Exception 17" ("TypeMismatchError") expected object "TypeError" ("TypeError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/geolocation-API/getCurrentPosition_TypeError.html:42:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/geolocation-API/getCurrentPosition_TypeError.html:41:5)
+FAIL Call getCurrentPosition() with wrong type for third argument. Exception expected. assert_throws: function "function () {
+    geo.getCurrentPosition(dummyFunction, d..." did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/geolocation-API/getCurrentPosition_TypeError.html:49:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/geolocation-API/getCurrentPosition_TypeError.html:48:5)
+

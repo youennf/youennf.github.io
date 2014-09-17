@@ -1,0 +1,9 @@
+CONSOLE MESSAGE: line 20: ReferenceError: Can't find variable: undefined_variable
+CONSOLE MESSAGE: line 23: SyntaxError: Unexpected token ')'
+
+FAIL window.onerror - addEventListener assert_false: ran expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/webappapis/scripting/processing-model-2/addEventListener.html:27:21
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/webappapis/scripting/processing-model-2/addEventListener.html:26:11)
+

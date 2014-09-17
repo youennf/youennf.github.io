@@ -1,0 +1,15 @@
+2d.shadow.pattern.transparent.1
+Shadows are not drawn for transparent fill patterns
+Actual output:
+Expected output:
+
+
+FAIL Shadows are not drawn for transparent fill patterns assert_equals: Red channel of the pixel at (50, 25) expected 0 but got 255(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+_assertPixel@http://localhost:8800/common/canvas-tests.js:38:18
+http://localhost:8800/2dcontext/shadows/2d.shadow.pattern.transparent.1.html:30:13
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

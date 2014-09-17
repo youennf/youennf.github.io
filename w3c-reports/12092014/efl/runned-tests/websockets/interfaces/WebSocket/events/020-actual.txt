@@ -1,0 +1,3 @@
+CONSOLE MESSAGE: WebSocket network error: Error resolving 'example.invalid': Name or service not known
+
+Harness Error. harness_status.status = 2 , harness_status.message = null

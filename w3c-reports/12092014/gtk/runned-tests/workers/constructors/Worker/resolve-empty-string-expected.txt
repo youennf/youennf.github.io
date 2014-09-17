@@ -1,0 +1,6 @@
+
+FAIL resolve the empty string SyntaxError: DOM Exception 12(stack: [native code]
+http://localhost:8800/workers/constructors/Worker/resolve-empty-string.html:14:26
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/workers/constructors/Worker/resolve-empty-string.html:13:7)
+

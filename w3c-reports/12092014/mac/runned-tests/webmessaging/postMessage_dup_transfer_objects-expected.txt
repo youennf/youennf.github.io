@@ -1,0 +1,10 @@
+
+FAIL Test Description: postMessage with duplicate transfer objects raises DataCloneError exception. assert_throws: function "function () {
+                assert_own_property(window,..." threw object "Error: InvalidStateError: DOM Exception 11" that is not a DOMException DATA_CLONE_ERR: property "code" is equal to 11, expected 25(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/webmessaging/postMessage_dup_transfer_objects.htm:28:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+PostMessageTest@http://localhost:8800/webmessaging/postMessage_dup_transfer_objects.htm:26:13
+onload@http://localhost:8800/webmessaging/postMessage_dup_transfer_objects.htm:12:16)
+

@@ -1,0 +1,4 @@
+CONSOLE MESSAGE: line 16: SyntaxError: Unexpected token '('. Expected ';' after var declaration.
+ 
+
+Harness Error. harness_status.status = 1 , harness_status.message = SyntaxError: Unexpected token '('. Expected ';' after var declaration.

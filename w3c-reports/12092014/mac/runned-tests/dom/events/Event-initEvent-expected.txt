@@ -1,0 +1,46 @@
+
+FAIL Properties of initEvent(type, true, true) assert_equals: isTrusted expected (boolean) false but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/events/Event-initEvent.html:19:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/events/Event-initEvent.html:11:9
+forEach@[native code]
+http://localhost:8800/dom/events/Event-initEvent.html:10:19
+forEach@[native code]
+global code@http://localhost:8800/dom/events/Event-initEvent.html:9:17)
+FAIL Properties of initEvent(type, true, false) assert_equals: isTrusted expected (boolean) false but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/events/Event-initEvent.html:19:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/events/Event-initEvent.html:11:9
+forEach@[native code]
+http://localhost:8800/dom/events/Event-initEvent.html:10:19
+forEach@[native code]
+global code@http://localhost:8800/dom/events/Event-initEvent.html:9:17)
+FAIL Properties of initEvent(type, false, true) assert_equals: isTrusted expected (boolean) false but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/events/Event-initEvent.html:19:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/events/Event-initEvent.html:11:9
+forEach@[native code]
+http://localhost:8800/dom/events/Event-initEvent.html:10:19
+forEach@[native code]
+global code@http://localhost:8800/dom/events/Event-initEvent.html:9:17)
+FAIL Properties of initEvent(type, false, false) assert_equals: isTrusted expected (boolean) false but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/events/Event-initEvent.html:19:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/dom/events/Event-initEvent.html:11:9
+forEach@[native code]
+http://localhost:8800/dom/events/Event-initEvent.html:10:19
+forEach@[native code]
+global code@http://localhost:8800/dom/events/Event-initEvent.html:9:17)
+PASS Calling initEvent multiple times (getting type). 
+PASS Calling initEvent multiple times (not getting type). 
+PASS Calling initEvent must not have an effect during dispatching. 
+PASS Calling initEvent must unset the stop propagation flag. 
+

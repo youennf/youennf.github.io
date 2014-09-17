@@ -1,0 +1,11 @@
+CONSOLE MESSAGE: line 13: Refused to execute inline script because it violates the following Content Security Policy directive: "script-src 'self'".
+
+CONSOLE MESSAGE: line 17: Refused to execute inline event handler because it violates the following Content Security Policy directive: "script-src 'self'".
+
+Inline script should not run without 'unsafe-inline' script-src directive.
+
+
+
+PASS Inline script block 
+PASS Inline event handler 
+

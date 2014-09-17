@@ -1,0 +1,3 @@
+
+PASS Test Description: useCapture is an optional parameter for EventTarget.addEventListener and EventTarget.removeEventListener. If it is not provided, both methods must behave as if useCapture were specified to be false. 
+

@@ -1,0 +1,7 @@
+
+FAIL Test Description: ErrorEvent message attribute represents the error message. assert_not_equals: got disallowed value undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_not_equals@http://localhost:8800/resources/testharness.js:347:15
+http://localhost:8800/workers/Worker_ErrorEvent_message.htm:22:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

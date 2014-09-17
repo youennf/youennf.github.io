@@ -1,0 +1,4 @@
+Blocked access to external URL http://www1.localhost:8800/
+CONSOLE MESSAGE: line 16: ReferenceError: Can't find variable: fr_load
+
+Harness Error. harness_status.status = 1 , harness_status.message = ReferenceError: Can't find variable: fr_load

@@ -1,0 +1,12 @@
+
+FAIL Element input should have own property capture assert_own_property: expected property "capture" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/html-media-capture/capture_reflect.html:35:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html-media-capture/capture_reflect.html:32:11)
+PASS input.capture is false when the capture attribute is absent 
+PASS input.capture is true when the capture attribute is present 
+PASS input.capture is true when the capture attribute is present as empty string 
+PASS input.capture is true when the capture attribute is present as canonical name 
+

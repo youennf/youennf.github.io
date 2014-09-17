@@ -1,0 +1,6 @@
+CONSOLE MESSAGE: line 105: TypeError: null is not an object (evaluating 'indexedDB.deleteDatabase')
+
+FAIL Blocked event null is not an object (evaluating 'indexedDB.open')(stack: http://localhost:8800/IndexedDB/transaction-lifetime-blocked.htm:17:31
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/IndexedDB/transaction-lifetime-blocked.htm:16:11)
+

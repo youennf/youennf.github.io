@@ -1,0 +1,10 @@
+
+FAIL insertRow should not copy prefixes assert_equals: Parent tag name should be HTML:TABLE expected "HTML:TABLE" but got "html:table"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/tabular-data/the-table-element/table-insertRow.html:14:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/tabular-data/the-table-element/table-insertRow.html:8:5)
+PASS insertRow should insert into a tbody, not into a thead, if table.rows is empty 
+PASS insertRow should insert into a tbody, not into a tfoot, if table.rows is empty 
+

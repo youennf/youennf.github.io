@@ -1,0 +1,7 @@
+CONSOLE MESSAGE: line 47: TypeError: undefined is not an object (evaluating 'window.performance.mark')
+Description
+
+This test validates that the performance.mark() method throws a SYNTAX_ERR exception whenever a navigation timing attribute is provided for the name parameter.
+
+
+Harness Error. harness_status.status = 1 , harness_status.message = TypeError: undefined is not an object (evaluating 'window.performance.mark')

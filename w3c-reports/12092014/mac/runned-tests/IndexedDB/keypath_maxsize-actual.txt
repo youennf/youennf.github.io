@@ -1,0 +1,3 @@
+CONSOLE MESSAGE: line 71: TypeError: null is not an object (evaluating 'window.indexedDB.open')
+FAIL: Timed out waiting for notifyDone to be called
+

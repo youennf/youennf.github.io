@@ -1,0 +1,8 @@
+
+FAIL Document.getElementsByTagNameNS assert_false: NodeList expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/dom/nodes/Document-getElementsByTagNameNS.html:11:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Document-getElementsByTagNameNS.html:10:5)
+

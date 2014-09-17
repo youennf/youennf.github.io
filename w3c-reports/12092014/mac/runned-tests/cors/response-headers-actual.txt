@@ -1,0 +1,19 @@
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-headers.asis
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-headers.asis
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-headers.asis
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-headers.asis
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-headers.asis
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-headers.asis
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-headers.asis
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-headers.asis
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-headers.asis
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-headers.asis
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-headers.asis
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-headers.asis
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-headers.asis
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-headers.asis
+Blocked access to external URL http://www1.localhost:8800/cors/resources/cors-headers.asis
+Response headers
+
+
+Harness Error. harness_status.status = 2 , harness_status.message = null

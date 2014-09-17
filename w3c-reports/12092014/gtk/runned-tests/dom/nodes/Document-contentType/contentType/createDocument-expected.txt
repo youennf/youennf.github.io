@@ -1,0 +1,8 @@
+
+FAIL document.implementation.createDocument: document.contentType === 'application/xml' assert_equals: expected (string) "application/xml" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/nodes/Document-contentType/contentType/createDocument.html:9:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Document-contentType/contentType/createDocument.html:7:5)
+

@@ -1,0 +1,858 @@
+
+FAIL "a" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "abbr" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "address" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "area" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "article" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "aside" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "audio" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "b" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "base" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "bdi" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "bdo" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "blockquote" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "body" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "br" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "button" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "canvas" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "caption" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "cite" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "code" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "col" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "colgroup" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "command" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "datalist" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "dd" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "del" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "details" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "dfn" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "dialog" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "div" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "dl" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "dt" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "em" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "embed" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "fieldset" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "figcaption" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "figure" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "footer" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "form" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "h1" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "h2" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "h3" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "h4" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "h5" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "h6" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "head" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "header" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "hgroup" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "hr" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "html" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "i" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "iframe" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "img" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "input" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "ins" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "kbd" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "keygen" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "label" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "legend" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "li" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "link" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "map" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "mark" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "menu" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "meta" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "meter" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "nav" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "noscript" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "object" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "ol" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "optgroup" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "option" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "output" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "p" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "param" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "pre" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "progress" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "q" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "rp" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "rt" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "ruby" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "s" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "samp" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "script" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "section" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "select" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "small" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "source" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "span" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "strong" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "style" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "sub" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "table" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "tbody" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "td" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "textarea" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "tfoot" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "th" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "thead" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "time" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "title" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "tr" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "track" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "u" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "ul" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "var" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "video" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+FAIL "wbr" element with id attribute in a shadow tree should not be accessible from window object's named property. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: testIDAttribute@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:29:47
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-003.html:44:15)
+

@@ -1,0 +1,80 @@
+      
+      
+      
+      
+
+FAIL form autocomplete attribute missing assert_equals: expected "on" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-form-element/form-autocomplete.html:37:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+autocompletetest@http://localhost:8800/html/semantics/forms/the-form-element/form-autocomplete.html:36:9
+global code@http://localhost:8800/html/semantics/forms/the-form-element/form-autocomplete.html:45:19)
+FAIL form autocomplete attribute on assert_equals: expected "on" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-form-element/form-autocomplete.html:38:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+autocompletetest@http://localhost:8800/html/semantics/forms/the-form-element/form-autocomplete.html:36:9
+global code@http://localhost:8800/html/semantics/forms/the-form-element/form-autocomplete.html:46:19)
+FAIL form autocomplete attribute off assert_equals: expected "off" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-form-element/form-autocomplete.html:38:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+autocompletetest@http://localhost:8800/html/semantics/forms/the-form-element/form-autocomplete.html:36:9
+global code@http://localhost:8800/html/semantics/forms/the-form-element/form-autocomplete.html:47:19)
+FAIL form autocomplete attribute invalid assert_equals: expected "on" but got "foobar"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-form-element/form-autocomplete.html:37:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+autocompletetest@http://localhost:8800/html/semantics/forms/the-form-element/form-autocomplete.html:36:9
+global code@http://localhost:8800/html/semantics/forms/the-form-element/form-autocomplete.html:48:19)
+PASS name is an allowed autocomplete field name 
+PASS honorific-prefix is an allowed autocomplete field name 
+PASS given-name is an allowed autocomplete field name 
+PASS additional-name is an allowed autocomplete field name 
+PASS family-name is an allowed autocomplete field name 
+PASS honorific-suffix is an allowed autocomplete field name 
+PASS nickname is an allowed autocomplete field name 
+PASS organization-title is an allowed autocomplete field name 
+PASS organization is an allowed autocomplete field name 
+PASS street-address is an allowed autocomplete field name 
+PASS address-line1 is an allowed autocomplete field name 
+PASS address-line2 is an allowed autocomplete field name 
+PASS address-line3 is an allowed autocomplete field name 
+PASS locality is an allowed autocomplete field name 
+PASS region is an allowed autocomplete field name 
+PASS country is an allowed autocomplete field name 
+PASS country-name is an allowed autocomplete field name 
+PASS postal-code is an allowed autocomplete field name 
+PASS cc-name is an allowed autocomplete field name 
+PASS cc-given-name is an allowed autocomplete field name 
+PASS cc-additional-name is an allowed autocomplete field name 
+PASS cc-family-name is an allowed autocomplete field name 
+PASS cc-number is an allowed autocomplete field name 
+PASS cc-exp is an allowed autocomplete field name 
+PASS cc-exp-month is an allowed autocomplete field name 
+PASS cc-exp-year is an allowed autocomplete field name 
+PASS cc-csc is an allowed autocomplete field name 
+PASS cc-type is an allowed autocomplete field name 
+PASS language is an allowed autocomplete field name 
+PASS bday is an allowed autocomplete field name 
+PASS bday-day is an allowed autocomplete field name 
+PASS bday-month is an allowed autocomplete field name 
+PASS bday-year is an allowed autocomplete field name 
+PASS sex is an allowed autocomplete field name 
+PASS url is an allowed autocomplete field name 
+PASS photo is an allowed autocomplete field name 
+PASS tel is an allowed autocomplete field name 
+PASS tel-country-code is an allowed autocomplete field name 
+PASS tel-national is an allowed autocomplete field name 
+PASS tel-area-code is an allowed autocomplete field name 
+PASS tel-local is an allowed autocomplete field name 
+PASS tel-local-prefix is an allowed autocomplete field name 
+PASS tel-local-suffix is an allowed autocomplete field name 
+PASS tel-extension is an allowed autocomplete field name 
+PASS email is an allowed autocomplete field name 
+PASS impp is an allowed autocomplete field name 
+

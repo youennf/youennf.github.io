@@ -1,0 +1,6 @@
+
+FAIL In table insertion mode. Ignore </table> token Can't find variable: newHTMLDocument(stack: http://localhost:8800/html/syntax/parsing/template/additions-to-the-in-table-insertion-mode/end-tag-table.html:19:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/syntax/parsing/template/additions-to-the-in-table-insertion-mode/end-tag-table.html:18:5)
+

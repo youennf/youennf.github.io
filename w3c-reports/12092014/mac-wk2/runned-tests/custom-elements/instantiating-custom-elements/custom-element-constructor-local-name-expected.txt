@@ -1,0 +1,15 @@
+
+FAIL Custom element constructor sets local name to the name from custom element definition undefined is not a function (evaluating 'doc.registerElement('x-a')')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-local-name.html:19:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-local-name.html:17:5)
+FAIL Custom element constructor sets local name to the name from custom element definition. Test constructor of extended HTML element undefined is not a function (evaluating 'doc.registerElement(name, {
+            prototype: proto,
+            extends: tagName
+        })')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-local-name.html:32:55
+forEach@[native code]
+http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-local-name.html:28:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-local-name.html:26:5)
+

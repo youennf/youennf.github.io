@@ -1,0 +1,101 @@
+
+PASS HTMLAreaElement stringifier 
+FAIL HTMLAreaElement stringifier 1 assert_throws: function "function () {
+        aObject.toString.call(v);
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/common/stringifiers.js:6:20
+forEach@[native code]
+http://localhost:8800/common/stringifiers.js:5:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_stringifier_attribute@http://localhost:8800/common/stringifiers.js:4:7
+http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:11:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:10:5)
+FAIL HTMLAreaElement stringifier 2 assert_throws: function "function () {
+        aObject.toString.call(v);
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/common/stringifiers.js:18:20
+forEach@[native code]
+http://localhost:8800/common/stringifiers.js:17:25
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_stringifier_attribute@http://localhost:8800/common/stringifiers.js:15:7
+http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:11:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:10:5)
+PASS HTMLAreaElement stringifier 3 
+FAIL HTMLAreaElement stringifier 4 assert_equals: expected "" but got "[object HTMLAreaElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/common/stringifiers.js:40:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_stringifier_attribute@http://localhost:8800/common/stringifiers.js:33:7
+http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:11:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:10:5)
+FAIL HTMLAreaElement stringifier 5 assert_equals: expected "" but got "[object HTMLAreaElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/common/stringifiers.js:50:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_stringifier_attribute@http://localhost:8800/common/stringifiers.js:43:7
+http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:11:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:10:5)
+FAIL HTMLAreaElement stringifier 6 assert_throws: function "function () {
+        aObject.toString.call(v);
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/common/stringifiers.js:6:20
+forEach@[native code]
+http://localhost:8800/common/stringifiers.js:5:30
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_stringifier_attribute@http://localhost:8800/common/stringifiers.js:4:7
+http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:14:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:10:5)
+FAIL HTMLAreaElement stringifier 7 assert_throws: function "function () {
+        aObject.toString.call(v);
+      }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/common/stringifiers.js:18:20
+forEach@[native code]
+http://localhost:8800/common/stringifiers.js:17:25
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_stringifier_attribute@http://localhost:8800/common/stringifiers.js:15:7
+http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:14:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:10:5)
+PASS HTMLAreaElement stringifier 8 
+FAIL HTMLAreaElement stringifier 9 assert_equals: expected "http://localhost:8800/html/semantics/embedded-content/the-area-element/foo" but got "[object HTMLAreaElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/common/stringifiers.js:40:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_stringifier_attribute@http://localhost:8800/common/stringifiers.js:33:7
+http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:14:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:10:5)
+FAIL HTMLAreaElement stringifier 10 assert_equals: expected "http://localhost:8800/html/semantics/embedded-content/the-area-element/foo" but got "[object HTMLAreaElement]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/common/stringifiers.js:50:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_stringifier_attribute@http://localhost:8800/common/stringifiers.js:43:7
+http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:14:29
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/the-area-element/area-stringifier.html:10:5)
+

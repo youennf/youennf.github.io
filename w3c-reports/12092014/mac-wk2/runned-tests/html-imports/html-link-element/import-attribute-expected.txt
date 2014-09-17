@@ -1,0 +1,24 @@
+
+FAIL The import attribute must return null if the link does not represent an import. assert_equals: expected (object) null but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html-imports/html-link-element/import-attribute.html:20:17
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html-imports/html-link-element/import-attribute.html:19:5)
+FAIL The import attribute must return null if the link element is not in a Document. assert_true: expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html-imports/html-link-element/import-attribute.html:25:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html-imports/html-link-element/import-attribute.html:23:5)
+FAIL The attribute must return the imported document for the import. undefined is not an object (evaluating 'importLink.import.body')(stack: http://localhost:8800/html-imports/html-link-element/import-attribute.html:31:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html-imports/html-link-element/import-attribute.html:30:5)
+FAIL The same object must be returned each time. assert_true: expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html-imports/html-link-element/import-attribute.html:39:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html-imports/html-link-element/import-attribute.html:34:5)
+

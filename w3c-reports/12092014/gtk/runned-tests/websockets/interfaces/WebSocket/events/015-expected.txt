@@ -1,0 +1,8 @@
+CONSOLE MESSAGE: WebSocket connection to 'ws://localhost:49001/echo_raw' failed: Unrecognized frame opcode: 3
+
+FAIL WebSockets: instanceof on events assert_equals: expected 3 but got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/websockets/interfaces/WebSocket/events/015.html:23:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

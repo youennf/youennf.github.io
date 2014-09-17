@@ -1,0 +1,3 @@
+
+PASS Test Description: handleEvent - This method shall be called whenever an event occurs of the event type for which the EventListener interface was registered. 
+

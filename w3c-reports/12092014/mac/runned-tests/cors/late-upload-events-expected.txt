@@ -1,0 +1,6 @@
+Blocked access to external URL http://www1.localhost:8800/cors/resources/status.py?headers=custom-header
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/status.py?headers=custom-header. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+Adding upload event listeners after send()
+
+
+Harness Error. harness_status.status = 2 , harness_status.message = null

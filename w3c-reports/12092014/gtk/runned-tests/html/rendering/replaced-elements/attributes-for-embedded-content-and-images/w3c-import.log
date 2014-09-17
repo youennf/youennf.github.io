@@ -1,0 +1,24 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 15:42
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/rendering/replaced-elements/attributes-for-embedded-content-and-images/object_border_perc-expected.xhtml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/rendering/replaced-elements/attributes-for-embedded-content-and-images/object_border_perc.xhtml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/rendering/replaced-elements/attributes-for-embedded-content-and-images/object_border_pixel-expected.xhtml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/rendering/replaced-elements/attributes-for-embedded-content-and-images/object_border_pixel.xhtml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/rendering/replaced-elements/attributes-for-embedded-content-and-images/img_border_percent-expected.xhtml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/rendering/replaced-elements/attributes-for-embedded-content-and-images/img_border_percent.xhtml

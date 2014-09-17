@@ -1,0 +1,33 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-09 15:43
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/example/abort_handshake_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/example/abort_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/example/bench_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/example/benchmark_helper_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/example/close_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/example/echo_client.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/example/echo_noext_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/example/echo_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/example/eventsource.cgi
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/example/handler_map.txt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/example/hsts_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/example/internal_error_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/example/origin_check_wsh.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/example/pywebsocket.conf
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/example/util.js

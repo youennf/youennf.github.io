@@ -1,0 +1,27 @@
+
+FAIL Empty string as a name for Document.getElementsByTagName undefined is not a function (evaluating 'c.namedItem("")')(stack: http://localhost:8800/dom/collections/HTMLCollection-empty-name.html:17:28
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/collections/HTMLCollection-empty-name.html:13:5)
+FAIL Empty string as a name for Element.getElementsByTagName undefined is not a function (evaluating 'c.namedItem("")')(stack: http://localhost:8800/dom/collections/HTMLCollection-empty-name.html:25:28
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/collections/HTMLCollection-empty-name.html:20:5)
+FAIL Empty string as a name for Document.getElementsByTagNameNS undefined is not a function (evaluating 'c.namedItem("")')(stack: http://localhost:8800/dom/collections/HTMLCollection-empty-name.html:32:28
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/collections/HTMLCollection-empty-name.html:28:5)
+FAIL Empty string as a name for Element.getElementsByTagNameNS undefined is not a function (evaluating 'c.namedItem("")')(stack: http://localhost:8800/dom/collections/HTMLCollection-empty-name.html:40:28
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/collections/HTMLCollection-empty-name.html:35:5)
+FAIL Empty string as a name for Document.getElementsByClassName undefined is not a function (evaluating 'c.namedItem("")')(stack: http://localhost:8800/dom/collections/HTMLCollection-empty-name.html:47:28
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/collections/HTMLCollection-empty-name.html:43:5)
+FAIL Empty string as a name for Element.getElementsByClassName undefined is not a function (evaluating 'c.namedItem("")')(stack: http://localhost:8800/dom/collections/HTMLCollection-empty-name.html:55:28
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/collections/HTMLCollection-empty-name.html:50:5)
+PASS Empty string as a name for Element.children 
+

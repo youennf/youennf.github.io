@@ -1,0 +1,40 @@
+Inputs Date
+
+
+FAIL date type support on input element assert_equals: expected "date" but got "text"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/date.html:27:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/date.html:26:11)
+FAIL The value attribute, if specified and not empty, must have a value that is a valid date string. assert_equals: expected "2011-01-01" but got "1999-01-31"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/date.html:32:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/date.html:30:11)
+FAIL The min attribute, if specified, must have a value that is a valid date string. assert_equals: expected "" but got "1999-1"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/date.html:38:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/date.html:36:11)
+FAIL The max attribute, if specified, must have a value that is a valid date string. assert_equals: expected "2099-01" but got "2011-12-31"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/date.html:43:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/date.html:41:11)
+FAIL User agents must not allow the user to set the value to a non-empty string that is not a valid date string. assert_equals: expected "" but got "invalid-date"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/date.html:48:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/date.html:47:11)
+FAIL Number of days assert_equals: January has 31 days expected "" but got "2014-01-32"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/date.html:85:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/date.html:50:11)
+

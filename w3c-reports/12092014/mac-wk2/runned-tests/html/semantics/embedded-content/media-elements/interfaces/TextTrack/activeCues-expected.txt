@@ -1,0 +1,30 @@
+
+
+FAIL TextTrack.activeCues, empty list assert_not_equals: t2.activeCues should not be null got disallowed value null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_not_equals@http://localhost:8800/resources/testharness.js:347:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/TextTrack/activeCues.html:32:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/TextTrack/activeCues.html:26:5)
+PASS TextTrack.activeCues, after addCue() 
+PASS TextTrack.activeCues, different modes 
+FAIL TextTrack.activeCues, video loading assert_equals: t1.activeCues.length before the video has started playing expected 0 but got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/TextTrack/activeCues.html:91:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL TextTrack.activeCues, video playing assert_unreached: Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/TextTrack/activeCues.html:95:53
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/TextTrack/activeCues.html:95:23
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL TextTrack.activeCues, adding cue during playback assert_unreached: Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/TextTrack/activeCues.html:96:53
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/TextTrack/activeCues.html:96:23
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

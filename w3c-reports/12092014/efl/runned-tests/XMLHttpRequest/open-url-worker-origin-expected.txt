@@ -1,0 +1,6 @@
+
+PASS XMLHttpRequest: worker scripts, origin and referrer 
+PASS Request URL test 
+PASS Origin header 
+PASS Referer header 
+

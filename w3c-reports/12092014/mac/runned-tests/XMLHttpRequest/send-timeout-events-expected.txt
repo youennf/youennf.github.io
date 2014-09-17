@@ -1,0 +1,8 @@
+
+FAIL XMLHttpRequest: The send() method: timeout is not 0  assert_array_equals: lengths differ, expected 6 got 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/XMLHttpRequest/send-timeout-events.htm:46:40
+step@http://localhost:8800/resources/testharness.js:798:30
+VerifyResult@http://localhost:8800/XMLHttpRequest/send-timeout-events.htm:44:26
+onloadend@http://localhost:8800/XMLHttpRequest/send-timeout-events.htm:36:84)
+

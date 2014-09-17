@@ -1,0 +1,63 @@
+High Resolution Time IDL tests
+
+typedef double DOMHighResTimeStamp;
+
+partial interface Performance {
+  DOMHighResTimeStamp now();
+};
+
+FAIL Performance interface: operation now() assert_own_property: window does not have own property "Performance" expected property "Performance" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1284:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_operation@http://localhost:8800/resources/idlharness.js:1282:9
+test_members@http://localhost:8800/resources/idlharness.js:1458:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+http://localhost:8800/hr-time/idlharness.html:48:17
+global code@http://localhost:8800/hr-time/idlharness.html:49:3)
+FAIL Performance must be primary interface of window.performance assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1526:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_primary_interface_of@http://localhost:8800/resources/idlharness.js:1523:13
+test_object@http://localhost:8800/resources/idlharness.js:1495:35
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/hr-time/idlharness.html:48:17
+global code@http://localhost:8800/hr-time/idlharness.html:49:3)
+FAIL Stringification of window.performance assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1548:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_primary_interface_of@http://localhost:8800/resources/idlharness.js:1545:9
+test_object@http://localhost:8800/resources/idlharness.js:1495:35
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/hr-time/idlharness.html:48:17
+global code@http://localhost:8800/hr-time/idlharness.html:49:3)
+FAIL Performance interface: window.performance must inherit property "now" with the proper type (0) assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1584:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+http://localhost:8800/hr-time/idlharness.html:48:17
+global code@http://localhost:8800/hr-time/idlharness.html:49:3)
+

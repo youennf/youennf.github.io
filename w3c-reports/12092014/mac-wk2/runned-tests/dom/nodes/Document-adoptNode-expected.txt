@@ -1,0 +1,10 @@
+
+PASS Adopting an Element called 'x<' should work. 
+PASS Adopting an Element called ':good:times:' should work. 
+FAIL Explicitly adopting a DocumentType should work. NotSupportedError: DOM Exception 9(stack: adoptNode@[native code]
+http://localhost:8800/dom/nodes/Document-adoptNode.html:41:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/dom/nodes/Document-adoptNode.html:37:5)
+PASS Adopting a Document should throw. 
+

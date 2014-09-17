@@ -1,0 +1,32 @@
+
+FAIL audio.autoplay assert_array_equals: property 1, expected "play" but got "canplaythrough"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:407:19
+http://localhost:8800/html/semantics/embedded-content/media-elements/ready-states/autoplay.html:13:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL audio.autoplay and load() assert_array_equals: property 1, expected "play" but got "canplaythrough"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:407:19
+http://localhost:8800/html/semantics/embedded-content/media-elements/ready-states/autoplay.html:13:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL audio.autoplay and play() assert_array_equals: property 2, expected "playing" but got "canplaythrough"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:407:19
+http://localhost:8800/html/semantics/embedded-content/media-elements/ready-states/autoplay.html:13:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS audio.autoplay and pause() 
+PASS audio.autoplay and internal pause steps 
+FAIL video.autoplay assert_array_equals: property 1, expected "play" but got "canplaythrough"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:407:19
+http://localhost:8800/html/semantics/embedded-content/media-elements/ready-states/autoplay.html:13:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL video.autoplay and load() assert_array_equals: property 1, expected "play" but got "canplaythrough"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:407:19
+http://localhost:8800/html/semantics/embedded-content/media-elements/ready-states/autoplay.html:13:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS video.autoplay and play() 
+PASS video.autoplay and pause() 
+PASS video.autoplay and internal pause steps 
+

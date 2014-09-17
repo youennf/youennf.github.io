@@ -1,0 +1,54 @@
+Blocked access to external URL http://www1.localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/set-cookie.html#62266b34-4b5e-480d-96de-dd1f2aeda494
+Blocked access to external URL http://www1.localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/cors-tester.py?id=62266b34-4b5e-480d-96de-dd1f2aeda494
+CONSOLE MESSAGE: Cross-origin text track load denied by Cross-Origin Resource Sharing policy.
+Blocked access to external URL http://www1.localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/cors-tester.py?delete-cookie&id=62266b34-4b5e-480d-96de-dd1f2aeda494
+Actual	Expected
+{
+  "event": "error",
+  "requests": [
+    {
+      "cors": "http://localhost:8800",
+      "cookie": "yes"
+    },
+    {
+      "cors": "http://localhost:8800",
+      "cookie": "yes"
+    }
+  ]
+}
+{
+  "event": "error",
+  "requests": [
+    {
+      "cors": "no",
+      "cookie": "yes"
+    },
+    {
+      "cors": "no",
+      "cookie": "yes"
+    },
+    {
+      "cors": "http://localhost:8800",
+      "cookie": "yes"
+    }
+  ]
+}
+Test id: 62266b34-4b5e-480d-96de-dd1f2aeda494
+
+
+
+FAIL track CORS: Use Credentials, same-origin, no headers, redirects to same-origin, no headers, redirects to not same-origin, no headers assert_object_equals: property "cors" expected object "[object Object]" got object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+check_equal@http://localhost:8800/resources/testharness.js:378:28
+check_equal@http://localhost:8800/resources/testharness.js:375:37
+check_equal@http://localhost:8800/resources/testharness.js:375:37
+assert_object_equals@http://localhost:8800/resources/testharness.js:390:21
+checkData@http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:128:29
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+appendChild@[native code]
+removeCookies@http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:104:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:87:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

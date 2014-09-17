@@ -1,0 +1,6 @@
+Test1 Test2 Test3
+
+PASS The scrollamount is a string 
+PASS The scrollamount is a negative 
+PASS The scrollamount is a normal value 
+

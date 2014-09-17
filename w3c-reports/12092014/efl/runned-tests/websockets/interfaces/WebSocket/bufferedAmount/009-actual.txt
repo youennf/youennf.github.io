@@ -1,0 +1,7 @@
+
+FAIL WebSockets: bufferedAmount for 65K data assert_equals: expected 0 but got 65000(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/websockets/interfaces/WebSocket/bufferedAmount/009.html:17:17
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

@@ -1,0 +1,5 @@
+CONSOLE MESSAGE: EventSource cannot load http://www2.localhost:8800/eventsource/resources/cors.py?run=message&origin=http://example.org. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: EventSource cannot load http://www2.localhost:8800/eventsource/resources/cors.py?run=message&origin=. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: EventSource cannot load http://www2.localhost:8800/eventsource/resources/message.py. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+
+Harness Error. harness_status.status = 2 , harness_status.message = null

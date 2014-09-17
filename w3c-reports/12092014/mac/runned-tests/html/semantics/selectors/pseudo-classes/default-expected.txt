@@ -1,0 +1,27 @@
+button1  button2
+button3  button4
+button5
+
+
+  
+  
+
+     
+button6  button7
+button8  button9
+
+FAIL ':default' matches <button>s that are their form's default button, <input>s of type submit/image that are their form's default button, checked <input>s and selected <option>s assert_array_equals: lengths differ, expected 9 got 7(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:12:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/default.html:56:15)
+FAIL ':default' matches dynamically changed form's default buttons assert_array_equals: lengths differ, expected 9 got 7(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:12:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/default.html:59:15)
+

@@ -1,0 +1,11 @@
+2d.pattern.image.broken
+Actual output:
+
+FAIL Canvas test: 2d.pattern.image.broken assert_throws: function "function () { ctx.createPattern(img, 'repeat'); }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/2dcontext/fill-and-stroke-styles/2d.pattern.image.broken.html:23:14
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

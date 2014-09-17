@@ -1,0 +1,38 @@
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=98d0d079-b45f-45cf-904a-e8463602ff2c
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=bc1d1f11-7405-4d2c-a407-d088d812b0a8
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=f5a722f7-2411-4e87-92ac-ffbc9c7ceea3&max_age=0
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=190b5e1a-5970-473c-8586-ae667a4d214f&max_age=-1
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?max_age=1&token=e09ae0a4-421d-4a80-ad8a-deb41297d00b. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+Preflight cache
+
+
+FAIL Test preflight ABORT_ERR: XMLHttpRequest Exception 102(stack: send@[native code]
+did_preflight@http://localhost:8800/cors/preflight-cache.htm:34:16
+http://localhost:8800/cors/preflight-cache.htm:49:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/cors/preflight-cache.htm:46:5)
+FAIL preflight for x-print should be cached ABORT_ERR: XMLHttpRequest Exception 102(stack: send@[native code]
+did_preflight@http://localhost:8800/cors/preflight-cache.htm:34:16
+http://localhost:8800/cors/preflight-cache.htm:57:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/cors/preflight-cache.htm:53:5)
+FAIL age = 0, should not be cached ABORT_ERR: XMLHttpRequest Exception 102(stack: send@[native code]
+did_preflight@http://localhost:8800/cors/preflight-cache.htm:34:16
+http://localhost:8800/cors/preflight-cache.htm:66:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/cors/preflight-cache.htm:62:5)
+FAIL age = -1, should not be cached ABORT_ERR: XMLHttpRequest Exception 102(stack: send@[native code]
+did_preflight@http://localhost:8800/cors/preflight-cache.htm:34:16
+http://localhost:8800/cors/preflight-cache.htm:75:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/cors/preflight-cache.htm:71:5)
+FAIL preflight first request, second from cache, wait, third should preflight again assert_unreached: Got unexpected error event on the XHR object Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/cors/preflight-cache.htm:94:33
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

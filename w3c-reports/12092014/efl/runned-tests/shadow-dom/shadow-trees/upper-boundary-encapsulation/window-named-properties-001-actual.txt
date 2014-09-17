@@ -1,0 +1,9 @@
+
+FAIL An iframe element in a shadow tree should not be accessible from window's named properties with its "name" attribute value. undefined is not a function (evaluating 'host.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-001.html:32:47
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-001.html:27:5)
+FAIL A frame element in a shadow tree should not be accessible from window's named properties with its "name" attribute value. undefined is not a function (evaluating 'doc.getElementById('host').createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/window-named-properties-001.html:74:73
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

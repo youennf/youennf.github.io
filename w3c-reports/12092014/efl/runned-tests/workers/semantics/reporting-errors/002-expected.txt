@@ -1,0 +1,7 @@
+
+FAIL shared worker, addEventListener assert_equals: expected "" but got "event should be an ErrorEvent. event should be trusted. fifth argument wasn't the thrown exception. "(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/workers/semantics/reporting-errors/002.html:53:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:843:37)
+

@@ -1,0 +1,5 @@
+
+FAIL Distribution should not affect the state of the document trees and the shadow trees. undefined is not a function (evaluating 'shadowHost.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/lower-boundary-encapsulation/distribution-003.html:40:49
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/shadow-trees/lower-boundary-encapsulation/distribution-003.html:30:22)
+

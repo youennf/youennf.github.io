@@ -1,0 +1,7 @@
+
+FAIL CSS document.contentType === 'text/css' assert_equals: expected (string) "text/css" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/nodes/Document-contentType/contentType/contenttype_css.html:11:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:843:37)
+

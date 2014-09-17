@@ -1,0 +1,10 @@
+ 
+
+PASS input type=image should not be present in the form.elements collection 
+FAIL form.elements should include elements whose name starts with a number assert_equals: [2] expected (undefined) undefined but got (object) Element node <input name="2"></input>(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/semantics/forms/the-form-element/form-elements-matches.html:31:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-form-element/form-elements-matches.html:17:5)
+

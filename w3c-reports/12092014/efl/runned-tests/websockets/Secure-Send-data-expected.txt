@@ -1,0 +1,3 @@
+CONSOLE MESSAGE: line 78: Error: wss not yet supported
+
+Harness Error. harness_status.status = 1 , harness_status.message = Error: wss not yet supported

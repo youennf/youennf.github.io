@@ -1,0 +1,30 @@
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=b5bd73e1-175e-43e8-a731-5fbf90be8518
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=f6b7f1a9-7065-490a-8b5a-fdafef6427e3
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=31611cdd-ff80-404e-af4e-aca65c21f6ef
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=4b3a3336-ab4d-409b-8474-006c99045ad1
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=6e44a15a-bd5a-4441-b6d3-df4308115723
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=5fca1130-48f4-4e50-8aef-ed1b6c0722e1
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=96f722aa-6853-4308-95ff-59a21978df4b
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=27f32c9f-eb7f-41e1-a060-7488ff389edf
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=9978acb2-ff3b-4661-9ffe-350421ca3d73
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=c3dbb605-b932-4762-9c7e-0266e022e1f3
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=88178a0b-db26-471a-a063-1b667832487c
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=89917450-1483-4811-866d-e0d85226ec62
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=ed1986a6-b892-4729-815b-012ef1f47af9
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=ae5dfe21-cd05-4c88-b2ec-f48caac08a8d
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=f7f11a93-1ef4-4886-8138-1c14dbf1bf30
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=c8e1050a-0dfd-46a2-8842-4d5102f860db
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=484ebba6-6b9f-4777-b206-040a0d231322
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=b5ed02fb-f1c2-419d-a3f9-e65969f4b5b1
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=d931471f-7700-4890-b6ef-4ab97f28d991
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=f7feb909-25aa-42b8-984c-96bc417a0b00
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=85175144-a699-4ea0-9210-2a0928779724
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=668dc8bd-266e-4a71-95eb-b6b4eafdfe08
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=bd1a28a4-a5df-45f3-897a-22b3802016f1
+Blocked access to external URL http://www1.localhost:8800/cors/resources/preflight.py?token=a50875dd-6a61-4931-a48a-4ec9723a5af4
+Simple requests
+
+Simple requests shouldn't trigger preflight
+
+
+Harness Error. harness_status.status = 2 , harness_status.message = null

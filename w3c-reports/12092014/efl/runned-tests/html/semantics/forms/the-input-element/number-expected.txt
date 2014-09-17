@@ -1,0 +1,56 @@
+
+PASS empty value 
+PASS value = 11 
+PASS value = 11.12 
+PASS value = -11111 
+PASS value = -11111.123 
+PASS value = 1e2 
+PASS value = 1E2 
+PASS value = 1e+2 
+PASS value = 1e-2 
+PASS value is not a valid floating-point number: 1d+2 
+PASS value not a valid floating-point number: random string 
+PASS Value >= min attribute 
+PASS Value < min attribute 
+PASS Value <= max attribute 
+PASS Value > max attribute 
+PASS value with a leading '.' 
+FAIL value ending with '.' assert_equals: expected "" but got "1."(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/number.html:50:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/number.html:43:9)
+PASS value = -0 
+PASS  value = Infinity 
+PASS value = -Infinity 
+PASS value = NaN 
+FAIL value = 2^53+1 assert_equals: expected "9007199254740992" but got "9007199254740993"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/number.html:50:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/number.html:43:9)
+PASS value >= Number.MAX_VALUE 
+PASS value = 1e 
+FAIL value = +1 assert_equals: expected "1" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/number.html:50:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/number.html:43:9)
+PASS value = '+' 
+PASS value = '-' 
+FAIL value with a leading whitespace assert_equals: expected "1" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/number.html:50:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/number.html:43:9)
+FAIL value = 1trailing junk assert_equals: expected "1" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/number.html:50:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/number.html:43:9)
+

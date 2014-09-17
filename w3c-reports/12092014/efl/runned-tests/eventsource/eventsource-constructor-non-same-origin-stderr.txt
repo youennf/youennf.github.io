@@ -1,0 +1,31 @@
+1   0x7fa5fdd96ab0
+2   0x7fa5fe12e900
+3   0x7fa60011cf3c WebKit::WebFrame::url() const
+4   0x7fa6000c58d5 WKBundleFrameCopyURL
+5   0x7fa5aad13966 WTR::InjectedBundlePage::willSendRequestForFrame(OpaqueWKBundlePage const*, OpaqueWKBundleFrame const*, unsigned long, OpaqueWKURLRequest const*, OpaqueWKURLResponse const*)
+6   0x7fa6000c16f5 WebKit::InjectedBundlePageResourceLoadClient::willSendRequestForFrame(WebKit::WebPage*, WebKit::WebFrame*, unsigned long, WebCore::ResourceRequest&, WebCore::ResourceResponse const&)
+7   0x7fa5fc3a9d2d WebCore::ResourceLoadNotifier::dispatchWillSendRequest(WebCore::DocumentLoader*, unsigned long, WebCore::ResourceRequest&, WebCore::ResourceResponse const&)
+8   0x7fa5fc3aedfa WebCore::ResourceLoader::willSendRequest(WebCore::ResourceRequest&, WebCore::ResourceResponse const&)
+9   0x7fa5fc3b3b37 WebCore::SubresourceLoader::willSendRequest(WebCore::ResourceRequest&, WebCore::ResourceResponse const&)
+10  0x7fa5fc3b0462 WebCore::ResourceLoader::init(WebCore::ResourceRequest const&)
+11  0x7fa5fc3b38a1 WebCore::SubresourceLoader::init(WebCore::ResourceRequest const&)
+12  0x7fa5fc3b391e WebCore::SubresourceLoader::create(WebCore::Frame*, WebCore::CachedResource*, WebCore::ResourceRequest const&, WebCore::ResourceLoaderOptions const&)
+13  0x7fa5fc3ac118 WebCore::ResourceLoadScheduler::scheduleSubresourceLoad(WebCore::Frame*, WebCore::CachedResource*, WebCore::ResourceRequest const&, WebCore::ResourceLoaderOptions const&)
+14  0x7fa5fc3efaf8 WebCore::CachedResource::load(WebCore::CachedResourceLoader*, WebCore::ResourceLoaderOptions const&)
+15  0x7fa5fc3f6b00 WebCore::CachedResourceLoader::requestResource(WebCore::CachedResource::Type, WebCore::CachedResourceRequest&)
+16  0x7fa5fc3f7502 WebCore::CachedResourceLoader::requestRawResource(WebCore::CachedResourceRequest&)
+17  0x7fa5fc373e8e WebCore::DocumentThreadableLoader::loadRequest(WebCore::ResourceRequest const&, WebCore::SecurityCheckPolicy)
+18  0x7fa5fc374518 WebCore::DocumentThreadableLoader::makeSimpleCrossOriginAccessRequest(WebCore::ResourceRequest const&)
+19  0x7fa5fc374ca1 WebCore::DocumentThreadableLoader::makeCrossOriginAccessRequest(WebCore::ResourceRequest const&)
+20  0x7fa5fc375193 WebCore::DocumentThreadableLoader::DocumentThreadableLoader(WebCore::Document&, WebCore::ThreadableLoaderClient&, WebCore::DocumentThreadableLoader::BlockingBehavior, WebCore::ResourceRequest const&, WebCore::ThreadableLoaderOptions const&)
+21  0x7fa5fc3752fb WebCore::DocumentThreadableLoader::create(WebCore::Document&, WebCore::ThreadableLoaderClient&, WebCore::ResourceRequest const&, WebCore::ThreadableLoaderOptions const&)
+22  0x7fa5fc3b78aa WebCore::ThreadableLoader::create(WebCore::ScriptExecutionContext*, WebCore::ThreadableLoaderClient*, WebCore::ResourceRequest const&, WebCore::ThreadableLoaderOptions const&)
+23  0x7fa5fc45379c WebCore::EventSource::connect()
+24  0x7fa5fc4fc2d1 WebCore::ThreadTimers::sharedTimerFiredInternal()
+25  0x7fa5fca2c47d
+26  0x7fa5fa91ad79
+27  0x7fa5fa91aeab
+28  0x7fa5fa9171c1
+29  0x7fa5fa917617 ecore_main_loop_begin
+30  0x7fa60019a1b4 WebProcessMainUnix
+31  0x7fa5fe11ad65 __libc_start_main

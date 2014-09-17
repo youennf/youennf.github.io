@@ -1,0 +1,12 @@
+ 
+
+FAIL When the CanvasRenderingContext2D object is created, the attribute must be set to true. assert_true: expected true got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/2dcontext/image-smoothing/imagesmoothing.html:23:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/2dcontext/image-smoothing/imagesmoothing.html:19:11
+global code@http://localhost:8800/2dcontext/image-smoothing/imagesmoothing.html:41:7)
+PASS On getting the imageSmoothingEnabled attribute, the user agent must return the last value it was set to. 
+PASS On setting the imageSmoothingEnabled attribute, it must be set to the new value. 
+

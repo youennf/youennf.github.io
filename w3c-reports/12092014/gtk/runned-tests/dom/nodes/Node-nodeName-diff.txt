@@ -1,0 +1,16 @@
+--- /localHome/youenn/WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/dom/nodes/Node-nodeName-expected.txt
++++ /localHome/youenn/WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/dom/nodes/Node-nodeName-actual.txt
+@@ -1,11 +1,7 @@
+ 
+-FAIL For Element nodes, nodeName should return the same as tagName. assert_equals: expected "X:B" but got "x:b"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+-assert_equals@http://localhost:8800/resources/testharness.js:335:15
+-http://localhost:8800/dom/nodes/Node-nodeName.html:14:16
+-step@http://localhost:8800/resources/testharness.js:798:30
+-test@http://localhost:8800/resources/testharness.js:73:22
+-global code@http://localhost:8800/dom/nodes/Node-nodeName.html:7:5)
++PASS For Element nodes, nodeName should return the same as tagName. 
+ PASS For Text nodes, nodeName should return "#text". 
++PASS For ProcessingInstruction nodes, nodeName should return the target. 
+ PASS For Comment nodes, nodeName should return "#comment". 
+ PASS For Document nodes, nodeName should return "#document". 
+ PASS For DocumentType nodes, nodeName should return the name. 

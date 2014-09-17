@@ -1,0 +1,8 @@
+Blocked access to external URL http://www2.localhost:8800/eventsource/resources/cors.py?run=message
+Blocked access to external URL http://www2.localhost:8800/eventsource/resources/cors.py?run=redirect&location=/eventsource/resources/cors.py?run=message
+Blocked access to external URL http://www2.localhost:8800/eventsource/resources/cors.py?run=status-reconnect&status=200
+Blocked access to external URL http://www2.localhost:8800/eventsource/resources/cors.py?run=message&origin=http://example.org
+Blocked access to external URL http://www2.localhost:8800/eventsource/resources/cors.py?run=message&origin=
+Blocked access to external URL http://www2.localhost:8800/eventsource/resources/message.py
+
+Harness Error. harness_status.status = 2 , harness_status.message = null

@@ -1,0 +1,110 @@
+
+FAIL <head> and <body> in a shadow tree should not be accessible from owner document's "head" and "body" properties, respectively. undefined is not a function (evaluating 'doc.documentElement.createShadowRoot()')(stack: createDocumentForTesting@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:95:58
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:114:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:113:5)
+FAIL The content of title element in a shadow tree should not be accessible from owner document's "title" attribute. undefined is not a function (evaluating 'doc.documentElement.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:125:58
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:122:5)
+FAIL Elements in a shadow tree should not be accessible from owner document's "images" attribute. undefined is not a function (evaluating 'doc.documentElement.createShadowRoot()')(stack: createDocumentForTesting@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:95:58
+testHTMLCollection@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:141:39
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:145:15)
+FAIL Elements in a shadow tree should not be accessible from owner document's "embeds" attribute. undefined is not a function (evaluating 'doc.documentElement.createShadowRoot()')(stack: createDocumentForTesting@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:95:58
+testHTMLCollection@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:141:39
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:145:15)
+FAIL Elements in a shadow tree should not be accessible from owner document's "plugins" attribute. undefined is not a function (evaluating 'doc.documentElement.createShadowRoot()')(stack: createDocumentForTesting@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:95:58
+testHTMLCollection@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:141:39
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:145:15)
+FAIL Elements in a shadow tree should not be accessible from owner document's "links" attribute. undefined is not a function (evaluating 'doc.documentElement.createShadowRoot()')(stack: createDocumentForTesting@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:95:58
+testHTMLCollection@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:141:39
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:145:15)
+FAIL Elements in a shadow tree should not be accessible from owner document's "forms" attribute. undefined is not a function (evaluating 'doc.documentElement.createShadowRoot()')(stack: createDocumentForTesting@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:95:58
+testHTMLCollection@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:141:39
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:145:15)
+FAIL Elements in a shadow tree should not be accessible from owner document's "scripts" attribute. undefined is not a function (evaluating 'doc.documentElement.createShadowRoot()')(stack: createDocumentForTesting@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:95:58
+testHTMLCollection@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:141:39
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:145:15)
+FAIL Elements in a shadow tree should not be accessible from owner document's getElementsByName() method. undefined is not a function (evaluating 'doc.documentElement.createShadowRoot()')(stack: createDocumentForTesting@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:95:58
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:157:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:156:5)
+FAIL Elements in a shadow tree should not be accessible from owner document's "anchors" attribute. undefined is not a function (evaluating 'doc.documentElement.createShadowRoot()')(stack: createDocumentForTesting@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:95:58
+testHTMLCollection@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:141:39
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:167:15)
+FAIL Elements in a shadow tree should not be accessible from owner document's "applets" attribute. undefined is not a function (evaluating 'doc.documentElement.createShadowRoot()')(stack: createDocumentForTesting@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:95:58
+testHTMLCollection@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:141:39
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:167:15)
+FAIL Elements in a shadow tree should not be accessible from owner document's "all" attribute. undefined is not a function (evaluating 'doc.documentElement.createShadowRoot()')(stack: createDocumentForTesting@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:95:58
+testHTMLCollection@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:141:39
+http://localhost:8800/resources/testharness.js:127:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/resources/testharness.js:125:25
+forEach@http://localhost:8800/resources/testharness.js:1799:30
+generate_tests@http://localhost:8800/resources/testharness.js:122:16
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:167:15)
+FAIL Elements in a shadow tree should not be accessible from owner document's getElementsByTagName() method. undefined is not a function (evaluating 'doc.documentElement.createShadowRoot()')(stack: createDocumentForTesting@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:95:58
+http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:182:39
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:181:5)
+FAIL Elements in a shadow tree should not be accessible from owner document's getElementsByTagNameNS() method. undefined is not a function (evaluating 'body.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:200:43
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:189:5)
+FAIL Elements in a shadow tree should not be accessible from owner document's getElementById() method. undefined is not a function (evaluating 'doc.documentElement.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:214:58
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-001.html:211:5)
+

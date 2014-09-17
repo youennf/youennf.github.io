@@ -1,0 +1,35 @@
+
+PASS XMLHttpRequest: responseXML MIME type tests ('', should  parse) 
+PASS XMLHttpRequest: responseXML MIME type tests ('text/html', should not parse) 
+FAIL XMLHttpRequest: responseXML MIME type tests ('bogus', should  parse) null is not an object (evaluating 'client.responseXML.documentElement')(stack: http://localhost:8800/XMLHttpRequest/responsexml-media-type.htm:21:45
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+request@http://localhost:8800/XMLHttpRequest/responsexml-media-type.htm:14:13
+global code@http://localhost:8800/XMLHttpRequest/responsexml-media-type.htm:26:14)
+FAIL XMLHttpRequest: responseXML MIME type tests ('bogus+xml', should  parse) null is not an object (evaluating 'client.responseXML.documentElement')(stack: http://localhost:8800/XMLHttpRequest/responsexml-media-type.htm:21:45
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+request@http://localhost:8800/XMLHttpRequest/responsexml-media-type.htm:14:13
+global code@http://localhost:8800/XMLHttpRequest/responsexml-media-type.htm:27:14)
+PASS XMLHttpRequest: responseXML MIME type tests ('text/plain;+xml', should not parse) 
+PASS XMLHttpRequest: responseXML MIME type tests ('text/plainxml', should not parse) 
+PASS XMLHttpRequest: responseXML MIME type tests ('video/x-awesome+xml', should  parse) 
+PASS XMLHttpRequest: responseXML MIME type tests ('video/x-awesome', should not parse) 
+PASS XMLHttpRequest: responseXML MIME type tests ('text/xml', should  parse) 
+FAIL XMLHttpRequest: responseXML MIME type tests ('application', should  parse) null is not an object (evaluating 'client.responseXML.documentElement')(stack: http://localhost:8800/XMLHttpRequest/responsexml-media-type.htm:21:45
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+request@http://localhost:8800/XMLHttpRequest/responsexml-media-type.htm:14:13
+global code@http://localhost:8800/XMLHttpRequest/responsexml-media-type.htm:33:14)
+FAIL XMLHttpRequest: responseXML MIME type tests ('text/xsl', should not parse) assert_equals: expected null but got Document node with 1 child(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/responsexml-media-type.htm:19:26
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+request@http://localhost:8800/XMLHttpRequest/responsexml-media-type.htm:14:13
+global code@http://localhost:8800/XMLHttpRequest/responsexml-media-type.htm:34:14)
+PASS XMLHttpRequest: responseXML MIME type tests ('text/plain', should not parse) 
+PASS XMLHttpRequest: responseXML MIME type tests ('application/rdf', should not parse) 
+PASS XMLHttpRequest: responseXML MIME type tests ('application/xhtml+xml', should  parse) 
+PASS XMLHttpRequest: responseXML MIME type tests ('image/svg+xml', should  parse) 
+

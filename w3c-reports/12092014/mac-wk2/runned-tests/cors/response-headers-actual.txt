@@ -1,0 +1,113 @@
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-headers.asis. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-headers.asis. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-headers.asis. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-headers.asis. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-headers.asis. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-headers.asis. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-headers.asis. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-headers.asis. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-headers.asis. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-headers.asis. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-headers.asis. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-headers.asis. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-headers.asis. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-headers.asis. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/cors-headers.asis. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+Response headers
+
+
+FAIL getResponseHeader: Expose Access-Control-Expose-Headers (x-custom-header-comma) NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/response-headers.htm:22:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_response_header@http://localhost:8800/cors/response-headers.htm:19:9
+global code@http://localhost:8800/cors/response-headers.htm:31:22)
+FAIL getResponseHeader: Expose second Access-Control-Expose-Headers (x-second-expose) NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/response-headers.htm:22:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_response_header@http://localhost:8800/cors/response-headers.htm:19:9
+global code@http://localhost:8800/cors/response-headers.htm:32:22)
+FAIL getResponseHeader: Don't trim whitespace NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/response-headers.htm:22:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_response_header@http://localhost:8800/cors/response-headers.htm:19:9
+global code@http://localhost:8800/cors/response-headers.htm:33:22)
+FAIL getResponseHeader: x-custom-header bytes NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/response-headers.htm:22:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_response_header@http://localhost:8800/cors/response-headers.htm:19:9
+global code@http://localhost:8800/cors/response-headers.htm:34:22)
+FAIL getResponseHeader: Exposed server field readable (Date) NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/response-headers.htm:22:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_response_header@http://localhost:8800/cors/response-headers.htm:19:9
+global code@http://localhost:8800/cors/response-headers.htm:35:22)
+FAIL getResponseHeader: Cache-Control: readable by default NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/response-headers.htm:22:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_response_header@http://localhost:8800/cors/response-headers.htm:19:9
+default_readable@http://localhost:8800/cors/response-headers.htm:40:26
+global code@http://localhost:8800/cors/response-headers.htm:42:17)
+FAIL getResponseHeader: Content-Language: readable by default NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/response-headers.htm:22:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_response_header@http://localhost:8800/cors/response-headers.htm:19:9
+default_readable@http://localhost:8800/cors/response-headers.htm:40:26
+global code@http://localhost:8800/cors/response-headers.htm:43:17)
+FAIL getResponseHeader: Expires: readable by default NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/response-headers.htm:22:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_response_header@http://localhost:8800/cors/response-headers.htm:19:9
+default_readable@http://localhost:8800/cors/response-headers.htm:40:26
+global code@http://localhost:8800/cors/response-headers.htm:44:17)
+FAIL getResponseHeader: Last-Modified: readable by default NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/response-headers.htm:22:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_response_header@http://localhost:8800/cors/response-headers.htm:19:9
+default_readable@http://localhost:8800/cors/response-headers.htm:40:26
+global code@http://localhost:8800/cors/response-headers.htm:45:17)
+FAIL getResponseHeader: Pragma: readable by default NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/response-headers.htm:22:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_response_header@http://localhost:8800/cors/response-headers.htm:19:9
+default_readable@http://localhost:8800/cors/response-headers.htm:40:26
+global code@http://localhost:8800/cors/response-headers.htm:46:17)
+FAIL getResponseHeader: Server: unreadable by default NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/response-headers.htm:22:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_response_header@http://localhost:8800/cors/response-headers.htm:19:9
+default_unreadable@http://localhost:8800/cors/response-headers.htm:50:26
+global code@http://localhost:8800/cors/response-headers.htm:52:19)
+FAIL getResponseHeader: X-Powered-By: unreadable by default NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/response-headers.htm:22:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_response_header@http://localhost:8800/cors/response-headers.htm:19:9
+default_unreadable@http://localhost:8800/cors/response-headers.htm:50:26
+global code@http://localhost:8800/cors/response-headers.htm:53:19)
+FAIL getResponseHeader: Combined testing of cors response headers assert_equals: x-custom-header expected (string) "test" but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/cors/response-headers.htm:70:26
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL getResponse: don't expose x-nonexposed NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/response-headers.htm:88:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/cors/response-headers.htm:85:5)
+FAIL getAllResponseHeaders: don't expose x-nonexposed NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/response-headers.htm:96:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/cors/response-headers.htm:93:5)
+

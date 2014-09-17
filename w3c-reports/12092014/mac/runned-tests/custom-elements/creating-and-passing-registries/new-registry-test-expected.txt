@@ -1,0 +1,12 @@
+
+FAIL Document, loaded into browsing context, must have a new empty registry assert_unreached: Unexpected exception, while registering a valid custom element Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/custom-elements/creating-and-passing-registries/new-registry-test.html:21:25
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Document, loaded into browsing context, must have a new empty registry, which is different from other documents' registries undefined is not a function (evaluating 'createdDocument.registerElement('x-element')')(stack: http://localhost:8800/custom-elements/creating-and-passing-registries/new-registry-test.html:29:36
+http://localhost:8800/custom-elements/testcommon.js:237:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

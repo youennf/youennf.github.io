@@ -1,0 +1,100 @@
+CONSOLE MESSAGE: XMLHttpRequest cannot load data:text/plain,Hello, World!. Cross origin requests are only supported for HTTP.
+CONSOLE MESSAGE: XMLHttpRequest cannot load data:text/plain;base64,SGVsbG8sIFdvcmxkIQ%3D%3D. Cross origin requests are only supported for HTTP.
+CONSOLE MESSAGE: XMLHttpRequest cannot load data:text/plain,Hello, World!. Cross origin requests are only supported for HTTP.
+CONSOLE MESSAGE: XMLHttpRequest cannot load data:text/plain,Hello, World!. Cross origin requests are only supported for HTTP.
+CONSOLE MESSAGE: XMLHttpRequest cannot load data:text/plain,Hello, World!. Cross origin requests are only supported for HTTP.
+CONSOLE MESSAGE: XMLHttpRequest cannot load data:text/html;charset=utf-8,<p>Hello, World!. Cross origin requests are only supported for HTTP.
+CONSOLE MESSAGE: XMLHttpRequest cannot load data:text/plain,Hello, World!. Cross origin requests are only supported for HTTP.
+CONSOLE MESSAGE: XMLHttpRequest cannot load data:text/plain,Hello, World!. Cross origin requests are only supported for HTTP.
+CONSOLE MESSAGE: XMLHttpRequest cannot load data:text/plain,Hello, World!. Cross origin requests are only supported for HTTP.
+
+FAIL GET responseText assert_equals: expected "Hello, World!" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:26:18
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:18:13
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+send@[native code]
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:22:18
+step@http://localhost:8800/resources/testharness.js:798:30
+do_test@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:14:14
+global code@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:25:10)
+FAIL GET responseText base64 assert_equals: expected "Hello, World!" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:29:18
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:18:13
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+send@[native code]
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:22:18
+step@http://localhost:8800/resources/testharness.js:798:30
+do_test@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:14:14
+global code@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:28:10)
+FAIL GET status assert_equals: expected 200 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:32:18
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:18:13
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+send@[native code]
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:22:18
+step@http://localhost:8800/resources/testharness.js:798:30
+do_test@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:14:14
+global code@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:31:10)
+FAIL GET statusText assert_equals: expected "OK" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:35:18
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:18:13
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+send@[native code]
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:22:18
+step@http://localhost:8800/resources/testharness.js:798:30
+do_test@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:14:14
+global code@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:34:10)
+FAIL GET Content-Type assert_equals: expected (string) "text/plain" but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:38:18
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:18:13
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+send@[native code]
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:22:18
+step@http://localhost:8800/resources/testharness.js:798:30
+do_test@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:14:14
+global code@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:37:10)
+FAIL GET Content-Type with param assert_equals: expected (string) "text/html;charset=utf-8" but got (object) null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:41:18
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:18:13
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+send@[native code]
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:22:18
+step@http://localhost:8800/resources/testharness.js:798:30
+do_test@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:14:14
+global code@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:40:10)
+FAIL GET getAllResponseHeaders assert_equals: expected "content-type: text/plain" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:44:18
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:18:13
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+send@[native code]
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:22:18
+step@http://localhost:8800/resources/testharness.js:798:30
+do_test@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:14:14
+global code@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:43:10)
+FAIL POST responseText assert_equals: expected (object) null but got (string) ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:47:18
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:18:13
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+send@[native code]
+http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:22:18
+step@http://localhost:8800/resources/testharness.js:798:30
+do_test@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:14:14
+global code@http://localhost:8800/XMLHttpRequest/data-uri-basic.htm:46:10)
+PASS POST status 
+

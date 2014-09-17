@@ -1,0 +1,96 @@
+
+FAIL Keypath - my.key assert_equals: array length expected 1 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/IndexedDB/keypath.htm:44:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Keypath - my.køi DataError: DOM IDBDatabase Exception 0(stack: add@[native code]
+onupgradeneeded@http://localhost:8800/IndexedDB/keypath.htm:27:29
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Keypath - my.key_ya assert_equals: array length expected 1 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/IndexedDB/keypath.htm:44:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Keypath - public.key$ya assert_equals: array length expected 1 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/IndexedDB/keypath.htm:44:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Keypath - true.$ assert_equals: array length expected 1 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/IndexedDB/keypath.htm:44:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Keypath - my._ assert_equals: array length expected 1 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/IndexedDB/keypath.htm:44:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Keypath - delete.a7 assert_equals: array length expected 1 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/IndexedDB/keypath.htm:44:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Keypath - p.p.p.p.p.p.p.p.p.p.p.p.p.p assert_equals: array length expected 1 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/IndexedDB/keypath.htm:44:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Keypath - str.length assert_equals: array length expected 4 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/IndexedDB/keypath.htm:44:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Keypath - arr.length assert_equals: array length expected 4 but got 3(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/IndexedDB/keypath.htm:44:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS Keypath - length 
+PASS Keypath - '' uses value as key 
+FAIL Keypath - [''] uses value as [key] assert_object_equals: keyorder array property "0" expected ["bean"] got [10, "bean"](stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+check_equal@http://localhost:8800/resources/testharness.js:378:28
+check_equal@http://localhost:8800/resources/testharness.js:375:37
+assert_object_equals@http://localhost:8800/resources/testharness.js:390:21
+http://localhost:8800/IndexedDB/keypath.htm:45:41
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Keypath - ['x', 'y'] assert_equals: array length expected 2 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/IndexedDB/keypath.htm:44:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Keypath - [['x'], 'y'] (stringifies) assert_equals: array length expected 2 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/IndexedDB/keypath.htm:44:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Keypath - ['x', {toString->'y'}] (stringifies) assert_object_equals: keyorder array property "0" expected [100, 1.337] got [10, 20, 100, 1.337](stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+check_equal@http://localhost:8800/resources/testharness.js:378:28
+check_equal@http://localhost:8800/resources/testharness.js:375:37
+assert_object_equals@http://localhost:8800/resources/testharness.js:390:21
+http://localhost:8800/IndexedDB/keypath.htm:45:41
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Keypath - name,type assert_equals: array length expected 2 but got 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/IndexedDB/keypath.htm:44:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Keypath - name,type.name assert_object_equals: keyorder array property "1" expected ["orange", "telecom"] got ["orange", "fruit", "orange", "telecom"](stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+check_equal@http://localhost:8800/resources/testharness.js:378:28
+check_equal@http://localhost:8800/resources/testharness.js:375:37
+assert_object_equals@http://localhost:8800/resources/testharness.js:390:21
+http://localhost:8800/IndexedDB/keypath.htm:45:41
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Keypath - array loop -> stringify becomes [''] assert_object_equals: keyorder array property "0" expected ["a"] got [1, "a"](stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+check_equal@http://localhost:8800/resources/testharness.js:378:28
+check_equal@http://localhost:8800/resources/testharness.js:375:37
+assert_object_equals@http://localhost:8800/resources/testharness.js:390:21
+http://localhost:8800/IndexedDB/keypath.htm:45:41
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

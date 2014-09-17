@@ -1,0 +1,61 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-09 15:43
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/001.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/002.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/003.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/004.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/005.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/006.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/007.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/008.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/009.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/010.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/011.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/012.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/013.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/014.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/015.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/016.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/030-1.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/036-1.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/039-1.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/044.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/045.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/046.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/047.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/048.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/052.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/053.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/054.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/055.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/056.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/057.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/058.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/059-1.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/059.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/060-1.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/060.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/061.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/062.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/063.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/064.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/065.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/066.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/067.svg
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/editing/dnd/svg/helper-drop-selection-here-textArea.svg

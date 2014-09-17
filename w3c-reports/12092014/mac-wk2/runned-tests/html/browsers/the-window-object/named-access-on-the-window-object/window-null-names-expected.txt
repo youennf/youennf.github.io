@@ -1,0 +1,4 @@
+
+
+PASS Named access with null characters 
+

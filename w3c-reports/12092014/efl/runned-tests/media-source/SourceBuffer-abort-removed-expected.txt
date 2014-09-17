@@ -1,0 +1,20 @@
+
+FAIL SourceBuffer#abort (video/webm; codecs="vorbis,vp8") : if this object has been removed from the sourceBuffers attribute of the parent media source, then throw an INVALID_STATE_ERR exception and abort these steps. Can't find variable: MediaSource(stack: isTypeSupported@http://localhost:8800/media-source/SourceBuffer-abort-removed.html:18:20
+isTypeSupported@[native code]
+http://localhost:8800/media-source/SourceBuffer-abort-removed.html:29:36
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+mediaTest@http://localhost:8800/media-source/SourceBuffer-abort-removed.html:28:15
+http://localhost:8800/media-source/SourceBuffer-abort-removed.html:51:14
+forEach@[native code]
+global code@http://localhost:8800/media-source/SourceBuffer-abort-removed.html:50:14)
+FAIL SourceBuffer#abort (video/mp4) : if this object has been removed from the sourceBuffers attribute of the parent media source, then throw an INVALID_STATE_ERR exception and abort these steps. Can't find variable: MediaSource(stack: isTypeSupported@http://localhost:8800/media-source/SourceBuffer-abort-removed.html:18:20
+isTypeSupported@[native code]
+http://localhost:8800/media-source/SourceBuffer-abort-removed.html:29:36
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+mediaTest@http://localhost:8800/media-source/SourceBuffer-abort-removed.html:28:15
+http://localhost:8800/media-source/SourceBuffer-abort-removed.html:51:14
+forEach@[native code]
+global code@http://localhost:8800/media-source/SourceBuffer-abort-removed.html:50:14)
+

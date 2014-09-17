@@ -1,0 +1,18 @@
+
+PASS Check if the first nested browsing context is returned by window['c'] 
+FAIL Check if window['a'] contains all a, applet, area, embed, form, img, and object elements, and their order assert_equals: The length should be 7. expected 7 but got 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/browsers/the-window-object/named-access-on-the-window-object/named-objects.html:36:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/browsers/the-window-object/named-access-on-the-window-object/named-objects.html:35:5)
+FAIL Check if window['fs'] return the frameset element with name='fs' assert_equals: The frameset element should be returned. expected (object) null but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/browsers/the-window-object/named-access-on-the-window-object/named-objects.html:57:18
+step@http://localhost:8800/resources/testharness.js:798:30
+on_load@http://localhost:8800/html/browsers/the-window-object/named-access-on-the-window-object/named-objects.html:56:9
+onload@http://localhost:8800/html/browsers/the-window-object/named-access-on-the-window-object/named-objects.html:23:8)
+PASS Check if window['b'] returns the elements with the id='b' 
+PASS Check if window['d'] returns the element with id='d' 
+PASS Check widow[''] when there are some elements with empty id or name attribute 
+

@@ -1,0 +1,5 @@
+
+FAIL A_04_03_06_09_T01 undefined is not a function (evaluating 'ul.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/satisfying-matching-criteria/test-013.html:38:40
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

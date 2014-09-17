@@ -1,0 +1,11 @@
+--- /Users/youenn/Documents/WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/dom/nodes/Element-childElementCount-dynamic-remove-expected.txt
++++ /Users/youenn/Documents/WebKit/WebKitBuild/Release/w3c-conformance-results/runned-tests/dom/nodes/Element-childElementCount-dynamic-remove-actual.txt
+@@ -1,6 +1,6 @@
+-Test of Dynamic Removal of Elements
++Test of Removal Adding of Elements
+ 
+-The result of this test is unknown.
++The result of this test is logged above.
+ 
+ 
+ PASS Dynamic Removal of Elements 

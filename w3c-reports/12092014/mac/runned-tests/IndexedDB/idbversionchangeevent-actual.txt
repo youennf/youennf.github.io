@@ -1,0 +1,5 @@
+
+FAIL IDBVersionChangeEvent fired in upgradeneeded, versionchange and deleteDatabase null is not an object (evaluating 'indexedDB.open')(stack: http://localhost:8800/IndexedDB/idbversionchangeevent.htm:19:31
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/IndexedDB/idbversionchangeevent.htm:18:11)
+

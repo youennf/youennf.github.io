@@ -1,0 +1,35 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-09 15:43
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/contains.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/form-validation-checkValidity.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/form-validation-reportValidity.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/form-validation-validate.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/form-validation-validity-badInput.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/form-validation-validity-customError.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/form-validation-validity-patternMismatch.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/form-validation-validity-rangeOverflow.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/form-validation-validity-rangeUnderflow.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/form-validation-validity-stepMismatch.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/form-validation-validity-tooLong.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/form-validation-validity-tooShort.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/form-validation-validity-typeMismatch.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/form-validation-validity-valid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/form-validation-validity-valueMissing.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/form-validation-willValidate.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/forms/constraints/inputwillvalidate.html

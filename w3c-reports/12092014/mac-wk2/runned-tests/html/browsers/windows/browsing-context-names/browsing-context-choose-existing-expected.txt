@@ -1,0 +1,5 @@
+
+FAIL The browsing context must be chosen if the given name is same as its name undefined is not a function (evaluating 'frames[0].do_test()')(stack: http://localhost:8800/html/browsers/windows/browsing-context-names/browsing-context-choose-existing.html:22:20
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

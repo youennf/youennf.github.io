@@ -1,0 +1,7 @@
+
+FAIL WebSockets: NULL char in url assert_equals: expected "x%00" but got "x"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/websockets/constructor/018.html:11:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

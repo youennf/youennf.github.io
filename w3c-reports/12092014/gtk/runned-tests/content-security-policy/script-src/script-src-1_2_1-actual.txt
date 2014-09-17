@@ -1,0 +1,13 @@
+CONSOLE MESSAGE: Refused to execute inline script because it violates the following Content Security Policy directive: "script-src *".
+
+CONSOLE MESSAGE: line 14: Refused to execute inline script because it violates the following Content Security Policy directive: "script-src *".
+
+CONSOLE MESSAGE: Refused to execute inline script because it violates the following Content Security Policy directive: "script-src *".
+
+CONSOLE MESSAGE: Refused to execute inline script because it violates the following Content Security Policy directive: "script-src *".
+
+Inline script attached by DOM manipulation should not run without an 'unsafe-inline' script-src policy, even with default-src *
+
+
+PASS DOM manipulation inline tests 
+

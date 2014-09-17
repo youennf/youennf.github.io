@@ -1,0 +1,93 @@
+
+PASS Web Animations API: AnimationTimeline tests 
+FAIL AnimationTimeline interface: existence and properties of interface object assert_own_property: window does not have own property "AnimationTimeline" expected property "AnimationTimeline" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:966:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/web-animations/animation-timeline/idlharness.html:24:14)
+FAIL AnimationTimeline interface object length assert_own_property: window does not have own property "AnimationTimeline" expected property "AnimationTimeline" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1032:32
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1028:13
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/web-animations/animation-timeline/idlharness.html:24:14)
+FAIL AnimationTimeline interface: existence and properties of interface prototype object assert_own_property: window does not have own property "AnimationTimeline" expected property "AnimationTimeline" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1073:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/web-animations/animation-timeline/idlharness.html:24:14)
+FAIL AnimationTimeline interface: existence and properties of interface prototype object's "constructor" property assert_own_property: window does not have own property "AnimationTimeline" expected property "AnimationTimeline" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1161:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/web-animations/animation-timeline/idlharness.html:24:14)
+FAIL AnimationTimeline interface: attribute currentTime assert_own_property: window does not have own property "AnimationTimeline" expected property "AnimationTimeline" missing(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+http://localhost:8800/resources/testharness.js:521:19
+http://localhost:8800/resources/idlharness.js:1253:28
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+global code@http://localhost:8800/web-animations/animation-timeline/idlharness.html:24:14)
+FAIL AnimationTimeline must be primary interface of document.timeline assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1526:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_primary_interface_of@http://localhost:8800/resources/idlharness.js:1523:13
+test_object@http://localhost:8800/resources/idlharness.js:1495:35
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/web-animations/animation-timeline/idlharness.html:24:14)
+FAIL Stringification of document.timeline assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1548:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_primary_interface_of@http://localhost:8800/resources/idlharness.js:1545:9
+test_object@http://localhost:8800/resources/idlharness.js:1495:35
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/web-animations/animation-timeline/idlharness.html:24:14)
+FAIL AnimationTimeline interface: document.timeline must inherit property "currentTime" with the proper type (0) assert_equals: wrong typeof object expected "object" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/resources/idlharness.js:1584:30
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_interface_of@http://localhost:8800/resources/idlharness.js:1581:17
+test_object@http://localhost:8800/resources/idlharness.js:1507:44
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+global code@http://localhost:8800/web-animations/animation-timeline/idlharness.html:24:14)
+

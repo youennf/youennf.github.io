@@ -1,0 +1,7 @@
+
+FAIL WebSockets: bufferedAmount for blob assert_equals: expected 10 but got 0(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/websockets/interfaces/WebSocket/bufferedAmount/007.html:16:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

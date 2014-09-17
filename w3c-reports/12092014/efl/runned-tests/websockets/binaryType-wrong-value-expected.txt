@@ -1,0 +1,4 @@
+CONSOLE MESSAGE: line 2: SyntaxError: Unexpected token '{'. Expected a property name.
+CONSOLE MESSAGE: line 16: ReferenceError: Can't find variable: CreateWebSocket
+
+Harness Error. harness_status.status = 1 , harness_status.message = ReferenceError: Can't find variable: CreateWebSocket

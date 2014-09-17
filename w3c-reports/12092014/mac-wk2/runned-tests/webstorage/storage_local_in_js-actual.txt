@@ -1,0 +1,6 @@
+storage_local_in
+
+
+PASS Web Storage 
+PASS Web Storage 1 
+

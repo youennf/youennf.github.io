@@ -1,0 +1,7 @@
+
+FAIL onmessage assert_array_equals: property 1, expected "null" but got "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:407:19
+http://localhost:8800/workers/interfaces/DedicatedWorkerGlobalScope/onmessage.html:33:24
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

@@ -1,0 +1,3 @@
+CONSOLE MESSAGE: line 22: Error: Error from listener
+
+Harness Error. harness_status.status = 1 , harness_status.message = Error: Error from listener

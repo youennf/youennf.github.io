@@ -1,0 +1,7 @@
+
+FAIL WebSockets: bufferedAmount for unicode data assert_equals: expected 0 but got 24(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/websockets/interfaces/WebSocket/bufferedAmount/010.html:13:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

@@ -1,0 +1,16 @@
+
+FAIL A_08_02_02_T01 undefined is not a function (evaluating 'div.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/html-elements-in-shadow-trees/html-forms/test-002.html:35:33
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/html-elements-in-shadow-trees/html-forms/test-002.html:26:5)
+FAIL A_08_02_02_T02 undefined is not a function (evaluating 'div.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/html-elements-in-shadow-trees/html-forms/test-002.html:62:33
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/html-elements-in-shadow-trees/html-forms/test-002.html:54:5)
+FAIL A_08_02_02_T03 undefined is not a function (evaluating 'div.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/html-elements-in-shadow-trees/html-forms/test-002.html:94:37
+forEach@[native code]
+http://localhost:8800/shadow-dom/html-elements-in-shadow-trees/html-forms/test-002.html:82:43
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/html-elements-in-shadow-trees/html-forms/test-002.html:79:5)
+

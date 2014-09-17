@@ -1,0 +1,108 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 17:45
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/040.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/006.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/script_010.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/004.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/020.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/015.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/039.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/003.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/011.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/031.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/007.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/script_005.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/006.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/009.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/002.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/016.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/012.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/035.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/047.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/nested-document-write-external.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/013.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/029.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/017.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/011-1.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/012.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/051.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/iframe_006.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/iframe_010.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/023.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/043.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/iframe_003.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/iframe_008.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/008.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/037.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/script_013.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/script_002.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/iframe_005.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/script_009.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/036.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/021.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/005.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/iframe_009.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/010.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/script_006.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/010-1.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/019.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/script_001.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/script_012.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/script_011.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/032.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/050.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/027.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/045.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/008.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/022.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/iframe_007.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/024.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/034.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/042.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/030.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/document.write-01.xhtml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/028.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/049.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/025.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/005.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/013.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/046.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/script_004.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/033.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/script_007.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/018.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/iframe_005.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/007.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/iframe_001.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/041.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/038.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/008-1.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/048.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/011.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/script_008.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/document.write-02.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/script_003.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/001.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/044.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/014.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/010.js
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/iframe_004.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/026.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/iframe_002.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/dom/dynamic-markup-insertion/document-write/original-id.json

@@ -1,0 +1,8 @@
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://localhost:8801/progress-events/tests/submissions/Samsung/resources/img.jpg. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+
+FAIL ProgressEvent: security consideration assert_unreached: MUST NOT dispatch progress event. Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/progress-events/tests/submissions/Samsung/security-consideration.sub.html:20:31
+step@http://localhost:8800/resources/testharness.js:798:30
+onprogress@http://localhost:8800/progress-events/tests/submissions/Samsung/security-consideration.sub.html:18:20)
+

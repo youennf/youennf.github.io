@@ -1,0 +1,7 @@
+
+
+FAIL Unregistering event handlers after document.open NotSupportedError: DOM Exception 9(stack: createEvent@[native code]
+http://localhost:8800/html/dom/dynamic-markup-insertion/opening-the-input-stream/007.html:14:45
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

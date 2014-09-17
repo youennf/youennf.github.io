@@ -1,0 +1,25 @@
+
+FAIL The submit event must be fired when click a button in submit status assert_true: The isTrusted attribute of the submit event shoud be true. expected true got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/semantics/forms/the-button-element/button-events.html:26:14
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+click@[native code]
+http://localhost:8800/html/semantics/forms/the-button-element/button-events.html:52:12
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/semantics/forms/the-button-element/button-events.html:49:8)
+FAIL The reset event must be fired when click a button in reset status assert_true: The isTrusted attribute of the reset event shoud be true. expected true got undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/semantics/forms/the-button-element/button-events.html:34:14
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+click@[native code]
+http://localhost:8800/html/semantics/forms/the-button-element/button-events.html:58:12
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/semantics/forms/the-button-element/button-events.html:55:8)
+FAIL The show event must be fired when click a button in menu status assert_equals: The button type should be 'menu'. expected "menu" but got "submit"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-button-element/button-events.html:62:16
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/html/semantics/forms/the-button-element/button-events.html:61:8)
+

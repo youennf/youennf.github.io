@@ -1,0 +1,9 @@
+
+FAIL resolving broken url assert_throws: function "function () {
+    var worker = new SharedWorker('http://f..." threw object "TypeError: undefined is not a constructor (evaluating 'ne..." that is not a DOMException SyntaxError: property "code" is equal to undefined, expected 12(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/workers/constructors/SharedWorker/unresolvable-url.html:12:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/workers/constructors/SharedWorker/unresolvable-url.html:11:5)
+

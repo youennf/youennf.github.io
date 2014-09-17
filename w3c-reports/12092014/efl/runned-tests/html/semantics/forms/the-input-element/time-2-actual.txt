@@ -1,0 +1,64 @@
+
+PASS empty value 
+PASS Valid value: value should be 00:00 
+PASS Valid value: value should be 00:00:00 
+PASS Valid value: value should be 00:00:00.0 
+PASS Valid value: value should be 00:00:00.00 
+PASS Valid value: value should be 00:00:00.000 
+FAIL Invalid value: fraction should have one, two or three ASCII digits. Value should be empty assert_equals: expected "" but got "00:00:00.0000"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:39:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:32:9)
+FAIL Invalid value: hour should have two ASCII digits. Value should be empty assert_equals: expected "" but got "0:00:00.000"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:39:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:32:9)
+FAIL Invalid value: minutes should have two ASCII digits. Value should be empty assert_equals: expected "" but got "00:0:00.000"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:39:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:32:9)
+FAIL Invalid value: seconds should have two ASCII digits. Value should be empty assert_equals: expected "" but got "00:00:0.000"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:39:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:32:9)
+FAIL Invalid value: hour > 23. Value should be empty assert_equals: expected "" but got "24:00:00.000"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:39:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:32:9)
+FAIL Invalid value: minute > 59. Value should be empty assert_equals: expected "" but got "00:60:00.000"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:39:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:32:9)
+FAIL Invalid value: second > 59. Value should be empty assert_equals: expected "" but got "00:00:60.000"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:39:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:32:9)
+PASS Value >= min attribute 
+FAIL Value < min attribute assert_equals: expected "12:00:00.001" but got "12:00:00.000"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:39:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:32:9)
+PASS Value <= max attribute 
+FAIL Value > max attribute assert_equals: expected "12:00:00.000" but got "12:00:00.001"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:39:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/time-2.html:32:9)
+

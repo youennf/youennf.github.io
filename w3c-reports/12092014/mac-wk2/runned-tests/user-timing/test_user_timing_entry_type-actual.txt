@@ -1,0 +1,7 @@
+CONSOLE MESSAGE: line 150: TypeError: undefined is not an object (evaluating 'this.performanceContext.mark')
+Description
+
+This test validates the user timing entry type, PerformanceMark and PerformanceMeasure.
+
+
+Harness Error. harness_status.status = 1 , harness_status.message = TypeError: undefined is not an object (evaluating 'this.performanceContext.mark')

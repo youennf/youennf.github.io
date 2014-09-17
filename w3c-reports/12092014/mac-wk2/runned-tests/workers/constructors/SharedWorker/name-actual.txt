@@ -1,0 +1,5 @@
+
+FAIL self.name undefined is not a constructor (evaluating 'new SharedWorker('#', 'hello')')(stack: http://localhost:8800/workers/constructors/SharedWorker/name.html:14:32
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/workers/constructors/SharedWorker/name.html:13:20)
+

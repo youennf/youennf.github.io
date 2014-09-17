@@ -1,0 +1,20 @@
+CONSOLE MESSAGE: Blocked a frame with origin "http://localhost:8800" from accessing a frame with origin "null".  The frame requesting access has a protocol of "http", the frame being accessed has a protocol of "data". Protocols must match.
+
+CONSOLE MESSAGE: Blocked a frame with origin "http://localhost:8800" from accessing a frame with origin "null".  The frame requesting access has a protocol of "http", the frame being accessed has a protocol of "data". Protocols must match.
+
+ 
+
+PASS Node.isEqualNode 
+PASS Node.isEqualNode 1 
+PASS Node.isEqualNode 2 
+PASS Node.isEqualNode 3 
+PASS Node.isEqualNode 4 
+PASS Node.isEqualNode 5 
+PASS Node.isEqualNode 6 
+PASS isEqualNode should return true when the attributes are in a different order 
+PASS isEqualNode should return true when the attributes have different prefixes 
+FAIL isEqualNode should return true when only the internal subsets of DocumentTypes differ. null is not an object (evaluating 'doc1.doctype')(stack: http://localhost:8800/dom/nodes/Node-isEqualNode.xhtml:50:23
+step@http://localhost:8800/resources/testharness.js:798:30
+iframeLoaded@http://localhost:8800/dom/nodes/Node-isEqualNode.xhtml:47:24
+onload@http://localhost:8800/dom/nodes/Node-isEqualNode.xhtml:58:13)
+

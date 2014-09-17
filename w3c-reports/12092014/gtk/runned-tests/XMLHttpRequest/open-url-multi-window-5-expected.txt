@@ -1,0 +1,9 @@
+
+
+FAIL XMLHttpRequest: open() resolving URLs (multi-Window; 5) assert_throws: function "function () { client.open("GET", "..."); }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/XMLHttpRequest/open-url-multi-window-5.htm:22:26
+step@http://localhost:8800/resources/testharness.js:798:30
+init@http://localhost:8800/XMLHttpRequest/open-url-multi-window-5.htm:16:18
+global code@http://localhost:8800/XMLHttpRequest/resources/init.htm:7:25)
+

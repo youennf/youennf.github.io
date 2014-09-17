@@ -1,0 +1,5 @@
+
+FAIL shared worker - EventSource: onmessage undefined is not a constructor (evaluating 'new SharedWorker('#')')(stack: http://localhost:8800/eventsource/shared-worker/eventsource-onmesage.htm:27:38
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/eventsource/shared-worker/eventsource-onmesage.htm:26:16)
+

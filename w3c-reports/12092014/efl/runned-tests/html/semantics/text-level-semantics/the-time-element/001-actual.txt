@@ -1,0 +1,38 @@
+
+PASS HTML parsing should locate 4 time elements in this document 
+FAIL HTMLTimeElement should be exposed for prototyping assert_true: expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/semantics/text-level-semantics/the-time-element/001.html:40:13
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/text-level-semantics/the-time-element/001.html:39:5)
+FAIL the time elements should be instanceof HTMLTimeElement undefined is not a valid argument for 'instanceof' (evaluating 'makeTime() instanceof window.HTMLTimeElement')(stack: http://localhost:8800/html/semantics/text-level-semantics/the-time-element/001.html:43:37
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/text-level-semantics/the-time-element/001.html:42:5)
+FAIL the datetime attribute should be reflected by the .dateTime property assert_equals: expected (string) "2000-02-01T03:04:05Z" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/semantics/text-level-semantics/the-time-element/001.html:49:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/text-level-semantics/the-time-element/001.html:48:5)
+FAIL the dateTime IDL property should default to an empty string assert_equals: typeof test expected "string" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/text-level-semantics/the-time-element/001.html:52:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/text-level-semantics/the-time-element/001.html:51:5)
+PASS the dateTime property should be read/write 
+FAIL the datetime attribute should be reflected by the .dateTime property even if it is invalid assert_equals: expected (string) "go fish" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/semantics/text-level-semantics/the-time-element/001.html:59:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/text-level-semantics/the-time-element/001.html:58:5)
+FAIL the datetime attribute should not reflect the textContent assert_equals: expected (string) "" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/semantics/text-level-semantics/the-time-element/001.html:62:15
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/text-level-semantics/the-time-element/001.html:61:5)
+

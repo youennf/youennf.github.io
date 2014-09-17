@@ -1,0 +1,7 @@
+CONSOLE MESSAGE: Blocked a frame with origin "http://localhost:8800" from accessing a frame with origin "null".  The frame requesting access has a protocol of "http", the frame being accessed has a protocol of "data". Protocols must match.
+
+
+FAIL Data URI document.contentType === 'text/html' when data URI MIME type is set null is not an object (evaluating 'iframe.contentDocument.contentType')(stack: http://localhost:8800/dom/nodes/Document-contentType/contentType/contenttype_datauri_02.html:11:41
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:843:37)
+

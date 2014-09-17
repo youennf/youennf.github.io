@@ -1,0 +1,30 @@
+
+
+FAIL Test detached callback if custom element is created via innerHTML property. Document has no browsing context undefined is not a function (evaluating 'doc.registerElement('x-a', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-no-browsing-context-test.html:20:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-no-browsing-context-test.html:17:5)
+FAIL Test detached callback if custom element is via innerHTML property before registration of a custom element. Document has no browsing context undefined is not a function (evaluating 'doc.registerElement('x-b', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-no-browsing-context-test.html:35:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-no-browsing-context-test.html:31:5)
+PASS Test detached callback if custom element is unregistered. Document has no browsing context 
+FAIL Test detached callback if removing custom element via innerHTML property. Document has no browsing context undefined is not a function (evaluating 'doc.registerElement('x-d', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-no-browsing-context-test.html:64:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-no-browsing-context-test.html:60:5)
+FAIL Test detached callback if removing perent of custom element. Document has no browsing context undefined is not a function (evaluating 'doc.registerElement('x-e', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-no-browsing-context-test.html:78:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-no-browsing-context-test.html:74:5)
+FAIL Test detached callback if removing perent of custom element via innerHTML property. Document has no browsing context undefined is not a function (evaluating 'doc.registerElement('x-f', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-no-browsing-context-test.html:93:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-no-browsing-context-test.html:89:5)
+FAIL Test detached callback is not called if document lose browsing context and custom element is removed undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-no-browsing-context-test.html:111:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+FAIL Test detached callback is not called, if document's window is navigated to another document and custom element is removed undefined is not a function (evaluating 'doc.registerElement('x-element', {prototype: proto})')(stack: http://localhost:8800/custom-elements/custom-element-lifecycle/types-of-callbacks/detached-callback-no-browsing-context-test.html:132:28
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

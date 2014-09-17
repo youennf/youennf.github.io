@@ -1,0 +1,34 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 17:45
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/_stream_hybi.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/stream.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/util.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/msgutil.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/__init__.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/common.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/standalone.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/dispatch.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/memorizingfile.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/headerparserhandler.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/_stream_base.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/mux.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/extensions.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/fast_masking.i
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/http_header_util.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/tools/pywebsocket/src/mod_pywebsocket/_stream_hixie75.py

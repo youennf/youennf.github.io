@@ -1,0 +1,7 @@
+
+FAIL seek to negative time assert_equals: currentTime after setting expected 0 but got -1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/seeking/seek-to-negative-time.htm:15:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

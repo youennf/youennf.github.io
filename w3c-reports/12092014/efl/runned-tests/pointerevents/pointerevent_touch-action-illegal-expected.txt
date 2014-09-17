@@ -1,0 +1,31 @@
+Pointer Events touch-action attribute support
+
+Test Description: Test will automatically check behaviour of following combinations: 'pan-x none', 'pan-y none', 'auto none'
+
+touch-action: none
+
+The following pointer types were detected: (none).
+
+
+FAIL 'pan-x none' is corrected properly assert_true: 'pan-x none' is corrected properly expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/pointerevents/pointerevent_touch-action-illegal.html:50:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+run@http://localhost:8800/pointerevents/pointerevent_touch-action-illegal.html:49:21
+onload@http://localhost:8800/pointerevents/pointerevent_touch-action-illegal.html:32:4)
+FAIL 'pan-y none' is corrected properly assert_true: 'pan-y none' is corrected properly expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/pointerevents/pointerevent_touch-action-illegal.html:53:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+run@http://localhost:8800/pointerevents/pointerevent_touch-action-illegal.html:52:21
+onload@http://localhost:8800/pointerevents/pointerevent_touch-action-illegal.html:32:4)
+FAIL 'auto none' is corrected properly assert_true: 'auto none' is corrected properly expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/pointerevents/pointerevent_touch-action-illegal.html:56:32
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+run@http://localhost:8800/pointerevents/pointerevent_touch-action-illegal.html:55:21
+onload@http://localhost:8800/pointerevents/pointerevent_touch-action-illegal.html:32:4)
+

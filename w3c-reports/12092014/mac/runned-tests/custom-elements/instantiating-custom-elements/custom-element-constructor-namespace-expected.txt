@@ -1,0 +1,15 @@
+
+FAIL Custom element constructor sets namespace to the namespace from custom element definition undefined is not a function (evaluating 'doc.registerElement('x-a')')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-namespace.html:18:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-namespace.html:16:5)
+FAIL Custom element constructor sets namespace to the namespace from custom element definition. Test constructor of extended HTML element undefined is not a function (evaluating 'doc.registerElement(name, {
+            prototype: proto,
+            extends: tagName
+        })')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-namespace.html:31:55
+forEach@[native code]
+http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-namespace.html:27:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-constructor-namespace.html:25:5)
+

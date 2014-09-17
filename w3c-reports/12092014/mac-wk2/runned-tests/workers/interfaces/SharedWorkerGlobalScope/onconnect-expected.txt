@@ -1,0 +1,6 @@
+
+FAIL onconnect undefined is not a constructor (evaluating 'new SharedWorker('#', '')')(stack: http://localhost:8800/workers/interfaces/SharedWorkerGlobalScope/onconnect.html:30:28
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/workers/interfaces/SharedWorkerGlobalScope/onconnect.html:29:11)
+

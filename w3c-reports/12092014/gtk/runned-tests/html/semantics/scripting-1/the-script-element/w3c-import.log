@@ -1,0 +1,42 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 15:42
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/script-for-event.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/async_006.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/async_007.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/script-for-onload.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/async_009.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/contains.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/log.py
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/script-noembed-noframes-iframe.xhtml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/script-languages-02.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/script-text.xhtml
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/script-onload-string.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/script-before-after-events.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/script-text.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/async_001.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/script-language-type.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/async_008.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/async_003.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/async_004.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/async_011.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/async_010.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/async_002.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/async_005.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/script-languages-01.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/scripting-1/the-script-element/script-for-event.xhtml

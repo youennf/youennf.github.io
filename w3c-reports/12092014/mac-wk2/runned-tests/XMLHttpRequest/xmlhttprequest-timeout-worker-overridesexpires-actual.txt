@@ -1,0 +1,14 @@
+Description
+
+This test validates that the XHR2 timeout property behaves as expected in in a worker context.
+
+
+PASS Timeout test: timeout set to expiring value after load fires, original timeout at 1000, reset at 800 to 200 
+FAIL Timeout test: timeout set to expired value before load fires, original timeout at 1000, reset at 400 to 300 assert_equals: expected "timeout" but got "load"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/XMLHttpRequest/resources/xmlhttprequest-timeout-runner.js:7:40
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testResultCallbackHandler@http://localhost:8800/XMLHttpRequest/resources/xmlhttprequest-timeout-runner.js:7:13)
+PASS Timeout test: timeout set to non-expiring value after timeout fires, original timeout at 200, reset at 400 to 500 
+

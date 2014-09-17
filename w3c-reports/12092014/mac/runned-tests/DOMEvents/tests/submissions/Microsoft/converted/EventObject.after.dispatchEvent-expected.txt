@@ -1,0 +1,8 @@
+
+FAIL Test Description: As the final step of the event dispatch, the implementation must reset the event object's default-action-prevention state.  assert_array_equals: property 2, expected false but got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:407:19
+http://localhost:8800/DOMEvents/tests/submissions/Microsoft/converted/EventObject.after.dispatchEvent.html:34:28
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/DOMEvents/tests/submissions/Microsoft/converted/EventObject.after.dispatchEvent.html:24:9)
+

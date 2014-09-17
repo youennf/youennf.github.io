@@ -1,0 +1,26 @@
+
+FAIL shared worker - EventSource: constructor (act as if there is a network error) (http://example.not) undefined is not a constructor (evaluating 'new SharedWorker('#'+encodeURIComponent(url))')(stack: http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:30:40
+step@http://localhost:8800/resources/testharness.js:798:30
+fetchFail@http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:29:18
+global code@http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:41:16)
+FAIL shared worker - EventSource: constructor (act as if there is a network error) (https://example.not/test) undefined is not a constructor (evaluating 'new SharedWorker('#'+encodeURIComponent(url))')(stack: http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:30:40
+step@http://localhost:8800/resources/testharness.js:798:30
+fetchFail@http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:29:18
+global code@http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:42:16)
+FAIL shared worker - EventSource: constructor (act as if there is a network error) (ftp://example.not) undefined is not a constructor (evaluating 'new SharedWorker('#'+encodeURIComponent(url))')(stack: http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:30:40
+step@http://localhost:8800/resources/testharness.js:798:30
+fetchFail@http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:29:18
+global code@http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:43:16)
+FAIL shared worker - EventSource: constructor (act as if there is a network error) (about:blank) undefined is not a constructor (evaluating 'new SharedWorker('#'+encodeURIComponent(url))')(stack: http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:30:40
+step@http://localhost:8800/resources/testharness.js:798:30
+fetchFail@http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:29:18
+global code@http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:44:16)
+FAIL shared worker - EventSource: constructor (act as if there is a network error) (mailto:whatwg@awesome.example) undefined is not a constructor (evaluating 'new SharedWorker('#'+encodeURIComponent(url))')(stack: http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:30:40
+step@http://localhost:8800/resources/testharness.js:798:30
+fetchFail@http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:29:18
+global code@http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:45:16)
+FAIL shared worker - EventSource: constructor (act as if there is a network error) (javascript:alert('FAIL')) undefined is not a constructor (evaluating 'new SharedWorker('#'+encodeURIComponent(url))')(stack: http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:30:40
+step@http://localhost:8800/resources/testharness.js:798:30
+fetchFail@http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:29:18
+global code@http://localhost:8800/eventsource/shared-worker/eventsource-constructor-non-same-origin.htm:46:16)
+

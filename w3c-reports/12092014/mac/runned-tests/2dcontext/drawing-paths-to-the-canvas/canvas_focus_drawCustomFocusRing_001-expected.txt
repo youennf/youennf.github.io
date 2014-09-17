@@ -1,0 +1,17 @@
+Description
+
+This test checks whether drawCustomFocusRing returns false if the element passed as an argument is not focused or is not a descendant of the element with whose context the method is associated.
+
+ 
+
+FAIL drawCustomFocusRing must return false for an element that is not focused. undefined is not a function (evaluating 'context.drawCustomFocusRing(text1)')(stack: http://localhost:8800/2dcontext/drawing-paths-to-the-canvas/canvas_focus_drawCustomFocusRing_001.html:28:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/2dcontext/drawing-paths-to-the-canvas/canvas_focus_drawCustomFocusRing_001.html:21:11
+global code@http://localhost:8800/2dcontext/drawing-paths-to-the-canvas/canvas_focus_drawCustomFocusRing_001.html:39:7)
+FAIL drawCustomFocusRing must return false for an element that is not a descendant of the canvas element. undefined is not a function (evaluating 'context.drawCustomFocusRing(text0)')(stack: http://localhost:8800/2dcontext/drawing-paths-to-the-canvas/canvas_focus_drawCustomFocusRing_001.html:37:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/2dcontext/drawing-paths-to-the-canvas/canvas_focus_drawCustomFocusRing_001.html:31:11
+global code@http://localhost:8800/2dcontext/drawing-paths-to-the-canvas/canvas_focus_drawCustomFocusRing_001.html:39:7)
+

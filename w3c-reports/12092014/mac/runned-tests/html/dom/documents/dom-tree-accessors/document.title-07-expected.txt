@@ -1,0 +1,17 @@
+
+PASS Document.title and DOMImplementation.createHTMLDocument 
+PASS Document.title and DOMImplementation.createHTMLDocument 1 
+FAIL Document.title and DOMImplementation.createHTMLDocument 2 assert_equals: expected "" but got "undefined"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/dom/documents/dom-tree-accessors/document.title-07.html:10:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+checkDoc@http://localhost:8800/html/dom/documents/dom-tree-accessors/document.title-07.html:8:7
+global code@http://localhost:8800/html/dom/documents/dom-tree-accessors/document.title-07.html:15:9)
+PASS Document.title and DOMImplementation.createHTMLDocument 3 
+PASS Document.title and DOMImplementation.createHTMLDocument 4 
+PASS Document.title and DOMImplementation.createHTMLDocument 5 
+PASS Document.title and DOMImplementation.createHTMLDocument 6 
+PASS Document.title and DOMImplementation.createHTMLDocument 7 
+PASS Missing title argument 
+

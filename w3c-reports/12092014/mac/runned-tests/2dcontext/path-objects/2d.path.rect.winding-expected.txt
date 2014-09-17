@@ -1,0 +1,12 @@
+2d.path.rect.winding
+Actual output:
+
+FAIL Canvas test: 2d.path.rect.winding assert_equals: Red channel of the pixel at (25, 12) expected 0 but got 255(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+_assertPixel@http://localhost:8800/common/canvas-tests.js:38:18
+http://localhost:8800/2dcontext/path-objects/2d.path.rect.winding.html:31:13
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

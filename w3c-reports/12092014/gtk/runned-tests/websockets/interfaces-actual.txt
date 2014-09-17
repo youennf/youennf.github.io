@@ -1,0 +1,303 @@
+CONSOLE MESSAGE: line 188: callback not yet supported
+CONSOLE MESSAGE: Deprecated attempt to access property 'url' on a non-WebSocket object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'readyState' on a non-WebSocket object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'bufferedAmount' on a non-WebSocket object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'onopen' on a non-WebSocket object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'onerror' on a non-WebSocket object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'onclose' on a non-WebSocket object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'extensions' on a non-WebSocket object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'protocol' on a non-WebSocket object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'onmessage' on a non-WebSocket object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'binaryType' on a non-WebSocket object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'wasClean' on a non-CloseEvent object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'code' on a non-CloseEvent object.
+CONSOLE MESSAGE: Deprecated attempt to access property 'reason' on a non-CloseEvent object.
+Web Sockets IDL tests
+
+
+FAIL WebSocket interface: existence and properties of interface object assert_equals: prototype of window's property "WebSocket" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+PASS WebSocket interface object length 
+FAIL WebSocket interface: existence and properties of interface prototype object assert_false: WebSocket.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+FAIL WebSocket interface: existence and properties of interface prototype object's "constructor" property assert_true: WebSocket.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+FAIL WebSocket interface: attribute url assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+PASS WebSocket interface: constant CONNECTING on interface object 
+PASS WebSocket interface: constant CONNECTING on interface prototype object 
+PASS WebSocket interface: constant OPEN on interface object 
+PASS WebSocket interface: constant OPEN on interface prototype object 
+PASS WebSocket interface: constant CLOSING on interface object 
+PASS WebSocket interface: constant CLOSING on interface prototype object 
+PASS WebSocket interface: constant CLOSED on interface object 
+PASS WebSocket interface: constant CLOSED on interface prototype object 
+FAIL WebSocket interface: attribute readyState assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+FAIL WebSocket interface: attribute bufferedAmount assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+FAIL WebSocket interface: attribute onopen assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+FAIL WebSocket interface: attribute onerror assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+FAIL WebSocket interface: attribute onclose assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+FAIL WebSocket interface: attribute extensions assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+FAIL WebSocket interface: attribute protocol assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+PASS WebSocket interface: operation close(unsigned short,DOMString) 
+FAIL WebSocket interface: attribute onmessage assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+FAIL WebSocket interface: attribute binaryType assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+PASS WebSocket interface: operation send(DOMString) 
+PASS WebSocket interface: operation send(Blob) 
+PASS WebSocket interface: operation send(ArrayBuffer) 
+PASS WebSocket interface: operation send(ArrayBufferView) 
+PASS WebSocket must be primary interface of new WebSocket("ws://foo") 
+FAIL Stringification of new WebSocket("ws://foo") undefined is not an object (evaluating 'this.array.members[this.base].has_stringifier')(stack: has_stringifier@http://localhost:8800/resources/idlharness.js:1662:38
+http://localhost:8800/resources/idlharness.js:1550:34
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_primary_interface_of@http://localhost:8800/resources/idlharness.js:1545:9
+test_object@http://localhost:8800/resources/idlharness.js:1495:35
+http://localhost:8800/resources/idlharness.js:316:47
+[native code]
+forEach@[native code]
+test@http://localhost:8800/resources/idlharness.js:314:39
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "url" with the proper type (0) 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "CONNECTING" with the proper type (1) 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "OPEN" with the proper type (2) 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "CLOSING" with the proper type (3) 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "CLOSED" with the proper type (4) 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "readyState" with the proper type (5) 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "bufferedAmount" with the proper type (6) 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "onopen" with the proper type (7) 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "onerror" with the proper type (8) 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "onclose" with the proper type (9) 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "extensions" with the proper type (10) 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "protocol" with the proper type (11) 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "close" with the proper type (12) 
+PASS WebSocket interface: calling close(unsigned short,DOMString) on new WebSocket("ws://foo") with too few arguments must throw TypeError 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "onmessage" with the proper type (13) 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "binaryType" with the proper type (14) 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "send" with the proper type (15) 
+PASS WebSocket interface: calling send(DOMString) on new WebSocket("ws://foo") with too few arguments must throw TypeError 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "send" with the proper type (16) 
+PASS WebSocket interface: calling send(Blob) on new WebSocket("ws://foo") with too few arguments must throw TypeError 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "send" with the proper type (17) 
+PASS WebSocket interface: calling send(ArrayBuffer) on new WebSocket("ws://foo") with too few arguments must throw TypeError 
+PASS WebSocket interface: new WebSocket("ws://foo") must inherit property "send" with the proper type (18) 
+PASS WebSocket interface: calling send(ArrayBufferView) on new WebSocket("ws://foo") with too few arguments must throw TypeError 
+FAIL CloseEvent interface: existence and properties of interface object assert_equals: prototype of window's property "CloseEvent" is not Function.prototype expected (function) function "function () {
+    [native code]
+}" but got (object) object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/resources/idlharness.js:991:22
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:947:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+PASS CloseEvent interface object length 
+FAIL CloseEvent interface: existence and properties of interface prototype object assert_false: CloseEvent.prototype is enumerable expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/resources/idlharness.js:1094:21
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1071:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+FAIL CloseEvent interface: existence and properties of interface prototype object's "constructor" property assert_true: CloseEvent.prototype.constructor is not writable expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/resources/idlharness.js:1183:20
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_self@http://localhost:8800/resources/idlharness.js:1159:9
+test@http://localhost:8800/resources/idlharness.js:582:23
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+FAIL CloseEvent interface: attribute wasClean assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+FAIL CloseEvent interface: attribute code assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+FAIL CloseEvent interface: attribute reason assert_throws: getting property on prototype object must throw TypeError function "function () {
+    [native code]
+}" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/resources/idlharness.js:1270:26
+[native code]
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_member_attribute@http://localhost:8800/resources/idlharness.js:1251:9
+test_members@http://localhost:8800/resources/idlharness.js:1450:43
+test@http://localhost:8800/resources/idlharness.js:591:22
+test@http://localhost:8800/resources/idlharness.js:311:32
+onload@http://localhost:8800/websockets/interfaces.html:76:15)
+

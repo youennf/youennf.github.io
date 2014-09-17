@@ -1,0 +1,43 @@
+    
+ 
+ 
+paragraph1.
+
+paragraph2.
+
+
+PASS The :read-write pseudo-class must match input elements to which the readonly attribute applies, and that are mutable 
+FAIL The :read-only pseudo-class must not match input elements to which the readonly attribute applies, and that are mutable assert_array_equals: lengths differ, expected 1 got 4(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:12:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/readwrite-readonly.html:36:15)
+PASS The :read-write pseudo-class must not match input elements after the readonly attribute has been added 
+FAIL The :read-only pseudo-class must match input elements after the readonly attribute has been added assert_array_equals: lengths differ, expected 2 got 5(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:12:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/readwrite-readonly.html:41:15)
+PASS The :read-write pseudo-class must not match input elements after the readonly attribute has been removed 
+FAIL The :read-only pseudo-class must match input elements after the readonly attribute has been removed assert_array_equals: lengths differ, expected 1 got 4(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:396:15
+http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:12:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+testSelector@http://localhost:8800/html/semantics/selectors/pseudo-classes/utils.js:10:7
+global code@http://localhost:8800/html/semantics/selectors/pseudo-classes/readwrite-readonly.html:46:15)
+PASS The :read-write pseudo-class must match textarea elements that do not have a readonly attribute, and that are not disabled 
+PASS The :read-only pseudo-class must match textarea elements that have a readonly attribute, or that are disabled 
+PASS The :read-write pseudo-class must match textarea elements after the readonly attribute has been added 
+PASS The :read-only pseudo-class must match textarea elements after the readonly attribute has been added 
+PASS The :read-write pseudo-class must not match textarea elements that are disabled 
+PASS The :read-only pseudo-class must match textarea elements that are disabled 
+PASS The :read-write pseudo-class must match elements that are editable 
+PASS The :read-only pseudo-class must not match elements that are editable 
+PASS The :read-write pseudo-class must match elements that are editing hosts 
+PASS The :read-only pseudo-class must not match elements that are editing hosts 
+

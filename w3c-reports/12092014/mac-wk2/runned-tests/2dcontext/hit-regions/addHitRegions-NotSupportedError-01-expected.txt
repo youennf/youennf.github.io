@@ -1,0 +1,30 @@
+
+FAIL fillRect should not affect current default path and NotSupportedError should be thrown. assert_throws: fillRect should not affect current default path and NotSupportedError should be thrown. function "function () {
+            var canvas = document.getElemen..." threw object "TypeError: undefined is not a function (evaluating 'conte..." ("TypeError") expected object "[object Object]" ("NotSupportedError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/2dcontext/hit-regions/addHitRegions-NotSupportedError-01.html:15:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/2dcontext/hit-regions/addHitRegions-NotSupportedError-01.html:14:5)
+FAIL strokeRect should not affect current default path and NotSupportedError should be thrown. assert_throws: strokeRect should not affect current default path and NotSupportedError should be thrown. function "function () {
+            var canvas = document.getElemen..." threw object "TypeError: undefined is not a function (evaluating 'conte..." ("TypeError") expected object "[object Object]" ("NotSupportedError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/2dcontext/hit-regions/addHitRegions-NotSupportedError-01.html:34:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/2dcontext/hit-regions/addHitRegions-NotSupportedError-01.html:33:5)
+FAIL fillText should not affect current default path and NotSupportedError should be thrown. assert_throws: fillText should not affect current default path and NotSupportedError should be thrown. function "function () {
+            var canvas = document.getElemen..." threw object "TypeError: undefined is not a function (evaluating 'conte..." ("TypeError") expected object "[object Object]" ("NotSupportedError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/2dcontext/hit-regions/addHitRegions-NotSupportedError-01.html:53:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/2dcontext/hit-regions/addHitRegions-NotSupportedError-01.html:52:5)
+FAIL strokeText should not affect current default path and NotSupportedError shuld be thrown. assert_throws: strokeText should not affect current default path and NotSupportedError shuld be thrown. function "function () {
+            var canvas = document.getElemen..." threw object "TypeError: undefined is not a function (evaluating 'conte..." ("TypeError") expected object "[object Object]" ("NotSupportedError")(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:593:23
+http://localhost:8800/2dcontext/hit-regions/addHitRegions-NotSupportedError-01.html:72:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/2dcontext/hit-regions/addHitRegions-NotSupportedError-01.html:71:5)
+

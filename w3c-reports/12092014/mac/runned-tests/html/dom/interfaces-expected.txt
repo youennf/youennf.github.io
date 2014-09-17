@@ -1,0 +1,6 @@
+CONSOLE MESSAGE: line 188: callback not yet supported
+CONSOLE MESSAGE: line 275: Partial interface Window with no original interface
+HTML IDL tests
+
+
+Harness Error. harness_status.status = 1 , harness_status.message = Partial interface Window with no original interface

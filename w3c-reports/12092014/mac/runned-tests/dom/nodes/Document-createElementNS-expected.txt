@@ -1,0 +1,24 @@
+
+PASS Document.createElementNS 
+PASS Invalid Name:  
+PASS Invalid Name: 1foo 
+PASS Invalid Name: ̀foo 
+PASS Invalid Name: }foo 
+PASS Invalid Name: f}oo 
+PASS Invalid Name: foo} 
+PASS Invalid Name: ￿foo 
+PASS Invalid Name: f￿oo 
+PASS Invalid Name: foo￿ 
+PASS Invalid Name: <foo 
+PASS Invalid Name: foo> 
+PASS Invalid Name: <foo> 
+PASS Invalid Name: f<oo 
+PASS Invalid namespace  and QName :foo 
+PASS Invalid namespace  and QName foo: 
+PASS Invalid namespace  and QName foo:foo 
+PASS Invalid namespace http://oops/ and QName xml:foo 
+PASS Invalid namespace http://oops/ and QName xmlns 
+PASS Invalid namespace http://oops/ and QName xmlns:foo 
+PASS Invalid namespace http://www.w3.org/2000/xmlns/ and QName xml:foo 
+PASS Invalid namespace http://www.w3.org/2000/xmlns/ and QName foo:xmlns 
+

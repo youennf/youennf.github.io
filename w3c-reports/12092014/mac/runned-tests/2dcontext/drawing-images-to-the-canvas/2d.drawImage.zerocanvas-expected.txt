@@ -1,0 +1,7 @@
+2d.drawImage.zerocanvas
+Actual output:
+Expected output:
+
+
+PASS Canvas test: 2d.drawImage.zerocanvas 
+

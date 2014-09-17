@@ -1,0 +1,7 @@
+
+FAIL Custom document.contentType === 'text/html' when no Content-Type header is provided in HTTP response assert_equals: expected (string) "text/html" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/dom/nodes/Document-contentType/contentType/contenttype_mimeheader_03.html:11:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:843:37)
+

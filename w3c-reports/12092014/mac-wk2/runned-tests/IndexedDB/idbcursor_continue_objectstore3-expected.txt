@@ -1,0 +1,6 @@
+
+FAIL IDBCursor.continue() - object store - attempt to iterate to the previous record when the direction is set for the next record DataError: DOM IDBDatabase Exception 0(stack: openCursor@[native code]
+onsuccess@http://localhost:8800/IndexedDB/idbcursor_continue_objectstore3.htm:26:38
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

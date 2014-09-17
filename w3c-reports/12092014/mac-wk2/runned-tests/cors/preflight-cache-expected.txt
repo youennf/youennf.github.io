@@ -1,0 +1,38 @@
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=673aab2a-2025-42a2-9b83-966636d01695. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=e3b843e9-33e0-40e7-9e0e-dcb74849cbf3. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=23488cd7-a999-4074-849a-6dd046c610bc&max_age=0. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=3ebc9427-1355-46cd-a23a-b159d9117da7&max_age=-1. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?max_age=1&token=d66bed07-c753-4c46-b80f-fee026541549. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+Preflight cache
+
+
+FAIL Test preflight NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+did_preflight@http://localhost:8800/cors/preflight-cache.htm:34:16
+http://localhost:8800/cors/preflight-cache.htm:49:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/cors/preflight-cache.htm:46:5)
+FAIL preflight for x-print should be cached NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+did_preflight@http://localhost:8800/cors/preflight-cache.htm:34:16
+http://localhost:8800/cors/preflight-cache.htm:57:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/cors/preflight-cache.htm:53:5)
+FAIL age = 0, should not be cached NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+did_preflight@http://localhost:8800/cors/preflight-cache.htm:34:16
+http://localhost:8800/cors/preflight-cache.htm:66:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/cors/preflight-cache.htm:62:5)
+FAIL age = -1, should not be cached NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+did_preflight@http://localhost:8800/cors/preflight-cache.htm:34:16
+http://localhost:8800/cors/preflight-cache.htm:75:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/cors/preflight-cache.htm:71:5)
+FAIL preflight first request, second from cache, wait, third should preflight again assert_unreached: Got unexpected error event on the XHR object Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/cors/preflight-cache.htm:94:33
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

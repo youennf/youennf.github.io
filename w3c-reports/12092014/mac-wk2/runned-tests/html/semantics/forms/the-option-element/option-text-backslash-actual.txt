@@ -1,0 +1,9 @@
+
+
+FAIL Test for the backslash sign in option.text assert_equals: expected "\\" but got "¥"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-option-element/option-text-backslash.html:12:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-option-element/option-text-backslash.html:9:5)
+

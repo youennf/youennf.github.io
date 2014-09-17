@@ -1,0 +1,24 @@
+
+PASS If there is any invalid submittable element whose form owner is the form, the form.checkValidity must be false 
+FAIL If there is any invalid submittable element whose form owner is the form, the form.reportValidity must be false undefined is not a function (evaluating 'fm1.reportValidity()')(stack: http://localhost:8800/html/semantics/forms/constraints/form-validation-validate.html:78:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validate.html:77:7)
+PASS If all of the submittable elements whose form owner is the form are valid, the form.checkValidity must be true 
+FAIL If all of the submittable elements whose form owner is the form are valid, the form.reportValidity must be true undefined is not a function (evaluating 'fm2.reportValidity()')(stack: http://localhost:8800/html/semantics/forms/constraints/form-validation-validate.html:86:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validate.html:85:7)
+PASS Check the checkValidity method of the form element when it has a fieldset child 
+FAIL Check the reportValidity method of the form element when it has a fieldset child undefined is not a function (evaluating 'fm3.reportValidity()')(stack: http://localhost:8800/html/semantics/forms/constraints/form-validation-validate.html:100:36
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validate.html:99:7)
+FAIL The invalid event must be fired at the invalid controls assert_equals: The invalid event will be fired if the checkValidity or reportValidity method are called expected 4 but got 2(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/constraints/form-validation-validate.html:110:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validate.html:109:7)
+PASS The invalid event must not be fired at the invalid controls 
+

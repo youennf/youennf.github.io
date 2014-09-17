@@ -1,0 +1,194 @@
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=4b259027-2f50-4507-b58b-35357827cb1f. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=b979ebc9-7693-4fb3-9111-183845107445. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=70cc28cc-8b5d-4021-96b7-11b3ef5a9b52. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=0cb31705-3b60-4f8b-b608-325562b5cd08. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=d194f4e1-9f6a-47bd-9851-1914ba113158. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=2cb4f6af-e676-44b5-88e1-91f00b3af88f. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=2063250a-37cd-4832-9910-19849ab3b489. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=1584a66a-503c-476e-9602-b11587aa622d. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=14ac8363-33f0-499e-952d-6fd930578b11. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=b2ac4e4e-2489-4a68-8f68-84848c27adc2. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=48e198fa-90ca-448d-a282-4fa8a7ea5123. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=c75735bc-3890-4a10-9904-597a0c0cd911. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=955ee6e6-a747-4b26-ad81-c7d44fedf2b2. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=c788f23c-f7c1-4e8d-9b69-2a9fe1e41f2b. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=8c61b43e-ddbc-4120-bdf1-1f1513ada780. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=3373e22a-b8a4-4c7a-964e-6a6d71d3edfa. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=fec8f150-eed6-4aae-b6fd-8ca00dea320b. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=32acdab8-c4e3-4939-a589-dea51573e961. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=187d9450-52f7-4368-8ffa-1814a1a107b5. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=a795568d-eac6-4458-a870-7f299dc181f2. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=703abe1d-72e0-43e7-a009-204d3da83d3c. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=8eb79064-f71c-4b2d-8a0b-d4c81afeb2e7. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=a2bca13c-6c6a-454a-a2e3-e260aa7c5f71. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+CONSOLE MESSAGE: XMLHttpRequest cannot load http://www1.localhost:8800/cors/resources/preflight.py?token=306c069b-dab5-4535-9e07-f2a3258cfd2e. Origin http://localhost:8800 is not allowed by Access-Control-Allow-Origin.
+Simple requests
+
+Simple requests shouldn't trigger preflight
+
+
+FAIL No preflight GET and {"Accept":"test"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:44:17
+global code@http://localhost:8800/cors/simple-requests.htm:49:21)
+FAIL No preflight HEAD and {"Accept":"test"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:45:17
+global code@http://localhost:8800/cors/simple-requests.htm:49:21)
+FAIL No preflight POST and {"Accept":"test"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:46:17
+global code@http://localhost:8800/cors/simple-requests.htm:49:21)
+FAIL No preflight GET and {"accept-language":"test"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:44:17
+global code@http://localhost:8800/cors/simple-requests.htm:50:21)
+FAIL No preflight HEAD and {"accept-language":"test"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:45:17
+global code@http://localhost:8800/cors/simple-requests.htm:50:21)
+FAIL No preflight POST and {"accept-language":"test"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:46:17
+global code@http://localhost:8800/cors/simple-requests.htm:50:21)
+FAIL No preflight GET and {"CONTENT-language":"test"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:44:17
+global code@http://localhost:8800/cors/simple-requests.htm:51:21)
+FAIL No preflight HEAD and {"CONTENT-language":"test"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:45:17
+global code@http://localhost:8800/cors/simple-requests.htm:51:21)
+FAIL No preflight POST and {"CONTENT-language":"test"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:46:17
+global code@http://localhost:8800/cors/simple-requests.htm:51:21)
+FAIL No preflight GET and {"Content-Type":"application/x-www-form-urlencoded"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:44:17
+global code@http://localhost:8800/cors/simple-requests.htm:53:21)
+FAIL No preflight HEAD and {"Content-Type":"application/x-www-form-urlencoded"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:45:17
+global code@http://localhost:8800/cors/simple-requests.htm:53:21)
+FAIL No preflight POST and {"Content-Type":"application/x-www-form-urlencoded"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:46:17
+global code@http://localhost:8800/cors/simple-requests.htm:53:21)
+FAIL No preflight GET and {"content-type":"multipart/form-data"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:44:17
+global code@http://localhost:8800/cors/simple-requests.htm:54:21)
+FAIL No preflight HEAD and {"content-type":"multipart/form-data"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:45:17
+global code@http://localhost:8800/cors/simple-requests.htm:54:21)
+FAIL No preflight POST and {"content-type":"multipart/form-data"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:46:17
+global code@http://localhost:8800/cors/simple-requests.htm:54:21)
+FAIL No preflight GET and {"content-type":"text/plain"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:44:17
+global code@http://localhost:8800/cors/simple-requests.htm:55:21)
+FAIL No preflight HEAD and {"content-type":"text/plain"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:45:17
+global code@http://localhost:8800/cors/simple-requests.htm:55:21)
+FAIL No preflight POST and {"content-type":"text/plain"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:46:17
+global code@http://localhost:8800/cors/simple-requests.htm:55:21)
+FAIL No preflight GET and {"accept":"test","accept-language":"test","content-language":"test","content-type":"text/plain; parameter=whatever"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:44:17
+global code@http://localhost:8800/cors/simple-requests.htm:57:21)
+FAIL No preflight HEAD and {"accept":"test","accept-language":"test","content-language":"test","content-type":"text/plain; parameter=whatever"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:45:17
+global code@http://localhost:8800/cors/simple-requests.htm:57:21)
+FAIL No preflight POST and {"accept":"test","accept-language":"test","content-language":"test","content-type":"text/plain; parameter=whatever"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+check_simple_headers@http://localhost:8800/cors/simple-requests.htm:46:17
+global code@http://localhost:8800/cors/simple-requests.htm:57:21)
+FAIL No preflight Get and {"content-type":"text/plain; parameter=extra_bonus"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+global code@http://localhost:8800/cors/simple-requests.htm:64:13)
+FAIL No preflight post and {"content-type":"text/plain"} NETWORK_ERR: XMLHttpRequest Exception 101(stack: send@[native code]
+http://localhost:8800/cors/simple-requests.htm:28:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+check_simple@http://localhost:8800/cors/simple-requests.htm:21:9
+global code@http://localhost:8800/cors/simple-requests.htm:65:13)
+FAIL Check simple headers (async) assert_unreached: onerror Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/cors/simple-requests.htm:88:75
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

@@ -1,0 +1,30 @@
+
+
+PASS [INPUT in EMAIL status] The multiple attribute is false and the value attribute is empty 
+PASS [INPUT in EMAIL status] The multiple attribute is false and the value attribute is a valid e-mail address 
+PASS [INPUT in EMAIL status] The multiple attribute is true and the value contains valid e-mail addresses 
+FAIL [INPUT in EMAIL status] The multiple attribute is true and the value attribute contains a ',' assert_true: The validity.badInput should be true. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:115:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_badInput@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:110:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:305:31
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validity-badInput.html:45:21)
+FAIL [INPUT in DATETIME status] The datetime type must be supported. assert_equals: The datetime type should be supported. expected "datetime" but got "text"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:214:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_support_type@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:213:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:289:35
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validity-badInput.html:45:21)
+FAIL [INPUT in COLOR status] The color type must be supported. assert_equals: The color type should be supported. expected "color" but got "text"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/constraints/support/validator.js:214:20
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+test_support_type@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:213:9
+run_test@http://localhost:8800/html/semantics/forms/constraints/support/validator.js:289:35
+global code@http://localhost:8800/html/semantics/forms/constraints/form-validation-validity-badInput.html:45:21)
+

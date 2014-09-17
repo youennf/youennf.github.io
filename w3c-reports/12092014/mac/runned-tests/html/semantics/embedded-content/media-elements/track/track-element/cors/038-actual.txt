@@ -1,0 +1,41 @@
+Blocked access to external URL http://www1.localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/set-cookie.html#529da5a2-49d5-4322-a62f-8348ca186928
+Blocked access to external URL http://www1.localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/cors-tester.py?delete-cookie&id=529da5a2-49d5-4322-a62f-8348ca186928
+Actual	Expected
+{
+  "event": "error",
+  "requests": []
+}
+{
+  "event": "load",
+  "requests": [
+    {
+      "cors": "no",
+      "cookie": "yes"
+    },
+    {
+      "cors": "http://localhost:8800",
+      "cookie": "no"
+    },
+    {
+      "cors": "null",
+      "cookie": "no"
+    }
+  ]
+}
+Test id: 529da5a2-49d5-4322-a62f-8348ca186928
+
+
+
+FAIL track CORS: Anonymous, same-origin, with headers, redirects to not same-origin, with headers, redirects to same-origin, with headers assert_object_equals: property "event" expected object "[object Object]" got object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+check_equal@http://localhost:8800/resources/testharness.js:378:28
+assert_object_equals@http://localhost:8800/resources/testharness.js:390:21
+checkData@http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:128:29
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+appendChild@[native code]
+removeCookies@http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:104:34
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:87:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

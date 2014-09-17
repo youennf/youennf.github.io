@@ -1,0 +1,39 @@
+Description
+
+This test validates that all of the methods used to interact with the User Timing API are defined.
+
+
+PASS window.performance is defined 
+FAIL window.performance.mark is defined. assert_true: window.performance.mark is defined. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/user-timing/resources/webperftestharness.js:134:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/user-timing/resources/webperftestharness.js:62:9
+test_true@http://localhost:8800/user-timing/resources/webperftestharness.js:134:12
+global code@http://localhost:8800/user-timing/test_user_timing_exists.html:22:18)
+FAIL window.performance.clearMarks is defined. assert_true: window.performance.clearMarks is defined. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/user-timing/resources/webperftestharness.js:134:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/user-timing/resources/webperftestharness.js:62:9
+test_true@http://localhost:8800/user-timing/resources/webperftestharness.js:134:12
+global code@http://localhost:8800/user-timing/test_user_timing_exists.html:23:18)
+FAIL window.performance.measure is defined. assert_true: window.performance.measure is defined. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/user-timing/resources/webperftestharness.js:134:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/user-timing/resources/webperftestharness.js:62:9
+test_true@http://localhost:8800/user-timing/resources/webperftestharness.js:134:12
+global code@http://localhost:8800/user-timing/test_user_timing_exists.html:24:18)
+FAIL window.performance.clearMeasures is defined. assert_true: window.performance.clearMeasures is defined. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/user-timing/resources/webperftestharness.js:134:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/user-timing/resources/webperftestharness.js:62:9
+test_true@http://localhost:8800/user-timing/resources/webperftestharness.js:134:12
+global code@http://localhost:8800/user-timing/test_user_timing_exists.html:25:18)
+

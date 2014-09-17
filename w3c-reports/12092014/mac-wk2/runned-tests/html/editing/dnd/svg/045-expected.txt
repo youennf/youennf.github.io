@@ -1,0 +1,32 @@
+layer at (0,0) size 785x773
+  RenderView at (0,0) size 785x600
+layer at (0,0) size 785x600
+  RenderBlock {html} at (0,0) size 785x600
+    RenderBody {body} at (8,16) size 769x600
+      RenderBlock {parsererror} at (16,0) size 737x137 [bgcolor=#FFDDDD] [border: (2px solid #CC7777)]
+        RenderBlock {h3} at (18,20) size 701x23
+          RenderText {#text} at (0,0) size 324x22
+            text run at (0,0) width 324: "This page contains the following errors:"
+        RenderBlock {div} at (18,61) size 701x15
+          RenderText {#text} at (0,0) size 637x14
+            text run at (0,0) width 637: "error on line 8 at column 96: Opening and ending tag mismatch: textArea line 0 and textarea"
+            text run at (637,0) width 0: " "
+        RenderBlock {h3} at (18,94) size 701x23
+          RenderText {#text} at (0,0) size 429x22
+            text run at (0,0) width 429: "Below is a rendering of the page up to the first error."
+      RenderBlock (anonymous) at (0,152) size 769x605
+        RenderSVGRoot {svg} at (104,181) size 445x138
+          RenderSVGText {text} at (10,11) size 295x24 contains 1 chunk(s)
+            RenderSVGInlineText {#text} at (0,0) size 295x24
+              chunk 1 text run 1 at (10.00,30.00) startOffset 0 endOffset 10 width 100.00: "PASS|LIAF "
+              chunk 1 text run 1 at (110.00,30.00) startOffset 0 endOffset 10 width 95.00 RTL override: "\x{202E}FAIL|SSAP"
+              chunk 1 text run 1 at (205.00,30.00) startOffset 0 endOffset 11 width 100.00: "\x{202C} PASS|LIAF"
+          RenderSVGText {text} at (10,41) size 313x24 contains 1 chunk(s)
+            RenderSVGInlineText {#text} at (0,0) size 313x24
+              chunk 1 text run 1 at (10.00,60.00) startOffset 0 endOffset 39 width 312.50: "Select text above and drag selection to"
+          RenderSVGText {text} at (10,71) size 371x24 contains 1 chunk(s)
+            RenderSVGInlineText {#text} at (0,0) size 371x24
+              chunk 1 text run 1 at (10.00,90.00) startOffset 0 endOffset 45 width 370.00: "the box below. Content of selection should be"
+          RenderSVGText {text} at (10,101) size 285x24 contains 1 chunk(s)
+            RenderSVGInlineText {#text} at (0,0) size 285x24
+              chunk 1 text run 1 at (10.00,120.00) startOffset 0 endOffset 36 width 284.17: "copies once it's dropped in the box."

@@ -1,0 +1,7 @@
+
+FAIL Test Description: ErrorEvent filename attribute represents the absolute URL of the script in which the error originally occurred. assert_equals: expected (string) "http://localhost:8800/workers/support/ErrorEvent.js" but got (undefined) undefined(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/workers/Worker_ErrorEvent_filename.htm:24:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

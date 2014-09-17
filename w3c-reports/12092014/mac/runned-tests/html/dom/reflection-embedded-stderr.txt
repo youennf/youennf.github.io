@@ -1,0 +1,3 @@
+2014-09-09 16:36:50.428 DumpRenderTree[86558:5713] *** WARNING: CFMachPortSetInvalidationCallBack() called on a CFMachPort with a Mach port (0x14d1f) which does not have any send rights.  This is not going to work.  Callback function: 0x7fff98417ef1
+2014-09-09 16:36:50.431 DumpRenderTree[86558:5713] *** WARNING: CFMachPortSetInvalidationCallBack() called on a CFMachPort with a Mach port (0x1274b) which does not have any send rights.  This is not going to work.  Callback function: 0x7fff98417ef1
+FAIL: Timed out waiting for notifyDone to be called

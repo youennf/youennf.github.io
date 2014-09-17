@@ -1,0 +1,10 @@
+
+	
+
+FAIL form.elements should work correctly in the face of table syntax errors assert_array_equals: property 0, expected Element node <input type="radio" name="radio0" id="r0" value="0"></input> but got Element node <input type="radio" name="radio1" id="r1" value="1"></input>(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_array_equals@http://localhost:8800/resources/testharness.js:407:19
+http://localhost:8800/html/semantics/forms/the-form-element/form-elements-nameditem-02.html:23:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-form-element/form-elements-nameditem-02.html:21:5)
+

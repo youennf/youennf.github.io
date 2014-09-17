@@ -1,0 +1,21 @@
+
+PASS Check if the getter can get 1 after set 1 by the setter 
+PASS Check if the getter can get 255 after set 257 by the setter 
+PASS Check if the getter can get 3 after set 3.2 by the setter 
+PASS Check if the getter can get 0 after set -3.8 by the setter 
+PASS Check if the getter can get 0 after set 0 by the setter 
+PASS Check if the getter can get 0 after set -0 by the setter 
+PASS Check if the getter can get 1 after set "1" by the setter 
+PASS Check if the getter can get 0 after set false by the setter 
+PASS Check if the getter can get 1 after set true by the setter 
+PASS Check if the getter can get 0 after set undefined by the setter 
+PASS Check if the getter can get 0 after set null by the setter 
+PASS Check if the getter can get 0 after set NaN by the setter 
+PASS Check if the getter can get 255 after set Infinity by the setter 
+PASS Check if the getter can get 0 after set -Infinity by the setter 
+PASS Check if the parameter of Uint8ClampedArray.set() accept octet[] 
+PASS Check if the parameter of Uint8ClampedArray.set() accept octet[] and offset 
+PASS Check if the parameter of Uint8ClampedArray.set() accept Uint8ClampedArray 
+PASS Check if the parameter of Uint8ClampedArray.set() accept Uint8ClampedArray and offset 
+PASS Check if an exception is raised when the offset plus the length of the given array is out of range for the current array 
+

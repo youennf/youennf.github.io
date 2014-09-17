@@ -1,0 +1,28 @@
+
+PASS PopStateEvent should be exposed for prototyping 
+FAIL document.createEvent should create a PopStateEvent assert_true: browser created a generic event instead of a PopStateEvent expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/browsers/history/the-history-interface/003.html:14:13
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/browsers/history/the-history-interface/003.html:12:5)
+FAIL initPopStateEvent should initialise the event undefined is not a function (evaluating 'PSEvent.initPopStateEvent('popstate',false,true,{testdata:true})')(stack: http://localhost:8800/html/browsers/history/the-history-interface/003.html:17:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/browsers/history/the-history-interface/003.html:16:5)
+FAIL initPopStateEvent properties should hold the requested values assert_true: expected true got null(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/browsers/history/the-history-interface/003.html:23:13
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/browsers/history/the-history-interface/003.html:19:5)
+PASS the resulting object should be instanceof PopStateEvent 
+PASS the resulting object should be instanceof Event 
+PASS initPopStateEvent should be dispatchable on the window object 
+FAIL state data should be retained correctly when dispatching the event assert_true: state data was lost expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/html/browsers/history/the-history-interface/003.html:36:13
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/browsers/history/the-history-interface/003.html:35:5)
+

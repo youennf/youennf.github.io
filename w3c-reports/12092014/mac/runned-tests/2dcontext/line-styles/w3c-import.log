@@ -1,0 +1,51 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-09 15:43
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.cap.butt.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.cap.closed.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.cap.invalid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.cap.open.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.cap.round.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.cap.square.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.cap.valid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.cross.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.defaults.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.join.bevel.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.join.closed.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.join.invalid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.join.miter.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.join.open.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.join.parallel.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.join.round.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.join.valid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.miter.acute.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.miter.exceeded.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.miter.invalid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.miter.lineedge.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.miter.obtuse.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.miter.rightangle.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.miter.valid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.miter.within.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.union.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.width.basic.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.width.invalid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.width.scaledefault.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.width.transformed.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/2d.line.width.valid.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/canvas_linestyles_linecap_001-expected.htm
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/2dcontext/line-styles/canvas_linestyles_linecap_001.htm

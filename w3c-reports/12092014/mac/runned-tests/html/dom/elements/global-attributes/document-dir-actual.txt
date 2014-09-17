@@ -1,0 +1,20 @@
+
+FAIL Markup attribute assert_equals: expected "ltr" but got ""(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/dom/elements/global-attributes/document-dir.html:12:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/dom/elements/global-attributes/document-dir.html:11:5)
+FAIL Setting the idl attribute to a garbage value assert_equals: expected "" but got "x-garbage"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/dom/elements/global-attributes/document-dir.html:17:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/dom/elements/global-attributes/document-dir.html:15:5)
+FAIL Setting the idl attribute to the empty string assert_equals: expected "" but got "LTR"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/dom/elements/global-attributes/document-dir.html:24:16
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/dom/elements/global-attributes/document-dir.html:20:5)
+

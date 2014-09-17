@@ -1,0 +1,10 @@
+pointerout
+
+Test Description: This test checks if pointerout event triggers after pointercancel. Start touch on the black rectangle and move your touch like you're scrolling in any direction.
+
+Note: this test is for touch devices only
+
+Pointer Events pointerout tests
+
+
+Harness Error. harness_status.status = 2 , harness_status.message = null

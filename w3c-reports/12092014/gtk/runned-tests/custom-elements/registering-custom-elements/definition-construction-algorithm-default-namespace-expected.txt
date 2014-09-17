@@ -1,0 +1,15 @@
+
+FAIL Default namespace is HTML namespace undefined is not a function (evaluating 'doc.registerElement('x-a')')(stack: http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-default-namespace.html:18:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-default-namespace.html:16:5)
+FAIL Default namespace is HTML namespace. Test constructor of extended HTML element undefined is not a function (evaluating 'doc.registerElement(name, {
+            prototype: proto,
+            extends: tagName
+        })')(stack: http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-default-namespace.html:32:55
+forEach@[native code]
+http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-default-namespace.html:28:27
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-default-namespace.html:26:5)
+

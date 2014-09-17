@@ -1,0 +1,18 @@
+
+FAIL Elements in a shadow tree should be accessible via shadow root's getElementsByTagName() DOM tree accessor. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-002.html:34:47
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-002.html:32:5)
+FAIL Elements in a shadow tree should be accessible via shadow root's getElementsByTagNameNS() DOM tree accessor. undefined is not a function (evaluating 'body.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-002.html:53:43
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-002.html:44:5)
+FAIL Elements in a shadow tree should be accessible via shadow root's getElementsByClassName() DOM tree accessor. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-002.html:66:47
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-002.html:64:5)
+FAIL Elements in a shadow tree should be accessible via shadow root's getElementById() DOM tree accessor. undefined is not a function (evaluating 'doc.body.createShadowRoot()')(stack: http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-002.html:80:47
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/shadow-dom/shadow-trees/upper-boundary-encapsulation/dom-tree-accessors-002.html:78:5)
+

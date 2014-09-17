@@ -1,0 +1,9 @@
+The feature(s) tested here are known to have been made available via vendor prefixes; you can run this test with vendor prefixes enabled.
+  
+
+FAIL Can set up a basic WebRTC call. undefined is not a function (evaluating 'navigator.getUserMedia({ video: true, audio: true },
+        getUserMediaOkCallback,
+        failed('getUserMedia'))')(stack: http://localhost:8800/webrtc/simplecall.html:119:27
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/webrtc/simplecall.html:118:12)
+

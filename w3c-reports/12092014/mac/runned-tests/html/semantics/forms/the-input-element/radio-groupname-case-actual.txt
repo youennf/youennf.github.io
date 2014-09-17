@@ -1,0 +1,59 @@
+                                          
+
+FAIL radio button group name = sImPlE assert_false: expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:70:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:62:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:61:17)
+FAIL radio button group name = paSSfield-killroyß assert_false: expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:70:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:62:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:61:17)
+FAIL radio button group name = глупый assert_false: expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:70:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:62:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:61:17)
+FAIL radio button group name = åωk assert_false: expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:70:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:62:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:61:17)
+FAIL radio button group name = blah1 assert_false: expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:70:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:62:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:61:17)
+FAIL radio button group name = tÉdz5アパートFi assert_false: expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:70:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:62:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:61:17)
+FAIL radio button group name = ΣΣ assert_false: expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:70:35
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:62:9
+forEach@[native code]
+global code@http://localhost:8800/html/semantics/forms/the-input-element/radio-groupname-case.html:61:17)
+

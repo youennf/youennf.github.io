@@ -1,0 +1,9 @@
+CONSOLE MESSAGE: line 1: SyntaxError: Unexpected end of script
+
+FAIL window.onerror - compile error in cross-origin setTimeout assert_equals: first arg expected "Script error." but got "SyntaxError: Unexpected end of script"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/webappapis/scripting/processing-model-2/compile-error-cross-origin-setTimeout.html:19:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS window.onerror - compile error in cross-origin setTimeout (column) 
+

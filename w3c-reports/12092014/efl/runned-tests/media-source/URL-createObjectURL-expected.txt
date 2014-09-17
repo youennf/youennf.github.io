@@ -1,0 +1,6 @@
+
+FAIL URL.createObjectURL(mediaSource) should return a unique Blob URI. Can't find variable: MediaSource(stack: http://localhost:8800/media-source/URL-createObjectURL.html:13:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/media-source/URL-createObjectURL.html:12:5)
+

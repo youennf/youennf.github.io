@@ -1,0 +1,22 @@
+
+FAIL Custom element type must be taken from the local name of the element even if IS attribute provided. undefined is not a function (evaluating 'doc.registerElement('x-a')')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-type-local-name-and-is-attribute.html:19:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-type-local-name-and-is-attribute.html:17:5)
+FAIL Custom element type must be taken from the local name of the element even if IS attribute provided. Custom element is unresolved at first undefined is not a function (evaluating 'doc.registerElement('x-d')')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-type-local-name-and-is-attribute.html:32:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-type-local-name-and-is-attribute.html:30:5)
+FAIL Custom element type must be taken from the local name of the element even if IS attribute provided. There's no definition for the value of IS attribute at first undefined is not a function (evaluating 'doc.registerElement('x-f')')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-type-local-name-and-is-attribute.html:45:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-type-local-name-and-is-attribute.html:43:5)
+FAIL Custom element type must be taken from the local name of the element even if IS attribute provided. IS attribute refers to another custom element type, which extends HTML5 elements undefined is not a function (evaluating 'doc.registerElement('x-element')')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-type-local-name-and-is-attribute.html:60:51
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-type-local-name-and-is-attribute.html:58:5)
+FAIL Custom element type must be taken from the local name of the custom element even if IS attribute provided. The element extends HTML5 elements, IS attribute refers to another custom element type. undefined is not a function (evaluating 'doc.registerElement('y-element')')(stack: http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-type-local-name-and-is-attribute.html:80:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/instantiating-custom-elements/custom-element-type-local-name-and-is-attribute.html:78:5)
+

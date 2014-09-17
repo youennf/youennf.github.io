@@ -1,0 +1,38 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 17:45
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_readwrite.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_unique_performance_objects.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_performance_attributes_exist_in_object.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_navigation_type_enums.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_timing_client_redirect.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_navigate_within_document.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_timing_attributes_order.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_timing_server_redirect.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_timing_attributes_exist.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_document_readiness_exist.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_navigation_redirectCount_none.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./idlharness.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_timing_xserver_redirect.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_timing_reload.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_performance_attributes_exist.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_navigation_type_backforward.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_document_open.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_navigation_attributes_exist.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_no_previous_document.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/navigation-timing/./test_navigation_type_reload.html

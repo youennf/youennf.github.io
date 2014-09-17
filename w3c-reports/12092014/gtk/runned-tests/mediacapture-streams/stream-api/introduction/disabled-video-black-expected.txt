@@ -1,0 +1,13 @@
+When prompted, accept to share your video stream.
+
+Description
+
+This test checks that a disabled video track in a MediaStream is rendered as blackness.
+
+
+The feature(s) tested here are known to have been made available via vendor prefixes; you can run this test with vendor prefixes enabled.
+
+FAIL Tests that a disabled video track in a MediaStream is rendered as blackness undefined is not a function (evaluating 'navigator.getUserMedia')(stack: http://localhost:8800/mediacapture-streams/stream-api/introduction/disabled-video-black.html:26:25
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/mediacapture-streams/stream-api/introduction/disabled-video-black.html:25:7)
+

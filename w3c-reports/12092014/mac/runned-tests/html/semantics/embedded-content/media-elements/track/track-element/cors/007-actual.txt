@@ -1,0 +1,36 @@
+Actual	Expected
+{
+  "event": "load",
+  "requests": [
+    {
+      "cors": "http://localhost:8800",
+      "cookie": "yes"
+    }
+  ]
+}
+{
+  "event": "load",
+  "requests": [
+    {
+      "cors": "no",
+      "cookie": "yes"
+    }
+  ]
+}
+Test id: b889fa61-5cea-4fd7-a8b6-bb5619b0e383
+
+
+
+FAIL track CORS: Use Credentials, same-origin, no headers assert_object_equals: property "cors" expected object "[object Object]" got object "[object Object]"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+check_equal@http://localhost:8800/resources/testharness.js:378:28
+check_equal@http://localhost:8800/resources/testharness.js:375:37
+check_equal@http://localhost:8800/resources/testharness.js:375:37
+assert_object_equals@http://localhost:8800/resources/testharness.js:390:21
+checkData@http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:128:29
+step@http://localhost:8800/resources/testharness.js:798:30
+removeCookies@http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:106:18
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/html/semantics/embedded-content/media-elements/track/track-element/cors/support/common.js?pipe=sub:87:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

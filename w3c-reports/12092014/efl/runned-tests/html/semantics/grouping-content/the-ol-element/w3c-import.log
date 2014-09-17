@@ -1,0 +1,47 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-12 17:45
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-type-reftest-001-ref-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-type-reftest-001-ref.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/ol.start-reflection-1.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-type-reftest-002-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-type-reftest-002.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-start-reftest-002-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-start-reftest-002.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-type-reftest-002-ref-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-type-reftest-002-ref.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/reversed-2-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/reversed-2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-type-reftest-001-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-type-reftest-001.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/ol.start-reflection-2.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-type-reftest-003-ref-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-type-reftest-003-ref.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-start-reftest-001-ref-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-start-reftest-001-ref.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-rev-reftest-001-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-rev-reftest-001.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-rev-reftest-001-ref-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-rev-reftest-001-ref.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-start-reftest-001-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-start-reftest-001.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-type-reftest-003-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-type-reftest-003.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-start-reftest-002-ref-expected.html
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/html/semantics/grouping-content/the-ol-element/grouping-ol-start-reftest-002-ref.html

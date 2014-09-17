@@ -1,0 +1,7 @@
+CONSOLE MESSAGE: Cross-origin text track load denied by Cross-Origin Resource Sharing policy.
+Test id: 2b84ce4a-b8b0-4535-b31f-748c9facc30e
+
+
+
+PASS track CORS: No CORS, not same-origin, no headers 
+

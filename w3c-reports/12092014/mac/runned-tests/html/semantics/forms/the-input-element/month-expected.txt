@@ -1,0 +1,70 @@
+Inputs Month
+
+
+FAIL month type support on input element assert_equals: expected "month" but got "text"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/month.html:36:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/month.html:35:11)
+FAIL The value attribute, if specified and not empty, must have a value that is a valid month string assert_equals: expected "2011-01" but got "1999-01"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/month.html:41:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/month.html:39:11)
+FAIL The min attribute, if specified, must have a value that is a valid month string. assert_equals: expected "" but got "invalid_min"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/month.html:47:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/month.html:45:11)
+FAIL The max attribute, if specified, must have a value that is a valid month string assert_equals: expected "2099-01" but got "2011-12"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/month.html:52:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/month.html:50:11)
+FAIL User agents must not allow the user to set the value to a non-empty string that is not a valid month string. assert_equals: expected "" but got "invalid-month"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/month.html:57:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/month.html:56:11)
+PASS Month value can be empty string. 
+FAIL When value attribute has two digits year value, the value,which is invalid, must return empty string. assert_equals: expected "" but got "13-06"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/month.html:66:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/month.html:65:11)
+FAIL When value is set with invalid value, the value must return empty string. assert_equals: expected "" but got "invalid value"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/month.html:71:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/month.html:69:11)
+FAIL When value is given invalid value to non-empty valid string, the value must be same as before. assert_equals: expected "2013-05" but got "invalid value"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/month.html:76:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/month.html:74:11)
+FAIL When step attribute is given invalid value, it must ignore the invalid value and use defaul value instead. InvalidStateError: DOM Exception 11(stack: stepUp@[native code]
+http://localhost:8800/html/semantics/forms/the-input-element/month.html:80:74
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/month.html:79:11)
+FAIL Month should be <= 13: If the value of the element is not a valid month string, then set it to the empty string instead. assert_equals: expected "" but got "2013-13"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/month.html:85:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/month.html:84:11)
+FAIL Month should be > 0: If the value of the element is not a valid month string, then set it to the empty string instead.> assert_equals: expected "" but got "2013-00"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/html/semantics/forms/the-input-element/month.html:89:22
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/forms/the-input-element/month.html:88:11)
+

@@ -1,0 +1,8 @@
+
+FAIL readAsText should correctly read UTF-8. assert_equals: expected 1 but got 2(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:335:15
+http://localhost:8800/FileAPI/FileReader-interface/filereader_readAsText.html:30:22
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+PASS readAsText should correctly read UTF-16. 
+

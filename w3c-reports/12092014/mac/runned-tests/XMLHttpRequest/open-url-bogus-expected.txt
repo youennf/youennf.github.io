@@ -1,0 +1,16 @@
+
+FAIL XMLHttpRequest: open() - bogus URLs (http:) assert_throws: function "function () { client.open("GET", url); }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/XMLHttpRequest/open-url-bogus.htm:15:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+url@http://localhost:8800/XMLHttpRequest/open-url-bogus.htm:13:13
+global code@http://localhost:8800/XMLHttpRequest/open-url-bogus.htm:18:10)
+FAIL XMLHttpRequest: open() - bogus URLs (http://a a/) assert_throws: function "function () { client.open("GET", url); }" did not throw(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:583:19
+http://localhost:8800/XMLHttpRequest/open-url-bogus.htm:15:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+url@http://localhost:8800/XMLHttpRequest/open-url-bogus.htm:13:13
+global code@http://localhost:8800/XMLHttpRequest/open-url-bogus.htm:19:10)
+

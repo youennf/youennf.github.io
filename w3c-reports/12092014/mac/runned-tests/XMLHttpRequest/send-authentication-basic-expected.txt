@@ -1,0 +1,5 @@
+Note: this test will only work as expected once per browsing session. Restart browser to re-test.
+
+
+PASS XMLHttpRequest: send() - "Basic" authenticated requests with user name and password passed to open() 
+

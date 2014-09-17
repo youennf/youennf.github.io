@@ -1,0 +1,8 @@
+CONSOLE MESSAGE: WebSocket connection to 'ws://localhost:49001/handshake_protocol' failed: Error during WebSocket handshake: Sec-WebSocket-Protocol mismatch
+
+FAIL WebSockets: protocol in response but no requested protocol assert_unreached: error Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+http://localhost:8800/websockets/constructor/010.html:10:85
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

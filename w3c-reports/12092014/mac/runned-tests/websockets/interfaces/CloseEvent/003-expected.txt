@@ -1,0 +1,6 @@
+
+FAIL WebSockets: dispatching a CloseEvent undefined is not a function (evaluating 'e.initCloseEvent('foo', true, true, true)')(stack: http://localhost:8800/websockets/interfaces/CloseEvent/003.html:10:19
+step@http://localhost:8800/resources/testharness.js:798:30
+async_test@http://localhost:8800/resources/testharness.js:90:26
+global code@http://localhost:8800/websockets/interfaces/CloseEvent/003.html:8:11)
+

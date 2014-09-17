@@ -1,0 +1,19 @@
+Description
+
+This test validates that the performance.mark() method is working properly. This test creates the following marks to test this method:
+
+"mark1": created using a normal mark() call
+"mark1": duplicate of the first mark, used to confirm names can be re-used
+After creating each mark, the existence of these marks is validated by calling performance.getEntriesByName() (both with and without the entryType parameter provided), performance.getEntriesByType(), and performance.getEntries()
+
+PASS window.performance is defined 
+FAIL The User Timing and Performance Timeline interfaces, which are required for this test, are defined. assert_true: The User Timing and Performance Timeline interfaces, which are required for this test, are defined. expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/user-timing/resources/webperftestharness.js:134:38
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/user-timing/resources/webperftestharness.js:62:9
+test_true@http://localhost:8800/user-timing/resources/webperftestharness.js:134:12
+onload_test@http://localhost:8800/user-timing/test_user_timing_mark.html:47:26
+onload@http://localhost:8800/user-timing/test_user_timing_mark.html:213:12)
+

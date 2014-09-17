@@ -1,0 +1,39 @@
+frame "frameContext" - has 1 onunload handler(s)
+Description
+
+This test validates the ordering of the window.performance.timing attributes.
+
+This page should be loaded with a yellow background frame below which contains an unload event handler.
+
+After the page loads, the frame is navigated to a new blank page with a green background. At this point, the navigation timeline is verified
+
+This test passes if all of the checks to the frame.window.performance.timing attributes are correct throughout the navigation scenario and the frame below ends with a green background. Otherwise, this test fails.
+
+Setup
+
+
+
+
+FAIL window.performance is defined and not null. assert_true: window.performance is defined and not null expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/navigation-timing/resources/webperftestharness.js:58:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:58:17
+test_namespace@http://localhost:8800/navigation-timing/resources/webperftestharness.js:69:16
+global code@http://localhost:8800/navigation-timing/test_timing_attributes_order.html:15:27)
+FAIL window.performance is defined assert_true: window.performance is defined expected true got false(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_true@http://localhost:8800/resources/testharness.js:299:15
+http://localhost:8800/navigation-timing/resources/webperftestharness.js:69:42
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:62:9
+test_namespace@http://localhost:8800/navigation-timing/resources/webperftestharness.js:69:16
+global code@http://localhost:8800/navigation-timing/test_timing_attributes_order.html:15:27)
+FAIL window.performance.timing is defined undefined is not an object (evaluating 'performanceNamespace[child_name]')(stack: http://localhost:8800/navigation-timing/resources/webperftestharness.js:74:62
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+wp_test@http://localhost:8800/navigation-timing/resources/webperftestharness.js:62:9
+test_namespace@http://localhost:8800/navigation-timing/resources/webperftestharness.js:74:16
+global code@http://localhost:8800/navigation-timing/test_timing_attributes_order.html:15:27)
+

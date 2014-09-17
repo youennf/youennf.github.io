@@ -1,0 +1,12 @@
+When prompted, accept to share your video stream.
+
+Description
+
+This test checks that setting a trivial mandatory constraint (width >=0) in getUserMedia works
+
+The feature(s) tested here are known to have been made available via vendor prefixes; you can run this test with vendor prefixes enabled.
+
+FAIL Tests that setting a trivial mandatory constraint in getUserMedia works undefined is not a function (evaluating 'navigator.getUserMedia')(stack: http://localhost:8800/mediacapture-streams/obtaining-local-multimedia-content/navigatorusermedia/getusermedia-trivial-constraint.html:22:25
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/mediacapture-streams/obtaining-local-multimedia-content/navigatorusermedia/getusermedia-trivial-constraint.html:21:7)
+

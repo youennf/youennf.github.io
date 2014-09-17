@@ -1,0 +1,11 @@
+CONSOLE MESSAGE: WebSocket connection to 'ws://localhost:49001/sleep_10_v13' failed: WebSocket is closed before the connection is established.
+
+FAIL WebSockets: close() when connecting assert_unreached: [object CloseEvent] Reached unreachable code(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_unreached@http://localhost:8800/resources/testharness.js:692:16
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40
+close@[native code]
+http://localhost:8800/websockets/interfaces/WebSocket/close/006.html:13:13
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

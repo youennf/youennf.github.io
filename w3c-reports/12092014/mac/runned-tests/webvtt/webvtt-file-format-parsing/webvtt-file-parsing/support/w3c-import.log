@@ -1,0 +1,54 @@
+The tests in this directory were imported from the W3C repository.
+Do NOT modify these tests directly in Webkit.
+Instead, push changes to the W3C CSS repo:
+	http://hg.csswg.org/test
+Or create a pull request on the W3C CSS github:
+	https://github.com/w3c/csswg-test
+
+Then run the Tools/Scripts/import-w3c-tests in Webkit to reimport
+
+Do NOT modify or remove this file
+
+------------------------------------------------------------------------
+Last Import: 2014-09-09 15:44
+------------------------------------------------------------------------
+Properties requiring vendor prefixes:
+None
+------------------------------------------------------------------------
+List of files:
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/arrows.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/cue-counts.json
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/header-garbage.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/header-space.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/header-tab.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/header-timings.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/ids.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/newlines.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/no-signature.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/nulls.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/omitted-hours.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/settings-align.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/settings-line.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/settings-multiple.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/settings-position.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/settings-size.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/settings-vertical.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/signature-bom.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/signature-formfeed.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/signature-lowercase.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/signature-no-newline.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/signature-null.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/signature-space-no-newline.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/signature-space.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/signature-tab-no-newline.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/signature-tab.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/signature-timings.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/signature-too-short.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/signature-two-boms.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/signature-websrt.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/space-chars.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/timings-60.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/timings-garbage.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/timings-negative.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/timings-too-long.vtt
+/WebKitBuild/Release/w3c-conformance-results/imported-tests/webvtt/webvtt-file-format-parsing/webvtt-file-parsing/support/timings-too-short.vtt

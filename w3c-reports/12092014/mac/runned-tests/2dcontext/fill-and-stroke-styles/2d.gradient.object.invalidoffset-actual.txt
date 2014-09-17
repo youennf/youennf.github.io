@@ -1,0 +1,11 @@
+2d.gradient.object.invalidoffset
+Actual output:
+
+FAIL Canvas test: 2d.gradient.object.invalidoffset assert_throws: function "function () { g.addColorStop(Infinity, '#000'); }" threw object "TypeError: Type error" that is not a DOMException INDEX_SIZE_ERR: property "code" is equal to undefined, expected 1(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_throws@http://localhost:8800/resources/testharness.js:682:23
+http://localhost:8800/2dcontext/fill-and-stroke-styles/2d.gradient.object.invalidoffset.html:25:14
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

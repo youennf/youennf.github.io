@@ -1,0 +1,10 @@
+2d.pattern.image.incomplete.emptysrc
+Actual output:
+
+FAIL Canvas test: 2d.pattern.image.incomplete.emptysrc InvalidStateError: DOM Exception 11(stack: createPattern@[native code]
+http://localhost:8800/2dcontext/fill-and-stroke-styles/2d.pattern.image.incomplete.emptysrc.html:24:30
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:62:19
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/common/canvas-tests.js:59:15)
+

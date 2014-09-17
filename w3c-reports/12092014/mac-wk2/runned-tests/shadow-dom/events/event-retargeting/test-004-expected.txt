@@ -1,0 +1,38 @@
+
+FAIL A_05_01_04_T01 undefined is not a function (evaluating 'e.getMessage()')(stack: http://localhost:8800/shadow-dom/testcommon.js:184:37
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/events/event-retargeting/test-004.html:27:20)
+FAIL A_05_01_04_T02 undefined is not a function (evaluating 'e.getMessage()')(stack: http://localhost:8800/shadow-dom/testcommon.js:184:37
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/events/event-retargeting/test-004.html:55:20)
+FAIL A_05_01_04_T03 undefined is not a function (evaluating 'e.getMessage()')(stack: http://localhost:8800/shadow-dom/testcommon.js:184:37
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/events/event-retargeting/test-004.html:85:20)
+FAIL A_05_01_04_T04 undefined is not a function (evaluating 'e.getMessage()')(stack: http://localhost:8800/shadow-dom/testcommon.js:184:37
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/events/event-retargeting/test-004.html:113:20)
+FAIL A_05_01_04_T05 undefined is not a function (evaluating 'e.getMessage()')(stack: http://localhost:8800/shadow-dom/testcommon.js:184:37
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/events/event-retargeting/test-004.html:141:20)
+FAIL A_05_01_04_T06 undefined is not a function (evaluating 'e.getMessage()')(stack: http://localhost:8800/shadow-dom/testcommon.js:184:37
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/events/event-retargeting/test-004.html:169:20)
+FAIL A_05_01_04_T07 undefined is not a function (evaluating 'e.getMessage()')(stack: http://localhost:8800/shadow-dom/testcommon.js:184:37
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/events/event-retargeting/test-004.html:198:20)
+FAIL A_05_01_04_T08 undefined is not a function (evaluating 'e.getMessage()')(stack: http://localhost:8800/shadow-dom/testcommon.js:184:37
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/events/event-retargeting/test-004.html:226:20)
+FAIL A_05_01_04_T09 undefined is not a function (evaluating 'e.getMessage()')(stack: http://localhost:8800/shadow-dom/testcommon.js:184:37
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/events/event-retargeting/test-004.html:254:20)
+FAIL A_05_01_04_T10 undefined is not a function (evaluating 'e.getMessage()')(stack: http://localhost:8800/shadow-dom/testcommon.js:184:37
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/events/event-retargeting/test-004.html:282:20)
+FAIL A_05_01_04_T11 undefined is not a function (evaluating 'e.getMessage()')(stack: http://localhost:8800/shadow-dom/testcommon.js:184:37
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/events/event-retargeting/test-004.html:310:20)
+FAIL A_05_01_04_T12 undefined is not a function (evaluating 'e.getMessage()')(stack: http://localhost:8800/shadow-dom/testcommon.js:184:37
+step@http://localhost:8800/resources/testharness.js:798:30
+global code@http://localhost:8800/shadow-dom/events/event-retargeting/test-004.html:339:20)
+

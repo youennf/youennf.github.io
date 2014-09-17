@@ -1,0 +1,14 @@
+Description
+
+This test validates that window.performance.now() follows the monotonic clock requirements.
+
+
+FAIL window.performance.now() returns a positive number undefined is not an object (evaluating 'window.performance.now')(stack: http://localhost:8800/hr-time/monotonic-clock.html:13:33
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/hr-time/monotonic-clock.html:12:5)
+FAIL window.performance.now() difference is not negative undefined is not an object (evaluating 'window.performance.now')(stack: http://localhost:8800/hr-time/monotonic-clock.html:17:34
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/hr-time/monotonic-clock.html:16:5)
+

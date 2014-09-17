@@ -1,0 +1,16 @@
+
+
+PASS TextTrackCueList getter 
+FAIL TextTrackCueList getter, no indexed set/create assert_equals: expected (undefined) undefined but got (string) "foo"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/TextTrackCueList/getter.html:27:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/TextTrackCueList/getter.html:23:5)
+FAIL TextTrackCueList getter, no indexed set/create (strict) assert_equals: expected (undefined) undefined but got (string) "foo"(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_equals@http://localhost:8800/resources/testharness.js:330:19
+http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/TextTrackCueList/getter.html:38:18
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/html/semantics/embedded-content/media-elements/interfaces/TextTrackCueList/getter.html:35:5)
+

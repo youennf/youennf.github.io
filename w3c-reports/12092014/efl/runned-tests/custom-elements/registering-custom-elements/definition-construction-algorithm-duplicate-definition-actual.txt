@@ -1,0 +1,17 @@
+
+FAIL Check duplicate definition undefined is not a function (evaluating 'doc.registerElement(name)')(stack: http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-duplicate-definition.html:19:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-duplicate-definition.html:16:5)
+FAIL Check duplicate definition. Specify constructor undefined is not a function (evaluating 'doc.registerElement(name)')(stack: http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-duplicate-definition.html:29:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-duplicate-definition.html:26:5)
+FAIL Check duplicate definition. Test different prototypes and extends undefined is not a function (evaluating 'doc.registerElement(name, {
+        prototype: Object.create(HTMLAnchorElement.prototype),
+        extends: 'a'
+    })')(stack: http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-duplicate-definition.html:43:24
+step@http://localhost:8800/resources/testharness.js:798:30
+test@http://localhost:8800/resources/testharness.js:73:22
+global code@http://localhost:8800/custom-elements/registering-custom-elements/definition-construction-algorithm-duplicate-definition.html:40:5)
+

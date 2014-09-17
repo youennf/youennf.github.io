@@ -1,0 +1,7 @@
+
+FAIL paused state when removing from a document assert_false: paused after removing expected false got true(stack: assert@http://localhost:8800/resources/testharness.js:1738:42
+assert_false@http://localhost:8800/resources/testharness.js:306:15
+http://localhost:8800/html/semantics/embedded-content/media-elements/playing-the-media-resource/pause-remove-from-document.html:22:17
+step@http://localhost:8800/resources/testharness.js:798:30
+http://localhost:8800/resources/testharness.js:827:40)
+

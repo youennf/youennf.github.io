@@ -168,10 +168,18 @@ function getTestLink(testname, results)
 		+ "<div>(<a href='https://github.com/w3c/web-platform-tests/blob/" + results.tests_version + "/" + testname + "'>github</a>)</div>" 
 }
 
+function getTestResultFile(testname, result)
+{
+    if (result == "crash")
+        return testname.replace(suffix,"-crash-log.txt")
+    else
+        return testname.replace(suffix,"-expected.txt")
+}
+
 function getTestResultLink(testname, result, results)
 {
 	suffix = "." + testname.split('.').pop();
-	return "<a href='" + getTestsDirectory(results) + "/" + testname.replace(suffix,"-expected.txt") + "'>" + result.toLowerCase() + "</a>"
+	return "<a href='" + getTestsDirectory(results) + "/" + getTestResultFile(testname, result.toLowerCase()) + "'>" + result.toLowerCase() + "</a>"
 }
 
 function testSuiteHist(numError, numFail, numPartial, numPass)
